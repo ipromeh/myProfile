@@ -3351,7 +3351,7 @@
 
     if-lez v0, :cond_0
 
-    invoke-static {p1}, Lcom/abdhoms/myprofile/cx;->a(Landroid/view/accessibility/AccessibilityEvent;)Lcom/abdhoms/myprofile/ej;
+    invoke-static {p1}, Lcom/khaibin/myprofile/cx;->a(Landroid/view/accessibility/AccessibilityEvent;)Lcom/khaibin/myprofile/ej;
 
     move-result-object v0
 
@@ -3359,13 +3359,13 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/abdhoms/myprofile/ej;->b(I)V
+    invoke-virtual {v0, v1}, Lcom/khaibin/myprofile/ej;->b(I)V
 
     invoke-virtual {p0}, Landroid/support/v7/widget/LinearLayoutManager;->j()I
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/abdhoms/myprofile/ej;->c(I)V
+    invoke-virtual {v0, v1}, Lcom/khaibin/myprofile/ej;->c(I)V
 
     :cond_0
     return-void

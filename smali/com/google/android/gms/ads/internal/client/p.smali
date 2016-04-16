@@ -30,7 +30,7 @@
     return-object v0
 .end method
 
-.method public zza(Lcom/abdhoms/myprofile/yh;I)Landroid/os/IBinder;
+.method public zza(Lcom/khaibin/myprofile/yh;I)Landroid/os/IBinder;
     .locals 5
 
     invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
@@ -48,7 +48,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/abdhoms/myprofile/yh;->asBinder()Landroid/os/IBinder;
+    invoke-interface {p1}, Lcom/khaibin/myprofile/yh;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 

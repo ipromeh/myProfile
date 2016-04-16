@@ -26,7 +26,7 @@
     <string name="rate_dialog_no">No</string>
     <string name="rate_dialog_ok">Rate</string>
     <string name="rate_dialog_title">Rate this app</string>
-    <string name="about_title_dev1">abdhoms</string>
+    <string name="about_title_dev1">khaibin</string>
     <string name="about_title_dev2">c0deslayer</string>
     <string name="about_title_devHeader">Developers</string>
     <string name="about_title_feedback">Feedback / Suggestions</string>
@@ -38,7 +38,7 @@
     <string name="action_sign_in">Log in</string>
     <string name="action_sign_in_short">Log in</string>
     <string name="add_widget">Add widget</string>
-    <string name="app_name">myProfile</string>
+    <string name="app_name">myProfile+</string>
     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="appwidget_text">EXAMPLE</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>

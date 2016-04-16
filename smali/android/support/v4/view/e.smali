@@ -13,7 +13,7 @@
 
 
 # virtual methods
-.method public a(Ljava/lang/Object;Landroid/view/View;)Lcom/abdhoms/myprofile/dw;
+.method public a(Ljava/lang/Object;Landroid/view/View;)Lcom/khaibin/myprofile/dw;
     .locals 2
 
     invoke-static {p1, p2}, Landroid/support/v4/view/k;->a(Ljava/lang/Object;Landroid/view/View;)Ljava/lang/Object;
@@ -22,9 +22,9 @@
 
     if-eqz v1, :cond_0
 
-    new-instance v0, Lcom/abdhoms/myprofile/dw;
+    new-instance v0, Lcom/khaibin/myprofile/dw;
 
-    invoke-direct {v0, v1}, Lcom/abdhoms/myprofile/dw;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, v1}, Lcom/khaibin/myprofile/dw;-><init>(Ljava/lang/Object;)V
 
     :goto_0
     return-object v0

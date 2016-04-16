@@ -9,7 +9,7 @@
 
 
 # instance fields
-.field private a:Lcom/abdhoms/myprofile/amv;
+.field private a:Lcom/khaibin/myprofile/amv;
 
 
 # direct methods
@@ -27,13 +27,13 @@
     .locals 2
 
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/ads/purchase/InAppPurchaseActivity;->a:Lcom/abdhoms/myprofile/amv;
+    iget-object v0, p0, Lcom/google/android/gms/ads/purchase/InAppPurchaseActivity;->a:Lcom/khaibin/myprofile/amv;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/google/android/gms/ads/purchase/InAppPurchaseActivity;->a:Lcom/abdhoms/myprofile/amv;
+    iget-object v0, p0, Lcom/google/android/gms/ads/purchase/InAppPurchaseActivity;->a:Lcom/khaibin/myprofile/amv;
 
-    invoke-interface {v0, p1, p2, p3}, Lcom/abdhoms/myprofile/amv;->onActivityResult(IILandroid/content/Intent;)V
+    invoke-interface {v0, p1, p2, p3}, Lcom/khaibin/myprofile/amv;->onActivityResult(IILandroid/content/Intent;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -48,7 +48,7 @@
 
     const-string v1, "Could not forward onActivityResult to in-app purchase manager:"
 
-    invoke-static {v1, v0}, Lcom/abdhoms/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0}, Lcom/khaibin/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method
@@ -58,19 +58,19 @@
 
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    invoke-static {p0}, Lcom/abdhoms/myprofile/ani;->a(Landroid/app/Activity;)Lcom/abdhoms/myprofile/amv;
+    invoke-static {p0}, Lcom/khaibin/myprofile/ani;->a(Landroid/app/Activity;)Lcom/khaibin/myprofile/amv;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/google/android/gms/ads/purchase/InAppPurchaseActivity;->a:Lcom/abdhoms/myprofile/amv;
+    iput-object v0, p0, Lcom/google/android/gms/ads/purchase/InAppPurchaseActivity;->a:Lcom/khaibin/myprofile/amv;
 
-    iget-object v0, p0, Lcom/google/android/gms/ads/purchase/InAppPurchaseActivity;->a:Lcom/abdhoms/myprofile/amv;
+    iget-object v0, p0, Lcom/google/android/gms/ads/purchase/InAppPurchaseActivity;->a:Lcom/khaibin/myprofile/amv;
 
     if-nez v0, :cond_0
 
     const-string v0, "Could not create in-app purchase manager."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/google/android/gms/ads/purchase/InAppPurchaseActivity;->finish()V
 
@@ -79,9 +79,9 @@
 
     :cond_0
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/ads/purchase/InAppPurchaseActivity;->a:Lcom/abdhoms/myprofile/amv;
+    iget-object v0, p0, Lcom/google/android/gms/ads/purchase/InAppPurchaseActivity;->a:Lcom/khaibin/myprofile/amv;
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/amv;->onCreate()V
+    invoke-interface {v0}, Lcom/khaibin/myprofile/amv;->onCreate()V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -92,7 +92,7 @@
 
     const-string v1, "Could not forward onCreate to in-app purchase manager:"
 
-    invoke-static {v1, v0}, Lcom/abdhoms/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0}, Lcom/khaibin/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     invoke-virtual {p0}, Lcom/google/android/gms/ads/purchase/InAppPurchaseActivity;->finish()V
 
@@ -103,13 +103,13 @@
     .locals 2
 
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/ads/purchase/InAppPurchaseActivity;->a:Lcom/abdhoms/myprofile/amv;
+    iget-object v0, p0, Lcom/google/android/gms/ads/purchase/InAppPurchaseActivity;->a:Lcom/khaibin/myprofile/amv;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/google/android/gms/ads/purchase/InAppPurchaseActivity;->a:Lcom/abdhoms/myprofile/amv;
+    iget-object v0, p0, Lcom/google/android/gms/ads/purchase/InAppPurchaseActivity;->a:Lcom/khaibin/myprofile/amv;
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/amv;->onDestroy()V
+    invoke-interface {v0}, Lcom/khaibin/myprofile/amv;->onDestroy()V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -124,7 +124,7 @@
 
     const-string v1, "Could not forward onDestroy to in-app purchase manager:"
 
-    invoke-static {v1, v0}, Lcom/abdhoms/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0}, Lcom/khaibin/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method

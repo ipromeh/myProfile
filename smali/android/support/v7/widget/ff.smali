@@ -39,11 +39,11 @@
 
     check-cast v0, Landroid/support/v7/widget/fg;
 
-    invoke-virtual {v0}, Landroid/support/v7/widget/fg;->b()Lcom/abdhoms/myprofile/ew;
+    invoke-virtual {v0}, Landroid/support/v7/widget/fg;->b()Lcom/khaibin/myprofile/ew;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/ew;->d()V
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/ew;->d()V
 
     iget-object v0, p0, Landroid/support/v7/widget/ff;->a:Landroid/support/v7/widget/fc;
 

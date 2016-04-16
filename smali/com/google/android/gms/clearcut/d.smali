@@ -30,7 +30,7 @@
     .end annotation
 .end field
 
-.field private final j:Lcom/abdhoms/myprofile/ayu;
+.field private final j:Lcom/khaibin/myprofile/ayu;
 
 .field private k:Z
 
@@ -105,11 +105,11 @@
 
     iput-object v0, p0, Lcom/google/android/gms/clearcut/d;->i:Ljava/util/ArrayList;
 
-    new-instance v0, Lcom/abdhoms/myprofile/ayu;
+    new-instance v0, Lcom/khaibin/myprofile/ayu;
 
-    invoke-direct {v0}, Lcom/abdhoms/myprofile/ayu;-><init>()V
+    invoke-direct {v0}, Lcom/khaibin/myprofile/ayu;-><init>()V
 
-    iput-object v0, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/abdhoms/myprofile/ayu;
+    iput-object v0, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/khaibin/myprofile/ayu;
 
     const/4 v0, 0x0
 
@@ -127,31 +127,31 @@
 
     iput-object v0, p0, Lcom/google/android/gms/clearcut/d;->e:Ljava/lang/String;
 
-    iget-object v0, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/abdhoms/myprofile/ayu;
+    iget-object v0, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/khaibin/myprofile/ayu;
 
-    invoke-static {p1}, Lcom/google/android/gms/clearcut/b;->f(Lcom/google/android/gms/clearcut/b;)Lcom/abdhoms/myprofile/awi;
-
-    move-result-object v1
-
-    invoke-interface {v1}, Lcom/abdhoms/myprofile/awi;->a()J
-
-    move-result-wide v2
-
-    iput-wide v2, v0, Lcom/abdhoms/myprofile/ayu;->c:J
-
-    iget-object v0, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/abdhoms/myprofile/ayu;
-
-    invoke-static {p1}, Lcom/google/android/gms/clearcut/b;->f(Lcom/google/android/gms/clearcut/b;)Lcom/abdhoms/myprofile/awi;
+    invoke-static {p1}, Lcom/google/android/gms/clearcut/b;->f(Lcom/google/android/gms/clearcut/b;)Lcom/khaibin/myprofile/awi;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/abdhoms/myprofile/awi;->b()J
+    invoke-interface {v1}, Lcom/khaibin/myprofile/awi;->a()J
 
     move-result-wide v2
 
-    iput-wide v2, v0, Lcom/abdhoms/myprofile/ayu;->d:J
+    iput-wide v2, v0, Lcom/khaibin/myprofile/ayu;->c:J
 
-    iget-object v0, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/abdhoms/myprofile/ayu;
+    iget-object v0, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/khaibin/myprofile/ayu;
+
+    invoke-static {p1}, Lcom/google/android/gms/clearcut/b;->f(Lcom/google/android/gms/clearcut/b;)Lcom/khaibin/myprofile/awi;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lcom/khaibin/myprofile/awi;->b()J
+
+    move-result-wide v2
+
+    iput-wide v2, v0, Lcom/khaibin/myprofile/ayu;->d:J
+
+    iget-object v0, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/khaibin/myprofile/ayu;
 
     invoke-static {p1}, Lcom/google/android/gms/clearcut/b;->h(Lcom/google/android/gms/clearcut/b;)Lcom/google/android/gms/clearcut/a;
 
@@ -167,29 +167,29 @@
 
     int-to-long v2, v1
 
-    iput-wide v2, v0, Lcom/abdhoms/myprofile/ayu;->v:J
+    iput-wide v2, v0, Lcom/khaibin/myprofile/ayu;->v:J
 
-    iget-object v0, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/abdhoms/myprofile/ayu;
+    iget-object v0, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/khaibin/myprofile/ayu;
 
     invoke-static {p1}, Lcom/google/android/gms/clearcut/b;->i(Lcom/google/android/gms/clearcut/b;)Lcom/google/android/gms/clearcut/f;
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/abdhoms/myprofile/ayu;
+    iget-object v2, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/khaibin/myprofile/ayu;
 
-    iget-wide v2, v2, Lcom/abdhoms/myprofile/ayu;->c:J
+    iget-wide v2, v2, Lcom/khaibin/myprofile/ayu;->c:J
 
     invoke-virtual {v1, v2, v3}, Lcom/google/android/gms/clearcut/f;->a(J)J
 
     move-result-wide v2
 
-    iput-wide v2, v0, Lcom/abdhoms/myprofile/ayu;->q:J
+    iput-wide v2, v0, Lcom/khaibin/myprofile/ayu;->q:J
 
     if-eqz p2, :cond_0
 
-    iget-object v0, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/abdhoms/myprofile/ayu;
+    iget-object v0, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/khaibin/myprofile/ayu;
 
-    iput-object p2, v0, Lcom/abdhoms/myprofile/ayu;->l:[B
+    iput-object p2, v0, Lcom/khaibin/myprofile/ayu;->l:[B
 
     :cond_0
     iput-object p3, p0, Lcom/google/android/gms/clearcut/d;->g:Lcom/google/android/gms/clearcut/e;
@@ -236,7 +236,7 @@
 
     invoke-direct/range {v0 .. v8}, Lcom/google/android/gms/playlog/internal/PlayLoggerContext;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZI)V
 
-    iget-object v3, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/abdhoms/myprofile/ayu;
+    iget-object v3, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/khaibin/myprofile/ayu;
 
     iget-object v4, p0, Lcom/google/android/gms/clearcut/d;->g:Lcom/google/android/gms/clearcut/e;
 
@@ -252,7 +252,7 @@
 
     move-object v2, v0
 
-    invoke-direct/range {v1 .. v6}, Lcom/google/android/gms/clearcut/LogEventParcelable;-><init>(Lcom/google/android/gms/playlog/internal/PlayLoggerContext;Lcom/abdhoms/myprofile/ayu;Lcom/google/android/gms/clearcut/e;Lcom/google/android/gms/clearcut/e;[I)V
+    invoke-direct/range {v1 .. v6}, Lcom/google/android/gms/clearcut/LogEventParcelable;-><init>(Lcom/google/android/gms/playlog/internal/PlayLoggerContext;Lcom/khaibin/myprofile/ayu;Lcom/google/android/gms/clearcut/e;Lcom/google/android/gms/clearcut/e;[I)V
 
     return-object v9
 .end method
@@ -260,9 +260,9 @@
 .method public a(I)Lcom/google/android/gms/clearcut/d;
     .locals 1
 
-    iget-object v0, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/abdhoms/myprofile/ayu;
+    iget-object v0, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/khaibin/myprofile/ayu;
 
-    iput p1, v0, Lcom/abdhoms/myprofile/ayu;->g:I
+    iput p1, v0, Lcom/khaibin/myprofile/ayu;->g:I
 
     return-object p0
 .end method
@@ -318,9 +318,9 @@
 .method public b(I)Lcom/google/android/gms/clearcut/d;
     .locals 1
 
-    iget-object v0, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/abdhoms/myprofile/ayu;
+    iget-object v0, p0, Lcom/google/android/gms/clearcut/d;->j:Lcom/khaibin/myprofile/ayu;
 
-    iput p1, v0, Lcom/abdhoms/myprofile/ayu;->h:I
+    iput p1, v0, Lcom/khaibin/myprofile/ayu;->h:I
 
     return-object p0
 .end method

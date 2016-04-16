@@ -31,7 +31,7 @@
 
     const-string v0, "Custom event adapter called onFailedToReceiveAd."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/ads/mediation/customevent/a;->b:Lcom/google/ads/mediation/MediationBannerListener;
 
@@ -47,7 +47,7 @@
 
     const-string v0, "Custom event adapter called onFailedToReceiveAd."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/ads/mediation/customevent/a;->b:Lcom/google/ads/mediation/MediationBannerListener;
 
@@ -63,7 +63,7 @@
 
     const-string v0, "Custom event adapter called onFailedToReceiveAd."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/ads/mediation/customevent/a;->b:Lcom/google/ads/mediation/MediationBannerListener;
 
@@ -81,7 +81,7 @@
 
     const-string v0, "Custom event adapter called onFailedToReceiveAd."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/ads/mediation/customevent/a;->b:Lcom/google/ads/mediation/MediationBannerListener;
 
@@ -97,7 +97,7 @@
 
     const-string v0, "Custom event adapter called onFailedToReceiveAd."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/ads/mediation/customevent/a;->b:Lcom/google/ads/mediation/MediationBannerListener;
 
@@ -113,7 +113,7 @@
 
     const-string v0, "Custom event adapter called onReceivedAd."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/ads/mediation/customevent/a;->a:Lcom/google/ads/mediation/customevent/CustomEventAdapter;
 

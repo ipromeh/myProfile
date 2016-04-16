@@ -388,7 +388,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hw;->abc_activity_chooser_view_list_item:I
+    sget v1, Lcom/khaibin/myprofile/hw;->abc_activity_chooser_view_list_item:I
 
     invoke-virtual {v0, v1, p3, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -396,7 +396,7 @@
 
     invoke-virtual {p2, v5}, Landroid/view/View;->setId(I)V
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->title:I
+    sget v0, Lcom/khaibin/myprofile/hu;->title:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -410,7 +410,7 @@
 
     move-result-object v1
 
-    sget v2, Lcom/abdhoms/myprofile/hx;->abc_activity_chooser_view_see_all:I
+    sget v2, Lcom/khaibin/myprofile/hx;->abc_activity_chooser_view_see_all:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -429,7 +429,7 @@
 
     move-result v0
 
-    sget v1, Lcom/abdhoms/myprofile/hu;->list_item:I
+    sget v1, Lcom/khaibin/myprofile/hu;->list_item:I
 
     if-eq v0, v1, :cond_3
 
@@ -444,7 +444,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hw;->abc_activity_chooser_view_list_item:I
+    sget v1, Lcom/khaibin/myprofile/hw;->abc_activity_chooser_view_list_item:I
 
     invoke-virtual {v0, v1, p3, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -461,7 +461,7 @@
 
     move-result-object v2
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->icon:I
+    sget v0, Lcom/khaibin/myprofile/hu;->icon:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -481,7 +481,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->title:I
+    sget v0, Lcom/khaibin/myprofile/hu;->title:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

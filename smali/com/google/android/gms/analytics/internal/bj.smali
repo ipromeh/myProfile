@@ -19,16 +19,16 @@
     return-void
 .end method
 
-.method public b()Lcom/abdhoms/myprofile/axg;
+.method public b()Lcom/khaibin/myprofile/axg;
     .locals 1
 
     invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/bj;->D()V
 
-    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/bj;->r()Lcom/abdhoms/myprofile/azp;
+    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/bj;->r()Lcom/khaibin/myprofile/azp;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/azp;->b()Lcom/abdhoms/myprofile/axg;
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/azp;->b()Lcom/khaibin/myprofile/axg;
 
     move-result-object v0
 
@@ -40,7 +40,7 @@
 
     invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/bj;->D()V
 
-    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/bj;->b()Lcom/abdhoms/myprofile/axg;
+    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/bj;->b()Lcom/khaibin/myprofile/axg;
 
     move-result-object v0
 
@@ -48,7 +48,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/axg;->b()I
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/axg;->b()I
 
     move-result v2
 
@@ -62,7 +62,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/axg;->c()I
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/axg;->c()I
 
     move-result v0
 

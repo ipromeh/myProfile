@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/afc;
+.implements Lcom/khaibin/myprofile/afc;
 
 
 # instance fields
@@ -22,12 +22,12 @@
 
 
 # virtual methods
-.method public zza(Lcom/abdhoms/myprofile/atx;Ljava/util/Map;)V
+.method public zza(Lcom/khaibin/myprofile/atx;Ljava/util/Map;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/abdhoms/myprofile/atx;",
+            "Lcom/khaibin/myprofile/atx;",
             "Ljava/util/Map",
             "<",
             "Ljava/lang/String;",
@@ -40,7 +40,7 @@
 
     invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->countDown()V
 
-    invoke-interface {p1}, Lcom/abdhoms/myprofile/atx;->b()Landroid/view/View;
+    invoke-interface {p1}, Lcom/khaibin/myprofile/atx;->b()Landroid/view/View;
 
     move-result-object v0
 

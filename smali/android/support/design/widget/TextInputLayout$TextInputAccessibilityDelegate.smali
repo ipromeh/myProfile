@@ -43,10 +43,10 @@
     return-void
 .end method
 
-.method public onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+.method public onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
     .locals 2
 
-    invoke-super {p0, p1, p2}, Landroid/support/v4/view/a;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+    invoke-super {p0, p1, p2}, Landroid/support/v4/view/a;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
 
     const-class v0, Landroid/support/design/widget/TextInputLayout;
 
@@ -54,7 +54,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lcom/abdhoms/myprofile/dd;->b(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v0}, Lcom/khaibin/myprofile/dd;->b(Ljava/lang/CharSequence;)V
 
     iget-object v0, p0, Landroid/support/design/widget/TextInputLayout$TextInputAccessibilityDelegate;->this$0:Landroid/support/design/widget/TextInputLayout;
 
@@ -73,7 +73,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-virtual {p2, v0}, Lcom/abdhoms/myprofile/dd;->c(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v0}, Lcom/khaibin/myprofile/dd;->c(Ljava/lang/CharSequence;)V
 
     :cond_0
     iget-object v0, p0, Landroid/support/design/widget/TextInputLayout$TextInputAccessibilityDelegate;->this$0:Landroid/support/design/widget/TextInputLayout;
@@ -92,7 +92,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lcom/abdhoms/myprofile/dd;->d(Landroid/view/View;)V
+    invoke-virtual {p2, v0}, Lcom/khaibin/myprofile/dd;->d(Landroid/view/View;)V
 
     :cond_1
     iget-object v0, p0, Landroid/support/design/widget/TextInputLayout$TextInputAccessibilityDelegate;->this$0:Landroid/support/design/widget/TextInputLayout;
@@ -124,9 +124,9 @@
 
     const/4 v1, 0x1
 
-    invoke-virtual {p2, v1}, Lcom/abdhoms/myprofile/dd;->j(Z)V
+    invoke-virtual {p2, v1}, Lcom/khaibin/myprofile/dd;->j(Z)V
 
-    invoke-virtual {p2, v0}, Lcom/abdhoms/myprofile/dd;->e(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v0}, Lcom/khaibin/myprofile/dd;->e(Ljava/lang/CharSequence;)V
 
     :cond_2
     return-void

@@ -215,7 +215,7 @@
     goto :goto_2
 .end method
 
-.method public static a(Landroid/graphics/Bitmap;Lcom/abdhoms/myprofile/nf;I)Landroid/graphics/Bitmap;
+.method public static a(Landroid/graphics/Bitmap;Lcom/khaibin/myprofile/nf;I)Landroid/graphics/Bitmap;
     .locals 6
 
     const/4 v4, 0x0
@@ -274,7 +274,7 @@
 
     move-result-object v5
 
-    invoke-interface {p1, v3, v4, v5}, Lcom/abdhoms/myprofile/nf;->a(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-interface {p1, v3, v4, v5}, Lcom/khaibin/myprofile/nf;->a(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -312,7 +312,7 @@
     goto :goto_0
 .end method
 
-.method public static a(Landroid/graphics/Bitmap;Lcom/abdhoms/myprofile/nf;II)Landroid/graphics/Bitmap;
+.method public static a(Landroid/graphics/Bitmap;Lcom/khaibin/myprofile/nf;II)Landroid/graphics/Bitmap;
     .locals 6
 
     const/4 v5, 0x2
@@ -425,7 +425,7 @@
 
     move-result-object v4
 
-    invoke-interface {p1, v2, v3, v4}, Lcom/abdhoms/myprofile/nf;->a(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-interface {p1, v2, v3, v4}, Lcom/khaibin/myprofile/nf;->a(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 

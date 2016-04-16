@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/aua;
+.implements Lcom/khaibin/myprofile/aua;
 
 
 # instance fields
@@ -26,7 +26,7 @@
 
 
 # virtual methods
-.method public a(Lcom/abdhoms/myprofile/atx;Z)V
+.method public a(Lcom/khaibin/myprofile/atx;Z)V
     .locals 3
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/formats/c;->b:Lcom/google/android/gms/ads/internal/formats/b;
@@ -72,13 +72,13 @@
 
     iget-object v1, v1, Lcom/google/android/gms/ads/internal/formats/b;->a:Lcom/google/android/gms/ads/internal/formats/zzi;
 
-    invoke-static {v1}, Lcom/google/android/gms/ads/internal/formats/zzi;->b(Lcom/google/android/gms/ads/internal/formats/zzi;)Lcom/abdhoms/myprofile/ahq;
+    invoke-static {v1}, Lcom/google/android/gms/ads/internal/formats/zzi;->b(Lcom/google/android/gms/ads/internal/formats/zzi;)Lcom/khaibin/myprofile/ahq;
 
     move-result-object v1
 
     const-string v2, "sendMessageToNativeJs"
 
-    invoke-interface {v1, v2, v0}, Lcom/abdhoms/myprofile/ahq;->b(Ljava/lang/String;Lorg/json/JSONObject;)V
+    invoke-interface {v1, v2, v0}, Lcom/khaibin/myprofile/ahq;->b(Ljava/lang/String;Lorg/json/JSONObject;)V
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -90,7 +90,7 @@
 
     const-string v1, "Unable to dispatch sendMessageToNativeJsevent"
 
-    invoke-static {v1, v0}, Lcom/abdhoms/myprofile/ara;->zzb(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0}, Lcom/khaibin/myprofile/ara;->zzb(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method

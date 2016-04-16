@@ -16,7 +16,7 @@
 
 
 # virtual methods
-.method public createAdLoaderBuilder(Landroid/content/Context;Ljava/lang/String;Lcom/abdhoms/myprofile/ajv;Lcom/google/android/gms/ads/internal/util/client/VersionInfoParcel;)Lcom/google/android/gms/ads/internal/client/zzs;
+.method public createAdLoaderBuilder(Landroid/content/Context;Ljava/lang/String;Lcom/khaibin/myprofile/ajv;Lcom/google/android/gms/ads/internal/util/client/VersionInfoParcel;)Lcom/google/android/gms/ads/internal/client/zzs;
     .locals 1
 
     new-instance v0, Lcom/google/android/gms/ads/internal/client/zzag;
@@ -26,7 +26,7 @@
     return-object v0
 .end method
 
-.method public createAdOverlay(Landroid/app/Activity;)Lcom/abdhoms/myprofile/amb;
+.method public createAdOverlay(Landroid/app/Activity;)Lcom/khaibin/myprofile/amb;
     .locals 1
 
     const/4 v0, 0x0
@@ -34,7 +34,7 @@
     return-object v0
 .end method
 
-.method public createBannerAdManager(Landroid/content/Context;Lcom/google/android/gms/ads/internal/client/AdSizeParcel;Ljava/lang/String;Lcom/abdhoms/myprofile/ajv;Lcom/google/android/gms/ads/internal/util/client/VersionInfoParcel;)Lcom/google/android/gms/ads/internal/client/zzu;
+.method public createBannerAdManager(Landroid/content/Context;Lcom/google/android/gms/ads/internal/client/AdSizeParcel;Ljava/lang/String;Lcom/khaibin/myprofile/ajv;Lcom/google/android/gms/ads/internal/util/client/VersionInfoParcel;)Lcom/google/android/gms/ads/internal/client/zzu;
     .locals 1
 
     new-instance v0, Lcom/google/android/gms/ads/internal/client/zzah;
@@ -44,7 +44,7 @@
     return-object v0
 .end method
 
-.method public createInAppPurchaseManager(Landroid/app/Activity;)Lcom/abdhoms/myprofile/amv;
+.method public createInAppPurchaseManager(Landroid/app/Activity;)Lcom/khaibin/myprofile/amv;
     .locals 1
 
     const/4 v0, 0x0
@@ -52,7 +52,7 @@
     return-object v0
 .end method
 
-.method public createInterstitialAdManager(Landroid/content/Context;Lcom/google/android/gms/ads/internal/client/AdSizeParcel;Ljava/lang/String;Lcom/abdhoms/myprofile/ajv;Lcom/google/android/gms/ads/internal/util/client/VersionInfoParcel;)Lcom/google/android/gms/ads/internal/client/zzu;
+.method public createInterstitialAdManager(Landroid/content/Context;Lcom/google/android/gms/ads/internal/client/AdSizeParcel;Ljava/lang/String;Lcom/khaibin/myprofile/ajv;Lcom/google/android/gms/ads/internal/util/client/VersionInfoParcel;)Lcom/google/android/gms/ads/internal/client/zzu;
     .locals 1
 
     new-instance v0, Lcom/google/android/gms/ads/internal/client/zzah;
@@ -62,7 +62,7 @@
     return-object v0
 .end method
 
-.method public createNativeAdViewDelegate(Landroid/widget/FrameLayout;Landroid/widget/FrameLayout;)Lcom/abdhoms/myprofile/adc;
+.method public createNativeAdViewDelegate(Landroid/widget/FrameLayout;Landroid/widget/FrameLayout;)Lcom/khaibin/myprofile/adc;
     .locals 1
 
     new-instance v0, Lcom/google/android/gms/ads/internal/client/zzak;
@@ -72,7 +72,7 @@
     return-object v0
 .end method
 
-.method public createRewardedVideoAd(Landroid/content/Context;Lcom/abdhoms/myprofile/ajv;Lcom/google/android/gms/ads/internal/util/client/VersionInfoParcel;)Lcom/google/android/gms/ads/internal/reward/client/zzb;
+.method public createRewardedVideoAd(Landroid/content/Context;Lcom/khaibin/myprofile/ajv;Lcom/google/android/gms/ads/internal/util/client/VersionInfoParcel;)Lcom/google/android/gms/ads/internal/reward/client/zzb;
     .locals 1
 
     new-instance v0, Lcom/google/android/gms/ads/internal/client/zzal;

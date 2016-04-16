@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/axt;
+.implements Lcom/khaibin/myprofile/axt;
 
 
 # direct methods

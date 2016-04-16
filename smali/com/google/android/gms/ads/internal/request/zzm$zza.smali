@@ -2,16 +2,16 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/aip;
+.implements Lcom/khaibin/myprofile/aip;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/abdhoms/myprofile/aip",
+        "Lcom/khaibin/myprofile/aip",
         "<",
-        "Lcom/abdhoms/myprofile/ahq;",
+        "Lcom/khaibin/myprofile/ahq;",
         ">;"
     }
 .end annotation
@@ -28,10 +28,10 @@
 
 
 # virtual methods
-.method public zza(Lcom/abdhoms/myprofile/ahq;)V
+.method public zza(Lcom/khaibin/myprofile/ahq;)V
     .locals 0
 
-    invoke-static {p1}, Lcom/google/android/gms/ads/internal/request/zzm;->b(Lcom/abdhoms/myprofile/ahq;)V
+    invoke-static {p1}, Lcom/google/android/gms/ads/internal/request/zzm;->b(Lcom/khaibin/myprofile/ahq;)V
 
     return-void
 .end method
@@ -39,9 +39,9 @@
 .method public synthetic zze(Ljava/lang/Object;)V
     .locals 0
 
-    check-cast p1, Lcom/abdhoms/myprofile/ahq;
+    check-cast p1, Lcom/khaibin/myprofile/ahq;
 
-    invoke-virtual {p0, p1}, Lcom/google/android/gms/ads/internal/request/zzm$zza;->zza(Lcom/abdhoms/myprofile/ahq;)V
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/ads/internal/request/zzm$zza;->zza(Lcom/khaibin/myprofile/ahq;)V
 
     return-void
 .end method

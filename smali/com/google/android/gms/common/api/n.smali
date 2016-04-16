@@ -60,7 +60,7 @@
     throw v0
 .end method
 
-.method public a(Lcom/abdhoms/myprofile/wm;)Lcom/abdhoms/myprofile/wm;
+.method public a(Lcom/khaibin/myprofile/wm;)Lcom/khaibin/myprofile/wm;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -69,7 +69,7 @@
             "R::",
             "Lcom/google/android/gms/common/api/w;",
             "T:",
-            "Lcom/abdhoms/myprofile/wm",
+            "Lcom/khaibin/myprofile/wm",
             "<TR;TA;>;>(TT;)TT;"
         }
     .end annotation
@@ -110,7 +110,7 @@
     throw v0
 .end method
 
-.method public a(Lcom/abdhoms/myprofile/ye;)V
+.method public a(Lcom/khaibin/myprofile/ye;)V
     .locals 1
 
     new-instance v0, Ljava/lang/UnsupportedOperationException;
@@ -126,14 +126,14 @@
 .method public abstract a(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
 .end method
 
-.method public b(Lcom/abdhoms/myprofile/wm;)Lcom/abdhoms/myprofile/wm;
+.method public b(Lcom/khaibin/myprofile/wm;)Lcom/khaibin/myprofile/wm;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<A::",
             "Lcom/google/android/gms/common/api/h;",
             "T:",
-            "Lcom/abdhoms/myprofile/wm",
+            "Lcom/khaibin/myprofile/wm",
             "<+",
             "Lcom/google/android/gms/common/api/w;",
             "TA;>;>(TT;)TT;"
@@ -150,7 +150,7 @@
 .method public abstract b()V
 .end method
 
-.method public b(Lcom/abdhoms/myprofile/ye;)V
+.method public b(Lcom/khaibin/myprofile/ye;)V
     .locals 1
 
     new-instance v0, Ljava/lang/UnsupportedOperationException;

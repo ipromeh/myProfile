@@ -36,7 +36,7 @@
 
     invoke-direct {v0}, Landroid/support/design/widget/CoordinatorLayout$SavedState$1;-><init>()V
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/bd;->a(Lcom/abdhoms/myprofile/bf;)Landroid/os/Parcelable$Creator;
+    invoke-static {v0}, Lcom/khaibin/myprofile/bd;->a(Lcom/khaibin/myprofile/bf;)Landroid/os/Parcelable$Creator;
 
     move-result-object v0
 

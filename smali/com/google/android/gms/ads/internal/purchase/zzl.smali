@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -42,7 +42,7 @@
 
     const-string v1, "Signature verification failed."
 
-    invoke-static {v1}, Lcom/abdhoms/myprofile/ara;->e(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/khaibin/myprofile/ara;->e(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/security/InvalidKeyException; {:try_start_0 .. :try_end_0} :catch_1
@@ -61,7 +61,7 @@
 
     const-string v1, "NoSuchAlgorithmException."
 
-    invoke-static {v1}, Lcom/abdhoms/myprofile/ara;->e(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/khaibin/myprofile/ara;->e(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -70,7 +70,7 @@
 
     const-string v1, "Invalid key specification."
 
-    invoke-static {v1}, Lcom/abdhoms/myprofile/ara;->e(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/khaibin/myprofile/ara;->e(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -79,7 +79,7 @@
 
     const-string v1, "Signature exception."
 
-    invoke-static {v1}, Lcom/abdhoms/myprofile/ara;->e(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/khaibin/myprofile/ara;->e(Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -127,7 +127,7 @@
 
     const-string v1, "Invalid key specification."
 
-    invoke-static {v1}, Lcom/abdhoms/myprofile/ara;->e(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/khaibin/myprofile/ara;->e(Ljava/lang/String;)V
 
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
@@ -160,7 +160,7 @@
     :cond_0
     const-string v0, "Purchase verification failed: missing data."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->e(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->e(Ljava/lang/String;)V
 
     const/4 v0, 0x0
 

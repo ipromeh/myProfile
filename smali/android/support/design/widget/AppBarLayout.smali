@@ -81,15 +81,15 @@
 
     invoke-static {p1}, Landroid/support/design/widget/ThemeUtils;->checkAppCompatTheme(Landroid/content/Context;)V
 
-    sget-object v0, Lcom/abdhoms/myprofile/k;->AppBarLayout:[I
+    sget-object v0, Lcom/khaibin/myprofile/k;->AppBarLayout:[I
 
-    sget v1, Lcom/abdhoms/myprofile/j;->Widget_Design_AppBarLayout:I
+    sget v1, Lcom/khaibin/myprofile/j;->Widget_Design_AppBarLayout:I
 
     invoke-virtual {p1, p2, v0, v2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->AppBarLayout_elevation:I
+    sget v1, Lcom/khaibin/myprofile/k;->AppBarLayout_elevation:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -99,7 +99,7 @@
 
     iput v1, p0, Landroid/support/design/widget/AppBarLayout;->mTargetElevation:F
 
-    sget v1, Lcom/abdhoms/myprofile/k;->AppBarLayout_android_background:I
+    sget v1, Lcom/khaibin/myprofile/k;->AppBarLayout_android_background:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -107,7 +107,7 @@
 
     invoke-virtual {p0, v1}, Landroid/support/design/widget/AppBarLayout;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    sget v1, Lcom/abdhoms/myprofile/k;->AppBarLayout_expanded:I
+    sget v1, Lcom/khaibin/myprofile/k;->AppBarLayout_expanded:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -115,7 +115,7 @@
 
     if-eqz v1, :cond_0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->AppBarLayout_expanded:I
+    sget v1, Lcom/khaibin/myprofile/k;->AppBarLayout_expanded:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 

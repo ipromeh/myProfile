@@ -35,7 +35,7 @@
 
     const-string v0, "Custom event adapter called onAdClicked."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/mediation/customevent/b;->c:Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;
 
@@ -51,7 +51,7 @@
 
     const-string v0, "Custom event adapter called onAdClosed."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/mediation/customevent/b;->c:Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;
 
@@ -67,7 +67,7 @@
 
     const-string v0, "Custom event adapter called onFailedToReceiveAd."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/mediation/customevent/b;->c:Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;
 
@@ -83,7 +83,7 @@
 
     const-string v0, "Custom event adapter called onAdLeftApplication."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/mediation/customevent/b;->c:Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;
 
@@ -99,7 +99,7 @@
 
     const-string v0, "Custom event adapter called onReceivedAd."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/mediation/customevent/b;->c:Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;
 
@@ -115,7 +115,7 @@
 
     const-string v0, "Custom event adapter called onAdOpened."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/mediation/customevent/b;->c:Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;
 

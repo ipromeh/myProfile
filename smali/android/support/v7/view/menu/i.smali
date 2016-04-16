@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/ay;
+.implements Lcom/khaibin/myprofile/ay;
 
 
 # static fields
@@ -332,7 +332,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p3}, Lcom/abdhoms/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p3}, Lcom/khaibin/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -676,7 +676,7 @@
 
     iget-object v1, p0, Landroid/support/v7/view/menu/i;->f:Landroid/content/res/Resources;
 
-    sget v2, Lcom/abdhoms/myprofile/hq;->abc_config_showMenuShortcutsWhenKeyboardPresent:I
+    sget v2, Lcom/khaibin/myprofile/hq;->abc_config_showMenuShortcutsWhenKeyboardPresent:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getBoolean(I)Z
 

@@ -15,11 +15,11 @@
 .method public abstract zzfL()Z
 .end method
 
-.method public abstract zzg(Lcom/abdhoms/myprofile/atx;Ljava/util/Map;)V
+.method public abstract zzg(Lcom/khaibin/myprofile/atx;Ljava/util/Map;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/abdhoms/myprofile/atx;",
+            "Lcom/khaibin/myprofile/atx;",
             "Ljava/util/Map",
             "<",
             "Ljava/lang/String;",

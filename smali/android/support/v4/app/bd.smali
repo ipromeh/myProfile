@@ -282,7 +282,7 @@
 
     iget-object v1, p0, Landroid/support/v4/app/bd;->c:Landroid/content/Context;
 
-    invoke-static {v1, v0, p1}, Lcom/abdhoms/myprofile/p;->a(Landroid/content/Context;[Landroid/content/Intent;Landroid/os/Bundle;)Z
+    invoke-static {v1, v0, p1}, Lcom/khaibin/myprofile/p;->a(Landroid/content/Context;[Landroid/content/Intent;Landroid/os/Bundle;)Z
 
     move-result v1
 

@@ -173,7 +173,7 @@
 
     move-result-object v1
 
-    sget v2, Lcom/abdhoms/myprofile/hx;->abc_activitychooserview_choose_application:I
+    sget v2, Lcom/khaibin/myprofile/hx;->abc_activitychooserview_choose_application:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

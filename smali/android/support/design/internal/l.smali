@@ -6,7 +6,7 @@
 .method public constructor <init>(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)V
     .locals 2
 
-    sget v0, Lcom/abdhoms/myprofile/h;->design_navigation_item_separator:I
+    sget v0, Lcom/khaibin/myprofile/h;->design_navigation_item_separator:I
 
     const/4 v1, 0x0
 

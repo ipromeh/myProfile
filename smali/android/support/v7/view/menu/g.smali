@@ -80,7 +80,7 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/g;->b:Landroid/view/LayoutInflater;
 
-    sget v1, Lcom/abdhoms/myprofile/hw;->abc_expanded_menu_layout:I
+    sget v1, Lcom/khaibin/myprofile/hw;->abc_expanded_menu_layout:I
 
     const/4 v2, 0x0
 

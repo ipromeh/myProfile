@@ -3,17 +3,17 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/abdhoms/myprofile/nf;)V
+.method public constructor <init>(Lcom/khaibin/myprofile/nf;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/bumptech/glide/load/resource/bitmap/d;-><init>(Lcom/abdhoms/myprofile/nf;)V
+    invoke-direct {p0, p1}, Lcom/bumptech/glide/load/resource/bitmap/d;-><init>(Lcom/khaibin/myprofile/nf;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected a(Lcom/abdhoms/myprofile/nf;Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
+.method protected a(Lcom/khaibin/myprofile/nf;Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
     .locals 3
 
     invoke-virtual {p2}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
@@ -27,7 +27,7 @@
     move-result-object v0
 
     :goto_0
-    invoke-interface {p1, p3, p4, v0}, Lcom/abdhoms/myprofile/nf;->a(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-interface {p1, p3, p4, v0}, Lcom/khaibin/myprofile/nf;->a(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -39,7 +39,7 @@
 
     if-eq v0, v1, :cond_0
 
-    invoke-interface {p1, v0}, Lcom/abdhoms/myprofile/nf;->a(Landroid/graphics/Bitmap;)Z
+    invoke-interface {p1, v0}, Lcom/khaibin/myprofile/nf;->a(Landroid/graphics/Bitmap;)Z
 
     move-result v2
 

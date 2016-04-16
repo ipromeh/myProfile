@@ -10,7 +10,7 @@
 
 .field private final b:[I
 
-.field private c:Lcom/abdhoms/myprofile/ew;
+.field private c:Lcom/khaibin/myprofile/ew;
 
 .field private d:Landroid/widget/TextView;
 
@@ -20,7 +20,7 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/support/v7/widget/fc;Landroid/content/Context;Lcom/abdhoms/myprofile/ew;Z)V
+.method public constructor <init>(Landroid/support/v7/widget/fc;Landroid/content/Context;Lcom/khaibin/myprofile/ew;Z)V
     .locals 4
 
     const/4 v3, 0x0
@@ -29,7 +29,7 @@
 
     iput-object p1, p0, Landroid/support/v7/widget/fg;->a:Landroid/support/v7/widget/fc;
 
-    sget v0, Lcom/abdhoms/myprofile/hp;->actionBarTabStyle:I
+    sget v0, Lcom/khaibin/myprofile/hp;->actionBarTabStyle:I
 
     invoke-direct {p0, p2, v3, v0}, Landroid/support/v7/widget/co;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -43,11 +43,11 @@
 
     iput-object v0, p0, Landroid/support/v7/widget/fg;->b:[I
 
-    iput-object p3, p0, Landroid/support/v7/widget/fg;->c:Lcom/abdhoms/myprofile/ew;
+    iput-object p3, p0, Landroid/support/v7/widget/fg;->c:Lcom/khaibin/myprofile/ew;
 
     iget-object v0, p0, Landroid/support/v7/widget/fg;->b:[I
 
-    sget v1, Lcom/abdhoms/myprofile/hp;->actionBarTabStyle:I
+    sget v1, Lcom/khaibin/myprofile/hp;->actionBarTabStyle:I
 
     invoke-static {p2, v3, v0, v1, v2}, Landroid/support/v7/widget/gh;->a(Landroid/content/Context;Landroid/util/AttributeSet;[III)Landroid/support/v7/widget/gh;
 
@@ -95,9 +95,9 @@
 
     const/4 v7, 0x0
 
-    iget-object v2, p0, Landroid/support/v7/widget/fg;->c:Lcom/abdhoms/myprofile/ew;
+    iget-object v2, p0, Landroid/support/v7/widget/fg;->c:Lcom/khaibin/myprofile/ew;
 
-    invoke-virtual {v2}, Lcom/abdhoms/myprofile/ew;->c()Landroid/view/View;
+    invoke-virtual {v2}, Lcom/khaibin/myprofile/ew;->c()Landroid/view/View;
 
     move-result-object v3
 
@@ -158,11 +158,11 @@
     iput-object v7, p0, Landroid/support/v7/widget/fg;->f:Landroid/view/View;
 
     :cond_5
-    invoke-virtual {v2}, Lcom/abdhoms/myprofile/ew;->a()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v2}, Lcom/khaibin/myprofile/ew;->a()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
-    invoke-virtual {v2}, Lcom/abdhoms/myprofile/ew;->b()Ljava/lang/CharSequence;
+    invoke-virtual {v2}, Lcom/khaibin/myprofile/ew;->b()Ljava/lang/CharSequence;
 
     move-result-object v3
 
@@ -224,7 +224,7 @@
 
     move-result-object v5
 
-    sget v6, Lcom/abdhoms/myprofile/hp;->actionBarTabTextStyle:I
+    sget v6, Lcom/khaibin/myprofile/hp;->actionBarTabTextStyle:I
 
     invoke-direct {v4, v5, v7, v6}, Landroid/support/v7/widget/bm;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -261,7 +261,7 @@
 
     iget-object v3, p0, Landroid/support/v7/widget/fg;->e:Landroid/widget/ImageView;
 
-    invoke-virtual {v2}, Lcom/abdhoms/myprofile/ew;->e()Ljava/lang/CharSequence;
+    invoke-virtual {v2}, Lcom/khaibin/myprofile/ew;->e()Ljava/lang/CharSequence;
 
     move-result-object v4
 
@@ -270,7 +270,7 @@
     :cond_a
     if-nez v0, :cond_e
 
-    invoke-virtual {v2}, Lcom/abdhoms/myprofile/ew;->e()Ljava/lang/CharSequence;
+    invoke-virtual {v2}, Lcom/khaibin/myprofile/ew;->e()Ljava/lang/CharSequence;
 
     move-result-object v0
 
@@ -327,20 +327,20 @@
     goto/16 :goto_0
 .end method
 
-.method public a(Lcom/abdhoms/myprofile/ew;)V
+.method public a(Lcom/khaibin/myprofile/ew;)V
     .locals 0
 
-    iput-object p1, p0, Landroid/support/v7/widget/fg;->c:Lcom/abdhoms/myprofile/ew;
+    iput-object p1, p0, Landroid/support/v7/widget/fg;->c:Lcom/khaibin/myprofile/ew;
 
     invoke-virtual {p0}, Landroid/support/v7/widget/fg;->a()V
 
     return-void
 .end method
 
-.method public b()Lcom/abdhoms/myprofile/ew;
+.method public b()Lcom/khaibin/myprofile/ew;
     .locals 1
 
-    iget-object v0, p0, Landroid/support/v7/widget/fg;->c:Lcom/abdhoms/myprofile/ew;
+    iget-object v0, p0, Landroid/support/v7/widget/fg;->c:Lcom/khaibin/myprofile/ew;
 
     return-object v0
 .end method
@@ -350,7 +350,7 @@
 
     invoke-super {p0, p1}, Landroid/support/v7/widget/co;->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
 
-    const-class v0, Lcom/abdhoms/myprofile/ew;
+    const-class v0, Lcom/khaibin/myprofile/ew;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
@@ -372,7 +372,7 @@
 
     if-lt v0, v1, :cond_0
 
-    const-class v0, Lcom/abdhoms/myprofile/ew;
+    const-class v0, Lcom/khaibin/myprofile/ew;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
@@ -417,9 +417,9 @@
 
     iget v4, v4, Landroid/util/DisplayMetrics;->widthPixels:I
 
-    iget-object v5, p0, Landroid/support/v7/widget/fg;->c:Lcom/abdhoms/myprofile/ew;
+    iget-object v5, p0, Landroid/support/v7/widget/fg;->c:Lcom/khaibin/myprofile/ew;
 
-    invoke-virtual {v5}, Lcom/abdhoms/myprofile/ew;->e()Ljava/lang/CharSequence;
+    invoke-virtual {v5}, Lcom/khaibin/myprofile/ew;->e()Ljava/lang/CharSequence;
 
     move-result-object v5
 

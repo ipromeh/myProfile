@@ -36,7 +36,7 @@
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/request/b;->a:Lcom/google/android/gms/ads/internal/request/zzb;
 
-    iget-object v0, v0, Lcom/google/android/gms/ads/internal/request/zzb;->a:Lcom/abdhoms/myprofile/asg;
+    iget-object v0, v0, Lcom/google/android/gms/ads/internal/request/zzb;->a:Lcom/khaibin/myprofile/asg;
 
     if-nez v0, :cond_0
 

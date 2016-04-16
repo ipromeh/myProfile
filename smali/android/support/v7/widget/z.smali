@@ -213,7 +213,7 @@
 
     aput-object v3, v1, v2
 
-    invoke-static {v0, v1}, Lcom/abdhoms/myprofile/bb;->a(Landroid/os/AsyncTask;[Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-static {v0, v1}, Lcom/khaibin/myprofile/bb;->a(Landroid/os/AsyncTask;[Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     goto :goto_0
 .end method

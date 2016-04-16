@@ -244,17 +244,17 @@
     goto :goto_1
 .end method
 
-.method static synthetic a(Landroid/support/v4/app/e;Landroid/support/v4/app/j;ZLandroid/support/v4/app/Fragment;)Lcom/abdhoms/myprofile/cf;
+.method static synthetic a(Landroid/support/v4/app/e;Landroid/support/v4/app/j;ZLandroid/support/v4/app/Fragment;)Lcom/khaibin/myprofile/cf;
     .locals 1
 
-    invoke-direct {p0, p1, p2, p3}, Landroid/support/v4/app/e;->a(Landroid/support/v4/app/j;ZLandroid/support/v4/app/Fragment;)Lcom/abdhoms/myprofile/cf;
+    invoke-direct {p0, p1, p2, p3}, Landroid/support/v4/app/e;->a(Landroid/support/v4/app/j;ZLandroid/support/v4/app/Fragment;)Lcom/khaibin/myprofile/cf;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method private a(Landroid/support/v4/app/j;Landroid/support/v4/app/Fragment;Z)Lcom/abdhoms/myprofile/cf;
+.method private a(Landroid/support/v4/app/j;Landroid/support/v4/app/Fragment;Z)Lcom/khaibin/myprofile/cf;
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -262,7 +262,7 @@
             "Landroid/support/v4/app/j;",
             "Landroid/support/v4/app/Fragment;",
             "Z)",
-            "Lcom/abdhoms/myprofile/cf",
+            "Lcom/khaibin/myprofile/cf",
             "<",
             "Ljava/lang/String;",
             "Landroid/view/View;",
@@ -272,9 +272,9 @@
 
     const/4 v3, 0x0
 
-    new-instance v0, Lcom/abdhoms/myprofile/cf;
+    new-instance v0, Lcom/khaibin/myprofile/cf;
 
-    invoke-direct {v0}, Lcom/abdhoms/myprofile/cf;-><init>()V
+    invoke-direct {v0}, Lcom/khaibin/myprofile/cf;-><init>()V
 
     iget-object v1, p0, Landroid/support/v4/app/e;->u:Ljava/util/ArrayList;
 
@@ -290,7 +290,7 @@
 
     iget-object v1, p0, Landroid/support/v4/app/e;->v:Ljava/util/ArrayList;
 
-    invoke-virtual {v0, v1}, Lcom/abdhoms/myprofile/cf;->a(Ljava/util/Collection;)Z
+    invoke-virtual {v0, v1}, Lcom/khaibin/myprofile/cf;->a(Ljava/util/Collection;)Z
 
     :cond_0
     :goto_0
@@ -307,7 +307,7 @@
     invoke-virtual {v1, v2, v0}, Landroid/support/v4/app/bb;->a(Ljava/util/List;Ljava/util/Map;)V
 
     :cond_1
-    invoke-direct {p0, p1, v0, v3}, Landroid/support/v4/app/e;->a(Landroid/support/v4/app/j;Lcom/abdhoms/myprofile/cf;Z)V
+    invoke-direct {p0, p1, v0, v3}, Landroid/support/v4/app/e;->a(Landroid/support/v4/app/j;Lcom/khaibin/myprofile/cf;Z)V
 
     :goto_1
     return-object v0
@@ -317,7 +317,7 @@
 
     iget-object v2, p0, Landroid/support/v4/app/e;->v:Ljava/util/ArrayList;
 
-    invoke-static {v1, v2, v0}, Landroid/support/v4/app/e;->a(Ljava/util/ArrayList;Ljava/util/ArrayList;Lcom/abdhoms/myprofile/cf;)Lcom/abdhoms/myprofile/cf;
+    invoke-static {v1, v2, v0}, Landroid/support/v4/app/e;->a(Ljava/util/ArrayList;Ljava/util/ArrayList;Lcom/khaibin/myprofile/cf;)Lcom/khaibin/myprofile/cf;
 
     move-result-object v0
 
@@ -335,12 +335,12 @@
     invoke-virtual {v1, v2, v0}, Landroid/support/v4/app/bb;->a(Ljava/util/List;Ljava/util/Map;)V
 
     :cond_4
-    invoke-direct {p0, p1, v0, v3}, Landroid/support/v4/app/e;->b(Landroid/support/v4/app/j;Lcom/abdhoms/myprofile/cf;Z)V
+    invoke-direct {p0, p1, v0, v3}, Landroid/support/v4/app/e;->b(Landroid/support/v4/app/j;Lcom/khaibin/myprofile/cf;Z)V
 
     goto :goto_1
 .end method
 
-.method private a(Landroid/support/v4/app/j;ZLandroid/support/v4/app/Fragment;)Lcom/abdhoms/myprofile/cf;
+.method private a(Landroid/support/v4/app/j;ZLandroid/support/v4/app/Fragment;)Lcom/khaibin/myprofile/cf;
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -349,7 +349,7 @@
             "Z",
             "Landroid/support/v4/app/Fragment;",
             ")",
-            "Lcom/abdhoms/myprofile/cf",
+            "Lcom/khaibin/myprofile/cf",
             "<",
             "Ljava/lang/String;",
             "Landroid/view/View;",
@@ -359,7 +359,7 @@
 
     const/4 v3, 0x1
 
-    invoke-direct {p0, p1, p3, p2}, Landroid/support/v4/app/e;->b(Landroid/support/v4/app/j;Landroid/support/v4/app/Fragment;Z)Lcom/abdhoms/myprofile/cf;
+    invoke-direct {p0, p1, p3, p2}, Landroid/support/v4/app/e;->b(Landroid/support/v4/app/j;Landroid/support/v4/app/Fragment;Z)Lcom/khaibin/myprofile/cf;
 
     move-result-object v0
 
@@ -376,7 +376,7 @@
     invoke-virtual {v1, v2, v0}, Landroid/support/v4/app/bb;->a(Ljava/util/List;Ljava/util/Map;)V
 
     :cond_0
-    invoke-direct {p0, p1, v0, v3}, Landroid/support/v4/app/e;->a(Landroid/support/v4/app/j;Lcom/abdhoms/myprofile/cf;Z)V
+    invoke-direct {p0, p1, v0, v3}, Landroid/support/v4/app/e;->a(Landroid/support/v4/app/j;Lcom/khaibin/myprofile/cf;Z)V
 
     :goto_0
     return-object v0
@@ -393,12 +393,12 @@
     invoke-virtual {v1, v2, v0}, Landroid/support/v4/app/bb;->a(Ljava/util/List;Ljava/util/Map;)V
 
     :cond_2
-    invoke-direct {p0, p1, v0, v3}, Landroid/support/v4/app/e;->b(Landroid/support/v4/app/j;Lcom/abdhoms/myprofile/cf;Z)V
+    invoke-direct {p0, p1, v0, v3}, Landroid/support/v4/app/e;->b(Landroid/support/v4/app/j;Lcom/khaibin/myprofile/cf;Z)V
 
     goto :goto_0
 .end method
 
-.method private static a(Ljava/util/ArrayList;Ljava/util/ArrayList;Lcom/abdhoms/myprofile/cf;)Lcom/abdhoms/myprofile/cf;
+.method private static a(Ljava/util/ArrayList;Ljava/util/ArrayList;Lcom/khaibin/myprofile/cf;)Lcom/khaibin/myprofile/cf;
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -411,12 +411,12 @@
             "<",
             "Ljava/lang/String;",
             ">;",
-            "Lcom/abdhoms/myprofile/cf",
+            "Lcom/khaibin/myprofile/cf",
             "<",
             "Ljava/lang/String;",
             "Landroid/view/View;",
             ">;)",
-            "Lcom/abdhoms/myprofile/cf",
+            "Lcom/khaibin/myprofile/cf",
             "<",
             "Ljava/lang/String;",
             "Landroid/view/View;",
@@ -424,7 +424,7 @@
         }
     .end annotation
 
-    invoke-virtual {p2}, Lcom/abdhoms/myprofile/cf;->isEmpty()Z
+    invoke-virtual {p2}, Lcom/khaibin/myprofile/cf;->isEmpty()Z
 
     move-result v0
 
@@ -434,9 +434,9 @@
     return-object p2
 
     :cond_0
-    new-instance v1, Lcom/abdhoms/myprofile/cf;
+    new-instance v1, Lcom/khaibin/myprofile/cf;
 
-    invoke-direct {v1}, Lcom/abdhoms/myprofile/cf;-><init>()V
+    invoke-direct {v1}, Lcom/khaibin/myprofile/cf;-><init>()V
 
     invoke-virtual {p0}, Ljava/util/ArrayList;->size()I
 
@@ -453,7 +453,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lcom/abdhoms/myprofile/cf;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p2, v0}, Lcom/khaibin/myprofile/cf;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -465,7 +465,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v1, v4, v0}, Lcom/abdhoms/myprofile/cf;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v4, v0}, Lcom/khaibin/myprofile/cf;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_1
     add-int/lit8 v0, v2, 0x1
@@ -547,7 +547,7 @@
     goto :goto_1
 .end method
 
-.method private static a(Ljava/lang/Object;Landroid/support/v4/app/Fragment;Ljava/util/ArrayList;Lcom/abdhoms/myprofile/cf;Landroid/view/View;)Ljava/lang/Object;
+.method private static a(Ljava/lang/Object;Landroid/support/v4/app/Fragment;Ljava/util/ArrayList;Lcom/khaibin/myprofile/cf;Landroid/view/View;)Ljava/lang/Object;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -558,7 +558,7 @@
             "<",
             "Landroid/view/View;",
             ">;",
-            "Lcom/abdhoms/myprofile/cf",
+            "Lcom/khaibin/myprofile/cf",
             "<",
             "Ljava/lang/String;",
             "Landroid/view/View;",
@@ -737,18 +737,18 @@
     return-void
 .end method
 
-.method static synthetic a(Landroid/support/v4/app/e;Landroid/support/v4/app/j;Landroid/support/v4/app/Fragment;Landroid/support/v4/app/Fragment;ZLcom/abdhoms/myprofile/cf;)V
+.method static synthetic a(Landroid/support/v4/app/e;Landroid/support/v4/app/j;Landroid/support/v4/app/Fragment;Landroid/support/v4/app/Fragment;ZLcom/khaibin/myprofile/cf;)V
     .locals 0
 
-    invoke-direct/range {p0 .. p5}, Landroid/support/v4/app/e;->a(Landroid/support/v4/app/j;Landroid/support/v4/app/Fragment;Landroid/support/v4/app/Fragment;ZLcom/abdhoms/myprofile/cf;)V
+    invoke-direct/range {p0 .. p5}, Landroid/support/v4/app/e;->a(Landroid/support/v4/app/j;Landroid/support/v4/app/Fragment;Landroid/support/v4/app/Fragment;ZLcom/khaibin/myprofile/cf;)V
 
     return-void
 .end method
 
-.method static synthetic a(Landroid/support/v4/app/e;Lcom/abdhoms/myprofile/cf;Landroid/support/v4/app/j;)V
+.method static synthetic a(Landroid/support/v4/app/e;Lcom/khaibin/myprofile/cf;Landroid/support/v4/app/j;)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Landroid/support/v4/app/e;->a(Lcom/abdhoms/myprofile/cf;Landroid/support/v4/app/j;)V
+    invoke-direct {p0, p1, p2}, Landroid/support/v4/app/e;->a(Lcom/khaibin/myprofile/cf;Landroid/support/v4/app/j;)V
 
     return-void
 .end method
@@ -850,7 +850,7 @@
     return-void
 .end method
 
-.method private a(Landroid/support/v4/app/j;Landroid/support/v4/app/Fragment;Landroid/support/v4/app/Fragment;ZLcom/abdhoms/myprofile/cf;)V
+.method private a(Landroid/support/v4/app/j;Landroid/support/v4/app/Fragment;Landroid/support/v4/app/Fragment;ZLcom/khaibin/myprofile/cf;)V
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -859,7 +859,7 @@
             "Landroid/support/v4/app/Fragment;",
             "Landroid/support/v4/app/Fragment;",
             "Z",
-            "Lcom/abdhoms/myprofile/cf",
+            "Lcom/khaibin/myprofile/cf",
             "<",
             "Ljava/lang/String;",
             "Landroid/view/View;",
@@ -876,7 +876,7 @@
 
     new-instance v1, Ljava/util/ArrayList;
 
-    invoke-virtual {p5}, Lcom/abdhoms/myprofile/cf;->keySet()Ljava/util/Set;
+    invoke-virtual {p5}, Lcom/khaibin/myprofile/cf;->keySet()Ljava/util/Set;
 
     move-result-object v2
 
@@ -884,7 +884,7 @@
 
     new-instance v2, Ljava/util/ArrayList;
 
-    invoke-virtual {p5}, Lcom/abdhoms/myprofile/cf;->values()Ljava/util/Collection;
+    invoke-virtual {p5}, Lcom/khaibin/myprofile/cf;->values()Ljava/util/Collection;
 
     move-result-object v3
 
@@ -950,13 +950,13 @@
     return-void
 .end method
 
-.method private a(Landroid/support/v4/app/j;Lcom/abdhoms/myprofile/cf;Z)V
+.method private a(Landroid/support/v4/app/j;Lcom/khaibin/myprofile/cf;Z)V
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/support/v4/app/j;",
-            "Lcom/abdhoms/myprofile/cf",
+            "Lcom/khaibin/myprofile/cf",
             "<",
             "Ljava/lang/String;",
             "Landroid/view/View;",
@@ -994,7 +994,7 @@
 
     check-cast v1, Ljava/lang/String;
 
-    invoke-virtual {p2, v1}, Lcom/abdhoms/myprofile/cf;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p2, v1}, Lcom/khaibin/myprofile/cf;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1008,9 +1008,9 @@
 
     if-eqz p3, :cond_2
 
-    iget-object v4, p1, Landroid/support/v4/app/j;->a:Lcom/abdhoms/myprofile/cf;
+    iget-object v4, p1, Landroid/support/v4/app/j;->a:Lcom/khaibin/myprofile/cf;
 
-    invoke-static {v4, v0, v1}, Landroid/support/v4/app/e;->a(Lcom/abdhoms/myprofile/cf;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0, v1}, Landroid/support/v4/app/e;->a(Lcom/khaibin/myprofile/cf;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_2
@@ -1032,9 +1032,9 @@
     goto :goto_0
 
     :cond_2
-    iget-object v4, p1, Landroid/support/v4/app/j;->a:Lcom/abdhoms/myprofile/cf;
+    iget-object v4, p1, Landroid/support/v4/app/j;->a:Lcom/khaibin/myprofile/cf;
 
-    invoke-static {v4, v1, v0}, Landroid/support/v4/app/e;->a(Lcom/abdhoms/myprofile/cf;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v1, v0}, Landroid/support/v4/app/e;->a(Lcom/khaibin/myprofile/cf;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -1084,9 +1084,9 @@
 
     check-cast v1, Ljava/lang/String;
 
-    iget-object v3, p0, Landroid/support/v4/app/j;->a:Lcom/abdhoms/myprofile/cf;
+    iget-object v3, p0, Landroid/support/v4/app/j;->a:Lcom/khaibin/myprofile/cf;
 
-    invoke-static {v3, v0, v1}, Landroid/support/v4/app/e;->a(Lcom/abdhoms/myprofile/cf;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v0, v1}, Landroid/support/v4/app/e;->a(Lcom/khaibin/myprofile/cf;Ljava/lang/String;Ljava/lang/String;)V
 
     add-int/lit8 v0, v2, 0x1
 
@@ -1174,12 +1174,12 @@
     return-void
 .end method
 
-.method private a(Lcom/abdhoms/myprofile/cf;Landroid/support/v4/app/j;)V
+.method private a(Lcom/khaibin/myprofile/cf;Landroid/support/v4/app/j;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/abdhoms/myprofile/cf",
+            "Lcom/khaibin/myprofile/cf",
             "<",
             "Ljava/lang/String;",
             "Landroid/view/View;",
@@ -1193,7 +1193,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p1}, Lcom/abdhoms/myprofile/cf;->isEmpty()Z
+    invoke-virtual {p1}, Lcom/khaibin/myprofile/cf;->isEmpty()Z
 
     move-result v0
 
@@ -1207,7 +1207,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/abdhoms/myprofile/cf;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/khaibin/myprofile/cf;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1223,12 +1223,12 @@
     return-void
 .end method
 
-.method private static a(Lcom/abdhoms/myprofile/cf;Ljava/lang/String;Ljava/lang/String;)V
+.method private static a(Lcom/khaibin/myprofile/cf;Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/abdhoms/myprofile/cf",
+            "Lcom/khaibin/myprofile/cf",
             "<",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
@@ -1246,13 +1246,13 @@
     const/4 v0, 0x0
 
     :goto_0
-    invoke-virtual {p0}, Lcom/abdhoms/myprofile/cf;->size()I
+    invoke-virtual {p0}, Lcom/khaibin/myprofile/cf;->size()I
 
     move-result v1
 
     if-ge v0, v1, :cond_2
 
-    invoke-virtual {p0, v0}, Lcom/abdhoms/myprofile/cf;->c(I)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Lcom/khaibin/myprofile/cf;->c(I)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1262,7 +1262,7 @@
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {p0, v0, p2}, Lcom/abdhoms/myprofile/cf;->a(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, p2}, Lcom/khaibin/myprofile/cf;->a(ILjava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
     :goto_1
@@ -1274,7 +1274,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p0, p1, p2}, Lcom/abdhoms/myprofile/cf;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Lcom/khaibin/myprofile/cf;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 .end method
@@ -1371,11 +1371,11 @@
 
     move/from16 v2, p3
 
-    invoke-direct {v0, v1, v9, v2}, Landroid/support/v4/app/e;->a(Landroid/support/v4/app/j;Landroid/support/v4/app/Fragment;Z)Lcom/abdhoms/myprofile/cf;
+    invoke-direct {v0, v1, v9, v2}, Landroid/support/v4/app/e;->a(Landroid/support/v4/app/j;Landroid/support/v4/app/Fragment;Z)Lcom/khaibin/myprofile/cf;
 
     move-result-object v20
 
-    invoke-virtual/range {v20 .. v20}, Lcom/abdhoms/myprofile/cf;->isEmpty()Z
+    invoke-virtual/range {v20 .. v20}, Lcom/khaibin/myprofile/cf;->isEmpty()Z
 
     move-result v4
 
@@ -1408,7 +1408,7 @@
 
     new-instance v5, Ljava/util/ArrayList;
 
-    invoke-virtual/range {v20 .. v20}, Lcom/abdhoms/myprofile/cf;->keySet()Ljava/util/Set;
+    invoke-virtual/range {v20 .. v20}, Lcom/khaibin/myprofile/cf;->keySet()Ljava/util/Set;
 
     move-result-object v10
 
@@ -1416,7 +1416,7 @@
 
     new-instance v10, Ljava/util/ArrayList;
 
-    invoke-virtual/range {v20 .. v20}, Lcom/abdhoms/myprofile/cf;->values()Ljava/util/Collection;
+    invoke-virtual/range {v20 .. v20}, Lcom/khaibin/myprofile/cf;->values()Ljava/util/Collection;
 
     move-result-object v13
 
@@ -1458,7 +1458,7 @@
 
     move-object/from16 v1, v20
 
-    invoke-static {v14, v9, v0, v1, v4}, Landroid/support/v4/app/e;->a(Ljava/lang/Object;Landroid/support/v4/app/Fragment;Ljava/util/ArrayList;Lcom/abdhoms/myprofile/cf;Landroid/view/View;)Ljava/lang/Object;
+    invoke-static {v14, v9, v0, v1, v4}, Landroid/support/v4/app/e;->a(Ljava/lang/Object;Landroid/support/v4/app/Fragment;Ljava/util/ArrayList;Lcom/khaibin/myprofile/cf;Landroid/view/View;)Ljava/lang/Object;
 
     move-result-object v26
 
@@ -1482,7 +1482,7 @@
 
     move-object/from16 v0, v20
 
-    invoke-virtual {v0, v4}, Lcom/abdhoms/myprofile/cf;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v4}, Lcom/khaibin/myprofile/cf;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
@@ -1512,9 +1512,9 @@
 
     invoke-direct/range {v19 .. v19}, Ljava/util/ArrayList;-><init>()V
 
-    new-instance v21, Lcom/abdhoms/myprofile/cf;
+    new-instance v21, Lcom/khaibin/myprofile/cf;
 
-    invoke-direct/range {v21 .. v21}, Lcom/abdhoms/myprofile/cf;-><init>()V
+    invoke-direct/range {v21 .. v21}, Lcom/khaibin/myprofile/cf;-><init>()V
 
     const/4 v4, 0x1
 
@@ -1550,7 +1550,7 @@
 
     move-object/from16 v0, p2
 
-    iget-object v0, v0, Landroid/support/v4/app/j;->a:Lcom/abdhoms/myprofile/cf;
+    iget-object v0, v0, Landroid/support/v4/app/j;->a:Lcom/khaibin/myprofile/cf;
 
     move-object/from16 v18, v0
 
@@ -1640,7 +1640,7 @@
     goto/16 :goto_0
 .end method
 
-.method private b(Landroid/support/v4/app/j;Landroid/support/v4/app/Fragment;Z)Lcom/abdhoms/myprofile/cf;
+.method private b(Landroid/support/v4/app/j;Landroid/support/v4/app/Fragment;Z)Lcom/khaibin/myprofile/cf;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1648,7 +1648,7 @@
             "Landroid/support/v4/app/j;",
             "Landroid/support/v4/app/Fragment;",
             "Z)",
-            "Lcom/abdhoms/myprofile/cf",
+            "Lcom/khaibin/myprofile/cf",
             "<",
             "Ljava/lang/String;",
             "Landroid/view/View;",
@@ -1656,9 +1656,9 @@
         }
     .end annotation
 
-    new-instance v0, Lcom/abdhoms/myprofile/cf;
+    new-instance v0, Lcom/khaibin/myprofile/cf;
 
-    invoke-direct {v0}, Lcom/abdhoms/myprofile/cf;-><init>()V
+    invoke-direct {v0}, Lcom/khaibin/myprofile/cf;-><init>()V
 
     invoke-virtual {p2}, Landroid/support/v4/app/Fragment;->j()Landroid/view/View;
 
@@ -1678,7 +1678,7 @@
 
     iget-object v2, p0, Landroid/support/v4/app/e;->v:Ljava/util/ArrayList;
 
-    invoke-static {v1, v2, v0}, Landroid/support/v4/app/e;->a(Ljava/util/ArrayList;Ljava/util/ArrayList;Lcom/abdhoms/myprofile/cf;)Lcom/abdhoms/myprofile/cf;
+    invoke-static {v1, v2, v0}, Landroid/support/v4/app/e;->a(Ljava/util/ArrayList;Ljava/util/ArrayList;Lcom/khaibin/myprofile/cf;)Lcom/khaibin/myprofile/cf;
 
     move-result-object v0
 
@@ -1689,7 +1689,7 @@
     :cond_1
     iget-object v1, p0, Landroid/support/v4/app/e;->v:Ljava/util/ArrayList;
 
-    invoke-virtual {v0, v1}, Lcom/abdhoms/myprofile/cf;->a(Ljava/util/Collection;)Z
+    invoke-virtual {v0, v1}, Lcom/khaibin/myprofile/cf;->a(Ljava/util/Collection;)Z
 
     goto :goto_0
 .end method
@@ -1726,13 +1726,13 @@
     goto :goto_1
 .end method
 
-.method private b(Landroid/support/v4/app/j;Lcom/abdhoms/myprofile/cf;Z)V
+.method private b(Landroid/support/v4/app/j;Lcom/khaibin/myprofile/cf;Z)V
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/support/v4/app/j;",
-            "Lcom/abdhoms/myprofile/cf",
+            "Lcom/khaibin/myprofile/cf",
             "<",
             "Ljava/lang/String;",
             "Landroid/view/View;",
@@ -1740,7 +1740,7 @@
         }
     .end annotation
 
-    invoke-virtual {p2}, Lcom/abdhoms/myprofile/cf;->size()I
+    invoke-virtual {p2}, Lcom/khaibin/myprofile/cf;->size()I
 
     move-result v3
 
@@ -1751,13 +1751,13 @@
     :goto_0
     if-ge v2, v3, :cond_1
 
-    invoke-virtual {p2, v2}, Lcom/abdhoms/myprofile/cf;->b(I)Ljava/lang/Object;
+    invoke-virtual {p2, v2}, Lcom/khaibin/myprofile/cf;->b(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {p2, v2}, Lcom/abdhoms/myprofile/cf;->c(I)Ljava/lang/Object;
+    invoke-virtual {p2, v2}, Lcom/khaibin/myprofile/cf;->c(I)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1769,9 +1769,9 @@
 
     if-eqz p3, :cond_0
 
-    iget-object v4, p1, Landroid/support/v4/app/j;->a:Lcom/abdhoms/myprofile/cf;
+    iget-object v4, p1, Landroid/support/v4/app/j;->a:Lcom/khaibin/myprofile/cf;
 
-    invoke-static {v4, v0, v1}, Landroid/support/v4/app/e;->a(Lcom/abdhoms/myprofile/cf;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0, v1}, Landroid/support/v4/app/e;->a(Lcom/khaibin/myprofile/cf;Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     add-int/lit8 v0, v2, 0x1
@@ -1781,9 +1781,9 @@
     goto :goto_0
 
     :cond_0
-    iget-object v4, p1, Landroid/support/v4/app/j;->a:Lcom/abdhoms/myprofile/cf;
+    iget-object v4, p1, Landroid/support/v4/app/j;->a:Lcom/khaibin/myprofile/cf;
 
-    invoke-static {v4, v1, v0}, Landroid/support/v4/app/e;->a(Lcom/abdhoms/myprofile/cf;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v1, v0}, Landroid/support/v4/app/e;->a(Lcom/khaibin/myprofile/cf;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -2047,11 +2047,11 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    new-instance v0, Lcom/abdhoms/myprofile/cj;
+    new-instance v0, Lcom/khaibin/myprofile/cj;
 
     const-string v1, "FragmentManager"
 
-    invoke-direct {v0, v1}, Lcom/abdhoms/myprofile/cj;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/khaibin/myprofile/cj;-><init>(Ljava/lang/String;)V
 
     new-instance v1, Ljava/io/PrintWriter;
 
@@ -2210,11 +2210,11 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    new-instance v0, Lcom/abdhoms/myprofile/cj;
+    new-instance v0, Lcom/khaibin/myprofile/cj;
 
     const-string v1, "FragmentManager"
 
-    invoke-direct {v0, v1}, Lcom/abdhoms/myprofile/cj;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/khaibin/myprofile/cj;-><init>(Ljava/lang/String;)V
 
     new-instance v1, Ljava/io/PrintWriter;
 

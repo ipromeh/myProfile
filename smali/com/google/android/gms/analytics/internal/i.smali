@@ -8,7 +8,7 @@
 
 
 # static fields
-.field private static volatile a:Lcom/abdhoms/myprofile/vz;
+.field private static volatile a:Lcom/khaibin/myprofile/vz;
 
 
 # direct methods
@@ -19,23 +19,23 @@
 
     invoke-direct {v0}, Lcom/google/android/gms/analytics/internal/bg;-><init>()V
 
-    invoke-static {v0}, Lcom/google/android/gms/analytics/internal/i;->a(Lcom/abdhoms/myprofile/vz;)V
+    invoke-static {v0}, Lcom/google/android/gms/analytics/internal/i;->a(Lcom/khaibin/myprofile/vz;)V
 
     return-void
 .end method
 
-.method public static a()Lcom/abdhoms/myprofile/vz;
+.method public static a()Lcom/khaibin/myprofile/vz;
     .locals 1
 
-    sget-object v0, Lcom/google/android/gms/analytics/internal/i;->a:Lcom/abdhoms/myprofile/vz;
+    sget-object v0, Lcom/google/android/gms/analytics/internal/i;->a:Lcom/khaibin/myprofile/vz;
 
     return-object v0
 .end method
 
-.method public static a(Lcom/abdhoms/myprofile/vz;)V
+.method public static a(Lcom/khaibin/myprofile/vz;)V
     .locals 0
 
-    sput-object p0, Lcom/google/android/gms/analytics/internal/i;->a:Lcom/abdhoms/myprofile/vz;
+    sput-object p0, Lcom/google/android/gms/analytics/internal/i;->a:Lcom/khaibin/myprofile/vz;
 
     return-void
 .end method
@@ -53,11 +53,11 @@
 
     :cond_0
     :goto_0
-    sget-object v0, Lcom/google/android/gms/analytics/internal/i;->a:Lcom/abdhoms/myprofile/vz;
+    sget-object v0, Lcom/google/android/gms/analytics/internal/i;->a:Lcom/khaibin/myprofile/vz;
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0, p0}, Lcom/abdhoms/myprofile/vz;->b(Ljava/lang/String;)V
+    invoke-interface {v0, p0}, Lcom/khaibin/myprofile/vz;->b(Ljava/lang/String;)V
 
     :cond_1
     return-void
@@ -97,11 +97,11 @@
 
     :cond_0
     :goto_0
-    sget-object v0, Lcom/google/android/gms/analytics/internal/i;->a:Lcom/abdhoms/myprofile/vz;
+    sget-object v0, Lcom/google/android/gms/analytics/internal/i;->a:Lcom/khaibin/myprofile/vz;
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0, p0}, Lcom/abdhoms/myprofile/vz;->d(Ljava/lang/String;)V
+    invoke-interface {v0, p0}, Lcom/khaibin/myprofile/vz;->d(Ljava/lang/String;)V
 
     :cond_1
     return-void
@@ -165,17 +165,17 @@
 
     const/4 v0, 0x0
 
-    invoke-static {}, Lcom/google/android/gms/analytics/internal/i;->a()Lcom/abdhoms/myprofile/vz;
+    invoke-static {}, Lcom/google/android/gms/analytics/internal/i;->a()Lcom/khaibin/myprofile/vz;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    invoke-static {}, Lcom/google/android/gms/analytics/internal/i;->a()Lcom/abdhoms/myprofile/vz;
+    invoke-static {}, Lcom/google/android/gms/analytics/internal/i;->a()Lcom/khaibin/myprofile/vz;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/abdhoms/myprofile/vz;->a()I
+    invoke-interface {v1}, Lcom/khaibin/myprofile/vz;->a()I
 
     move-result v1
 
@@ -200,11 +200,11 @@
 
     :cond_0
     :goto_0
-    sget-object v0, Lcom/google/android/gms/analytics/internal/i;->a:Lcom/abdhoms/myprofile/vz;
+    sget-object v0, Lcom/google/android/gms/analytics/internal/i;->a:Lcom/khaibin/myprofile/vz;
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0, p0}, Lcom/abdhoms/myprofile/vz;->a(Ljava/lang/String;)V
+    invoke-interface {v0, p0}, Lcom/khaibin/myprofile/vz;->a(Ljava/lang/String;)V
 
     :cond_1
     return-void
@@ -244,11 +244,11 @@
 
     :cond_0
     :goto_0
-    sget-object v0, Lcom/google/android/gms/analytics/internal/i;->a:Lcom/abdhoms/myprofile/vz;
+    sget-object v0, Lcom/google/android/gms/analytics/internal/i;->a:Lcom/khaibin/myprofile/vz;
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0, p0}, Lcom/abdhoms/myprofile/vz;->c(Ljava/lang/String;)V
+    invoke-interface {v0, p0}, Lcom/khaibin/myprofile/vz;->c(Ljava/lang/String;)V
 
     :cond_1
     return-void

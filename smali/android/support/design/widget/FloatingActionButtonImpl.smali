@@ -105,25 +105,25 @@
 
     move-result-object v1
 
-    sget v2, Lcom/abdhoms/myprofile/d;->design_fab_stroke_top_outer_color:I
+    sget v2, Lcom/khaibin/myprofile/d;->design_fab_stroke_top_outer_color:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v2
 
-    sget v3, Lcom/abdhoms/myprofile/d;->design_fab_stroke_top_inner_color:I
+    sget v3, Lcom/khaibin/myprofile/d;->design_fab_stroke_top_inner_color:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v3
 
-    sget v4, Lcom/abdhoms/myprofile/d;->design_fab_stroke_end_inner_color:I
+    sget v4, Lcom/khaibin/myprofile/d;->design_fab_stroke_end_inner_color:I
 
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v4
 
-    sget v5, Lcom/abdhoms/myprofile/d;->design_fab_stroke_end_outer_color:I
+    sget v5, Lcom/khaibin/myprofile/d;->design_fab_stroke_end_outer_color:I
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getColor(I)I
 

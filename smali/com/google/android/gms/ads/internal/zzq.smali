@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -27,7 +27,7 @@
 
     new-instance v0, Lcom/google/android/gms/ads/internal/zzq$zza;
 
-    sget-object v1, Lcom/abdhoms/myprofile/art;->a:Landroid/os/Handler;
+    sget-object v1, Lcom/khaibin/myprofile/art;->a:Landroid/os/Handler;
 
     invoke-direct {v0, v1}, Lcom/google/android/gms/ads/internal/zzq$zza;-><init>(Landroid/os/Handler;)V
 
@@ -153,7 +153,7 @@
 
     const-string v0, "An ad refresh is already scheduled."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     :cond_0
     :goto_0
@@ -196,7 +196,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaJ(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaJ(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/zzq;->a:Lcom/google/android/gms/ads/internal/zzq$zza;
 

@@ -20,9 +20,9 @@
 
     sput-object v0, Landroid/support/design/widget/AnimationUtils;->LINEAR_INTERPOLATOR:Landroid/view/animation/Interpolator;
 
-    new-instance v0, Lcom/abdhoms/myprofile/er;
+    new-instance v0, Lcom/khaibin/myprofile/er;
 
-    invoke-direct {v0}, Lcom/abdhoms/myprofile/er;-><init>()V
+    invoke-direct {v0}, Lcom/khaibin/myprofile/er;-><init>()V
 
     sput-object v0, Landroid/support/design/widget/AnimationUtils;->FAST_OUT_SLOW_IN_INTERPOLATOR:Landroid/view/animation/Interpolator;
 

@@ -92,15 +92,15 @@
 
     iput-object v0, p0, Landroid/support/design/widget/NavigationView;->mMenu:Landroid/support/design/internal/b;
 
-    sget-object v0, Lcom/abdhoms/myprofile/k;->NavigationView:[I
+    sget-object v0, Lcom/khaibin/myprofile/k;->NavigationView:[I
 
-    sget v1, Lcom/abdhoms/myprofile/j;->Widget_Design_NavigationView:I
+    sget v1, Lcom/khaibin/myprofile/j;->Widget_Design_NavigationView:I
 
     invoke-virtual {p1, p2, v0, p3, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     move-result-object v6
 
-    sget v0, Lcom/abdhoms/myprofile/k;->NavigationView_android_background:I
+    sget v0, Lcom/khaibin/myprofile/k;->NavigationView_android_background:I
 
     invoke-virtual {v6, v0}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -108,7 +108,7 @@
 
     invoke-virtual {p0, v0}, Landroid/support/design/widget/NavigationView;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    sget v0, Lcom/abdhoms/myprofile/k;->NavigationView_elevation:I
+    sget v0, Lcom/khaibin/myprofile/k;->NavigationView_elevation:I
 
     invoke-virtual {v6, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -116,7 +116,7 @@
 
     if-eqz v0, :cond_0
 
-    sget v0, Lcom/abdhoms/myprofile/k;->NavigationView_elevation:I
+    sget v0, Lcom/khaibin/myprofile/k;->NavigationView_elevation:I
 
     invoke-virtual {v6, v0, v2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -127,7 +127,7 @@
     invoke-static {p0, v0}, Landroid/support/v4/view/bw;->f(Landroid/view/View;F)V
 
     :cond_0
-    sget v0, Lcom/abdhoms/myprofile/k;->NavigationView_android_fitsSystemWindows:I
+    sget v0, Lcom/khaibin/myprofile/k;->NavigationView_android_fitsSystemWindows:I
 
     invoke-virtual {v6, v0, v2}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
@@ -135,7 +135,7 @@
 
     invoke-static {p0, v0}, Landroid/support/v4/view/bw;->a(Landroid/view/View;Z)V
 
-    sget v0, Lcom/abdhoms/myprofile/k;->NavigationView_android_maxWidth:I
+    sget v0, Lcom/khaibin/myprofile/k;->NavigationView_android_maxWidth:I
 
     invoke-virtual {v6, v0, v2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -143,7 +143,7 @@
 
     iput v0, p0, Landroid/support/design/widget/NavigationView;->mMaxWidth:I
 
-    sget v0, Lcom/abdhoms/myprofile/k;->NavigationView_itemIconTint:I
+    sget v0, Lcom/khaibin/myprofile/k;->NavigationView_itemIconTint:I
 
     invoke-virtual {v6, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -151,14 +151,14 @@
 
     if-eqz v0, :cond_6
 
-    sget v0, Lcom/abdhoms/myprofile/k;->NavigationView_itemIconTint:I
+    sget v0, Lcom/khaibin/myprofile/k;->NavigationView_itemIconTint:I
 
     invoke-virtual {v6, v0}, Landroid/content/res/TypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     move-result-object v0
 
     :goto_0
-    sget v1, Lcom/abdhoms/myprofile/k;->NavigationView_itemTextAppearance:I
+    sget v1, Lcom/khaibin/myprofile/k;->NavigationView_itemTextAppearance:I
 
     invoke-virtual {v6, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -166,7 +166,7 @@
 
     if-eqz v1, :cond_7
 
-    sget v1, Lcom/abdhoms/myprofile/k;->NavigationView_itemTextAppearance:I
+    sget v1, Lcom/khaibin/myprofile/k;->NavigationView_itemTextAppearance:I
 
     invoke-virtual {v6, v1, v2}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -177,7 +177,7 @@
     :goto_1
     const/4 v5, 0x0
 
-    sget v7, Lcom/abdhoms/myprofile/k;->NavigationView_itemTextColor:I
+    sget v7, Lcom/khaibin/myprofile/k;->NavigationView_itemTextColor:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -185,7 +185,7 @@
 
     if-eqz v7, :cond_1
 
-    sget v5, Lcom/abdhoms/myprofile/k;->NavigationView_itemTextColor:I
+    sget v5, Lcom/khaibin/myprofile/k;->NavigationView_itemTextColor:I
 
     invoke-virtual {v6, v5}, Landroid/content/res/TypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -203,7 +203,7 @@
     move-result-object v5
 
     :cond_2
-    sget v7, Lcom/abdhoms/myprofile/k;->NavigationView_itemBackground:I
+    sget v7, Lcom/khaibin/myprofile/k;->NavigationView_itemBackground:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -262,7 +262,7 @@
 
     invoke-virtual {p0, v0}, Landroid/support/design/widget/NavigationView;->addView(Landroid/view/View;)V
 
-    sget v0, Lcom/abdhoms/myprofile/k;->NavigationView_menu:I
+    sget v0, Lcom/khaibin/myprofile/k;->NavigationView_menu:I
 
     invoke-virtual {v6, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -270,7 +270,7 @@
 
     if-eqz v0, :cond_4
 
-    sget v0, Lcom/abdhoms/myprofile/k;->NavigationView_menu:I
+    sget v0, Lcom/khaibin/myprofile/k;->NavigationView_menu:I
 
     invoke-virtual {v6, v0, v2}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -279,7 +279,7 @@
     invoke-virtual {p0, v0}, Landroid/support/design/widget/NavigationView;->inflateMenu(I)V
 
     :cond_4
-    sget v0, Lcom/abdhoms/myprofile/k;->NavigationView_headerLayout:I
+    sget v0, Lcom/khaibin/myprofile/k;->NavigationView_headerLayout:I
 
     invoke-virtual {v6, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -287,7 +287,7 @@
 
     if-eqz v0, :cond_5
 
-    sget v0, Lcom/abdhoms/myprofile/k;->NavigationView_headerLayout:I
+    sget v0, Lcom/khaibin/myprofile/k;->NavigationView_headerLayout:I
 
     invoke-virtual {v6, v0, v2}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -379,7 +379,7 @@
 
     move-result-object v3
 
-    sget v4, Lcom/abdhoms/myprofile/c;->colorPrimary:I
+    sget v4, Lcom/khaibin/myprofile/c;->colorPrimary:I
 
     invoke-virtual {v3, v4, v1, v7}, Landroid/content/res/Resources$Theme;->resolveAttribute(ILandroid/util/TypedValue;Z)Z
 
@@ -435,13 +435,13 @@
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/abdhoms/myprofile/iu;
+    new-instance v0, Lcom/khaibin/myprofile/iu;
 
     invoke-virtual {p0}, Landroid/support/design/widget/NavigationView;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/abdhoms/myprofile/iu;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/khaibin/myprofile/iu;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, Landroid/support/design/widget/NavigationView;->mMenuInflater:Landroid/view/MenuInflater;
 
@@ -720,7 +720,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/abdhoms/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/khaibin/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 

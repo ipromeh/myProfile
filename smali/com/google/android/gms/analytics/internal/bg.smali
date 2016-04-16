@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/vz;
+.implements Lcom/khaibin/myprofile/vz;
 
 
 # instance fields

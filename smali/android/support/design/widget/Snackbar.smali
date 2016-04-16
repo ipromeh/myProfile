@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/h;->design_layout_snackbar:I
+    sget v1, Lcom/khaibin/myprofile/h;->design_layout_snackbar:I
 
     iget-object v2, p0, Landroid/support/design/widget/Snackbar;->mTargetParent:Landroid/view/ViewGroup;
 
@@ -222,7 +222,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/b;->design_snackbar_in:I
+    sget v1, Lcom/khaibin/myprofile/b;->design_snackbar_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -306,7 +306,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/b;->design_snackbar_out:I
+    sget v1, Lcom/khaibin/myprofile/b;->design_snackbar_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

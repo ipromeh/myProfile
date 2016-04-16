@@ -102,7 +102,7 @@
 
     move-result-object v4
 
-    sget v5, Lcom/abdhoms/myprofile/ve;->common_google_play_services_unknown_issue:I
+    sget v5, Lcom/khaibin/myprofile/ve;->common_google_play_services_unknown_issue:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
     :try_end_0
@@ -139,7 +139,7 @@
 
     move-result-object v5
 
-    invoke-static {p0}, Lcom/abdhoms/myprofile/awl;->a(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/khaibin/myprofile/awl;->a(Landroid/content/Context;)Z
 
     move-result v6
 
@@ -253,13 +253,13 @@
     :cond_4
     sget v0, Lcom/google/android/gms/common/n;->a:I
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/awn;->a(I)I
+    invoke-static {v0}, Lcom/khaibin/myprofile/awn;->a(I)I
 
     move-result v0
 
     iget v5, v4, Landroid/content/pm/PackageInfo;->versionCode:I
 
-    invoke-static {v5}, Lcom/abdhoms/myprofile/awn;->a(I)I
+    invoke-static {v5}, Lcom/khaibin/myprofile/awn;->a(I)I
 
     move-result v5
 
@@ -464,7 +464,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {}, Lcom/abdhoms/myprofile/aws;->e()Z
+    invoke-static {}, Lcom/khaibin/myprofile/aws;->e()Z
 
     move-result v0
 
@@ -540,7 +540,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {}, Lcom/abdhoms/myprofile/aws;->h()Z
+    invoke-static {}, Lcom/khaibin/myprofile/aws;->h()Z
 
     move-result v0
 
@@ -977,7 +977,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/abdhoms/myprofile/aws;->h()Z
+    invoke-static {}, Lcom/khaibin/myprofile/aws;->h()Z
 
     move-result v1
 
@@ -1008,7 +1008,7 @@
         value = 0x12
     .end annotation
 
-    invoke-static {}, Lcom/abdhoms/myprofile/aws;->d()Z
+    invoke-static {}, Lcom/khaibin/myprofile/aws;->d()Z
 
     move-result v0
 

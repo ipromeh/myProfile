@@ -91,19 +91,19 @@
     return-void
 .end method
 
-.method public zza(Lcom/abdhoms/myprofile/acu;)V
+.method public zza(Lcom/khaibin/myprofile/acu;)V
     .locals 0
 
     return-void
 .end method
 
-.method public zza(Lcom/abdhoms/myprofile/ams;)V
+.method public zza(Lcom/khaibin/myprofile/ams;)V
     .locals 0
 
     return-void
 .end method
 
-.method public zza(Lcom/abdhoms/myprofile/ane;Ljava/lang/String;)V
+.method public zza(Lcom/khaibin/myprofile/ane;Ljava/lang/String;)V
     .locals 0
 
     return-void
@@ -147,7 +147,7 @@
     return-void
 .end method
 
-.method public zzaM()Lcom/abdhoms/myprofile/yh;
+.method public zzaM()Lcom/khaibin/myprofile/yh;
     .locals 1
 
     const/4 v0, 0x0

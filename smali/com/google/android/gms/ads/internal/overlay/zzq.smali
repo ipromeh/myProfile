@@ -42,12 +42,12 @@
     return v0
 .end method
 
-.method public zzg(Lcom/abdhoms/myprofile/atx;Ljava/util/Map;)V
+.method public zzg(Lcom/khaibin/myprofile/atx;Ljava/util/Map;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/abdhoms/myprofile/atx;",
+            "Lcom/khaibin/myprofile/atx;",
             "Ljava/util/Map",
             "<",
             "Ljava/lang/String;",

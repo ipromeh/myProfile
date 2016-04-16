@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/afc;
+.implements Lcom/khaibin/myprofile/afc;
 
 
 # instance fields
@@ -22,12 +22,12 @@
 
 
 # virtual methods
-.method public zza(Lcom/abdhoms/myprofile/atx;Ljava/util/Map;)V
+.method public zza(Lcom/khaibin/myprofile/atx;Ljava/util/Map;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/abdhoms/myprofile/atx;",
+            "Lcom/khaibin/myprofile/atx;",
             "Ljava/util/Map",
             "<",
             "Ljava/lang/String;",
@@ -38,11 +38,11 @@
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/formats/f;->a:Lcom/google/android/gms/ads/internal/formats/zzi;
 
-    invoke-static {v0}, Lcom/google/android/gms/ads/internal/formats/zzi;->c(Lcom/google/android/gms/ads/internal/formats/zzi;)Lcom/abdhoms/myprofile/atx;
+    invoke-static {v0}, Lcom/google/android/gms/ads/internal/formats/zzi;->c(Lcom/google/android/gms/ads/internal/formats/zzi;)Lcom/khaibin/myprofile/atx;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/atx;->b()Landroid/view/View;
+    invoke-interface {v0}, Lcom/khaibin/myprofile/atx;->b()Landroid/view/View;
 
     move-result-object v0
 

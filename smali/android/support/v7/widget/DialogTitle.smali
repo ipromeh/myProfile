@@ -68,7 +68,7 @@
 
     const/4 v1, 0x0
 
-    sget-object v2, Lcom/abdhoms/myprofile/hz;->TextAppearance:[I
+    sget-object v2, Lcom/khaibin/myprofile/hz;->TextAppearance:[I
 
     const v3, 0x1010041
 
@@ -78,7 +78,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->TextAppearance_android_textSize:I
+    sget v1, Lcom/khaibin/myprofile/hz;->TextAppearance_android_textSize:I
 
     invoke-virtual {v0, v1, v5}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 

@@ -25,13 +25,13 @@
 
 
 # virtual methods
-.method public zza(Lcom/abdhoms/myprofile/adu;)V
+.method public zza(Lcom/khaibin/myprofile/adu;)V
     .locals 0
 
     return-void
 .end method
 
-.method public zza(Lcom/abdhoms/myprofile/adx;)V
+.method public zza(Lcom/khaibin/myprofile/adx;)V
     .locals 0
 
     return-void
@@ -43,7 +43,7 @@
     return-void
 .end method
 
-.method public zza(Ljava/lang/String;Lcom/abdhoms/myprofile/aed;Lcom/abdhoms/myprofile/aea;)V
+.method public zza(Ljava/lang/String;Lcom/khaibin/myprofile/aed;Lcom/khaibin/myprofile/aea;)V
     .locals 0
 
     return-void

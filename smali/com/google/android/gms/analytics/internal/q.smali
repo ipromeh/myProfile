@@ -3,32 +3,32 @@
 
 
 # instance fields
-.field private final a:Lcom/abdhoms/myprofile/awi;
+.field private final a:Lcom/khaibin/myprofile/awi;
 
 .field private b:J
 
 
 # direct methods
-.method public constructor <init>(Lcom/abdhoms/myprofile/awi;)V
+.method public constructor <init>(Lcom/khaibin/myprofile/awi;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     invoke-static {p1}, Lcom/google/android/gms/common/internal/be;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
-    iput-object p1, p0, Lcom/google/android/gms/analytics/internal/q;->a:Lcom/abdhoms/myprofile/awi;
+    iput-object p1, p0, Lcom/google/android/gms/analytics/internal/q;->a:Lcom/khaibin/myprofile/awi;
 
     return-void
 .end method
 
-.method public constructor <init>(Lcom/abdhoms/myprofile/awi;J)V
+.method public constructor <init>(Lcom/khaibin/myprofile/awi;J)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     invoke-static {p1}, Lcom/google/android/gms/common/internal/be;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
-    iput-object p1, p0, Lcom/google/android/gms/analytics/internal/q;->a:Lcom/abdhoms/myprofile/awi;
+    iput-object p1, p0, Lcom/google/android/gms/analytics/internal/q;->a:Lcom/khaibin/myprofile/awi;
 
     iput-wide p2, p0, Lcom/google/android/gms/analytics/internal/q;->b:J
 
@@ -40,9 +40,9 @@
 .method public a()V
     .locals 2
 
-    iget-object v0, p0, Lcom/google/android/gms/analytics/internal/q;->a:Lcom/abdhoms/myprofile/awi;
+    iget-object v0, p0, Lcom/google/android/gms/analytics/internal/q;->a:Lcom/khaibin/myprofile/awi;
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/awi;->b()J
+    invoke-interface {v0}, Lcom/khaibin/myprofile/awi;->b()J
 
     move-result-wide v0
 
@@ -69,9 +69,9 @@
     return v0
 
     :cond_1
-    iget-object v1, p0, Lcom/google/android/gms/analytics/internal/q;->a:Lcom/abdhoms/myprofile/awi;
+    iget-object v1, p0, Lcom/google/android/gms/analytics/internal/q;->a:Lcom/khaibin/myprofile/awi;
 
-    invoke-interface {v1}, Lcom/abdhoms/myprofile/awi;->b()J
+    invoke-interface {v1}, Lcom/khaibin/myprofile/awi;->b()J
 
     move-result-wide v2
 

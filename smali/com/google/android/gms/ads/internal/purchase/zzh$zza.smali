@@ -66,7 +66,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaJ(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaJ(Ljava/lang/String;)V
 
     const-string v0, "DROP TABLE IF EXISTS InAppPurchase"
 

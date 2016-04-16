@@ -53,9 +53,9 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    sget v0, Lcom/abdhoms/myprofile/hw;->abc_action_menu_layout:I
+    sget v0, Lcom/khaibin/myprofile/hw;->abc_action_menu_layout:I
 
-    sget v1, Lcom/abdhoms/myprofile/hw;->abc_action_menu_item_layout:I
+    sget v1, Lcom/khaibin/myprofile/hw;->abc_action_menu_item_layout:I
 
     invoke-direct {p0, p1, v0, v1}, Landroid/support/v7/view/menu/d;-><init>(Landroid/content/Context;II)V
 
@@ -322,7 +322,7 @@
 
     move-result-object v1
 
-    invoke-static {p1}, Lcom/abdhoms/myprofile/im;->a(Landroid/content/Context;)Lcom/abdhoms/myprofile/im;
+    invoke-static {p1}, Lcom/khaibin/myprofile/im;->a(Landroid/content/Context;)Lcom/khaibin/myprofile/im;
 
     move-result-object v0
 
@@ -330,7 +330,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/im;->b()Z
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/im;->b()Z
 
     move-result v2
 
@@ -341,7 +341,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/im;->c()I
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/im;->c()I
 
     move-result v2
 
@@ -352,7 +352,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/im;->a()I
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/im;->a()I
 
     move-result v0
 
@@ -449,7 +449,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hv;->abc_max_action_buttons:I
+    sget v1, Lcom/khaibin/myprofile/hv;->abc_max_action_buttons:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -603,7 +603,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/il;->a(Landroid/view/ViewGroup;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/il;->a(Landroid/view/ViewGroup;)V
 
     :cond_0
     invoke-super {p0, p1}, Landroid/support/v7/view/menu/d;->a(Z)V

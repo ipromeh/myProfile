@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/afc;
+.implements Lcom/khaibin/myprofile/afc;
 
 
 # instance fields
@@ -22,12 +22,12 @@
 
 
 # virtual methods
-.method public zza(Lcom/abdhoms/myprofile/atx;Ljava/util/Map;)V
+.method public zza(Lcom/khaibin/myprofile/atx;Ljava/util/Map;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/abdhoms/myprofile/atx;",
+            "Lcom/khaibin/myprofile/atx;",
             "Ljava/util/Map",
             "<",
             "Ljava/lang/String;",
@@ -38,13 +38,13 @@
 
     const-string v0, "Adapter returned an ad, but assets substitution failed"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/p;->a:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->countDown()V
 
-    invoke-interface {p1}, Lcom/abdhoms/myprofile/atx;->destroy()V
+    invoke-interface {p1}, Lcom/khaibin/myprofile/atx;->destroy()V
 
     return-void
 .end method

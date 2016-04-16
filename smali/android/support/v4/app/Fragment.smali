@@ -9,10 +9,10 @@
 # static fields
 .field static final a:Ljava/lang/Object;
 
-.field private static final aa:Lcom/abdhoms/myprofile/cv;
+.field private static final aa:Lcom/khaibin/myprofile/cv;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/abdhoms/myprofile/cv",
+            "Lcom/khaibin/myprofile/cv",
             "<",
             "Ljava/lang/String;",
             "Ljava/lang/Class",
@@ -139,11 +139,11 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lcom/abdhoms/myprofile/cv;
+    new-instance v0, Lcom/khaibin/myprofile/cv;
 
-    invoke-direct {v0}, Lcom/abdhoms/myprofile/cv;-><init>()V
+    invoke-direct {v0}, Lcom/khaibin/myprofile/cv;-><init>()V
 
-    sput-object v0, Landroid/support/v4/app/Fragment;->aa:Lcom/abdhoms/myprofile/cv;
+    sput-object v0, Landroid/support/v4/app/Fragment;->aa:Lcom/khaibin/myprofile/cv;
 
     new-instance v0, Ljava/lang/Object;
 
@@ -218,9 +218,9 @@
     .locals 4
 
     :try_start_0
-    sget-object v0, Landroid/support/v4/app/Fragment;->aa:Lcom/abdhoms/myprofile/cv;
+    sget-object v0, Landroid/support/v4/app/Fragment;->aa:Lcom/khaibin/myprofile/cv;
 
-    invoke-virtual {v0, p1}, Lcom/abdhoms/myprofile/cv;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/khaibin/myprofile/cv;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -236,9 +236,9 @@
 
     move-result-object v0
 
-    sget-object v1, Landroid/support/v4/app/Fragment;->aa:Lcom/abdhoms/myprofile/cv;
+    sget-object v1, Landroid/support/v4/app/Fragment;->aa:Lcom/khaibin/myprofile/cv;
 
-    invoke-virtual {v1, p1, v0}, Lcom/abdhoms/myprofile/cv;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v0}, Lcom/khaibin/myprofile/cv;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
     invoke-virtual {v0}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
@@ -390,9 +390,9 @@
     .locals 2
 
     :try_start_0
-    sget-object v0, Landroid/support/v4/app/Fragment;->aa:Lcom/abdhoms/myprofile/cv;
+    sget-object v0, Landroid/support/v4/app/Fragment;->aa:Lcom/khaibin/myprofile/cv;
 
-    invoke-virtual {v0, p1}, Lcom/abdhoms/myprofile/cv;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/khaibin/myprofile/cv;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -408,9 +408,9 @@
 
     move-result-object v0
 
-    sget-object v1, Landroid/support/v4/app/Fragment;->aa:Lcom/abdhoms/myprofile/cv;
+    sget-object v1, Landroid/support/v4/app/Fragment;->aa:Lcom/khaibin/myprofile/cv;
 
-    invoke-virtual {v1, p1, v0}, Lcom/abdhoms/myprofile/cv;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v0}, Lcom/khaibin/myprofile/cv;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
     const-class v1, Landroid/support/v4/app/Fragment;
@@ -2845,7 +2845,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    invoke-static {p0, v0}, Lcom/abdhoms/myprofile/ci;->a(Ljava/lang/Object;Ljava/lang/StringBuilder;)V
+    invoke-static {p0, v0}, Lcom/khaibin/myprofile/ci;->a(Ljava/lang/Object;Ljava/lang/StringBuilder;)V
 
     iget v1, p0, Landroid/support/v4/app/Fragment;->g:I
 

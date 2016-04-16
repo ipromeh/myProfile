@@ -78,7 +78,7 @@
 
     iput-boolean v2, p0, Landroid/support/v7/widget/ey;->r:Z
 
-    sget v0, Lcom/abdhoms/myprofile/ib;->cardview_shadow_start_color:I
+    sget v0, Lcom/khaibin/myprofile/ib;->cardview_shadow_start_color:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -86,7 +86,7 @@
 
     iput v0, p0, Landroid/support/v7/widget/ey;->o:I
 
-    sget v0, Lcom/abdhoms/myprofile/ib;->cardview_shadow_end_color:I
+    sget v0, Lcom/khaibin/myprofile/ib;->cardview_shadow_end_color:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -94,7 +94,7 @@
 
     iput v0, p0, Landroid/support/v7/widget/ey;->p:I
 
-    sget v0, Lcom/abdhoms/myprofile/ic;->cardview_compat_inset_shadow:I
+    sget v0, Lcom/khaibin/myprofile/ic;->cardview_compat_inset_shadow:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

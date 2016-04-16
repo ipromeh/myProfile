@@ -6,12 +6,12 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
 # instance fields
-.field private final a:Lcom/abdhoms/myprofile/atx;
+.field private final a:Lcom/khaibin/myprofile/atx;
 
 .field private final b:Landroid/widget/FrameLayout;
 
@@ -35,14 +35,14 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/abdhoms/myprofile/atx;ILcom/abdhoms/myprofile/aco;Lcom/abdhoms/myprofile/ack;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/khaibin/myprofile/atx;ILcom/khaibin/myprofile/aco;Lcom/khaibin/myprofile/ack;)V
     .locals 7
 
     const/4 v6, -0x1
 
     invoke-direct {p0, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    iput-object p2, p0, Lcom/google/android/gms/ads/internal/overlay/zzk;->a:Lcom/abdhoms/myprofile/atx;
+    iput-object p2, p0, Lcom/google/android/gms/ads/internal/overlay/zzk;->a:Lcom/khaibin/myprofile/atx;
 
     new-instance v0, Landroid/widget/FrameLayout;
 
@@ -58,13 +58,13 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/google/android/gms/ads/internal/overlay/zzk;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    invoke-interface {p2}, Lcom/abdhoms/myprofile/atx;->h()Lcom/google/android/gms/ads/internal/zzd;
+    invoke-interface {p2}, Lcom/khaibin/myprofile/atx;->h()Lcom/google/android/gms/ads/internal/zzd;
 
     move-result-object v0
 
     invoke-static {v0}, Lcom/google/android/gms/common/internal/d;->a(Ljava/lang/Object;)V
 
-    invoke-interface {p2}, Lcom/abdhoms/myprofile/atx;->h()Lcom/google/android/gms/ads/internal/zzd;
+    invoke-interface {p2}, Lcom/khaibin/myprofile/atx;->h()Lcom/google/android/gms/ads/internal/zzd;
 
     move-result-object v0
 
@@ -80,7 +80,7 @@
 
     move-object v5, p5
 
-    invoke-virtual/range {v0 .. v5}, Lcom/google/android/gms/ads/internal/overlay/zzj;->zza(Landroid/content/Context;Lcom/abdhoms/myprofile/atx;ILcom/abdhoms/myprofile/aco;Lcom/abdhoms/myprofile/ack;)Lcom/google/android/gms/ads/internal/overlay/zzi;
+    invoke-virtual/range {v0 .. v5}, Lcom/google/android/gms/ads/internal/overlay/zzj;->zza(Landroid/content/Context;Lcom/khaibin/myprofile/atx;ILcom/khaibin/myprofile/aco;Lcom/khaibin/myprofile/ack;)Lcom/google/android/gms/ads/internal/overlay/zzi;
 
     move-result-object v0
 
@@ -193,11 +193,11 @@
     goto :goto_1
 
     :cond_1
-    iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzk;->a:Lcom/abdhoms/myprofile/atx;
+    iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzk;->a:Lcom/khaibin/myprofile/atx;
 
     const-string v1, "onVideoEvent"
 
-    invoke-interface {v0, v1, v4}, Lcom/abdhoms/myprofile/atx;->a(Ljava/lang/String;Ljava/util/Map;)V
+    invoke-interface {v0, v1, v4}, Lcom/khaibin/myprofile/atx;->a(Ljava/lang/String;Ljava/util/Map;)V
 
     return-void
 .end method
@@ -279,9 +279,9 @@
 
     const/4 v1, 0x1
 
-    iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzk;->a:Lcom/abdhoms/myprofile/atx;
+    iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzk;->a:Lcom/khaibin/myprofile/atx;
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/atx;->f()Landroid/app/Activity;
+    invoke-interface {v0}, Lcom/khaibin/myprofile/atx;->f()Landroid/app/Activity;
 
     move-result-object v0
 
@@ -296,9 +296,9 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzk;->a:Lcom/abdhoms/myprofile/atx;
+    iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzk;->a:Lcom/khaibin/myprofile/atx;
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/atx;->f()Landroid/app/Activity;
+    invoke-interface {v0}, Lcom/khaibin/myprofile/atx;->f()Landroid/app/Activity;
 
     move-result-object v0
 
@@ -325,9 +325,9 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzk;->a:Lcom/abdhoms/myprofile/atx;
+    iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzk;->a:Lcom/khaibin/myprofile/atx;
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/atx;->f()Landroid/app/Activity;
+    invoke-interface {v0}, Lcom/khaibin/myprofile/atx;->f()Landroid/app/Activity;
 
     move-result-object v0
 
@@ -352,9 +352,9 @@
 .method private f()V
     .locals 2
 
-    iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzk;->a:Lcom/abdhoms/myprofile/atx;
+    iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzk;->a:Lcom/khaibin/myprofile/atx;
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/atx;->f()Landroid/app/Activity;
+    invoke-interface {v0}, Lcom/khaibin/myprofile/atx;->f()Landroid/app/Activity;
 
     move-result-object v0
 
@@ -373,9 +373,9 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzk;->a:Lcom/abdhoms/myprofile/atx;
+    iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzk;->a:Lcom/khaibin/myprofile/atx;
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/atx;->f()Landroid/app/Activity;
+    invoke-interface {v0}, Lcom/khaibin/myprofile/atx;->f()Landroid/app/Activity;
 
     move-result-object v0
 
@@ -394,7 +394,7 @@
     goto :goto_0
 .end method
 
-.method public static zzg(Lcom/abdhoms/myprofile/atx;)V
+.method public static zzg(Lcom/khaibin/myprofile/atx;)V
     .locals 3
 
     new-instance v0, Ljava/util/HashMap;
@@ -409,7 +409,7 @@
 
     const-string v1, "onVideoEvent"
 
-    invoke-interface {p0, v1, v0}, Lcom/abdhoms/myprofile/atx;->a(Ljava/lang/String;Ljava/util/Map;)V
+    invoke-interface {p0, v1, v0}, Lcom/khaibin/myprofile/atx;->a(Ljava/lang/String;Ljava/util/Map;)V
 
     return-void
 .end method

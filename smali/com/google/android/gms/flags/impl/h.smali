@@ -21,7 +21,7 @@
 
     invoke-direct {v0, p0, p1, p2}, Lcom/google/android/gms/flags/impl/i;-><init>(Landroid/content/SharedPreferences;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/axd;->a(Ljava/util/concurrent/Callable;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/khaibin/myprofile/axd;->a(Ljava/util/concurrent/Callable;)Ljava/lang/Object;
 
     move-result-object v0
 

@@ -76,7 +76,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {v1}, Lcom/abdhoms/myprofile/t;->a(Landroid/content/ComponentName;)Landroid/content/Intent;
+    invoke-static {v1}, Lcom/khaibin/myprofile/t;->a(Landroid/content/ComponentName;)Landroid/content/Intent;
 
     move-result-object v0
 

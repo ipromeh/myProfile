@@ -2,14 +2,14 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/auz;
+.implements Lcom/khaibin/myprofile/auz;
 .implements Lcom/google/android/gms/ads/mediation/MediationBannerAdapter;
 .implements Lcom/google/android/gms/ads/mediation/MediationNativeAdapter;
 .implements Lcom/google/android/gms/ads/reward/mediation/MediationRewardedVideoAdAdapter;
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -300,7 +300,7 @@
     :cond_0
     const-string v0, "AdMobAdapter.loadAd called before initialize."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->e(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->e(Ljava/lang/String;)V
 
     :goto_0
     return-void

@@ -56,9 +56,9 @@
 
     sput-object v0, Landroid/support/v4/widget/ap;->b:Landroid/view/animation/Interpolator;
 
-    new-instance v0, Lcom/abdhoms/myprofile/er;
+    new-instance v0, Lcom/khaibin/myprofile/er;
 
-    invoke-direct {v0}, Lcom/abdhoms/myprofile/er;-><init>()V
+    invoke-direct {v0}, Lcom/khaibin/myprofile/er;-><init>()V
 
     sput-object v0, Landroid/support/v4/widget/ap;->c:Landroid/view/animation/Interpolator;
 

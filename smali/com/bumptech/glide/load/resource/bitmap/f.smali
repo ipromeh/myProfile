@@ -65,7 +65,7 @@
 
     const/4 v0, 0x0
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/vb;->a(I)Ljava/util/Queue;
+    invoke-static {v0}, Lcom/khaibin/myprofile/vb;->a(I)Ljava/util/Queue;
 
     move-result-object v0
 
@@ -157,16 +157,16 @@
     goto :goto_1
 .end method
 
-.method private static a(Ljava/io/InputStream;Lcom/abdhoms/myprofile/lg;)Landroid/graphics/Bitmap$Config;
+.method private static a(Ljava/io/InputStream;Lcom/khaibin/myprofile/lg;)Landroid/graphics/Bitmap$Config;
     .locals 6
 
     const/4 v5, 0x5
 
-    sget-object v0, Lcom/abdhoms/myprofile/lg;->a:Lcom/abdhoms/myprofile/lg;
+    sget-object v0, Lcom/khaibin/myprofile/lg;->a:Lcom/khaibin/myprofile/lg;
 
     if-eq p1, v0, :cond_0
 
-    sget-object v0, Lcom/abdhoms/myprofile/lg;->b:Lcom/abdhoms/myprofile/lg;
+    sget-object v0, Lcom/khaibin/myprofile/lg;->b:Lcom/khaibin/myprofile/lg;
 
     if-eq p1, v0, :cond_0
 
@@ -340,10 +340,10 @@
     goto :goto_0
 .end method
 
-.method private a(Lcom/abdhoms/myprofile/uz;Lcom/bumptech/glide/load/resource/bitmap/t;Landroid/graphics/BitmapFactory$Options;Lcom/abdhoms/myprofile/nf;IIILcom/abdhoms/myprofile/lg;)Landroid/graphics/Bitmap;
+.method private a(Lcom/khaibin/myprofile/uz;Lcom/bumptech/glide/load/resource/bitmap/t;Landroid/graphics/BitmapFactory$Options;Lcom/khaibin/myprofile/nf;IIILcom/khaibin/myprofile/lg;)Landroid/graphics/Bitmap;
     .locals 6
 
-    invoke-static {p1, p8}, Lcom/bumptech/glide/load/resource/bitmap/f;->a(Ljava/io/InputStream;Lcom/abdhoms/myprofile/lg;)Landroid/graphics/Bitmap$Config;
+    invoke-static {p1, p8}, Lcom/bumptech/glide/load/resource/bitmap/f;->a(Ljava/io/InputStream;Lcom/khaibin/myprofile/lg;)Landroid/graphics/Bitmap$Config;
 
     move-result-object v0
 
@@ -394,14 +394,14 @@
 
     double-to-int v2, v2
 
-    invoke-interface {p4, v1, v2, v0}, Lcom/abdhoms/myprofile/nf;->b(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-interface {p4, v1, v2, v0}, Lcom/khaibin/myprofile/nf;->b(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
     invoke-static {p3, v0}, Lcom/bumptech/glide/load/resource/bitmap/f;->a(Landroid/graphics/BitmapFactory$Options;Landroid/graphics/Bitmap;)V
 
     :cond_1
-    invoke-static {p1, p2, p3}, Lcom/bumptech/glide/load/resource/bitmap/f;->b(Lcom/abdhoms/myprofile/uz;Lcom/bumptech/glide/load/resource/bitmap/t;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
+    invoke-static {p1, p2, p3}, Lcom/bumptech/glide/load/resource/bitmap/f;->b(Lcom/khaibin/myprofile/uz;Lcom/bumptech/glide/load/resource/bitmap/t;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -605,7 +605,7 @@
     goto :goto_2
 .end method
 
-.method private static b(Lcom/abdhoms/myprofile/uz;Lcom/bumptech/glide/load/resource/bitmap/t;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
+.method private static b(Lcom/khaibin/myprofile/uz;Lcom/bumptech/glide/load/resource/bitmap/t;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
     .locals 5
 
     iget-boolean v0, p2, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
@@ -614,7 +614,7 @@
 
     const/high16 v0, 0x500000
 
-    invoke-virtual {p0, v0}, Lcom/abdhoms/myprofile/uz;->mark(I)V
+    invoke-virtual {p0, v0}, Lcom/khaibin/myprofile/uz;->mark(I)V
 
     :goto_0
     const/4 v0, 0x0
@@ -628,7 +628,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/abdhoms/myprofile/uz;->reset()V
+    invoke-virtual {p0}, Lcom/khaibin/myprofile/uz;->reset()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -809,18 +809,18 @@
 .method protected abstract a(IIII)I
 .end method
 
-.method public a(Ljava/io/InputStream;Lcom/abdhoms/myprofile/nf;IILcom/abdhoms/myprofile/lg;)Landroid/graphics/Bitmap;
+.method public a(Ljava/io/InputStream;Lcom/khaibin/myprofile/nf;IILcom/khaibin/myprofile/lg;)Landroid/graphics/Bitmap;
     .locals 20
 
-    invoke-static {}, Lcom/abdhoms/myprofile/uu;->a()Lcom/abdhoms/myprofile/uu;
+    invoke-static {}, Lcom/khaibin/myprofile/uu;->a()Lcom/khaibin/myprofile/uu;
 
     move-result-object v16
 
-    invoke-virtual/range {v16 .. v16}, Lcom/abdhoms/myprofile/uu;->b()[B
+    invoke-virtual/range {v16 .. v16}, Lcom/khaibin/myprofile/uu;->b()[B
 
     move-result-object v17
 
-    invoke-virtual/range {v16 .. v16}, Lcom/abdhoms/myprofile/uu;->b()[B
+    invoke-virtual/range {v16 .. v16}, Lcom/khaibin/myprofile/uu;->b()[B
 
     move-result-object v18
 
@@ -836,22 +836,22 @@
 
     invoke-direct {v8, v0, v1}, Lcom/bumptech/glide/load/resource/bitmap/t;-><init>(Ljava/io/InputStream;[B)V
 
-    invoke-static {v8}, Lcom/abdhoms/myprofile/uw;->a(Ljava/io/InputStream;)Lcom/abdhoms/myprofile/uw;
+    invoke-static {v8}, Lcom/khaibin/myprofile/uw;->a(Ljava/io/InputStream;)Lcom/khaibin/myprofile/uw;
 
     move-result-object v19
 
-    new-instance v10, Lcom/abdhoms/myprofile/uz;
+    new-instance v10, Lcom/khaibin/myprofile/uz;
 
     move-object/from16 v0, v19
 
-    invoke-direct {v10, v0}, Lcom/abdhoms/myprofile/uz;-><init>(Ljava/io/InputStream;)V
+    invoke-direct {v10, v0}, Lcom/khaibin/myprofile/uz;-><init>(Ljava/io/InputStream;)V
 
     const/high16 v2, 0x500000
 
     :try_start_0
     move-object/from16 v0, v19
 
-    invoke-virtual {v0, v2}, Lcom/abdhoms/myprofile/uw;->mark(I)V
+    invoke-virtual {v0, v2}, Lcom/khaibin/myprofile/uw;->mark(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -872,7 +872,7 @@
     move-result v2
 
     :try_start_2
-    invoke-virtual/range {v19 .. v19}, Lcom/abdhoms/myprofile/uw;->reset()V
+    invoke-virtual/range {v19 .. v19}, Lcom/khaibin/myprofile/uw;->reset()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -887,7 +887,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v10, v8, v9}, Lcom/bumptech/glide/load/resource/bitmap/f;->a(Lcom/abdhoms/myprofile/uz;Lcom/bumptech/glide/load/resource/bitmap/t;Landroid/graphics/BitmapFactory$Options;)[I
+    invoke-virtual {v0, v10, v8, v9}, Lcom/bumptech/glide/load/resource/bitmap/f;->a(Lcom/khaibin/myprofile/uz;Lcom/bumptech/glide/load/resource/bitmap/t;Landroid/graphics/BitmapFactory$Options;)[I
 
     move-result-object v2
 
@@ -925,11 +925,11 @@
 
     move-object/from16 v14, p5
 
-    invoke-direct/range {v6 .. v14}, Lcom/bumptech/glide/load/resource/bitmap/f;->a(Lcom/abdhoms/myprofile/uz;Lcom/bumptech/glide/load/resource/bitmap/t;Landroid/graphics/BitmapFactory$Options;Lcom/abdhoms/myprofile/nf;IIILcom/abdhoms/myprofile/lg;)Landroid/graphics/Bitmap;
+    invoke-direct/range {v6 .. v14}, Lcom/bumptech/glide/load/resource/bitmap/f;->a(Lcom/khaibin/myprofile/uz;Lcom/bumptech/glide/load/resource/bitmap/t;Landroid/graphics/BitmapFactory$Options;Lcom/khaibin/myprofile/nf;IIILcom/khaibin/myprofile/lg;)Landroid/graphics/Bitmap;
 
     move-result-object v3
 
-    invoke-virtual/range {v19 .. v19}, Lcom/abdhoms/myprofile/uw;->a()Ljava/io/IOException;
+    invoke-virtual/range {v19 .. v19}, Lcom/khaibin/myprofile/uw;->a()Ljava/io/IOException;
 
     move-result-object v2
 
@@ -946,15 +946,15 @@
     :catchall_0
     move-exception v2
 
-    invoke-virtual/range {v16 .. v17}, Lcom/abdhoms/myprofile/uu;->a([B)Z
+    invoke-virtual/range {v16 .. v17}, Lcom/khaibin/myprofile/uu;->a([B)Z
 
     move-object/from16 v0, v16
 
     move-object/from16 v1, v18
 
-    invoke-virtual {v0, v1}, Lcom/abdhoms/myprofile/uu;->a([B)Z
+    invoke-virtual {v0, v1}, Lcom/khaibin/myprofile/uu;->a([B)Z
 
-    invoke-virtual/range {v19 .. v19}, Lcom/abdhoms/myprofile/uw;->b()V
+    invoke-virtual/range {v19 .. v19}, Lcom/khaibin/myprofile/uw;->b()V
 
     invoke-static {v9}, Lcom/bumptech/glide/load/resource/bitmap/f;->a(Landroid/graphics/BitmapFactory$Options;)V
 
@@ -1011,7 +1011,7 @@
 
     :cond_1
     :try_start_6
-    invoke-virtual/range {v19 .. v19}, Lcom/abdhoms/myprofile/uw;->reset()V
+    invoke-virtual/range {v19 .. v19}, Lcom/khaibin/myprofile/uw;->reset()V
     :try_end_6
     .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_2
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
@@ -1051,7 +1051,7 @@
     move-exception v2
 
     :try_start_8
-    invoke-virtual/range {v19 .. v19}, Lcom/abdhoms/myprofile/uw;->reset()V
+    invoke-virtual/range {v19 .. v19}, Lcom/khaibin/myprofile/uw;->reset()V
     :try_end_8
     .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_3
     .catchall {:try_start_8 .. :try_end_8} :catchall_0
@@ -1089,7 +1089,7 @@
 
     move-object/from16 v0, p2
 
-    invoke-static {v3, v0, v15}, Lcom/bumptech/glide/load/resource/bitmap/x;->a(Landroid/graphics/Bitmap;Lcom/abdhoms/myprofile/nf;I)Landroid/graphics/Bitmap;
+    invoke-static {v3, v0, v15}, Lcom/bumptech/glide/load/resource/bitmap/x;->a(Landroid/graphics/Bitmap;Lcom/khaibin/myprofile/nf;I)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
@@ -1101,7 +1101,7 @@
 
     move-object/from16 v0, p2
 
-    invoke-interface {v0, v3}, Lcom/abdhoms/myprofile/nf;->a(Landroid/graphics/Bitmap;)Z
+    invoke-interface {v0, v3}, Lcom/khaibin/myprofile/nf;->a(Landroid/graphics/Bitmap;)Z
 
     move-result v4
 
@@ -1112,22 +1112,22 @@
     .catchall {:try_start_9 .. :try_end_9} :catchall_0
 
     :cond_5
-    invoke-virtual/range {v16 .. v17}, Lcom/abdhoms/myprofile/uu;->a([B)Z
+    invoke-virtual/range {v16 .. v17}, Lcom/khaibin/myprofile/uu;->a([B)Z
 
     move-object/from16 v0, v16
 
     move-object/from16 v1, v18
 
-    invoke-virtual {v0, v1}, Lcom/abdhoms/myprofile/uu;->a([B)Z
+    invoke-virtual {v0, v1}, Lcom/khaibin/myprofile/uu;->a([B)Z
 
-    invoke-virtual/range {v19 .. v19}, Lcom/abdhoms/myprofile/uw;->b()V
+    invoke-virtual/range {v19 .. v19}, Lcom/khaibin/myprofile/uw;->b()V
 
     invoke-static {v9}, Lcom/bumptech/glide/load/resource/bitmap/f;->a(Landroid/graphics/BitmapFactory$Options;)V
 
     return-object v2
 .end method
 
-.method public a(Lcom/abdhoms/myprofile/uz;Lcom/bumptech/glide/load/resource/bitmap/t;Landroid/graphics/BitmapFactory$Options;)[I
+.method public a(Lcom/khaibin/myprofile/uz;Lcom/bumptech/glide/load/resource/bitmap/t;Landroid/graphics/BitmapFactory$Options;)[I
     .locals 4
 
     const/4 v3, 0x1
@@ -1136,7 +1136,7 @@
 
     iput-boolean v3, p3, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 
-    invoke-static {p1, p2, p3}, Lcom/bumptech/glide/load/resource/bitmap/f;->b(Lcom/abdhoms/myprofile/uz;Lcom/bumptech/glide/load/resource/bitmap/t;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
+    invoke-static {p1, p2, p3}, Lcom/bumptech/glide/load/resource/bitmap/f;->b(Lcom/khaibin/myprofile/uz;Lcom/bumptech/glide/load/resource/bitmap/t;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
 
     iput-boolean v2, p3, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 

@@ -16,7 +16,7 @@
 
     const/4 v1, 0x0
 
-    sget v2, Lcom/abdhoms/myprofile/c;->colorPrimary:I
+    sget v2, Lcom/khaibin/myprofile/c;->colorPrimary:I
 
     aput v2, v0, v1
 

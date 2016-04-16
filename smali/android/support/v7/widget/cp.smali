@@ -34,13 +34,13 @@
 
     iput v3, p0, Landroid/support/v7/widget/cp;->h:I
 
-    sget-object v0, Lcom/abdhoms/myprofile/hz;->LinearLayoutCompat_Layout:[I
+    sget-object v0, Lcom/khaibin/myprofile/hz;->LinearLayoutCompat_Layout:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->LinearLayoutCompat_Layout_android_layout_weight:I
+    sget v1, Lcom/khaibin/myprofile/hz;->LinearLayoutCompat_Layout_android_layout_weight:I
 
     const/4 v2, 0x0
 
@@ -50,7 +50,7 @@
 
     iput v1, p0, Landroid/support/v7/widget/cp;->g:F
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->LinearLayoutCompat_Layout_android_layout_gravity:I
+    sget v1, Lcom/khaibin/myprofile/hz;->LinearLayoutCompat_Layout_android_layout_gravity:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getInt(II)I
 

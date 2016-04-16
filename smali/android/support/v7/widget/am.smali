@@ -148,7 +148,7 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/abdhoms/myprofile/hz;->ViewBackgroundHelper:[I
+    sget-object v1, Lcom/khaibin/myprofile/hz;->ViewBackgroundHelper:[I
 
     const/4 v2, 0x0
 
@@ -157,7 +157,7 @@
     move-result-object v1
 
     :try_start_0
-    sget v0, Lcom/abdhoms/myprofile/hz;->ViewBackgroundHelper_android_background:I
+    sget v0, Lcom/khaibin/myprofile/hz;->ViewBackgroundHelper_android_background:I
 
     invoke-virtual {v1, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -167,7 +167,7 @@
 
     iget-object v0, p0, Landroid/support/v7/widget/am;->b:Landroid/support/v7/widget/gf;
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->ViewBackgroundHelper_android_background:I
+    sget v2, Lcom/khaibin/myprofile/hz;->ViewBackgroundHelper_android_background:I
 
     const/4 v3, -0x1
 
@@ -184,7 +184,7 @@
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/am;->b(Landroid/content/res/ColorStateList;)V
 
     :cond_0
-    sget v0, Lcom/abdhoms/myprofile/hz;->ViewBackgroundHelper_backgroundTint:I
+    sget v0, Lcom/khaibin/myprofile/hz;->ViewBackgroundHelper_backgroundTint:I
 
     invoke-virtual {v1, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -194,7 +194,7 @@
 
     iget-object v0, p0, Landroid/support/v7/widget/am;->a:Landroid/view/View;
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->ViewBackgroundHelper_backgroundTint:I
+    sget v2, Lcom/khaibin/myprofile/hz;->ViewBackgroundHelper_backgroundTint:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/TypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -203,7 +203,7 @@
     invoke-static {v0, v2}, Landroid/support/v4/view/bw;->a(Landroid/view/View;Landroid/content/res/ColorStateList;)V
 
     :cond_1
-    sget v0, Lcom/abdhoms/myprofile/hz;->ViewBackgroundHelper_backgroundTintMode:I
+    sget v0, Lcom/khaibin/myprofile/hz;->ViewBackgroundHelper_backgroundTintMode:I
 
     invoke-virtual {v1, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -213,7 +213,7 @@
 
     iget-object v0, p0, Landroid/support/v7/widget/am;->a:Landroid/view/View;
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->ViewBackgroundHelper_backgroundTintMode:I
+    sget v2, Lcom/khaibin/myprofile/hz;->ViewBackgroundHelper_backgroundTintMode:I
 
     const/4 v3, -0x1
 
@@ -223,7 +223,7 @@
 
     const/4 v3, 0x0
 
-    invoke-static {v2, v3}, Lcom/abdhoms/myprofile/if;->a(ILandroid/graphics/PorterDuff$Mode;)Landroid/graphics/PorterDuff$Mode;
+    invoke-static {v2, v3}, Lcom/khaibin/myprofile/if;->a(ILandroid/graphics/PorterDuff$Mode;)Landroid/graphics/PorterDuff$Mode;
 
     move-result-object v2
 

@@ -8,7 +8,7 @@
         value = {
             "Lcom/google/android/gms/common/api/i",
             "<",
-            "Lcom/abdhoms/myprofile/avp;",
+            "Lcom/khaibin/myprofile/avp;",
             ">;"
         }
     .end annotation
@@ -19,7 +19,7 @@
         value = {
             "Lcom/google/android/gms/common/api/g",
             "<",
-            "Lcom/abdhoms/myprofile/avp;",
+            "Lcom/khaibin/myprofile/avp;",
             "Lcom/google/android/gms/common/api/d;",
             ">;"
         }
@@ -61,7 +61,7 @@
 
 .field private final n:Lcom/google/android/gms/clearcut/g;
 
-.field private final o:Lcom/abdhoms/myprofile/awi;
+.field private final o:Lcom/khaibin/myprofile/awi;
 
 .field private final p:Lcom/google/android/gms/clearcut/a;
 
@@ -96,16 +96,16 @@
 
     sput-object v0, Lcom/google/android/gms/clearcut/b;->c:Lcom/google/android/gms/common/api/a;
 
-    new-instance v0, Lcom/abdhoms/myprofile/avg;
+    new-instance v0, Lcom/khaibin/myprofile/avg;
 
-    invoke-direct {v0}, Lcom/abdhoms/myprofile/avg;-><init>()V
+    invoke-direct {v0}, Lcom/khaibin/myprofile/avg;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/clearcut/b;->d:Lcom/google/android/gms/clearcut/g;
 
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/google/android/gms/clearcut/g;Lcom/abdhoms/myprofile/awi;Lcom/google/android/gms/clearcut/f;Lcom/google/android/gms/clearcut/a;)V
+.method public constructor <init>(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/google/android/gms/clearcut/g;Lcom/khaibin/myprofile/awi;Lcom/google/android/gms/clearcut/f;Lcom/google/android/gms/clearcut/a;)V
     .locals 2
 
     const/4 v1, 0x0
@@ -151,7 +151,7 @@
 
     iput-object p7, p0, Lcom/google/android/gms/clearcut/b;->n:Lcom/google/android/gms/clearcut/g;
 
-    iput-object p8, p0, Lcom/google/android/gms/clearcut/b;->o:Lcom/abdhoms/myprofile/awi;
+    iput-object p8, p0, Lcom/google/android/gms/clearcut/b;->o:Lcom/khaibin/myprofile/awi;
 
     if-eqz p9, :cond_2
 
@@ -209,7 +209,7 @@
 
     sget-object v7, Lcom/google/android/gms/clearcut/b;->d:Lcom/google/android/gms/clearcut/g;
 
-    invoke-static {}, Lcom/abdhoms/myprofile/awk;->d()Lcom/abdhoms/myprofile/awi;
+    invoke-static {}, Lcom/khaibin/myprofile/awk;->d()Lcom/khaibin/myprofile/awi;
 
     move-result-object v8
 
@@ -227,7 +227,7 @@
 
     move-object v5, p4
 
-    invoke-direct/range {v0 .. v10}, Lcom/google/android/gms/clearcut/b;-><init>(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/google/android/gms/clearcut/g;Lcom/abdhoms/myprofile/awi;Lcom/google/android/gms/clearcut/f;Lcom/google/android/gms/clearcut/a;)V
+    invoke-direct/range {v0 .. v10}, Lcom/google/android/gms/clearcut/b;-><init>(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/google/android/gms/clearcut/g;Lcom/khaibin/myprofile/awi;Lcom/google/android/gms/clearcut/f;Lcom/google/android/gms/clearcut/a;)V
 
     return-void
 .end method
@@ -386,10 +386,10 @@
     return v0
 .end method
 
-.method static synthetic f(Lcom/google/android/gms/clearcut/b;)Lcom/abdhoms/myprofile/awi;
+.method static synthetic f(Lcom/google/android/gms/clearcut/b;)Lcom/khaibin/myprofile/awi;
     .locals 1
 
-    iget-object v0, p0, Lcom/google/android/gms/clearcut/b;->o:Lcom/abdhoms/myprofile/awi;
+    iget-object v0, p0, Lcom/google/android/gms/clearcut/b;->o:Lcom/khaibin/myprofile/awi;
 
     return-object v0
 .end method

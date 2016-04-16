@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -18,22 +18,22 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/abdhoms/myprofile/atx;)V
+.method public constructor <init>(Lcom/khaibin/myprofile/atx;)V
     .locals 2
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-interface {p1}, Lcom/abdhoms/myprofile/atx;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-interface {p1}, Lcom/khaibin/myprofile/atx;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzd$zzc;->zzEw:Landroid/view/ViewGroup$LayoutParams;
 
-    invoke-interface {p1}, Lcom/abdhoms/myprofile/atx;->getParent()Landroid/view/ViewParent;
+    invoke-interface {p1}, Lcom/khaibin/myprofile/atx;->getParent()Landroid/view/ViewParent;
 
     move-result-object v0
 
-    invoke-interface {p1}, Lcom/abdhoms/myprofile/atx;->g()Landroid/content/Context;
+    invoke-interface {p1}, Lcom/khaibin/myprofile/atx;->g()Landroid/content/Context;
 
     move-result-object v1
 
@@ -51,7 +51,7 @@
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzd$zzc;->zzEx:Landroid/view/ViewGroup;
 
-    invoke-interface {p1}, Lcom/abdhoms/myprofile/atx;->b()Landroid/view/View;
+    invoke-interface {p1}, Lcom/khaibin/myprofile/atx;->b()Landroid/view/View;
 
     move-result-object v1
 
@@ -63,7 +63,7 @@
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzd$zzc;->zzEx:Landroid/view/ViewGroup;
 
-    invoke-interface {p1}, Lcom/abdhoms/myprofile/atx;->b()Landroid/view/View;
+    invoke-interface {p1}, Lcom/khaibin/myprofile/atx;->b()Landroid/view/View;
 
     move-result-object v1
 
@@ -71,7 +71,7 @@
 
     const/4 v0, 0x1
 
-    invoke-interface {p1, v0}, Lcom/abdhoms/myprofile/atx;->a(Z)V
+    invoke-interface {p1, v0}, Lcom/khaibin/myprofile/atx;->a(Z)V
 
     return-void
 

@@ -35,7 +35,7 @@
 
     const-string v0, "Custom event adapter called onDismissScreen."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/ads/mediation/customevent/b;->c:Lcom/google/ads/mediation/MediationInterstitialListener;
 
@@ -51,7 +51,7 @@
 
     const-string v0, "Custom event adapter called onFailedToReceiveAd."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/ads/mediation/customevent/b;->c:Lcom/google/ads/mediation/MediationInterstitialListener;
 
@@ -69,7 +69,7 @@
 
     const-string v0, "Custom event adapter called onLeaveApplication."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/ads/mediation/customevent/b;->c:Lcom/google/ads/mediation/MediationInterstitialListener;
 
@@ -85,7 +85,7 @@
 
     const-string v0, "Custom event adapter called onPresentScreen."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/ads/mediation/customevent/b;->c:Lcom/google/ads/mediation/MediationInterstitialListener;
 
@@ -101,7 +101,7 @@
 
     const-string v0, "Custom event adapter called onReceivedAd."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/ads/mediation/customevent/b;->c:Lcom/google/ads/mediation/MediationInterstitialListener;
 

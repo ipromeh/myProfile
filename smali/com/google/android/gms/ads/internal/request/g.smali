@@ -2,14 +2,14 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/atp;
+.implements Lcom/khaibin/myprofile/atp;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/abdhoms/myprofile/atp",
+        "Lcom/khaibin/myprofile/atp",
         "<",
         "Lcom/google/android/gms/ads/internal/request/AdRequestInfoParcel;",
         ">;"

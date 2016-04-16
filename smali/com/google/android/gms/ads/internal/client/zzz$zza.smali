@@ -73,7 +73,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/abdhoms/myprofile/yi;->a(Landroid/os/IBinder;)Lcom/abdhoms/myprofile/yh;
+    invoke-static {v1}, Lcom/khaibin/myprofile/yi;->a(Landroid/os/IBinder;)Lcom/khaibin/myprofile/yh;
 
     move-result-object v1
 
@@ -81,7 +81,7 @@
 
     move-result v2
 
-    invoke-virtual {p0, v1, v2}, Lcom/google/android/gms/ads/internal/client/zzz$zza;->zza(Lcom/abdhoms/myprofile/yh;I)Landroid/os/IBinder;
+    invoke-virtual {p0, v1, v2}, Lcom/google/android/gms/ads/internal/client/zzz$zza;->zza(Lcom/khaibin/myprofile/yh;I)Landroid/os/IBinder;
 
     move-result-object v1
 

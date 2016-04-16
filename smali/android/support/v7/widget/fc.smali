@@ -50,17 +50,17 @@
     return-object v0
 .end method
 
-.method static synthetic a(Landroid/support/v7/widget/fc;Lcom/abdhoms/myprofile/ew;Z)Landroid/support/v7/widget/fg;
+.method static synthetic a(Landroid/support/v7/widget/fc;Lcom/khaibin/myprofile/ew;Z)Landroid/support/v7/widget/fg;
     .locals 1
 
-    invoke-direct {p0, p1, p2}, Landroid/support/v7/widget/fc;->a(Lcom/abdhoms/myprofile/ew;Z)Landroid/support/v7/widget/fg;
+    invoke-direct {p0, p1, p2}, Landroid/support/v7/widget/fc;->a(Lcom/khaibin/myprofile/ew;Z)Landroid/support/v7/widget/fg;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method private a(Lcom/abdhoms/myprofile/ew;Z)Landroid/support/v7/widget/fg;
+.method private a(Lcom/khaibin/myprofile/ew;Z)Landroid/support/v7/widget/fg;
     .locals 4
 
     const/4 v2, 0x0
@@ -71,7 +71,7 @@
 
     move-result-object v1
 
-    invoke-direct {v0, p0, v1, p1, p2}, Landroid/support/v7/widget/fg;-><init>(Landroid/support/v7/widget/fc;Landroid/content/Context;Lcom/abdhoms/myprofile/ew;Z)V
+    invoke-direct {v0, p0, v1, p1, p2}, Landroid/support/v7/widget/fg;-><init>(Landroid/support/v7/widget/fc;Landroid/content/Context;Lcom/khaibin/myprofile/ew;Z)V
 
     if-eqz p2, :cond_0
 
@@ -271,7 +271,7 @@
 
     const/4 v2, 0x0
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->actionDropDownStyle:I
+    sget v3, Lcom/khaibin/myprofile/hp;->actionDropDownStyle:I
 
     invoke-direct {v0, v1, v2, v3}, Landroid/support/v7/widget/bd;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -356,17 +356,17 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/im;->a(Landroid/content/Context;)Lcom/abdhoms/myprofile/im;
+    invoke-static {v0}, Lcom/khaibin/myprofile/im;->a(Landroid/content/Context;)Lcom/khaibin/myprofile/im;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/im;->e()I
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/im;->e()I
 
     move-result v1
 
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/fc;->setContentHeight(I)V
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/im;->g()I
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/im;->g()I
 
     move-result v0
 
@@ -406,11 +406,11 @@
 
     check-cast p2, Landroid/support/v7/widget/fg;
 
-    invoke-virtual {p2}, Landroid/support/v7/widget/fg;->b()Lcom/abdhoms/myprofile/ew;
+    invoke-virtual {p2}, Landroid/support/v7/widget/fg;->b()Lcom/khaibin/myprofile/ew;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/ew;->d()V
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/ew;->d()V
 
     return-void
 .end method

@@ -58,7 +58,7 @@
 
     check-cast v0, Landroid/support/v7/widget/fg;
 
-    invoke-virtual {v0}, Landroid/support/v7/widget/fg;->b()Lcom/abdhoms/myprofile/ew;
+    invoke-virtual {v0}, Landroid/support/v7/widget/fg;->b()Lcom/khaibin/myprofile/ew;
 
     move-result-object v0
 
@@ -84,11 +84,11 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/abdhoms/myprofile/ew;
+    check-cast v0, Lcom/khaibin/myprofile/ew;
 
     const/4 v2, 0x1
 
-    invoke-static {v1, v0, v2}, Landroid/support/v7/widget/fc;->a(Landroid/support/v7/widget/fc;Lcom/abdhoms/myprofile/ew;Z)Landroid/support/v7/widget/fg;
+    invoke-static {v1, v0, v2}, Landroid/support/v7/widget/fc;->a(Landroid/support/v7/widget/fc;Lcom/khaibin/myprofile/ew;Z)Landroid/support/v7/widget/fg;
 
     move-result-object p2
 
@@ -104,9 +104,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/abdhoms/myprofile/ew;
+    check-cast v1, Lcom/khaibin/myprofile/ew;
 
-    invoke-virtual {v0, v1}, Landroid/support/v7/widget/fg;->a(Lcom/abdhoms/myprofile/ew;)V
+    invoke-virtual {v0, v1}, Landroid/support/v7/widget/fg;->a(Lcom/khaibin/myprofile/ew;)V
 
     goto :goto_0
 .end method

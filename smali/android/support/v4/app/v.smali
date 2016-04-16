@@ -179,12 +179,12 @@
     return-void
 .end method
 
-.method public a(Lcom/abdhoms/myprofile/cv;)V
+.method public a(Lcom/khaibin/myprofile/cv;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/abdhoms/myprofile/cv",
+            "Lcom/khaibin/myprofile/cv",
             "<",
             "Ljava/lang/String;",
             "Landroid/support/v4/app/ar;",
@@ -194,7 +194,7 @@
 
     iget-object v0, p0, Landroid/support/v4/app/v;->a:Landroid/support/v4/app/w;
 
-    invoke-virtual {v0, p1}, Landroid/support/v4/app/w;->a(Lcom/abdhoms/myprofile/cv;)V
+    invoke-virtual {v0, p1}, Landroid/support/v4/app/w;->a(Lcom/khaibin/myprofile/cv;)V
 
     return-void
 .end method
@@ -512,12 +512,12 @@
     return-void
 .end method
 
-.method public s()Lcom/abdhoms/myprofile/cv;
+.method public s()Lcom/khaibin/myprofile/cv;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/abdhoms/myprofile/cv",
+            "Lcom/khaibin/myprofile/cv",
             "<",
             "Ljava/lang/String;",
             "Landroid/support/v4/app/ar;",
@@ -527,7 +527,7 @@
 
     iget-object v0, p0, Landroid/support/v4/app/v;->a:Landroid/support/v4/app/w;
 
-    invoke-virtual {v0}, Landroid/support/v4/app/w;->n()Lcom/abdhoms/myprofile/cv;
+    invoke-virtual {v0}, Landroid/support/v4/app/w;->n()Lcom/khaibin/myprofile/cv;
 
     move-result-object v0
 

@@ -328,11 +328,11 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    new-instance v0, Lcom/abdhoms/myprofile/cj;
+    new-instance v0, Lcom/khaibin/myprofile/cj;
 
     const-string v1, "FragmentManager"
 
-    invoke-direct {v0, v1}, Lcom/abdhoms/myprofile/cj;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/khaibin/myprofile/cj;-><init>(Ljava/lang/String;)V
 
     new-instance v1, Ljava/io/PrintWriter;
 
@@ -2864,11 +2864,11 @@
 
     invoke-static {v3, v4}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    new-instance v3, Lcom/abdhoms/myprofile/cj;
+    new-instance v3, Lcom/khaibin/myprofile/cj;
 
     const-string v4, "FragmentManager"
 
-    invoke-direct {v3, v4}, Lcom/abdhoms/myprofile/cj;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Lcom/khaibin/myprofile/cj;-><init>(Ljava/lang/String;)V
 
     new-instance v4, Ljava/io/PrintWriter;
 
@@ -7499,7 +7499,7 @@
 
     iget-object v1, p0, Landroid/support/v4/app/z;->q:Landroid/support/v4/app/Fragment;
 
-    invoke-static {v1, v0}, Lcom/abdhoms/myprofile/ci;->a(Ljava/lang/Object;Ljava/lang/StringBuilder;)V
+    invoke-static {v1, v0}, Lcom/khaibin/myprofile/ci;->a(Ljava/lang/Object;Ljava/lang/StringBuilder;)V
 
     :goto_0
     const-string v1, "}}"
@@ -7515,7 +7515,7 @@
     :cond_0
     iget-object v1, p0, Landroid/support/v4/app/z;->o:Landroid/support/v4/app/w;
 
-    invoke-static {v1, v0}, Lcom/abdhoms/myprofile/ci;->a(Ljava/lang/Object;Ljava/lang/StringBuilder;)V
+    invoke-static {v1, v0}, Lcom/khaibin/myprofile/ci;->a(Ljava/lang/Object;Ljava/lang/StringBuilder;)V
 
     goto :goto_0
 .end method

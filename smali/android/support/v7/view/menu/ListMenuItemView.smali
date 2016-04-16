@@ -55,13 +55,13 @@
 
     iput-object p1, p0, Landroid/support/v7/view/menu/ListMenuItemView;->l:Landroid/content/Context;
 
-    sget-object v0, Lcom/abdhoms/myprofile/hz;->MenuView:[I
+    sget-object v0, Lcom/khaibin/myprofile/hz;->MenuView:[I
 
     invoke-virtual {p1, p2, v0, p3, v3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->MenuView_android_itemBackground:I
+    sget v1, Lcom/khaibin/myprofile/hz;->MenuView_android_itemBackground:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -69,7 +69,7 @@
 
     iput-object v1, p0, Landroid/support/v7/view/menu/ListMenuItemView;->g:Landroid/graphics/drawable/Drawable;
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->MenuView_android_itemTextAppearance:I
+    sget v1, Lcom/khaibin/myprofile/hz;->MenuView_android_itemTextAppearance:I
 
     const/4 v2, -0x1
 
@@ -79,7 +79,7 @@
 
     iput v1, p0, Landroid/support/v7/view/menu/ListMenuItemView;->h:I
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->MenuView_preserveIconSpacing:I
+    sget v1, Lcom/khaibin/myprofile/hz;->MenuView_preserveIconSpacing:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hw;->abc_list_menu_item_icon:I
+    sget v1, Lcom/khaibin/myprofile/hw;->abc_list_menu_item_icon:I
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -127,7 +127,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hw;->abc_list_menu_item_radio:I
+    sget v1, Lcom/khaibin/myprofile/hw;->abc_list_menu_item_radio:I
 
     const/4 v2, 0x0
 
@@ -153,7 +153,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hw;->abc_list_menu_item_checkbox:I
+    sget v1, Lcom/khaibin/myprofile/hw;->abc_list_menu_item_checkbox:I
 
     const/4 v2, 0x0
 
@@ -330,7 +330,7 @@
 
     invoke-virtual {p0, v0}, Landroid/support/v7/view/menu/ListMenuItemView;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->title:I
+    sget v0, Lcom/khaibin/myprofile/hu;->title:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/view/menu/ListMenuItemView;->findViewById(I)Landroid/view/View;
 
@@ -355,7 +355,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/widget/TextView;->setTextAppearance(Landroid/content/Context;I)V
 
     :cond_0
-    sget v0, Lcom/abdhoms/myprofile/hu;->shortcut:I
+    sget v0, Lcom/khaibin/myprofile/hu;->shortcut:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/view/menu/ListMenuItemView;->findViewById(I)Landroid/view/View;
 

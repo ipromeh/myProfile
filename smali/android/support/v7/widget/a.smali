@@ -60,7 +60,7 @@
 
     move-result-object v1
 
-    sget v2, Lcom/abdhoms/myprofile/hp;->actionBarPopupTheme:I
+    sget v2, Lcom/khaibin/myprofile/hp;->actionBarPopupTheme:I
 
     const/4 v3, 0x1
 
@@ -338,15 +338,15 @@
 
     const/4 v1, 0x0
 
-    sget-object v2, Lcom/abdhoms/myprofile/hz;->ActionBar:[I
+    sget-object v2, Lcom/khaibin/myprofile/hz;->ActionBar:[I
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->actionBarStyle:I
+    sget v3, Lcom/khaibin/myprofile/hp;->actionBarStyle:I
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->ActionBar_height:I
+    sget v1, Lcom/khaibin/myprofile/hz;->ActionBar_height:I
 
     invoke-virtual {v0, v1, v4}, Landroid/content/res/TypedArray;->getLayoutDimension(II)I
 

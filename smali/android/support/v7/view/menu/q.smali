@@ -2,7 +2,7 @@
 .super Landroid/widget/FrameLayout;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/ip;
+.implements Lcom/khaibin/myprofile/ip;
 
 
 # instance fields

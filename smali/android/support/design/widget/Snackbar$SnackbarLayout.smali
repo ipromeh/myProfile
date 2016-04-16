@@ -36,13 +36,13 @@
 
     invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    sget-object v0, Lcom/abdhoms/myprofile/k;->SnackbarLayout:[I
+    sget-object v0, Lcom/khaibin/myprofile/k;->SnackbarLayout:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->SnackbarLayout_android_maxWidth:I
+    sget v1, Lcom/khaibin/myprofile/k;->SnackbarLayout_android_maxWidth:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -50,7 +50,7 @@
 
     iput v1, p0, Landroid/support/design/widget/Snackbar$SnackbarLayout;->mMaxWidth:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->SnackbarLayout_maxActionInlineWidth:I
+    sget v1, Lcom/khaibin/myprofile/k;->SnackbarLayout_maxActionInlineWidth:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -58,7 +58,7 @@
 
     iput v1, p0, Landroid/support/design/widget/Snackbar$SnackbarLayout;->mMaxInlineActionWidth:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->SnackbarLayout_elevation:I
+    sget v1, Lcom/khaibin/myprofile/k;->SnackbarLayout_elevation:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -66,7 +66,7 @@
 
     if-eqz v1, :cond_0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->SnackbarLayout_elevation:I
+    sget v1, Lcom/khaibin/myprofile/k;->SnackbarLayout_elevation:I
 
     const/4 v2, 0x0
 
@@ -87,7 +87,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/h;->design_layout_snackbar_include:I
+    sget v1, Lcom/khaibin/myprofile/h;->design_layout_snackbar_include:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -384,7 +384,7 @@
 
     invoke-super {p0}, Landroid/widget/LinearLayout;->onFinishInflate()V
 
-    sget v0, Lcom/abdhoms/myprofile/g;->snackbar_text:I
+    sget v0, Lcom/khaibin/myprofile/g;->snackbar_text:I
 
     invoke-virtual {p0, v0}, Landroid/support/design/widget/Snackbar$SnackbarLayout;->findViewById(I)Landroid/view/View;
 
@@ -394,7 +394,7 @@
 
     iput-object v0, p0, Landroid/support/design/widget/Snackbar$SnackbarLayout;->mMessageView:Landroid/widget/TextView;
 
-    sget v0, Lcom/abdhoms/myprofile/g;->snackbar_action:I
+    sget v0, Lcom/khaibin/myprofile/g;->snackbar_action:I
 
     invoke-virtual {p0, v0}, Landroid/support/design/widget/Snackbar$SnackbarLayout;->findViewById(I)Landroid/view/View;
 
@@ -472,7 +472,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/e;->design_snackbar_padding_vertical_2lines:I
+    sget v1, Lcom/khaibin/myprofile/e;->design_snackbar_padding_vertical_2lines:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -482,7 +482,7 @@
 
     move-result-object v1
 
-    sget v4, Lcom/abdhoms/myprofile/e;->design_snackbar_padding_vertical:I
+    sget v4, Lcom/khaibin/myprofile/e;->design_snackbar_padding_vertical:I
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

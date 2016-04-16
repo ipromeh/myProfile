@@ -332,7 +332,7 @@
     :goto_1
     invoke-virtual {v3, v0, v1}, Landroid/graphics/drawable/Drawable;->setVisible(ZZ)Z
 
-    invoke-static {v3, v4, v2}, Lcom/abdhoms/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;FF)V
+    invoke-static {v3, v4, v2}, Lcom/khaibin/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;FF)V
 
     :cond_1
     return-void
@@ -363,7 +363,7 @@
 
     if-eq p1, v1, :cond_0
 
-    invoke-static {v0, p3, p4}, Lcom/abdhoms/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;FF)V
+    invoke-static {v0, p3, p4}, Lcom/khaibin/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;FF)V
 
     :cond_0
     return-void

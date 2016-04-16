@@ -6,5 +6,5 @@
 
 
 # virtual methods
-.method public abstract zza(Lcom/abdhoms/myprofile/yh;I)Landroid/os/IBinder;
+.method public abstract zza(Lcom/khaibin/myprofile/yh;I)Landroid/os/IBinder;
 .end method

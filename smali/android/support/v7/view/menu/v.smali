@@ -53,7 +53,7 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    sget v0, Lcom/abdhoms/myprofile/hw;->abc_popup_menu_item_layout:I
+    sget v0, Lcom/khaibin/myprofile/hw;->abc_popup_menu_item_layout:I
 
     sput v0, Landroid/support/v7/view/menu/v;->a:I
 
@@ -65,7 +65,7 @@
 
     const/4 v4, 0x0
 
-    sget v5, Lcom/abdhoms/myprofile/hp;->popupMenuStyle:I
+    sget v5, Lcom/khaibin/myprofile/hp;->popupMenuStyle:I
 
     move-object v0, p0
 
@@ -147,7 +147,7 @@
 
     div-int/lit8 v1, v1, 0x2
 
-    sget v2, Lcom/abdhoms/myprofile/hs;->abc_config_prefDialogWidth:I
+    sget v2, Lcom/khaibin/myprofile/hs;->abc_config_prefDialogWidth:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

@@ -78,8 +78,8 @@
         value = {
             "Lcom/google/android/gms/common/api/g",
             "<+",
-            "Lcom/abdhoms/myprofile/axu;",
-            "Lcom/abdhoms/myprofile/axv;",
+            "Lcom/khaibin/myprofile/axu;",
+            "Lcom/khaibin/myprofile/axv;",
             ">;"
         }
     .end annotation
@@ -126,15 +126,15 @@
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/o;->c:Ljava/util/Set;
 
-    new-instance v0, Lcom/abdhoms/myprofile/cf;
+    new-instance v0, Lcom/khaibin/myprofile/cf;
 
-    invoke-direct {v0}, Lcom/abdhoms/myprofile/cf;-><init>()V
+    invoke-direct {v0}, Lcom/khaibin/myprofile/cf;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/o;->h:Ljava/util/Map;
 
-    new-instance v0, Lcom/abdhoms/myprofile/cf;
+    new-instance v0, Lcom/khaibin/myprofile/cf;
 
-    invoke-direct {v0}, Lcom/abdhoms/myprofile/cf;-><init>()V
+    invoke-direct {v0}, Lcom/khaibin/myprofile/cf;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/o;->j:Ljava/util/Map;
 
@@ -148,7 +148,7 @@
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/o;->o:Lcom/google/android/gms/common/f;
 
-    sget-object v0, Lcom/abdhoms/myprofile/axp;->c:Lcom/google/android/gms/common/api/g;
+    sget-object v0, Lcom/khaibin/myprofile/axp;->c:Lcom/google/android/gms/common/api/g;
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/o;->p:Lcom/google/android/gms/common/api/g;
 
@@ -288,14 +288,14 @@
     return-object v0
 .end method
 
-.method private a(Lcom/abdhoms/myprofile/yb;Lcom/google/android/gms/common/api/n;)V
+.method private a(Lcom/khaibin/myprofile/yb;Lcom/google/android/gms/common/api/n;)V
     .locals 2
 
     iget v0, p0, Lcom/google/android/gms/common/api/o;->l:I
 
     iget-object v1, p0, Lcom/google/android/gms/common/api/o;->m:Lcom/google/android/gms/common/api/r;
 
-    invoke-virtual {p1, v0, p2, v1}, Lcom/abdhoms/myprofile/yb;->a(ILcom/google/android/gms/common/api/n;Lcom/google/android/gms/common/api/r;)V
+    invoke-virtual {p1, v0, p2, v1}, Lcom/khaibin/myprofile/yb;->a(ILcom/google/android/gms/common/api/n;Lcom/google/android/gms/common/api/r;)V
 
     return-void
 .end method
@@ -305,7 +305,7 @@
 
     iget-object v0, p0, Lcom/google/android/gms/common/api/o;->k:Landroid/support/v4/app/q;
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/yb;->a(Landroid/support/v4/app/q;)Lcom/abdhoms/myprofile/yb;
+    invoke-static {v0}, Lcom/khaibin/myprofile/yb;->a(Landroid/support/v4/app/q;)Lcom/khaibin/myprofile/yb;
 
     move-result-object v0
 
@@ -331,15 +331,15 @@
     return-void
 
     :cond_0
-    invoke-direct {p0, v0, p1}, Lcom/google/android/gms/common/api/o;->a(Lcom/abdhoms/myprofile/yb;Lcom/google/android/gms/common/api/n;)V
+    invoke-direct {p0, v0, p1}, Lcom/google/android/gms/common/api/o;->a(Lcom/khaibin/myprofile/yb;Lcom/google/android/gms/common/api/n;)V
 
     goto :goto_0
 .end method
 
-.method static synthetic a(Lcom/google/android/gms/common/api/o;Lcom/abdhoms/myprofile/yb;Lcom/google/android/gms/common/api/n;)V
+.method static synthetic a(Lcom/google/android/gms/common/api/o;Lcom/khaibin/myprofile/yb;Lcom/google/android/gms/common/api/n;)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/api/o;->a(Lcom/abdhoms/myprofile/yb;Lcom/google/android/gms/common/api/n;)V
+    invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/api/o;->a(Lcom/khaibin/myprofile/yb;Lcom/google/android/gms/common/api/n;)V
 
     return-void
 .end method
@@ -359,13 +359,13 @@
 
     move-result-object v12
 
-    new-instance v7, Lcom/abdhoms/myprofile/cf;
+    new-instance v7, Lcom/khaibin/myprofile/cf;
 
-    invoke-direct {v7}, Lcom/abdhoms/myprofile/cf;-><init>()V
+    invoke-direct {v7}, Lcom/khaibin/myprofile/cf;-><init>()V
 
-    new-instance v10, Lcom/abdhoms/myprofile/cf;
+    new-instance v10, Lcom/khaibin/myprofile/cf;
 
-    invoke-direct {v10}, Lcom/abdhoms/myprofile/cf;-><init>()V
+    invoke-direct {v10}, Lcom/khaibin/myprofile/cf;-><init>()V
 
     new-instance v13, Ljava/util/ArrayList;
 
@@ -432,9 +432,9 @@
 
     invoke-interface {v7, v8, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v5, Lcom/abdhoms/myprofile/wp;
+    new-instance v5, Lcom/khaibin/myprofile/wp;
 
-    invoke-direct {v5, v8, v0}, Lcom/abdhoms/myprofile/wp;-><init>(Lcom/google/android/gms/common/api/a;I)V
+    invoke-direct {v5, v8, v0}, Lcom/khaibin/myprofile/wp;-><init>(Lcom/google/android/gms/common/api/a;I)V
 
     invoke-virtual {v13, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -667,11 +667,11 @@
 
     const/4 v1, 0x1
 
-    invoke-static {v0, v1}, Lcom/abdhoms/myprofile/xh;->a(Ljava/lang/Iterable;Z)I
+    invoke-static {v0, v1}, Lcom/khaibin/myprofile/xh;->a(Ljava/lang/Iterable;Z)I
 
     move-result v12
 
-    new-instance v0, Lcom/abdhoms/myprofile/xh;
+    new-instance v0, Lcom/khaibin/myprofile/xh;
 
     iget-object v1, p0, Lcom/google/android/gms/common/api/o;->i:Landroid/content/Context;
 
@@ -691,7 +691,7 @@
 
     iget v11, p0, Lcom/google/android/gms/common/api/o;->l:I
 
-    invoke-direct/range {v0 .. v13}, Lcom/abdhoms/myprofile/xh;-><init>(Landroid/content/Context;Ljava/util/concurrent/locks/Lock;Landroid/os/Looper;Lcom/google/android/gms/common/internal/t;Lcom/google/android/gms/common/f;Lcom/google/android/gms/common/api/g;Ljava/util/Map;Ljava/util/List;Ljava/util/List;Ljava/util/Map;IILjava/util/ArrayList;)V
+    invoke-direct/range {v0 .. v13}, Lcom/khaibin/myprofile/xh;-><init>(Landroid/content/Context;Ljava/util/concurrent/locks/Lock;Landroid/os/Looper;Lcom/google/android/gms/common/internal/t;Lcom/google/android/gms/common/f;Lcom/google/android/gms/common/api/g;Ljava/util/Map;Ljava/util/List;Ljava/util/List;Ljava/util/Map;IILjava/util/ArrayList;)V
 
     return-object v0
 
@@ -758,11 +758,11 @@
 .method public a()Lcom/google/android/gms/common/internal/t;
     .locals 9
 
-    sget-object v8, Lcom/abdhoms/myprofile/axv;->a:Lcom/abdhoms/myprofile/axv;
+    sget-object v8, Lcom/khaibin/myprofile/axv;->a:Lcom/khaibin/myprofile/axv;
 
     iget-object v0, p0, Lcom/google/android/gms/common/api/o;->j:Ljava/util/Map;
 
-    sget-object v1, Lcom/abdhoms/myprofile/axp;->g:Lcom/google/android/gms/common/api/a;
+    sget-object v1, Lcom/khaibin/myprofile/axp;->g:Lcom/google/android/gms/common/api/a;
 
     invoke-interface {v0, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
@@ -772,13 +772,13 @@
 
     iget-object v0, p0, Lcom/google/android/gms/common/api/o;->j:Ljava/util/Map;
 
-    sget-object v1, Lcom/abdhoms/myprofile/axp;->g:Lcom/google/android/gms/common/api/a;
+    sget-object v1, Lcom/khaibin/myprofile/axp;->g:Lcom/google/android/gms/common/api/a;
 
     invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/abdhoms/myprofile/axv;
+    check-cast v0, Lcom/khaibin/myprofile/axv;
 
     move-object v8, v0
 
@@ -799,7 +799,7 @@
 
     iget-object v7, p0, Lcom/google/android/gms/common/api/o;->g:Ljava/lang/String;
 
-    invoke-direct/range {v0 .. v8}, Lcom/google/android/gms/common/internal/t;-><init>(Landroid/accounts/Account;Ljava/util/Set;Ljava/util/Map;ILandroid/view/View;Ljava/lang/String;Ljava/lang/String;Lcom/abdhoms/myprofile/axv;)V
+    invoke-direct/range {v0 .. v8}, Lcom/google/android/gms/common/internal/t;-><init>(Landroid/accounts/Account;Ljava/util/Set;Ljava/util/Map;ILandroid/view/View;Ljava/lang/String;Ljava/lang/String;Lcom/khaibin/myprofile/axv;)V
 
     return-object v0
 .end method

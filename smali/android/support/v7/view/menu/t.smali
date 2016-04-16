@@ -9,10 +9,10 @@
 
 
 # direct methods
-.method constructor <init>(Landroid/content/Context;Lcom/abdhoms/myprofile/az;)V
+.method constructor <init>(Landroid/content/Context;Lcom/khaibin/myprofile/az;)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Landroid/support/v7/view/menu/o;-><init>(Landroid/content/Context;Lcom/abdhoms/myprofile/az;)V
+    invoke-direct {p0, p1, p2}, Landroid/support/v7/view/menu/o;-><init>(Landroid/content/Context;Lcom/khaibin/myprofile/az;)V
 
     return-void
 .end method

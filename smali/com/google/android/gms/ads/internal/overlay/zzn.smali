@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -18,7 +18,7 @@
 
 
 # virtual methods
-.method public zza(Landroid/content/Context;Lcom/abdhoms/myprofile/atx;ILcom/abdhoms/myprofile/aco;Lcom/abdhoms/myprofile/ack;)Lcom/google/android/gms/ads/internal/overlay/zzi;
+.method public zza(Landroid/content/Context;Lcom/khaibin/myprofile/atx;ILcom/khaibin/myprofile/aco;Lcom/khaibin/myprofile/ack;)Lcom/google/android/gms/ads/internal/overlay/zzi;
     .locals 7
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/ads/internal/overlay/zzn;->a(Landroid/content/Context;)Z
@@ -37,11 +37,11 @@
 
     new-instance v0, Lcom/google/android/gms/ads/internal/overlay/zzt;
 
-    invoke-interface {p2}, Lcom/abdhoms/myprofile/atx;->o()Lcom/google/android/gms/ads/internal/util/client/VersionInfoParcel;
+    invoke-interface {p2}, Lcom/khaibin/myprofile/atx;->o()Lcom/google/android/gms/ads/internal/util/client/VersionInfoParcel;
 
     move-result-object v2
 
-    invoke-interface {p2}, Lcom/abdhoms/myprofile/atx;->u()Ljava/lang/String;
+    invoke-interface {p2}, Lcom/khaibin/myprofile/atx;->u()Ljava/lang/String;
 
     move-result-object v3
 
@@ -51,7 +51,7 @@
 
     move-object v5, p5
 
-    invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/ads/internal/overlay/zzt;-><init>(Landroid/content/Context;Lcom/google/android/gms/ads/internal/util/client/VersionInfoParcel;Ljava/lang/String;Lcom/abdhoms/myprofile/aco;Lcom/abdhoms/myprofile/ack;)V
+    invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/ads/internal/overlay/zzt;-><init>(Landroid/content/Context;Lcom/google/android/gms/ads/internal/util/client/VersionInfoParcel;Ljava/lang/String;Lcom/khaibin/myprofile/aco;Lcom/khaibin/myprofile/ack;)V
 
     invoke-direct {v6, p1, v0}, Lcom/google/android/gms/ads/internal/overlay/zzc;-><init>(Landroid/content/Context;Lcom/google/android/gms/ads/internal/overlay/zzt;)V
 

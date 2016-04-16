@@ -76,7 +76,7 @@
 
     const/4 v1, 0x0
 
-    sget v2, Lcom/abdhoms/myprofile/hp;->actionBarSize:I
+    sget v2, Lcom/khaibin/myprofile/hp;->actionBarSize:I
 
     aput v2, v0, v1
 
@@ -647,7 +647,7 @@
 
     if-nez v0, :cond_0
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->action_bar_activity_content:I
+    sget v0, Lcom/khaibin/myprofile/hu;->action_bar_activity_content:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/ActionBarOverlayLayout;->findViewById(I)Landroid/view/View;
 
@@ -657,7 +657,7 @@
 
     iput-object v0, p0, Landroid/support/v7/widget/ActionBarOverlayLayout;->d:Landroid/support/v7/widget/ContentFrameLayout;
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->action_bar_container:I
+    sget v0, Lcom/khaibin/myprofile/hu;->action_bar_container:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/ActionBarOverlayLayout;->findViewById(I)Landroid/view/View;
 
@@ -667,7 +667,7 @@
 
     iput-object v0, p0, Landroid/support/v7/widget/ActionBarOverlayLayout;->e:Landroid/support/v7/widget/ActionBarContainer;
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->action_bar:I
+    sget v0, Lcom/khaibin/myprofile/hu;->action_bar:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/ActionBarOverlayLayout;->findViewById(I)Landroid/view/View;
 

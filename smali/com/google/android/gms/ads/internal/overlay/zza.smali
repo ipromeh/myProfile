@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -44,13 +44,13 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbC()Lcom/abdhoms/myprofile/art;
+    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbC()Lcom/khaibin/myprofile/art;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1, p2}, Lcom/abdhoms/myprofile/art;->a(Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-virtual {v0, p1, p2}, Lcom/khaibin/myprofile/art;->a(Landroid/content/Context;Landroid/content/Intent;)V
 
     if-eqz p3, :cond_0
 
@@ -71,7 +71,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -89,7 +89,7 @@
 
     const-string v1, "No intent data for launcher overlay."
 
-    invoke-static {v1}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     :goto_0
     return v0
@@ -122,7 +122,7 @@
 
     const-string v1, "Open GMSG did not contain a URL."
 
-    invoke-static {v1}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -203,7 +203,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -258,7 +258,7 @@
 
     const-string v2, "Could not parse intent flags."
 
-    invoke-static {v2}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v2}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     goto :goto_2
 .end method

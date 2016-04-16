@@ -6,16 +6,16 @@
 
 
 # virtual methods
-.method public abstract zza(Lcom/abdhoms/myprofile/adu;)V
+.method public abstract zza(Lcom/khaibin/myprofile/adu;)V
 .end method
 
-.method public abstract zza(Lcom/abdhoms/myprofile/adx;)V
+.method public abstract zza(Lcom/khaibin/myprofile/adx;)V
 .end method
 
 .method public abstract zza(Lcom/google/android/gms/ads/internal/formats/NativeAdOptionsParcel;)V
 .end method
 
-.method public abstract zza(Ljava/lang/String;Lcom/abdhoms/myprofile/aed;Lcom/abdhoms/myprofile/aea;)V
+.method public abstract zza(Ljava/lang/String;Lcom/khaibin/myprofile/aed;Lcom/khaibin/myprofile/aea;)V
 .end method
 
 .method public abstract zzb(Lcom/google/android/gms/ads/internal/client/zzq;)V

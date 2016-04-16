@@ -45,13 +45,13 @@
 
     iput v2, p0, Landroid/support/v7/widget/ViewStubCompat;->a:I
 
-    sget-object v0, Lcom/abdhoms/myprofile/hz;->ViewStubCompat:[I
+    sget-object v0, Lcom/khaibin/myprofile/hz;->ViewStubCompat:[I
 
     invoke-virtual {p1, p2, v0, p3, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->ViewStubCompat_android_inflatedId:I
+    sget v1, Lcom/khaibin/myprofile/hz;->ViewStubCompat_android_inflatedId:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -59,7 +59,7 @@
 
     iput v1, p0, Landroid/support/v7/widget/ViewStubCompat;->b:I
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->ViewStubCompat_android_layout:I
+    sget v1, Lcom/khaibin/myprofile/hz;->ViewStubCompat_android_layout:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -67,7 +67,7 @@
 
     iput v1, p0, Landroid/support/v7/widget/ViewStubCompat;->a:I
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->ViewStubCompat_android_id:I
+    sget v1, Lcom/khaibin/myprofile/hz;->ViewStubCompat_android_id:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getResourceId(II)I
 

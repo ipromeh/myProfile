@@ -19,10 +19,10 @@
 
 
 # virtual methods
-.method public onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+.method public onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
     .locals 1
 
-    invoke-super {p0, p1, p2}, Landroid/support/v4/view/a;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+    invoke-super {p0, p1, p2}, Landroid/support/v4/view/a;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
 
     iget-object v0, p0, Landroid/support/v7/widget/ev;->a:Landroid/support/v7/widget/eu;
 
@@ -50,7 +50,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1, p2}, Landroid/support/v7/widget/ee;->a(Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+    invoke-virtual {v0, p1, p2}, Landroid/support/v7/widget/ee;->a(Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
 
     :cond_0
     return-void

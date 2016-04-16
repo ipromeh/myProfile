@@ -3,7 +3,7 @@
 
 
 # virtual methods
-.method public abstract zza(Landroid/app/Activity;Lcom/abdhoms/myprofile/atx;Landroid/widget/RelativeLayout;)Lcom/google/android/gms/ads/internal/overlay/zzl;
+.method public abstract zza(Landroid/app/Activity;Lcom/khaibin/myprofile/atx;Landroid/widget/RelativeLayout;)Lcom/google/android/gms/ads/internal/overlay/zzl;
 .end method
 
 .method public abstract zzfM()Z

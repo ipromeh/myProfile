@@ -421,7 +421,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {p1}, Lcom/abdhoms/myprofile/ad;->b(Landroid/graphics/drawable/Drawable;)Z
+    invoke-static {p1}, Lcom/khaibin/myprofile/ad;->b(Landroid/graphics/drawable/Drawable;)Z
 
     move-result v0
 
@@ -434,7 +434,7 @@
     return v0
 
     :cond_1
-    invoke-static {p1, p2}, Lcom/abdhoms/myprofile/ad;->b(Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {p1, p2}, Lcom/khaibin/myprofile/ad;->b(Landroid/graphics/drawable/Drawable;I)V
 
     const/4 v0, 0x1
 
@@ -4006,7 +4006,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/abdhoms/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/khaibin/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 

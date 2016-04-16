@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/afc;
+.implements Lcom/khaibin/myprofile/afc;
 
 
 # direct methods
@@ -16,12 +16,12 @@
 
 
 # virtual methods
-.method public zza(Lcom/abdhoms/myprofile/atx;Ljava/util/Map;)V
+.method public zza(Lcom/khaibin/myprofile/atx;Ljava/util/Map;)V
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/abdhoms/myprofile/atx;",
+            "Lcom/khaibin/myprofile/atx;",
             "Ljava/util/Map",
             "<",
             "Ljava/lang/String;",
@@ -64,13 +64,13 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/google/android/gms/ads/internal/request/zzm;->a()Lcom/abdhoms/myprofile/afn;
+    invoke-static {}, Lcom/google/android/gms/ads/internal/request/zzm;->a()Lcom/khaibin/myprofile/afn;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/abdhoms/myprofile/afn;->b(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/khaibin/myprofile/afn;->b(Ljava/lang/String;)V
 
     return-void
 .end method

@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/afc;
+.implements Lcom/khaibin/myprofile/afc;
 
 
 # instance fields
@@ -22,12 +22,12 @@
 
 
 # virtual methods
-.method public zza(Lcom/abdhoms/myprofile/atx;Ljava/util/Map;)V
+.method public zza(Lcom/khaibin/myprofile/atx;Ljava/util/Map;)V
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/abdhoms/myprofile/atx;",
+            "Lcom/khaibin/myprofile/atx;",
             "Ljava/util/Map",
             "<",
             "Ljava/lang/String;",
@@ -77,7 +77,7 @@
 
     const-string v1, "Unable to dispatch sendMessageToNativeJs event"
 
-    invoke-static {v1, v0}, Lcom/abdhoms/myprofile/ara;->zzb(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0}, Lcom/khaibin/myprofile/ara;->zzb(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_1
     return-void
@@ -96,13 +96,13 @@
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/formats/g;->a:Lcom/google/android/gms/ads/internal/formats/zzi;
 
-    invoke-static {v0}, Lcom/google/android/gms/ads/internal/formats/zzi;->b(Lcom/google/android/gms/ads/internal/formats/zzi;)Lcom/abdhoms/myprofile/ahq;
+    invoke-static {v0}, Lcom/google/android/gms/ads/internal/formats/zzi;->b(Lcom/google/android/gms/ads/internal/formats/zzi;)Lcom/khaibin/myprofile/ahq;
 
     move-result-object v0
 
     const-string v2, "sendMessageToNativeJs"
 
-    invoke-interface {v0, v2, v1}, Lcom/abdhoms/myprofile/ahq;->b(Ljava/lang/String;Lorg/json/JSONObject;)V
+    invoke-interface {v0, v2, v1}, Lcom/khaibin/myprofile/ahq;->b(Ljava/lang/String;Lorg/json/JSONObject;)V
     :try_end_1
     .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_0
 

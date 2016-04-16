@@ -2,14 +2,14 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/mx;
+.implements Lcom/khaibin/myprofile/mx;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/abdhoms/myprofile/mx",
+        "Lcom/khaibin/myprofile/mx",
         "<",
         "Landroid/graphics/Bitmap;",
         ">;"
@@ -20,11 +20,11 @@
 # instance fields
 .field private final a:Landroid/graphics/Bitmap;
 
-.field private final b:Lcom/abdhoms/myprofile/nf;
+.field private final b:Lcom/khaibin/myprofile/nf;
 
 
 # direct methods
-.method public constructor <init>(Landroid/graphics/Bitmap;Lcom/abdhoms/myprofile/nf;)V
+.method public constructor <init>(Landroid/graphics/Bitmap;Lcom/khaibin/myprofile/nf;)V
     .locals 2
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -53,12 +53,12 @@
     :cond_1
     iput-object p1, p0, Lcom/bumptech/glide/load/resource/bitmap/c;->a:Landroid/graphics/Bitmap;
 
-    iput-object p2, p0, Lcom/bumptech/glide/load/resource/bitmap/c;->b:Lcom/abdhoms/myprofile/nf;
+    iput-object p2, p0, Lcom/bumptech/glide/load/resource/bitmap/c;->b:Lcom/khaibin/myprofile/nf;
 
     return-void
 .end method
 
-.method public static a(Landroid/graphics/Bitmap;Lcom/abdhoms/myprofile/nf;)Lcom/bumptech/glide/load/resource/bitmap/c;
+.method public static a(Landroid/graphics/Bitmap;Lcom/khaibin/myprofile/nf;)Lcom/bumptech/glide/load/resource/bitmap/c;
     .locals 1
 
     if-nez p0, :cond_0
@@ -71,7 +71,7 @@
     :cond_0
     new-instance v0, Lcom/bumptech/glide/load/resource/bitmap/c;
 
-    invoke-direct {v0, p0, p1}, Lcom/bumptech/glide/load/resource/bitmap/c;-><init>(Landroid/graphics/Bitmap;Lcom/abdhoms/myprofile/nf;)V
+    invoke-direct {v0, p0, p1}, Lcom/bumptech/glide/load/resource/bitmap/c;-><init>(Landroid/graphics/Bitmap;Lcom/khaibin/myprofile/nf;)V
 
     goto :goto_0
 .end method
@@ -101,7 +101,7 @@
 
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/c;->a:Landroid/graphics/Bitmap;
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/vb;->a(Landroid/graphics/Bitmap;)I
+    invoke-static {v0}, Lcom/khaibin/myprofile/vb;->a(Landroid/graphics/Bitmap;)I
 
     move-result v0
 
@@ -111,11 +111,11 @@
 .method public d()V
     .locals 2
 
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/c;->b:Lcom/abdhoms/myprofile/nf;
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/c;->b:Lcom/khaibin/myprofile/nf;
 
     iget-object v1, p0, Lcom/bumptech/glide/load/resource/bitmap/c;->a:Landroid/graphics/Bitmap;
 
-    invoke-interface {v0, v1}, Lcom/abdhoms/myprofile/nf;->a(Landroid/graphics/Bitmap;)Z
+    invoke-interface {v0, v1}, Lcom/khaibin/myprofile/nf;->a(Landroid/graphics/Bitmap;)Z
 
     move-result v0
 

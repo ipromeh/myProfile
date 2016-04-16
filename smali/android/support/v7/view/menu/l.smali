@@ -13,7 +13,7 @@
 
 .field private b:Landroid/support/v7/view/menu/i;
 
-.field private c:Lcom/abdhoms/myprofile/fx;
+.field private c:Lcom/khaibin/myprofile/fx;
 
 .field private d:Landroid/support/v7/view/menu/y;
 
@@ -34,13 +34,13 @@
 .method public a()V
     .locals 1
 
-    iget-object v0, p0, Landroid/support/v7/view/menu/l;->c:Lcom/abdhoms/myprofile/fx;
+    iget-object v0, p0, Landroid/support/v7/view/menu/l;->c:Lcom/khaibin/myprofile/fx;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Landroid/support/v7/view/menu/l;->c:Lcom/abdhoms/myprofile/fx;
+    iget-object v0, p0, Landroid/support/v7/view/menu/l;->c:Lcom/khaibin/myprofile/fx;
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/fx;->dismiss()V
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/fx;->dismiss()V
 
     :cond_0
     return-void
@@ -51,21 +51,21 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/l;->b:Landroid/support/v7/view/menu/i;
 
-    new-instance v1, Lcom/abdhoms/myprofile/fy;
+    new-instance v1, Lcom/khaibin/myprofile/fy;
 
     invoke-virtual {v0}, Landroid/support/v7/view/menu/i;->e()Landroid/content/Context;
 
     move-result-object v2
 
-    invoke-direct {v1, v2}, Lcom/abdhoms/myprofile/fy;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, v2}, Lcom/khaibin/myprofile/fy;-><init>(Landroid/content/Context;)V
 
     new-instance v2, Landroid/support/v7/view/menu/g;
 
-    invoke-virtual {v1}, Lcom/abdhoms/myprofile/fy;->a()Landroid/content/Context;
+    invoke-virtual {v1}, Lcom/khaibin/myprofile/fy;->a()Landroid/content/Context;
 
     move-result-object v3
 
-    sget v4, Lcom/abdhoms/myprofile/hw;->abc_list_menu_item_layout:I
+    sget v4, Lcom/khaibin/myprofile/hw;->abc_list_menu_item_layout:I
 
     invoke-direct {v2, v3, v4}, Landroid/support/v7/view/menu/g;-><init>(Landroid/content/Context;I)V
 
@@ -87,7 +87,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2, p0}, Lcom/abdhoms/myprofile/fy;->a(Landroid/widget/ListAdapter;Landroid/content/DialogInterface$OnClickListener;)Lcom/abdhoms/myprofile/fy;
+    invoke-virtual {v1, v2, p0}, Lcom/khaibin/myprofile/fy;->a(Landroid/widget/ListAdapter;Landroid/content/DialogInterface$OnClickListener;)Lcom/khaibin/myprofile/fy;
 
     invoke-virtual {v0}, Landroid/support/v7/view/menu/i;->o()Landroid/view/View;
 
@@ -95,24 +95,24 @@
 
     if-eqz v2, :cond_1
 
-    invoke-virtual {v1, v2}, Lcom/abdhoms/myprofile/fy;->a(Landroid/view/View;)Lcom/abdhoms/myprofile/fy;
+    invoke-virtual {v1, v2}, Lcom/khaibin/myprofile/fy;->a(Landroid/view/View;)Lcom/khaibin/myprofile/fy;
 
     :goto_0
-    invoke-virtual {v1, p0}, Lcom/abdhoms/myprofile/fy;->a(Landroid/content/DialogInterface$OnKeyListener;)Lcom/abdhoms/myprofile/fy;
+    invoke-virtual {v1, p0}, Lcom/khaibin/myprofile/fy;->a(Landroid/content/DialogInterface$OnKeyListener;)Lcom/khaibin/myprofile/fy;
 
-    invoke-virtual {v1}, Lcom/abdhoms/myprofile/fy;->b()Lcom/abdhoms/myprofile/fx;
+    invoke-virtual {v1}, Lcom/khaibin/myprofile/fy;->b()Lcom/khaibin/myprofile/fx;
 
     move-result-object v0
 
-    iput-object v0, p0, Landroid/support/v7/view/menu/l;->c:Lcom/abdhoms/myprofile/fx;
+    iput-object v0, p0, Landroid/support/v7/view/menu/l;->c:Lcom/khaibin/myprofile/fx;
 
-    iget-object v0, p0, Landroid/support/v7/view/menu/l;->c:Lcom/abdhoms/myprofile/fx;
+    iget-object v0, p0, Landroid/support/v7/view/menu/l;->c:Lcom/khaibin/myprofile/fx;
 
-    invoke-virtual {v0, p0}, Lcom/abdhoms/myprofile/fx;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual {v0, p0}, Lcom/khaibin/myprofile/fx;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    iget-object v0, p0, Landroid/support/v7/view/menu/l;->c:Lcom/abdhoms/myprofile/fx;
+    iget-object v0, p0, Landroid/support/v7/view/menu/l;->c:Lcom/khaibin/myprofile/fx;
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/fx;->getWindow()Landroid/view/Window;
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/fx;->getWindow()Landroid/view/Window;
 
     move-result-object v0
 
@@ -137,9 +137,9 @@
 
     iput v1, v0, Landroid/view/WindowManager$LayoutParams;->flags:I
 
-    iget-object v0, p0, Landroid/support/v7/view/menu/l;->c:Lcom/abdhoms/myprofile/fx;
+    iget-object v0, p0, Landroid/support/v7/view/menu/l;->c:Lcom/khaibin/myprofile/fx;
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/fx;->show()V
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/fx;->show()V
 
     return-void
 
@@ -148,7 +148,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/abdhoms/myprofile/fy;->a(Landroid/graphics/drawable/Drawable;)Lcom/abdhoms/myprofile/fy;
+    invoke-virtual {v1, v2}, Lcom/khaibin/myprofile/fy;->a(Landroid/graphics/drawable/Drawable;)Lcom/khaibin/myprofile/fy;
 
     move-result-object v2
 
@@ -156,7 +156,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v2, v0}, Lcom/abdhoms/myprofile/fy;->a(Ljava/lang/CharSequence;)Lcom/abdhoms/myprofile/fy;
+    invoke-virtual {v2, v0}, Lcom/khaibin/myprofile/fy;->a(Ljava/lang/CharSequence;)Lcom/khaibin/myprofile/fy;
 
     goto :goto_0
 .end method
@@ -272,9 +272,9 @@
 
     if-nez v1, :cond_1
 
-    iget-object v1, p0, Landroid/support/v7/view/menu/l;->c:Lcom/abdhoms/myprofile/fx;
+    iget-object v1, p0, Landroid/support/v7/view/menu/l;->c:Lcom/khaibin/myprofile/fx;
 
-    invoke-virtual {v1}, Lcom/abdhoms/myprofile/fx;->getWindow()Landroid/view/Window;
+    invoke-virtual {v1}, Lcom/khaibin/myprofile/fx;->getWindow()Landroid/view/Window;
 
     move-result-object v1
 
@@ -310,9 +310,9 @@
 
     if-nez v1, :cond_2
 
-    iget-object v1, p0, Landroid/support/v7/view/menu/l;->c:Lcom/abdhoms/myprofile/fx;
+    iget-object v1, p0, Landroid/support/v7/view/menu/l;->c:Lcom/khaibin/myprofile/fx;
 
-    invoke-virtual {v1}, Lcom/abdhoms/myprofile/fx;->getWindow()Landroid/view/Window;
+    invoke-virtual {v1}, Lcom/khaibin/myprofile/fx;->getWindow()Landroid/view/Window;
 
     move-result-object v1
 

@@ -168,7 +168,7 @@
 
     const-string v0, "RV OnBindView"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/bi;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/bi;->a(Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/support/v7/widget/et;->u()Ljava/util/List;
 
@@ -178,7 +178,7 @@
 
     invoke-virtual {p1}, Landroid/support/v7/widget/et;->t()V
 
-    invoke-static {}, Lcom/abdhoms/myprofile/bi;->a()V
+    invoke-static {}, Lcom/khaibin/myprofile/bi;->a()V
 
     return-void
 .end method
@@ -208,7 +208,7 @@
 
     const-string v0, "RV CreateView"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/bi;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/bi;->a(Ljava/lang/String;)V
 
     invoke-virtual {p0, p1, p2}, Landroid/support/v7/widget/du;->b(Landroid/view/ViewGroup;I)Landroid/support/v7/widget/et;
 
@@ -216,7 +216,7 @@
 
     iput p2, v0, Landroid/support/v7/widget/et;->e:I
 
-    invoke-static {}, Lcom/abdhoms/myprofile/bi;->a()V
+    invoke-static {}, Lcom/khaibin/myprofile/bi;->a()V
 
     return-object v0
 .end method

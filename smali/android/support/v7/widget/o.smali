@@ -21,7 +21,7 @@
 
     const/4 v0, 0x0
 
-    sget v1, Lcom/abdhoms/myprofile/hp;->actionOverflowButtonStyle:I
+    sget v1, Lcom/khaibin/myprofile/hp;->actionOverflowButtonStyle:I
 
     invoke-direct {p0, p2, v0, v1}, Landroid/support/v7/widget/au;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -163,7 +163,7 @@
 
     add-int/2addr v3, v4
 
-    invoke-static {v2, v5, v6, v1, v3}, Lcom/abdhoms/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;IIII)V
+    invoke-static {v2, v5, v6, v1, v3}, Lcom/khaibin/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;IIII)V
 
     :cond_0
     return v0

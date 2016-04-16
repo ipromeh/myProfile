@@ -1,12 +1,12 @@
 .class public final Lcom/google/android/gms/ads/internal/purchase/zzg;
-.super Lcom/abdhoms/myprofile/anc;
+.super Lcom/khaibin/myprofile/anc;
 
 # interfaces
 .implements Landroid/content/ServiceConnection;
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -30,7 +30,7 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;ZILandroid/content/Intent;Lcom/google/android/gms/ads/internal/purchase/zzf;)V
     .locals 1
 
-    invoke-direct {p0}, Lcom/abdhoms/myprofile/anc;-><init>()V
+    invoke-direct {p0}, Lcom/khaibin/myprofile/anc;-><init>()V
 
     const/4 v0, 0x0
 
@@ -147,7 +147,7 @@
 
     const-string v0, "In-app billing service connected."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaJ(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaJ(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/purchase/zzg;->a:Lcom/google/android/gms/ads/internal/purchase/zzb;
 
@@ -222,7 +222,7 @@
 
     const-string v0, "In-app billing service disconnected."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaJ(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaJ(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/purchase/zzg;->a:Lcom/google/android/gms/ads/internal/purchase/zzb;
 

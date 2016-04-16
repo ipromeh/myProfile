@@ -31,13 +31,13 @@
 
     iget-object v0, p0, Landroid/support/v4/view/f;->a:Landroid/support/v4/view/a;
 
-    invoke-virtual {v0, p1}, Landroid/support/v4/view/a;->getAccessibilityNodeProvider(Landroid/view/View;)Lcom/abdhoms/myprofile/dw;
+    invoke-virtual {v0, p1}, Landroid/support/v4/view/a;->getAccessibilityNodeProvider(Landroid/view/View;)Lcom/khaibin/myprofile/dw;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/dw;->a()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/dw;->a()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -65,11 +65,11 @@
 
     iget-object v0, p0, Landroid/support/v4/view/f;->a:Landroid/support/v4/view/a;
 
-    new-instance v1, Lcom/abdhoms/myprofile/dd;
+    new-instance v1, Lcom/khaibin/myprofile/dd;
 
-    invoke-direct {v1, p2}, Lcom/abdhoms/myprofile/dd;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v1, p2}, Lcom/khaibin/myprofile/dd;-><init>(Ljava/lang/Object;)V
 
-    invoke-virtual {v0, p1, v1}, Landroid/support/v4/view/a;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+    invoke-virtual {v0, p1, v1}, Landroid/support/v4/view/a;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
 
     return-void
 .end method

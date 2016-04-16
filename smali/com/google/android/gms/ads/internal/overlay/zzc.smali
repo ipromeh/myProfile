@@ -17,7 +17,7 @@
     value = 0xe
 .end annotation
 
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -313,7 +313,7 @@
 
     const-string v0, "AdMediaPlayerView init MediaPlayer"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/google/android/gms/ads/internal/overlay/zzc;->getSurfaceTexture()Landroid/graphics/SurfaceTexture;
 
@@ -434,7 +434,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v0}, Lcom/abdhoms/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0}, Lcom/khaibin/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzc;->e:Landroid/media/MediaPlayer;
 
@@ -468,7 +468,7 @@
     :cond_0
     const-string v0, "AdMediaPlayerView setMediaPlayerVolume() called before onPrepared()."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -516,7 +516,7 @@
 
     const-string v0, "AdMediaPlayerView release"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzc;->e:Landroid/media/MediaPlayer;
 
@@ -574,7 +574,7 @@
 
     const-string v0, "AdMediaPlayerView nudging MediaPlayer"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -590,11 +590,11 @@
 
     move-result v0
 
-    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbG()Lcom/abdhoms/myprofile/awi;
+    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbG()Lcom/khaibin/myprofile/awi;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/abdhoms/myprofile/awi;->a()J
+    invoke-interface {v1}, Lcom/khaibin/myprofile/awi;->a()J
 
     move-result-wide v2
 
@@ -613,11 +613,11 @@
 
     if-ne v1, v0, :cond_1
 
-    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbG()Lcom/abdhoms/myprofile/awi;
+    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbG()Lcom/khaibin/myprofile/awi;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/abdhoms/myprofile/awi;->a()J
+    invoke-interface {v1}, Lcom/khaibin/myprofile/awi;->a()J
 
     move-result-wide v4
 
@@ -682,7 +682,7 @@
     :cond_1
     const-string v0, "AdMediaPlayerView audio focus request failed"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -692,7 +692,7 @@
 
     const-string v0, "AdMediaPlayerView abandon audio focus"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/google/android/gms/ads/internal/overlay/zzc;->i()Landroid/media/AudioManager;
 
@@ -723,7 +723,7 @@
     :cond_1
     const-string v0, "AdMediaPlayerView abandon audio focus failed"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -765,7 +765,7 @@
 
     const-string v0, "AdMediaPlayerView audio focus gained"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -781,7 +781,7 @@
 
     const-string v0, "AdMediaPlayerView audio focus lost"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -964,13 +964,13 @@
 
     const-string v0, "AdMediaPlayerView completion"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     invoke-direct {p0, v1}, Lcom/google/android/gms/ads/internal/overlay/zzc;->a(I)V
 
     invoke-direct {p0, v1}, Lcom/google/android/gms/ads/internal/overlay/zzc;->b(I)V
 
-    sget-object v0, Lcom/abdhoms/myprofile/art;->a:Landroid/os/Handler;
+    sget-object v0, Lcom/khaibin/myprofile/art;->a:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/android/gms/ads/internal/overlay/b;
 
@@ -1038,13 +1038,13 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v2}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     invoke-direct {p0, v4}, Lcom/google/android/gms/ads/internal/overlay/zzc;->a(I)V
 
     invoke-direct {p0, v4}, Lcom/google/android/gms/ads/internal/overlay/zzc;->b(I)V
 
-    sget-object v2, Lcom/abdhoms/myprofile/art;->a:Landroid/os/Handler;
+    sget-object v2, Lcom/khaibin/myprofile/art;->a:Landroid/os/Handler;
 
     new-instance v3, Lcom/google/android/gms/ads/internal/overlay/c;
 
@@ -1112,7 +1112,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -1342,7 +1342,7 @@
 
     const-string v0, "AdMediaPlayerView prepared"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     const/4 v0, 0x2
 
@@ -1352,7 +1352,7 @@
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/internal/overlay/zzt;->zzfz()V
 
-    sget-object v0, Lcom/abdhoms/myprofile/art;->a:Landroid/os/Handler;
+    sget-object v0, Lcom/khaibin/myprofile/art;->a:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/android/gms/ads/internal/overlay/a;
 
@@ -1415,7 +1415,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaJ(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaJ(Ljava/lang/String;)V
 
     iget v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzc;->d:I
 
@@ -1438,11 +1438,11 @@
 
     const-string v0, "AdMediaPlayerView surface created"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/google/android/gms/ads/internal/overlay/zzc;->a()V
 
-    sget-object v0, Lcom/abdhoms/myprofile/art;->a:Landroid/os/Handler;
+    sget-object v0, Lcom/khaibin/myprofile/art;->a:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/android/gms/ads/internal/overlay/d;
 
@@ -1460,7 +1460,7 @@
 
     const-string v0, "AdMediaPlayerView surface destroyed"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzc;->e:Landroid/media/MediaPlayer;
 
@@ -1479,7 +1479,7 @@
     iput v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzc;->o:I
 
     :cond_0
-    sget-object v0, Lcom/abdhoms/myprofile/art;->a:Landroid/os/Handler;
+    sget-object v0, Lcom/khaibin/myprofile/art;->a:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/android/gms/ads/internal/overlay/e;
 
@@ -1501,7 +1501,7 @@
 
     const-string v0, "AdMediaPlayerView surface changed"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     iget v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzc;->d:I
 
@@ -1595,7 +1595,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/media/MediaPlayer;->getVideoWidth()I
 
@@ -1630,7 +1630,7 @@
 
     const-string v0, "AdMediaPlayerView pause"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/google/android/gms/ads/internal/overlay/zzc;->e()Z
 
@@ -1652,7 +1652,7 @@
 
     invoke-direct {p0, v2}, Lcom/google/android/gms/ads/internal/overlay/zzc;->a(I)V
 
-    sget-object v0, Lcom/abdhoms/myprofile/art;->a:Landroid/os/Handler;
+    sget-object v0, Lcom/khaibin/myprofile/art;->a:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/android/gms/ads/internal/overlay/g;
 
@@ -1673,7 +1673,7 @@
 
     const-string v0, "AdMediaPlayerView play"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/google/android/gms/ads/internal/overlay/zzc;->e()Z
 
@@ -1687,7 +1687,7 @@
 
     invoke-direct {p0, v2}, Lcom/google/android/gms/ads/internal/overlay/zzc;->a(I)V
 
-    sget-object v0, Lcom/abdhoms/myprofile/art;->a:Landroid/os/Handler;
+    sget-object v0, Lcom/khaibin/myprofile/art;->a:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/android/gms/ads/internal/overlay/f;
 
@@ -1722,7 +1722,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/google/android/gms/ads/internal/overlay/zzc;->e()Z
 
@@ -1790,7 +1790,7 @@
 
     const-string v0, "AdMediaPlayerView stop"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->a(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzc;->e:Landroid/media/MediaPlayer;
 

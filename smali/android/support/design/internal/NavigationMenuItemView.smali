@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/h;->design_navigation_menu_item:I
+    sget v1, Lcom/khaibin/myprofile/h;->design_navigation_menu_item:I
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -83,7 +83,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/e;->design_navigation_icon_size:I
+    sget v1, Lcom/khaibin/myprofile/e;->design_navigation_icon_size:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -91,7 +91,7 @@
 
     iput v0, p0, Landroid/support/design/internal/NavigationMenuItemView;->d:I
 
-    sget v0, Lcom/abdhoms/myprofile/g;->design_menu_item_text:I
+    sget v0, Lcom/khaibin/myprofile/g;->design_menu_item_text:I
 
     invoke-virtual {p0, v0}, Landroid/support/design/internal/NavigationMenuItemView;->findViewById(I)Landroid/view/View;
 
@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    sget v2, Lcom/abdhoms/myprofile/c;->colorControlHighlight:I
+    sget v2, Lcom/khaibin/myprofile/c;->colorControlHighlight:I
 
     const/4 v3, 0x1
 
@@ -173,7 +173,7 @@
 
     if-nez v0, :cond_0
 
-    sget v0, Lcom/abdhoms/myprofile/g;->design_menu_item_action_area_stub:I
+    sget v0, Lcom/khaibin/myprofile/g;->design_menu_item_action_area_stub:I
 
     invoke-virtual {p0, v0}, Landroid/support/design/internal/NavigationMenuItemView;->findViewById(I)Landroid/view/View;
 
@@ -399,7 +399,7 @@
     if-nez v0, :cond_1
 
     :goto_0
-    invoke-static {p1}, Lcom/abdhoms/myprofile/ad;->c(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+    invoke-static {p1}, Lcom/khaibin/myprofile/ad;->c(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -415,7 +415,7 @@
 
     iget-object v0, p0, Landroid/support/design/internal/NavigationMenuItemView;->h:Landroid/content/res/ColorStateList;
 
-    invoke-static {p1, v0}, Lcom/abdhoms/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
+    invoke-static {p1, v0}, Lcom/khaibin/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
 
     :cond_0
     iget-object v0, p0, Landroid/support/design/internal/NavigationMenuItemView;->e:Landroid/widget/CheckedTextView;

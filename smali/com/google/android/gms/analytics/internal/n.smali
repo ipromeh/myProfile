@@ -156,11 +156,11 @@
     return-wide v0
 
     :cond_1
-    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/n;->n()Lcom/abdhoms/myprofile/awi;
+    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/n;->n()Lcom/khaibin/myprofile/awi;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/awi;->a()J
+    invoke-interface {v0}, Lcom/khaibin/myprofile/awi;->a()J
 
     move-result-wide v0
 
@@ -195,7 +195,7 @@
 
     new-instance v0, Lcom/google/android/gms/analytics/internal/q;
 
-    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/n;->n()Lcom/abdhoms/myprofile/awi;
+    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/n;->n()Lcom/khaibin/myprofile/awi;
 
     move-result-object v1
 
@@ -203,7 +203,7 @@
 
     move-result-wide v2
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/google/android/gms/analytics/internal/q;-><init>(Lcom/abdhoms/myprofile/awi;J)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/google/android/gms/analytics/internal/q;-><init>(Lcom/khaibin/myprofile/awi;J)V
 
     return-object v0
 .end method
@@ -248,11 +248,11 @@
 
     invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/n;->D()V
 
-    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/n;->n()Lcom/abdhoms/myprofile/awi;
+    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/n;->n()Lcom/khaibin/myprofile/awi;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/awi;->a()J
+    invoke-interface {v0}, Lcom/khaibin/myprofile/awi;->a()J
 
     move-result-wide v0
 

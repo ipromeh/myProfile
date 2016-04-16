@@ -84,13 +84,13 @@
 
     iput-object v0, p0, Landroid/support/design/widget/CoordinatorLayout$LayoutParams;->mLastChildRect:Landroid/graphics/Rect;
 
-    sget-object v0, Lcom/abdhoms/myprofile/k;->CoordinatorLayout_LayoutParams:[I
+    sget-object v0, Lcom/khaibin/myprofile/k;->CoordinatorLayout_LayoutParams:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->CoordinatorLayout_LayoutParams_android_layout_gravity:I
+    sget v1, Lcom/khaibin/myprofile/k;->CoordinatorLayout_LayoutParams_android_layout_gravity:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/TypedArray;->getInteger(II)I
 
@@ -98,7 +98,7 @@
 
     iput v1, p0, Landroid/support/design/widget/CoordinatorLayout$LayoutParams;->gravity:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->CoordinatorLayout_LayoutParams_layout_anchor:I
+    sget v1, Lcom/khaibin/myprofile/k;->CoordinatorLayout_LayoutParams_layout_anchor:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -106,7 +106,7 @@
 
     iput v1, p0, Landroid/support/design/widget/CoordinatorLayout$LayoutParams;->mAnchorId:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->CoordinatorLayout_LayoutParams_layout_anchorGravity:I
+    sget v1, Lcom/khaibin/myprofile/k;->CoordinatorLayout_LayoutParams_layout_anchorGravity:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/TypedArray;->getInteger(II)I
 
@@ -114,7 +114,7 @@
 
     iput v1, p0, Landroid/support/design/widget/CoordinatorLayout$LayoutParams;->anchorGravity:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->CoordinatorLayout_LayoutParams_layout_keyline:I
+    sget v1, Lcom/khaibin/myprofile/k;->CoordinatorLayout_LayoutParams_layout_keyline:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getInteger(II)I
 
@@ -122,7 +122,7 @@
 
     iput v1, p0, Landroid/support/design/widget/CoordinatorLayout$LayoutParams;->keyline:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->CoordinatorLayout_LayoutParams_layout_behavior:I
+    sget v1, Lcom/khaibin/myprofile/k;->CoordinatorLayout_LayoutParams_layout_behavior:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -134,7 +134,7 @@
 
     if-eqz v1, :cond_0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->CoordinatorLayout_LayoutParams_layout_behavior:I
+    sget v1, Lcom/khaibin/myprofile/k;->CoordinatorLayout_LayoutParams_layout_behavior:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
 

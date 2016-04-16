@@ -60,13 +60,13 @@
 
     iput v0, p0, Landroid/support/design/widget/AppBarLayout$LayoutParams;->mScrollFlags:I
 
-    sget-object v0, Lcom/abdhoms/myprofile/k;->AppBarLayout_LayoutParams:[I
+    sget-object v0, Lcom/khaibin/myprofile/k;->AppBarLayout_LayoutParams:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->AppBarLayout_LayoutParams_layout_scrollFlags:I
+    sget v1, Lcom/khaibin/myprofile/k;->AppBarLayout_LayoutParams_layout_scrollFlags:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/TypedArray;->getInt(II)I
 
@@ -74,7 +74,7 @@
 
     iput v1, p0, Landroid/support/design/widget/AppBarLayout$LayoutParams;->mScrollFlags:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->AppBarLayout_LayoutParams_layout_scrollInterpolator:I
+    sget v1, Lcom/khaibin/myprofile/k;->AppBarLayout_LayoutParams_layout_scrollInterpolator:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -82,7 +82,7 @@
 
     if-eqz v1, :cond_0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->AppBarLayout_LayoutParams_layout_scrollInterpolator:I
+    sget v1, Lcom/khaibin/myprofile/k;->AppBarLayout_LayoutParams_layout_scrollInterpolator:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/TypedArray;->getResourceId(II)I
 

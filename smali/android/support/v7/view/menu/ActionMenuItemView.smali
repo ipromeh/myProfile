@@ -64,7 +64,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hq;->abc_config_allowActionMenuItemTextWithIcon:I
+    sget v1, Lcom/khaibin/myprofile/hq;->abc_config_allowActionMenuItemTextWithIcon:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -72,13 +72,13 @@
 
     iput-boolean v1, p0, Landroid/support/v7/view/menu/ActionMenuItemView;->g:Z
 
-    sget-object v1, Lcom/abdhoms/myprofile/hz;->ActionMenuItemView:[I
+    sget-object v1, Lcom/khaibin/myprofile/hz;->ActionMenuItemView:[I
 
     invoke-virtual {p1, p2, v1, p3, v3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     move-result-object v1
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->ActionMenuItemView_android_minWidth:I
+    sget v2, Lcom/khaibin/myprofile/hz;->ActionMenuItemView_android_minWidth:I
 
     invoke-virtual {v1, v2, v3}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -387,7 +387,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hq;->abc_config_allowActionMenuItemTextWithIcon:I
+    sget v1, Lcom/khaibin/myprofile/hq;->abc_config_allowActionMenuItemTextWithIcon:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 

@@ -44,7 +44,7 @@
 
     move-result-object v1
 
-    const-class v2, Lcom/abdhoms/myprofile/vg;
+    const-class v2, Lcom/khaibin/myprofile/vg;
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -105,7 +105,7 @@
 
     move-result-object v2
 
-    const-class v3, Lcom/abdhoms/myprofile/vg;
+    const-class v3, Lcom/khaibin/myprofile/vg;
 
     invoke-direct {v1, v2, v3}, Landroid/content/ComponentName;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -186,11 +186,11 @@
 
     invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/bk;->e()V
 
-    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/bk;->n()Lcom/abdhoms/myprofile/awi;
+    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/bk;->n()Lcom/khaibin/myprofile/awi;
 
     move-result-object v2
 
-    invoke-interface {v2}, Lcom/abdhoms/myprofile/awi;->b()J
+    invoke-interface {v2}, Lcom/khaibin/myprofile/awi;->b()J
 
     move-result-wide v2
 

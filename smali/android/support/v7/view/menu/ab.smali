@@ -3,7 +3,7 @@
 
 
 # direct methods
-.method public static a(Landroid/content/Context;Lcom/abdhoms/myprofile/ay;)Landroid/view/Menu;
+.method public static a(Landroid/content/Context;Lcom/khaibin/myprofile/ay;)Landroid/view/Menu;
     .locals 2
 
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
@@ -14,7 +14,7 @@
 
     new-instance v0, Landroid/support/v7/view/menu/ac;
 
-    invoke-direct {v0, p0, p1}, Landroid/support/v7/view/menu/ac;-><init>(Landroid/content/Context;Lcom/abdhoms/myprofile/ay;)V
+    invoke-direct {v0, p0, p1}, Landroid/support/v7/view/menu/ac;-><init>(Landroid/content/Context;Lcom/khaibin/myprofile/ay;)V
 
     return-object v0
 
@@ -26,7 +26,7 @@
     throw v0
 .end method
 
-.method public static a(Landroid/content/Context;Lcom/abdhoms/myprofile/az;)Landroid/view/MenuItem;
+.method public static a(Landroid/content/Context;Lcom/khaibin/myprofile/az;)Landroid/view/MenuItem;
     .locals 2
 
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
@@ -37,7 +37,7 @@
 
     new-instance v0, Landroid/support/v7/view/menu/t;
 
-    invoke-direct {v0, p0, p1}, Landroid/support/v7/view/menu/t;-><init>(Landroid/content/Context;Lcom/abdhoms/myprofile/az;)V
+    invoke-direct {v0, p0, p1}, Landroid/support/v7/view/menu/t;-><init>(Landroid/content/Context;Lcom/khaibin/myprofile/az;)V
 
     :goto_0
     return-object v0
@@ -51,7 +51,7 @@
 
     new-instance v0, Landroid/support/v7/view/menu/o;
 
-    invoke-direct {v0, p0, p1}, Landroid/support/v7/view/menu/o;-><init>(Landroid/content/Context;Lcom/abdhoms/myprofile/az;)V
+    invoke-direct {v0, p0, p1}, Landroid/support/v7/view/menu/o;-><init>(Landroid/content/Context;Lcom/khaibin/myprofile/az;)V
 
     goto :goto_0
 
@@ -63,7 +63,7 @@
     throw v0
 .end method
 
-.method public static a(Landroid/content/Context;Lcom/abdhoms/myprofile/ba;)Landroid/view/SubMenu;
+.method public static a(Landroid/content/Context;Lcom/khaibin/myprofile/ba;)Landroid/view/SubMenu;
     .locals 2
 
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
@@ -74,7 +74,7 @@
 
     new-instance v0, Landroid/support/v7/view/menu/ae;
 
-    invoke-direct {v0, p0, p1}, Landroid/support/v7/view/menu/ae;-><init>(Landroid/content/Context;Lcom/abdhoms/myprofile/ba;)V
+    invoke-direct {v0, p0, p1}, Landroid/support/v7/view/menu/ae;-><init>(Landroid/content/Context;Lcom/khaibin/myprofile/ba;)V
 
     return-object v0
 

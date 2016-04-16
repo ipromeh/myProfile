@@ -105,15 +105,15 @@
 
     new-array v0, v6, [I
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_textfield_search_default_mtrl_alpha:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_textfield_search_default_mtrl_alpha:I
 
     aput v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_textfield_default_mtrl_alpha:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_textfield_default_mtrl_alpha:I
 
     aput v3, v0, v1
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_ab_share_pack_mtrl_alpha:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_ab_share_pack_mtrl_alpha:I
 
     aput v3, v0, v5
 
@@ -123,65 +123,65 @@
 
     new-array v0, v0, [I
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_ic_ab_back_mtrl_am_alpha:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_ic_ab_back_mtrl_am_alpha:I
 
     aput v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_ic_go_search_api_mtrl_alpha:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_ic_go_search_api_mtrl_alpha:I
 
     aput v3, v0, v1
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_ic_search_api_mtrl_alpha:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_ic_search_api_mtrl_alpha:I
 
     aput v3, v0, v5
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_ic_commit_search_api_mtrl_alpha:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_ic_commit_search_api_mtrl_alpha:I
 
     aput v3, v0, v6
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_ic_clear_mtrl_alpha:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_ic_clear_mtrl_alpha:I
 
     aput v3, v0, v7
 
     const/4 v3, 0x5
 
-    sget v4, Lcom/abdhoms/myprofile/ht;->abc_ic_menu_share_mtrl_alpha:I
+    sget v4, Lcom/khaibin/myprofile/ht;->abc_ic_menu_share_mtrl_alpha:I
 
     aput v4, v0, v3
 
     const/4 v3, 0x6
 
-    sget v4, Lcom/abdhoms/myprofile/ht;->abc_ic_menu_copy_mtrl_am_alpha:I
+    sget v4, Lcom/khaibin/myprofile/ht;->abc_ic_menu_copy_mtrl_am_alpha:I
 
     aput v4, v0, v3
 
     const/4 v3, 0x7
 
-    sget v4, Lcom/abdhoms/myprofile/ht;->abc_ic_menu_cut_mtrl_alpha:I
+    sget v4, Lcom/khaibin/myprofile/ht;->abc_ic_menu_cut_mtrl_alpha:I
 
     aput v4, v0, v3
 
     const/16 v3, 0x8
 
-    sget v4, Lcom/abdhoms/myprofile/ht;->abc_ic_menu_selectall_mtrl_alpha:I
+    sget v4, Lcom/khaibin/myprofile/ht;->abc_ic_menu_selectall_mtrl_alpha:I
 
     aput v4, v0, v3
 
     const/16 v3, 0x9
 
-    sget v4, Lcom/abdhoms/myprofile/ht;->abc_ic_menu_paste_mtrl_am_alpha:I
+    sget v4, Lcom/khaibin/myprofile/ht;->abc_ic_menu_paste_mtrl_am_alpha:I
 
     aput v4, v0, v3
 
     const/16 v3, 0xa
 
-    sget v4, Lcom/abdhoms/myprofile/ht;->abc_ic_menu_moreoverflow_mtrl_alpha:I
+    sget v4, Lcom/khaibin/myprofile/ht;->abc_ic_menu_moreoverflow_mtrl_alpha:I
 
     aput v4, v0, v3
 
     const/16 v3, 0xb
 
-    sget v4, Lcom/abdhoms/myprofile/ht;->abc_ic_voice_search_api_mtrl_alpha:I
+    sget v4, Lcom/khaibin/myprofile/ht;->abc_ic_voice_search_api_mtrl_alpha:I
 
     aput v4, v0, v3
 
@@ -189,19 +189,19 @@
 
     new-array v0, v7, [I
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_textfield_activated_mtrl_alpha:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_textfield_activated_mtrl_alpha:I
 
     aput v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_textfield_search_activated_mtrl_alpha:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_textfield_search_activated_mtrl_alpha:I
 
     aput v3, v0, v1
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_cab_background_top_mtrl_alpha:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_cab_background_top_mtrl_alpha:I
 
     aput v3, v0, v5
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_text_cursor_material:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_text_cursor_material:I
 
     aput v3, v0, v6
 
@@ -209,15 +209,15 @@
 
     new-array v0, v6, [I
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_popup_background_mtrl_mult:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_popup_background_mtrl_mult:I
 
     aput v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_cab_background_internal_bg:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_cab_background_internal_bg:I
 
     aput v3, v0, v1
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_menu_hardkey_panel_mtrl_mult:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_menu_hardkey_panel_mtrl_mult:I
 
     aput v3, v0, v5
 
@@ -227,53 +227,53 @@
 
     new-array v0, v0, [I
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_edit_text_material:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_edit_text_material:I
 
     aput v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_tab_indicator_material:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_tab_indicator_material:I
 
     aput v3, v0, v1
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_textfield_search_material:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_textfield_search_material:I
 
     aput v3, v0, v5
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_spinner_mtrl_am_alpha:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_spinner_mtrl_am_alpha:I
 
     aput v3, v0, v6
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_spinner_textfield_background_material:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_spinner_textfield_background_material:I
 
     aput v3, v0, v7
 
     const/4 v3, 0x5
 
-    sget v4, Lcom/abdhoms/myprofile/ht;->abc_ratingbar_full_material:I
+    sget v4, Lcom/khaibin/myprofile/ht;->abc_ratingbar_full_material:I
 
     aput v4, v0, v3
 
     const/4 v3, 0x6
 
-    sget v4, Lcom/abdhoms/myprofile/ht;->abc_switch_track_mtrl_alpha:I
+    sget v4, Lcom/khaibin/myprofile/ht;->abc_switch_track_mtrl_alpha:I
 
     aput v4, v0, v3
 
     const/4 v3, 0x7
 
-    sget v4, Lcom/abdhoms/myprofile/ht;->abc_switch_thumb_material:I
+    sget v4, Lcom/khaibin/myprofile/ht;->abc_switch_thumb_material:I
 
     aput v4, v0, v3
 
     const/16 v3, 0x8
 
-    sget v4, Lcom/abdhoms/myprofile/ht;->abc_btn_default_mtrl_shape:I
+    sget v4, Lcom/khaibin/myprofile/ht;->abc_btn_default_mtrl_shape:I
 
     aput v4, v0, v3
 
     const/16 v3, 0x9
 
-    sget v4, Lcom/abdhoms/myprofile/ht;->abc_btn_borderless_material:I
+    sget v4, Lcom/khaibin/myprofile/ht;->abc_btn_borderless_material:I
 
     aput v4, v0, v3
 
@@ -281,11 +281,11 @@
 
     new-array v0, v5, [I
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_btn_check_material:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_btn_check_material:I
 
     aput v3, v0, v2
 
-    sget v2, Lcom/abdhoms/myprofile/ht;->abc_btn_radio_material:I
+    sget v2, Lcom/khaibin/myprofile/ht;->abc_btn_radio_material:I
 
     aput v2, v0, v1
 
@@ -384,7 +384,7 @@
     return-object v0
 
     :cond_0
-    invoke-static {p0, p1}, Lcom/abdhoms/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p0, p1}, Lcom/khaibin/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -648,13 +648,13 @@
 
     if-nez v0, :cond_0
 
-    sget v0, Lcom/abdhoms/myprofile/hp;->colorControlNormal:I
+    sget v0, Lcom/khaibin/myprofile/hp;->colorControlNormal:I
 
     invoke-static {p1, v0}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;I)I
 
     move-result v0
 
-    sget v1, Lcom/abdhoms/myprofile/hp;->colorControlActivated:I
+    sget v1, Lcom/khaibin/myprofile/hp;->colorControlActivated:I
 
     invoke-static {p1, v1}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;I)I
 
@@ -670,7 +670,7 @@
 
     aput-object v5, v2, v4
 
-    sget v5, Lcom/abdhoms/myprofile/hp;->colorControlNormal:I
+    sget v5, Lcom/khaibin/myprofile/hp;->colorControlNormal:I
 
     invoke-static {p1, v5}, Landroid/support/v7/widget/ga;->c(Landroid/content/Context;I)I
 
@@ -753,7 +753,7 @@
 
     move-result v3
 
-    sget v4, Lcom/abdhoms/myprofile/hp;->colorControlHighlight:I
+    sget v4, Lcom/khaibin/myprofile/hp;->colorControlHighlight:I
 
     invoke-static {p1, v4}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;I)I
 
@@ -763,7 +763,7 @@
 
     aput-object v5, v0, v2
 
-    sget v5, Lcom/abdhoms/myprofile/hp;->colorButtonNormal:I
+    sget v5, Lcom/khaibin/myprofile/hp;->colorButtonNormal:I
 
     invoke-static {p1, v5}, Landroid/support/v7/widget/ga;->c(Landroid/content/Context;I)I
 
@@ -777,7 +777,7 @@
 
     aput-object v5, v0, v2
 
-    invoke-static {v4, v3}, Lcom/abdhoms/myprofile/ac;->a(II)I
+    invoke-static {v4, v3}, Lcom/khaibin/myprofile/ac;->a(II)I
 
     move-result v5
 
@@ -789,7 +789,7 @@
 
     aput-object v5, v0, v2
 
-    invoke-static {v4, v3}, Lcom/abdhoms/myprofile/ac;->a(II)I
+    invoke-static {v4, v3}, Lcom/khaibin/myprofile/ac;->a(II)I
 
     move-result v4
 
@@ -825,7 +825,7 @@
 
     aput-object v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->colorControlNormal:I
+    sget v3, Lcom/khaibin/myprofile/hp;->colorControlNormal:I
 
     invoke-static {p1, v3}, Landroid/support/v7/widget/ga;->c(Landroid/content/Context;I)I
 
@@ -839,7 +839,7 @@
 
     aput-object v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->colorControlActivated:I
+    sget v3, Lcom/khaibin/myprofile/hp;->colorControlActivated:I
 
     invoke-static {p1, v3}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;I)I
 
@@ -853,7 +853,7 @@
 
     aput-object v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->colorControlNormal:I
+    sget v3, Lcom/khaibin/myprofile/hp;->colorControlNormal:I
 
     invoke-static {p1, v3}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;I)I
 
@@ -901,7 +901,7 @@
 
     aput-object v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->colorControlActivated:I
+    sget v3, Lcom/khaibin/myprofile/hp;->colorControlActivated:I
 
     invoke-static {p1, v3, v4}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;IF)I
 
@@ -979,7 +979,7 @@
 
     if-nez v0, :cond_0
 
-    sget v0, Lcom/abdhoms/myprofile/ht;->abc_cab_background_top_material:I
+    sget v0, Lcom/khaibin/myprofile/ht;->abc_cab_background_top_material:I
 
     if-ne p0, v0, :cond_1
 
@@ -1010,7 +1010,7 @@
 
     new-array v1, v1, [I
 
-    sget v2, Lcom/abdhoms/myprofile/hp;->colorSwitchThumbNormal:I
+    sget v2, Lcom/khaibin/myprofile/hp;->colorSwitchThumbNormal:I
 
     invoke-static {p1, v2}, Landroid/support/v7/widget/ga;->b(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
@@ -1040,7 +1040,7 @@
 
     aput-object v3, v0, v5
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->colorControlActivated:I
+    sget v3, Lcom/khaibin/myprofile/hp;->colorControlActivated:I
 
     invoke-static {p1, v3}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;I)I
 
@@ -1070,7 +1070,7 @@
 
     aput-object v2, v0, v4
 
-    sget v2, Lcom/abdhoms/myprofile/hp;->colorSwitchThumbNormal:I
+    sget v2, Lcom/khaibin/myprofile/hp;->colorSwitchThumbNormal:I
 
     invoke-static {p1, v2}, Landroid/support/v7/widget/ga;->c(Landroid/content/Context;I)I
 
@@ -1082,7 +1082,7 @@
 
     aput-object v2, v0, v5
 
-    sget v2, Lcom/abdhoms/myprofile/hp;->colorControlActivated:I
+    sget v2, Lcom/khaibin/myprofile/hp;->colorControlActivated:I
 
     invoke-static {p1, v2}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;I)I
 
@@ -1094,7 +1094,7 @@
 
     aput-object v2, v0, v6
 
-    sget v2, Lcom/abdhoms/myprofile/hp;->colorSwitchThumbNormal:I
+    sget v2, Lcom/khaibin/myprofile/hp;->colorSwitchThumbNormal:I
 
     invoke-static {p1, v2}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;I)I
 
@@ -1120,7 +1120,7 @@
 
     aput-object v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->colorControlNormal:I
+    sget v3, Lcom/khaibin/myprofile/hp;->colorControlNormal:I
 
     invoke-static {p1, v3}, Landroid/support/v7/widget/ga;->c(Landroid/content/Context;I)I
 
@@ -1134,7 +1134,7 @@
 
     aput-object v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->colorControlNormal:I
+    sget v3, Lcom/khaibin/myprofile/hp;->colorControlNormal:I
 
     invoke-static {p1, v3}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;I)I
 
@@ -1148,7 +1148,7 @@
 
     aput-object v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->colorControlActivated:I
+    sget v3, Lcom/khaibin/myprofile/hp;->colorControlActivated:I
 
     invoke-static {p1, v3}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;I)I
 
@@ -1166,7 +1166,7 @@
 .method private g(Landroid/content/Context;)Landroid/content/res/ColorStateList;
     .locals 1
 
-    sget v0, Lcom/abdhoms/myprofile/hp;->colorButtonNormal:I
+    sget v0, Lcom/khaibin/myprofile/hp;->colorButtonNormal:I
 
     invoke-direct {p0, p1, v0}, Landroid/support/v7/widget/gf;->b(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
@@ -1178,7 +1178,7 @@
 .method private h(Landroid/content/Context;)Landroid/content/res/ColorStateList;
     .locals 1
 
-    sget v0, Lcom/abdhoms/myprofile/hp;->colorAccent:I
+    sget v0, Lcom/khaibin/myprofile/hp;->colorAccent:I
 
     invoke-direct {p0, p1, v0}, Landroid/support/v7/widget/gf;->b(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
@@ -1202,7 +1202,7 @@
 
     aput-object v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->colorControlNormal:I
+    sget v3, Lcom/khaibin/myprofile/hp;->colorControlNormal:I
 
     invoke-static {p1, v3}, Landroid/support/v7/widget/ga;->c(Landroid/content/Context;I)I
 
@@ -1216,7 +1216,7 @@
 
     aput-object v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->colorControlNormal:I
+    sget v3, Lcom/khaibin/myprofile/hp;->colorControlNormal:I
 
     invoke-static {p1, v3}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;I)I
 
@@ -1230,7 +1230,7 @@
 
     aput-object v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->colorControlActivated:I
+    sget v3, Lcom/khaibin/myprofile/hp;->colorControlActivated:I
 
     invoke-static {p1, v3}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;I)I
 
@@ -1260,7 +1260,7 @@
 
     aput-object v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->colorControlActivated:I
+    sget v3, Lcom/khaibin/myprofile/hp;->colorControlActivated:I
 
     invoke-static {p1, v3}, Landroid/support/v7/widget/ga;->c(Landroid/content/Context;I)I
 
@@ -1274,7 +1274,7 @@
 
     aput-object v3, v0, v2
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->colorControlActivated:I
+    sget v3, Lcom/khaibin/myprofile/hp;->colorControlActivated:I
 
     invoke-static {p1, v3}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;I)I
 
@@ -1322,7 +1322,7 @@
     return-object v1
 
     :cond_0
-    invoke-static {v0, p1}, Lcom/abdhoms/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/khaibin/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v2
 
@@ -1345,11 +1345,11 @@
 
     if-eqz v3, :cond_3
 
-    invoke-static {v2}, Lcom/abdhoms/myprofile/ad;->c(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+    invoke-static {v2}, Lcom/khaibin/myprofile/ad;->c(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v2
 
-    invoke-static {v2, v3}, Lcom/abdhoms/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
+    invoke-static {v2, v3}, Lcom/khaibin/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
 
     invoke-virtual {p0, p1}, Landroid/support/v7/widget/gf;->b(I)Landroid/graphics/PorterDuff$Mode;
 
@@ -1357,7 +1357,7 @@
 
     if-eqz v0, :cond_2
 
-    invoke-static {v2, v0}, Lcom/abdhoms/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
+    invoke-static {v2, v0}, Lcom/khaibin/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
 
     :cond_2
     :goto_1
@@ -1366,7 +1366,7 @@
     goto :goto_0
 
     :cond_3
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_cab_background_top_material:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_cab_background_top_material:I
 
     if-ne p1, v3, :cond_4
 
@@ -1378,7 +1378,7 @@
 
     const/4 v2, 0x0
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_cab_background_internal_bg:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_cab_background_internal_bg:I
 
     invoke-virtual {p0, v3}, Landroid/support/v7/widget/gf;->a(I)Landroid/graphics/drawable/Drawable;
 
@@ -1388,7 +1388,7 @@
 
     const/4 v2, 0x1
 
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_cab_background_top_mtrl_alpha:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_cab_background_top_mtrl_alpha:I
 
     invoke-virtual {p0, v3}, Landroid/support/v7/widget/gf;->a(I)Landroid/graphics/drawable/Drawable;
 
@@ -1401,7 +1401,7 @@
     goto :goto_0
 
     :cond_4
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_seekbar_track_material:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_seekbar_track_material:I
 
     if-ne p1, v3, :cond_5
 
@@ -1415,7 +1415,7 @@
 
     move-result-object v3
 
-    sget v4, Lcom/abdhoms/myprofile/hp;->colorControlNormal:I
+    sget v4, Lcom/khaibin/myprofile/hp;->colorControlNormal:I
 
     invoke-static {v0, v4}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;I)I
 
@@ -1431,7 +1431,7 @@
 
     move-result-object v3
 
-    sget v4, Lcom/abdhoms/myprofile/hp;->colorControlNormal:I
+    sget v4, Lcom/khaibin/myprofile/hp;->colorControlNormal:I
 
     invoke-static {v0, v4}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;I)I
 
@@ -1447,7 +1447,7 @@
 
     move-result-object v1
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->colorControlActivated:I
+    sget v3, Lcom/khaibin/myprofile/hp;->colorControlActivated:I
 
     invoke-static {v0, v3}, Landroid/support/v7/widget/ga;->a(Landroid/content/Context;I)I
 
@@ -1508,7 +1508,7 @@
 
     if-eqz v3, :cond_2
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->colorControlNormal:I
+    sget v3, Lcom/khaibin/myprofile/hp;->colorControlNormal:I
 
     move v5, v3
 
@@ -1549,7 +1549,7 @@
 
     if-eqz v3, :cond_3
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->colorControlActivated:I
+    sget v3, Lcom/khaibin/myprofile/hp;->colorControlActivated:I
 
     move v5, v3
 
@@ -1585,7 +1585,7 @@
     goto :goto_1
 
     :cond_4
-    sget v3, Lcom/abdhoms/myprofile/ht;->abc_list_divider_mtrl_alpha:I
+    sget v3, Lcom/khaibin/myprofile/ht;->abc_list_divider_mtrl_alpha:I
 
     if-ne p1, v3, :cond_6
 
@@ -1625,7 +1625,7 @@
 
     const/4 v0, 0x0
 
-    sget v1, Lcom/abdhoms/myprofile/ht;->abc_switch_thumb_material:I
+    sget v1, Lcom/khaibin/myprofile/ht;->abc_switch_thumb_material:I
 
     if-ne p1, v1, :cond_0
 
@@ -1672,7 +1672,7 @@
     :cond_2
     if-nez v1, :cond_10
 
-    sget v2, Lcom/abdhoms/myprofile/ht;->abc_edit_text_material:I
+    sget v2, Lcom/khaibin/myprofile/ht;->abc_edit_text_material:I
 
     if-ne p1, v2, :cond_4
 
@@ -1701,7 +1701,7 @@
     goto :goto_0
 
     :cond_4
-    sget v2, Lcom/abdhoms/myprofile/ht;->abc_switch_track_mtrl_alpha:I
+    sget v2, Lcom/khaibin/myprofile/ht;->abc_switch_track_mtrl_alpha:I
 
     if-ne p1, v2, :cond_5
 
@@ -1712,7 +1712,7 @@
     goto :goto_1
 
     :cond_5
-    sget v2, Lcom/abdhoms/myprofile/ht;->abc_switch_thumb_material:I
+    sget v2, Lcom/khaibin/myprofile/ht;->abc_switch_thumb_material:I
 
     if-ne p1, v2, :cond_6
 
@@ -1723,11 +1723,11 @@
     goto :goto_1
 
     :cond_6
-    sget v2, Lcom/abdhoms/myprofile/ht;->abc_btn_default_mtrl_shape:I
+    sget v2, Lcom/khaibin/myprofile/ht;->abc_btn_default_mtrl_shape:I
 
     if-eq p1, v2, :cond_7
 
-    sget v2, Lcom/abdhoms/myprofile/ht;->abc_btn_borderless_material:I
+    sget v2, Lcom/khaibin/myprofile/ht;->abc_btn_borderless_material:I
 
     if-ne p1, v2, :cond_8
 
@@ -1739,7 +1739,7 @@
     goto :goto_1
 
     :cond_8
-    sget v2, Lcom/abdhoms/myprofile/ht;->abc_btn_colored_material:I
+    sget v2, Lcom/khaibin/myprofile/ht;->abc_btn_colored_material:I
 
     if-ne p1, v2, :cond_9
 
@@ -1750,11 +1750,11 @@
     goto :goto_1
 
     :cond_9
-    sget v2, Lcom/abdhoms/myprofile/ht;->abc_spinner_mtrl_am_alpha:I
+    sget v2, Lcom/khaibin/myprofile/ht;->abc_spinner_mtrl_am_alpha:I
 
     if-eq p1, v2, :cond_a
 
-    sget v2, Lcom/abdhoms/myprofile/ht;->abc_spinner_textfield_background_material:I
+    sget v2, Lcom/khaibin/myprofile/ht;->abc_spinner_textfield_background_material:I
 
     if-ne p1, v2, :cond_b
 
@@ -1774,7 +1774,7 @@
 
     if-eqz v2, :cond_c
 
-    sget v1, Lcom/abdhoms/myprofile/hp;->colorControlNormal:I
+    sget v1, Lcom/khaibin/myprofile/hp;->colorControlNormal:I
 
     invoke-static {v0, v1}, Landroid/support/v7/widget/ga;->b(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
@@ -1813,7 +1813,7 @@
     goto :goto_1
 
     :cond_e
-    sget v2, Lcom/abdhoms/myprofile/ht;->abc_seekbar_thumb_material:I
+    sget v2, Lcom/khaibin/myprofile/ht;->abc_seekbar_thumb_material:I
 
     if-ne p1, v2, :cond_f
 

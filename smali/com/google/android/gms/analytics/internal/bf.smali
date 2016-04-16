@@ -174,7 +174,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/abdhoms/myprofile/awt;->a(Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/khaibin/myprofile/awt;->a(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v1
 

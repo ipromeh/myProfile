@@ -492,13 +492,13 @@
 
     if-eqz p2, :cond_1
 
-    sget-object v0, Lcom/abdhoms/myprofile/ij;->RecyclerView:[I
+    sget-object v0, Lcom/khaibin/myprofile/ij;->RecyclerView:[I
 
     invoke-virtual {p1, p2, v0, p3, v5}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/ij;->RecyclerView_layoutManager:I
+    sget v1, Lcom/khaibin/myprofile/ij;->RecyclerView_layoutManager:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
 
@@ -588,7 +588,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/accessibility/AccessibilityEvent;->setEventType(I)V
 
-    invoke-static {v1, v0}, Lcom/abdhoms/myprofile/cx;->a(Landroid/view/accessibility/AccessibilityEvent;I)V
+    invoke-static {v1, v0}, Lcom/khaibin/myprofile/cx;->a(Landroid/view/accessibility/AccessibilityEvent;I)V
 
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/RecyclerView;->sendAccessibilityEventUnchecked(Landroid/view/accessibility/AccessibilityEvent;)V
 
@@ -3030,11 +3030,11 @@
 
     const-string v0, "RV FullInvalidate"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/bi;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/bi;->a(Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroid/support/v7/widget/RecyclerView;->k()V
 
-    invoke-static {}, Lcom/abdhoms/myprofile/bi;->a()V
+    invoke-static {}, Lcom/khaibin/myprofile/bi;->a()V
 
     goto :goto_0
 
@@ -3069,7 +3069,7 @@
 
     const-string v0, "RV PartialInvalidate"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/bi;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/bi;->a(Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroid/support/v7/widget/RecyclerView;->b()V
 
@@ -3095,7 +3095,7 @@
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/RecyclerView;->a(Z)V
 
-    invoke-static {}, Lcom/abdhoms/myprofile/bi;->a()V
+    invoke-static {}, Lcom/khaibin/myprofile/bi;->a()V
 
     goto :goto_0
 
@@ -3117,11 +3117,11 @@
 
     const-string v0, "RV FullInvalidate"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/bi;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/bi;->a(Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroid/support/v7/widget/RecyclerView;->k()V
 
-    invoke-static {}, Lcom/abdhoms/myprofile/bi;->a()V
+    invoke-static {}, Lcom/khaibin/myprofile/bi;->a()V
 
     goto :goto_0
 .end method
@@ -3827,7 +3827,7 @@
 
     const-string v0, "RV Scroll"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/bi;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/bi;->a(Ljava/lang/String;)V
 
     if-eqz p1, :cond_b
 
@@ -3859,7 +3859,7 @@
     sub-int v1, p2, v0
 
     :goto_1
-    invoke-static {}, Lcom/abdhoms/myprofile/bi;->a()V
+    invoke-static {}, Lcom/khaibin/myprofile/bi;->a()V
 
     invoke-direct {p0}, Landroid/support/v7/widget/RecyclerView;->G()V
 
@@ -4054,7 +4054,7 @@
 
     if-eqz p1, :cond_2
 
-    invoke-static {p1}, Lcom/abdhoms/myprofile/cx;->b(Landroid/view/accessibility/AccessibilityEvent;)I
+    invoke-static {p1}, Lcom/khaibin/myprofile/cx;->b(Landroid/view/accessibility/AccessibilityEvent;)I
 
     move-result v1
 
@@ -7526,11 +7526,11 @@
 
     const-string v0, "RV OnLayout"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/bi;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/bi;->a(Ljava/lang/String;)V
 
     invoke-virtual {p0}, Landroid/support/v7/widget/RecyclerView;->k()V
 
-    invoke-static {}, Lcom/abdhoms/myprofile/bi;->a()V
+    invoke-static {}, Lcom/khaibin/myprofile/bi;->a()V
 
     const/4 v0, 0x0
 

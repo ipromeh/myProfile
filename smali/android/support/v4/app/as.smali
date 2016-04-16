@@ -14,33 +14,33 @@
 
 
 # virtual methods
-.method public abstract a(ILandroid/os/Bundle;)Lcom/abdhoms/myprofile/z;
+.method public abstract a(ILandroid/os/Bundle;)Lcom/khaibin/myprofile/z;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
             "Landroid/os/Bundle;",
             ")",
-            "Lcom/abdhoms/myprofile/z",
+            "Lcom/khaibin/myprofile/z",
             "<TD;>;"
         }
     .end annotation
 .end method
 
-.method public abstract a(Lcom/abdhoms/myprofile/z;)V
+.method public abstract a(Lcom/khaibin/myprofile/z;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/abdhoms/myprofile/z",
+            "Lcom/khaibin/myprofile/z",
             "<TD;>;)V"
         }
     .end annotation
 .end method
 
-.method public abstract a(Lcom/abdhoms/myprofile/z;Ljava/lang/Object;)V
+.method public abstract a(Lcom/khaibin/myprofile/z;Ljava/lang/Object;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/abdhoms/myprofile/z",
+            "Lcom/khaibin/myprofile/z",
             "<TD;>;TD;)V"
         }
     .end annotation

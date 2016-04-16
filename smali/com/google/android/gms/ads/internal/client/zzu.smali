@@ -36,13 +36,13 @@
 .method public abstract stopLoading()V
 .end method
 
-.method public abstract zza(Lcom/abdhoms/myprofile/acu;)V
+.method public abstract zza(Lcom/khaibin/myprofile/acu;)V
 .end method
 
-.method public abstract zza(Lcom/abdhoms/myprofile/ams;)V
+.method public abstract zza(Lcom/khaibin/myprofile/ams;)V
 .end method
 
-.method public abstract zza(Lcom/abdhoms/myprofile/ane;Ljava/lang/String;)V
+.method public abstract zza(Lcom/khaibin/myprofile/ane;Ljava/lang/String;)V
 .end method
 
 .method public abstract zza(Lcom/google/android/gms/ads/internal/client/AdSizeParcel;)V
@@ -63,7 +63,7 @@
 .method public abstract zza(Lcom/google/android/gms/ads/internal/reward/client/zzd;)V
 .end method
 
-.method public abstract zzaM()Lcom/abdhoms/myprofile/yh;
+.method public abstract zzaM()Lcom/khaibin/myprofile/yh;
 .end method
 
 .method public abstract zzaN()Lcom/google/android/gms/ads/internal/client/AdSizeParcel;

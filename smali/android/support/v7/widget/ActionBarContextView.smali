@@ -40,7 +40,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    sget v0, Lcom/abdhoms/myprofile/hp;->actionModeStyle:I
+    sget v0, Lcom/khaibin/myprofile/hp;->actionModeStyle:I
 
     invoke-direct {p0, p1, p2, v0}, Landroid/support/v7/widget/ActionBarContextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -54,13 +54,13 @@
 
     invoke-direct {p0, p1, p2, p3}, Landroid/support/v7/widget/a;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    sget-object v0, Lcom/abdhoms/myprofile/hz;->ActionMode:[I
+    sget-object v0, Lcom/khaibin/myprofile/hz;->ActionMode:[I
 
     invoke-static {p1, p2, v0, p3, v2}, Landroid/support/v7/widget/gh;->a(Landroid/content/Context;Landroid/util/AttributeSet;[III)Landroid/support/v7/widget/gh;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->ActionMode_background:I
+    sget v1, Lcom/khaibin/myprofile/hz;->ActionMode_background:I
 
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/gh;->a(I)Landroid/graphics/drawable/Drawable;
 
@@ -68,7 +68,7 @@
 
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/ActionBarContextView;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->ActionMode_titleTextStyle:I
+    sget v1, Lcom/khaibin/myprofile/hz;->ActionMode_titleTextStyle:I
 
     invoke-virtual {v0, v1, v2}, Landroid/support/v7/widget/gh;->g(II)I
 
@@ -76,7 +76,7 @@
 
     iput v1, p0, Landroid/support/v7/widget/ActionBarContextView;->n:I
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->ActionMode_subtitleTextStyle:I
+    sget v1, Lcom/khaibin/myprofile/hz;->ActionMode_subtitleTextStyle:I
 
     invoke-virtual {v0, v1, v2}, Landroid/support/v7/widget/gh;->g(II)I
 
@@ -84,7 +84,7 @@
 
     iput v1, p0, Landroid/support/v7/widget/ActionBarContextView;->o:I
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->ActionMode_height:I
+    sget v1, Lcom/khaibin/myprofile/hz;->ActionMode_height:I
 
     invoke-virtual {v0, v1, v2}, Landroid/support/v7/widget/gh;->f(II)I
 
@@ -92,9 +92,9 @@
 
     iput v1, p0, Landroid/support/v7/widget/ActionBarContextView;->e:I
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->ActionMode_closeItemLayout:I
+    sget v1, Lcom/khaibin/myprofile/hz;->ActionMode_closeItemLayout:I
 
-    sget v2, Lcom/abdhoms/myprofile/hw;->abc_action_mode_close_item_material:I
+    sget v2, Lcom/khaibin/myprofile/hw;->abc_action_mode_close_item_material:I
 
     invoke-virtual {v0, v1, v2}, Landroid/support/v7/widget/gh;->g(II)I
 
@@ -128,7 +128,7 @@
 
     move-result-object v0
 
-    sget v3, Lcom/abdhoms/myprofile/hw;->abc_action_bar_title_item:I
+    sget v3, Lcom/khaibin/myprofile/hw;->abc_action_bar_title_item:I
 
     invoke-virtual {v0, v3, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -148,7 +148,7 @@
 
     iget-object v0, p0, Landroid/support/v7/widget/ActionBarContextView;->k:Landroid/widget/LinearLayout;
 
-    sget v3, Lcom/abdhoms/myprofile/hu;->action_bar_title:I
+    sget v3, Lcom/khaibin/myprofile/hu;->action_bar_title:I
 
     invoke-virtual {v0, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -160,7 +160,7 @@
 
     iget-object v0, p0, Landroid/support/v7/widget/ActionBarContextView;->k:Landroid/widget/LinearLayout;
 
-    sget v3, Lcom/abdhoms/myprofile/hu;->action_bar_subtitle:I
+    sget v3, Lcom/khaibin/myprofile/hu;->action_bar_subtitle:I
 
     invoke-virtual {v0, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -296,7 +296,7 @@
     return-object v0
 .end method
 
-.method public a(Lcom/abdhoms/myprofile/in;)V
+.method public a(Lcom/khaibin/myprofile/in;)V
     .locals 4
 
     iget-object v0, p0, Landroid/support/v7/widget/ActionBarContextView;->i:Landroid/view/View;
@@ -329,7 +329,7 @@
     :goto_0
     iget-object v0, p0, Landroid/support/v7/widget/ActionBarContextView;->i:Landroid/view/View;
 
-    sget v1, Lcom/abdhoms/myprofile/hu;->action_mode_close_button:I
+    sget v1, Lcom/khaibin/myprofile/hu;->action_mode_close_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -337,11 +337,11 @@
 
     new-instance v1, Landroid/support/v7/widget/e;
 
-    invoke-direct {v1, p0, p1}, Landroid/support/v7/widget/e;-><init>(Landroid/support/v7/widget/ActionBarContextView;Lcom/abdhoms/myprofile/in;)V
+    invoke-direct {v1, p0, p1}, Landroid/support/v7/widget/e;-><init>(Landroid/support/v7/widget/ActionBarContextView;Lcom/khaibin/myprofile/in;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    invoke-virtual {p1}, Lcom/abdhoms/myprofile/in;->b()Landroid/view/Menu;
+    invoke-virtual {p1}, Lcom/khaibin/myprofile/in;->b()Landroid/view/Menu;
 
     move-result-object v0
 

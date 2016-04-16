@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -363,7 +363,7 @@
 
     move-result-object v4
 
-    invoke-static {}, Lcom/abdhoms/myprofile/aws;->c()Z
+    invoke-static {}, Lcom/khaibin/myprofile/aws;->c()Z
 
     move-result v0
 

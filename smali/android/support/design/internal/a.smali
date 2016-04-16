@@ -88,13 +88,13 @@
 
     iput-boolean v1, p0, Landroid/support/design/internal/a;->b:Z
 
-    sget-object v0, Lcom/abdhoms/myprofile/k;->ForegroundLinearLayout:[I
+    sget-object v0, Lcom/khaibin/myprofile/k;->ForegroundLinearLayout:[I
 
     invoke-virtual {p1, p2, v0, p3, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->ForegroundLinearLayout_android_foregroundGravity:I
+    sget v1, Lcom/khaibin/myprofile/k;->ForegroundLinearLayout_android_foregroundGravity:I
 
     iget v2, p0, Landroid/support/design/internal/a;->f:I
 
@@ -104,7 +104,7 @@
 
     iput v1, p0, Landroid/support/design/internal/a;->f:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->ForegroundLinearLayout_android_foreground:I
+    sget v1, Lcom/khaibin/myprofile/k;->ForegroundLinearLayout_android_foreground:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -115,7 +115,7 @@
     invoke-virtual {p0, v1}, Landroid/support/design/internal/a;->setForeground(Landroid/graphics/drawable/Drawable;)V
 
     :cond_0
-    sget v1, Lcom/abdhoms/myprofile/k;->ForegroundLinearLayout_foregroundInsidePadding:I
+    sget v1, Lcom/khaibin/myprofile/k;->ForegroundLinearLayout_foregroundInsidePadding:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 

@@ -21,18 +21,18 @@
 
 
 # instance fields
-.field private final gson:Lcom/abdhoms/myprofile/bah;
+.field private final gson:Lcom/khaibin/myprofile/bah;
 
 .field private final type:Ljava/lang/reflect/Type;
 
 
 # direct methods
-.method constructor <init>(Lcom/abdhoms/myprofile/bah;Ljava/lang/reflect/Type;)V
+.method constructor <init>(Lcom/khaibin/myprofile/bah;Ljava/lang/reflect/Type;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lretrofit/GsonResponseBodyConverter;->gson:Lcom/abdhoms/myprofile/bah;
+    iput-object p1, p0, Lretrofit/GsonResponseBodyConverter;->gson:Lcom/khaibin/myprofile/bah;
 
     iput-object p2, p0, Lretrofit/GsonResponseBodyConverter;->type:Ljava/lang/reflect/Type;
 
@@ -56,11 +56,11 @@
     move-result-object v1
 
     :try_start_0
-    iget-object v0, p0, Lretrofit/GsonResponseBodyConverter;->gson:Lcom/abdhoms/myprofile/bah;
+    iget-object v0, p0, Lretrofit/GsonResponseBodyConverter;->gson:Lcom/khaibin/myprofile/bah;
 
     iget-object v2, p0, Lretrofit/GsonResponseBodyConverter;->type:Ljava/lang/reflect/Type;
 
-    invoke-virtual {v0, v1, v2}, Lcom/abdhoms/myprofile/bah;->a(Ljava/io/Reader;Ljava/lang/reflect/Type;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Lcom/khaibin/myprofile/bah;->a(Ljava/io/Reader;Ljava/lang/reflect/Type;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

@@ -100,13 +100,13 @@
 
     iput v0, p0, Landroid/support/v7/widget/co;->mGravity:I
 
-    sget-object v0, Lcom/abdhoms/myprofile/hz;->LinearLayoutCompat:[I
+    sget-object v0, Lcom/khaibin/myprofile/hz;->LinearLayoutCompat:[I
 
     invoke-static {p1, p2, v0, p3, v3}, Landroid/support/v7/widget/gh;->a(Landroid/content/Context;Landroid/util/AttributeSet;[III)Landroid/support/v7/widget/gh;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->LinearLayoutCompat_android_orientation:I
+    sget v1, Lcom/khaibin/myprofile/hz;->LinearLayoutCompat_android_orientation:I
 
     invoke-virtual {v0, v1, v4}, Landroid/support/v7/widget/gh;->a(II)I
 
@@ -117,7 +117,7 @@
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/co;->setOrientation(I)V
 
     :cond_0
-    sget v1, Lcom/abdhoms/myprofile/hz;->LinearLayoutCompat_android_gravity:I
+    sget v1, Lcom/khaibin/myprofile/hz;->LinearLayoutCompat_android_gravity:I
 
     invoke-virtual {v0, v1, v4}, Landroid/support/v7/widget/gh;->a(II)I
 
@@ -128,7 +128,7 @@
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/co;->setGravity(I)V
 
     :cond_1
-    sget v1, Lcom/abdhoms/myprofile/hz;->LinearLayoutCompat_android_baselineAligned:I
+    sget v1, Lcom/khaibin/myprofile/hz;->LinearLayoutCompat_android_baselineAligned:I
 
     invoke-virtual {v0, v1, v2}, Landroid/support/v7/widget/gh;->a(IZ)Z
 
@@ -139,7 +139,7 @@
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/co;->setBaselineAligned(Z)V
 
     :cond_2
-    sget v1, Lcom/abdhoms/myprofile/hz;->LinearLayoutCompat_android_weightSum:I
+    sget v1, Lcom/khaibin/myprofile/hz;->LinearLayoutCompat_android_weightSum:I
 
     const/high16 v2, -0x40800000    # -1.0f
 
@@ -149,7 +149,7 @@
 
     iput v1, p0, Landroid/support/v7/widget/co;->mWeightSum:F
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->LinearLayoutCompat_android_baselineAlignedChildIndex:I
+    sget v1, Lcom/khaibin/myprofile/hz;->LinearLayoutCompat_android_baselineAlignedChildIndex:I
 
     invoke-virtual {v0, v1, v4}, Landroid/support/v7/widget/gh;->a(II)I
 
@@ -157,7 +157,7 @@
 
     iput v1, p0, Landroid/support/v7/widget/co;->mBaselineAlignedChildIndex:I
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->LinearLayoutCompat_measureWithLargestChild:I
+    sget v1, Lcom/khaibin/myprofile/hz;->LinearLayoutCompat_measureWithLargestChild:I
 
     invoke-virtual {v0, v1, v3}, Landroid/support/v7/widget/gh;->a(IZ)Z
 
@@ -165,7 +165,7 @@
 
     iput-boolean v1, p0, Landroid/support/v7/widget/co;->mUseLargestChild:Z
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->LinearLayoutCompat_divider:I
+    sget v1, Lcom/khaibin/myprofile/hz;->LinearLayoutCompat_divider:I
 
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/gh;->a(I)Landroid/graphics/drawable/Drawable;
 
@@ -173,7 +173,7 @@
 
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/co;->setDividerDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->LinearLayoutCompat_showDividers:I
+    sget v1, Lcom/khaibin/myprofile/hz;->LinearLayoutCompat_showDividers:I
 
     invoke-virtual {v0, v1, v3}, Landroid/support/v7/widget/gh;->a(II)I
 
@@ -181,7 +181,7 @@
 
     iput v1, p0, Landroid/support/v7/widget/co;->mShowDividers:I
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->LinearLayoutCompat_dividerPadding:I
+    sget v1, Lcom/khaibin/myprofile/hz;->LinearLayoutCompat_dividerPadding:I
 
     invoke-virtual {v0, v1, v3}, Landroid/support/v7/widget/gh;->e(II)I
 

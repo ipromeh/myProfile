@@ -1,5 +1,5 @@
 .class public Lcom/google/android/gms/flags/impl/FlagProviderImpl;
-.super Lcom/abdhoms/myprofile/axb;
+.super Lcom/khaibin/myprofile/axb;
 
 
 # instance fields
@@ -12,7 +12,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Lcom/abdhoms/myprofile/axb;-><init>()V
+    invoke-direct {p0}, Lcom/khaibin/myprofile/axb;-><init>()V
 
     const/4 v0, 0x0
 
@@ -95,10 +95,10 @@
     return-object v0
 .end method
 
-.method public init(Lcom/abdhoms/myprofile/yh;)V
+.method public init(Lcom/khaibin/myprofile/yh;)V
     .locals 3
 
-    invoke-static {p1}, Lcom/abdhoms/myprofile/yk;->a(Lcom/abdhoms/myprofile/yh;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/khaibin/myprofile/yk;->a(Lcom/khaibin/myprofile/yh;)Ljava/lang/Object;
 
     move-result-object v0
 

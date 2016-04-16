@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -21,9 +21,9 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    sget-object v0, Lcom/abdhoms/myprofile/abz;->i:Lcom/abdhoms/myprofile/abq;
+    sget-object v0, Lcom/khaibin/myprofile/abz;->i:Lcom/khaibin/myprofile/abq;
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/abq;->c()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/abq;->c()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -96,7 +96,7 @@
 
     const-string v0, "Action was blocked because no click was detected."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaI(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaI(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/zze;->a:Lcom/google/android/gms/ads/internal/zze$zza;
 

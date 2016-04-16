@@ -1,11 +1,11 @@
 .class Landroid/support/v7/widget/gg;
-.super Lcom/abdhoms/myprofile/cl;
+.super Lcom/khaibin/myprofile/cl;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/abdhoms/myprofile/cl",
+        "Lcom/khaibin/myprofile/cl",
         "<",
         "Ljava/lang/Integer;",
         "Landroid/graphics/PorterDuffColorFilter;",
@@ -18,7 +18,7 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/abdhoms/myprofile/cl;-><init>(I)V
+    invoke-direct {p0, p1}, Lcom/khaibin/myprofile/cl;-><init>(I)V
 
     return-void
 .end method

@@ -3,12 +3,12 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
 # instance fields
-.field a:Lcom/abdhoms/myprofile/ash;
+.field a:Lcom/khaibin/myprofile/ash;
 
 
 # direct methods
@@ -17,11 +17,11 @@
 
     invoke-direct {p0, p1}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
 
-    new-instance v0, Lcom/abdhoms/myprofile/ash;
+    new-instance v0, Lcom/khaibin/myprofile/ash;
 
-    invoke-direct {v0, p1, p2}, Lcom/abdhoms/myprofile/ash;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v0, p1, p2}, Lcom/khaibin/myprofile/ash;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/j;->a:Lcom/abdhoms/myprofile/ash;
+    iput-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/j;->a:Lcom/khaibin/myprofile/ash;
 
     return-void
 .end method
@@ -31,9 +31,9 @@
 .method public onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 1
 
-    iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/j;->a:Lcom/abdhoms/myprofile/ash;
+    iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/j;->a:Lcom/khaibin/myprofile/ash;
 
-    invoke-virtual {v0, p1}, Lcom/abdhoms/myprofile/ash;->a(Landroid/view/MotionEvent;)V
+    invoke-virtual {v0, p1}, Lcom/khaibin/myprofile/ash;->a(Landroid/view/MotionEvent;)V
 
     const/4 v0, 0x0
 

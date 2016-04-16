@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -97,15 +97,15 @@
     return-object v0
 
     :cond_0
-    new-instance v0, Lcom/abdhoms/myprofile/ajv;
+    new-instance v0, Lcom/khaibin/myprofile/ajv;
 
-    invoke-direct {v0}, Lcom/abdhoms/myprofile/ajv;-><init>()V
+    invoke-direct {v0}, Lcom/khaibin/myprofile/ajv;-><init>()V
 
     invoke-static {}, Lcom/google/android/gms/ads/internal/client/zzn;->zzcX()Lcom/google/android/gms/ads/internal/reward/client/zzf;
 
     move-result-object v2
 
-    invoke-virtual {v2, p1, v0}, Lcom/google/android/gms/ads/internal/reward/client/zzf;->zza(Landroid/content/Context;Lcom/abdhoms/myprofile/ajv;)Lcom/google/android/gms/ads/internal/reward/client/zzb;
+    invoke-virtual {v2, p1, v0}, Lcom/google/android/gms/ads/internal/reward/client/zzf;->zza(Landroid/content/Context;Lcom/khaibin/myprofile/ajv;)Lcom/google/android/gms/ads/internal/reward/client/zzb;
 
     move-result-object v0
 

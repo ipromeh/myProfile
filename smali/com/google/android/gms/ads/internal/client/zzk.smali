@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -27,19 +27,19 @@
 
     move-result-object v0
 
-    sget-object v3, Lcom/abdhoms/myprofile/vf;->AdsAttrs:[I
+    sget-object v3, Lcom/khaibin/myprofile/vf;->AdsAttrs:[I
 
     invoke-virtual {v0, p2, v3}, Landroid/content/res/Resources;->obtainAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object v3
 
-    sget v0, Lcom/abdhoms/myprofile/vf;->AdsAttrs_adSize:I
+    sget v0, Lcom/khaibin/myprofile/vf;->AdsAttrs_adSize:I
 
     invoke-virtual {v3, v0}, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    sget v0, Lcom/abdhoms/myprofile/vf;->AdsAttrs_adSizes:I
+    sget v0, Lcom/khaibin/myprofile/vf;->AdsAttrs_adSizes:I
 
     invoke-virtual {v3, v0}, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
 
@@ -72,7 +72,7 @@
     iput-object v0, p0, Lcom/google/android/gms/ads/internal/client/zzk;->a:[Lcom/google/android/gms/ads/AdSize;
 
     :goto_2
-    sget v0, Lcom/abdhoms/myprofile/vf;->AdsAttrs_adUnitId:I
+    sget v0, Lcom/khaibin/myprofile/vf;->AdsAttrs_adUnitId:I
 
     invoke-virtual {v3, v0}, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
 

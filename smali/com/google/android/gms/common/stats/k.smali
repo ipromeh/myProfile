@@ -86,15 +86,15 @@
     .locals 1
 
     :try_start_0
-    invoke-static {}, Lcom/abdhoms/myprofile/awh;->a()Z
+    invoke-static {}, Lcom/khaibin/myprofile/awh;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lcom/google/android/gms/common/stats/e;->a:Lcom/abdhoms/myprofile/avw;
+    sget-object v0, Lcom/google/android/gms/common/stats/e;->a:Lcom/khaibin/myprofile/avw;
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/avw;->c()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/avw;->c()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -262,7 +262,7 @@
 
     move-result-wide v10
 
-    invoke-static/range {p1 .. p1}, Lcom/abdhoms/myprofile/awm;->a(Landroid/content/Context;)I
+    invoke-static/range {p1 .. p1}, Lcom/khaibin/myprofile/awm;->a(Landroid/content/Context;)I
 
     move-result v12
 
@@ -270,7 +270,7 @@
 
     move-result-object v14
 
-    invoke-static/range {p1 .. p1}, Lcom/abdhoms/myprofile/awm;->b(Landroid/content/Context;)F
+    invoke-static/range {p1 .. p1}, Lcom/khaibin/myprofile/awm;->b(Landroid/content/Context;)F
 
     move-result v15
 

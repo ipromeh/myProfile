@@ -70,13 +70,13 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/abdhoms/myprofile/yb;->b(Landroid/support/v4/app/q;)Lcom/abdhoms/myprofile/yb;
+    invoke-static {v1}, Lcom/khaibin/myprofile/yb;->b(Landroid/support/v4/app/q;)Lcom/khaibin/myprofile/yb;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/google/android/gms/common/api/p;->a:Lcom/google/android/gms/common/api/n;
 
-    invoke-static {v0, v1, v2}, Lcom/google/android/gms/common/api/o;->a(Lcom/google/android/gms/common/api/o;Lcom/abdhoms/myprofile/yb;Lcom/google/android/gms/common/api/n;)V
+    invoke-static {v0, v1, v2}, Lcom/google/android/gms/common/api/o;->a(Lcom/google/android/gms/common/api/o;Lcom/khaibin/myprofile/yb;Lcom/google/android/gms/common/api/n;)V
 
     goto :goto_0
 .end method

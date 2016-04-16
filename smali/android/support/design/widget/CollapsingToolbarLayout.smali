@@ -100,9 +100,9 @@
 
     invoke-virtual {v0, v3}, Landroid/support/design/widget/CollapsingTextHelper;->setTextSizeInterpolator(Landroid/view/animation/Interpolator;)V
 
-    sget-object v0, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout:[I
+    sget-object v0, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout:[I
 
-    sget v3, Lcom/abdhoms/myprofile/j;->Widget_Design_CollapsingToolbar:I
+    sget v3, Lcom/khaibin/myprofile/j;->Widget_Design_CollapsingToolbar:I
 
     invoke-virtual {p1, p2, v0, p3, v3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -110,7 +110,7 @@
 
     iget-object v0, p0, Landroid/support/design/widget/CollapsingToolbarLayout;->mCollapsingTextHelper:Landroid/support/design/widget/CollapsingTextHelper;
 
-    sget v4, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_expandedTitleGravity:I
+    sget v4, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_expandedTitleGravity:I
 
     const v5, 0x800053
 
@@ -122,7 +122,7 @@
 
     iget-object v0, p0, Landroid/support/design/widget/CollapsingToolbarLayout;->mCollapsingTextHelper:Landroid/support/design/widget/CollapsingTextHelper;
 
-    sget v4, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_collapsedTitleGravity:I
+    sget v4, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_collapsedTitleGravity:I
 
     const v5, 0x800013
 
@@ -132,7 +132,7 @@
 
     invoke-virtual {v0, v4}, Landroid/support/design/widget/CollapsingTextHelper;->setCollapsedTextGravity(I)V
 
-    sget v0, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_expandedTitleMargin:I
+    sget v0, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_expandedTitleMargin:I
 
     invoke-virtual {v3, v0, v2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -155,7 +155,7 @@
     move v0, v1
 
     :goto_0
-    sget v4, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_expandedTitleMarginStart:I
+    sget v4, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_expandedTitleMarginStart:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -163,7 +163,7 @@
 
     if-eqz v4, :cond_0
 
-    sget v4, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_expandedTitleMarginStart:I
+    sget v4, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_expandedTitleMarginStart:I
 
     invoke-virtual {v3, v4, v2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -175,7 +175,7 @@
 
     :cond_0
     :goto_1
-    sget v4, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_expandedTitleMarginEnd:I
+    sget v4, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_expandedTitleMarginEnd:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -183,7 +183,7 @@
 
     if-eqz v4, :cond_1
 
-    sget v4, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_expandedTitleMarginEnd:I
+    sget v4, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_expandedTitleMarginEnd:I
 
     invoke-virtual {v3, v4, v2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -195,7 +195,7 @@
 
     :cond_1
     :goto_2
-    sget v0, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_expandedTitleMarginTop:I
+    sget v0, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_expandedTitleMarginTop:I
 
     invoke-virtual {v3, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -203,7 +203,7 @@
 
     if-eqz v0, :cond_2
 
-    sget v0, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_expandedTitleMarginTop:I
+    sget v0, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_expandedTitleMarginTop:I
 
     invoke-virtual {v3, v0, v2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -212,7 +212,7 @@
     iput v0, p0, Landroid/support/design/widget/CollapsingToolbarLayout;->mExpandedMarginTop:I
 
     :cond_2
-    sget v0, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_expandedTitleMarginBottom:I
+    sget v0, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_expandedTitleMarginBottom:I
 
     invoke-virtual {v3, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -220,7 +220,7 @@
 
     if-eqz v0, :cond_3
 
-    sget v0, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_expandedTitleMarginBottom:I
+    sget v0, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_expandedTitleMarginBottom:I
 
     invoke-virtual {v3, v0, v2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -229,7 +229,7 @@
     iput v0, p0, Landroid/support/design/widget/CollapsingToolbarLayout;->mExpandedMarginBottom:I
 
     :cond_3
-    sget v0, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_titleEnabled:I
+    sget v0, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_titleEnabled:I
 
     invoke-virtual {v3, v0, v1}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
@@ -237,7 +237,7 @@
 
     iput-boolean v0, p0, Landroid/support/design/widget/CollapsingToolbarLayout;->mCollapsingTitleEnabled:Z
 
-    sget v0, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_title:I
+    sget v0, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_title:I
 
     invoke-virtual {v3, v0}, Landroid/content/res/TypedArray;->getText(I)Ljava/lang/CharSequence;
 
@@ -247,17 +247,17 @@
 
     iget-object v0, p0, Landroid/support/design/widget/CollapsingToolbarLayout;->mCollapsingTextHelper:Landroid/support/design/widget/CollapsingTextHelper;
 
-    sget v1, Lcom/abdhoms/myprofile/j;->TextAppearance_Design_CollapsingToolbar_Expanded:I
+    sget v1, Lcom/khaibin/myprofile/j;->TextAppearance_Design_CollapsingToolbar_Expanded:I
 
     invoke-virtual {v0, v1}, Landroid/support/design/widget/CollapsingTextHelper;->setExpandedTextAppearance(I)V
 
     iget-object v0, p0, Landroid/support/design/widget/CollapsingToolbarLayout;->mCollapsingTextHelper:Landroid/support/design/widget/CollapsingTextHelper;
 
-    sget v1, Lcom/abdhoms/myprofile/j;->TextAppearance_AppCompat_Widget_ActionBar_Title:I
+    sget v1, Lcom/khaibin/myprofile/j;->TextAppearance_AppCompat_Widget_ActionBar_Title:I
 
     invoke-virtual {v0, v1}, Landroid/support/design/widget/CollapsingTextHelper;->setCollapsedTextAppearance(I)V
 
-    sget v0, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_expandedTitleTextAppearance:I
+    sget v0, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_expandedTitleTextAppearance:I
 
     invoke-virtual {v3, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -267,7 +267,7 @@
 
     iget-object v0, p0, Landroid/support/design/widget/CollapsingToolbarLayout;->mCollapsingTextHelper:Landroid/support/design/widget/CollapsingTextHelper;
 
-    sget v1, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_expandedTitleTextAppearance:I
+    sget v1, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_expandedTitleTextAppearance:I
 
     invoke-virtual {v3, v1, v2}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -276,7 +276,7 @@
     invoke-virtual {v0, v1}, Landroid/support/design/widget/CollapsingTextHelper;->setExpandedTextAppearance(I)V
 
     :cond_4
-    sget v0, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_collapsedTitleTextAppearance:I
+    sget v0, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_collapsedTitleTextAppearance:I
 
     invoke-virtual {v3, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -286,7 +286,7 @@
 
     iget-object v0, p0, Landroid/support/design/widget/CollapsingToolbarLayout;->mCollapsingTextHelper:Landroid/support/design/widget/CollapsingTextHelper;
 
-    sget v1, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_collapsedTitleTextAppearance:I
+    sget v1, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_collapsedTitleTextAppearance:I
 
     invoke-virtual {v3, v1, v2}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -295,7 +295,7 @@
     invoke-virtual {v0, v1}, Landroid/support/design/widget/CollapsingTextHelper;->setCollapsedTextAppearance(I)V
 
     :cond_5
-    sget v0, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_contentScrim:I
+    sget v0, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_contentScrim:I
 
     invoke-virtual {v3, v0}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -303,7 +303,7 @@
 
     invoke-virtual {p0, v0}, Landroid/support/design/widget/CollapsingToolbarLayout;->setContentScrim(Landroid/graphics/drawable/Drawable;)V
 
-    sget v0, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_statusBarScrim:I
+    sget v0, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_statusBarScrim:I
 
     invoke-virtual {v3, v0}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -311,7 +311,7 @@
 
     invoke-virtual {p0, v0}, Landroid/support/design/widget/CollapsingToolbarLayout;->setStatusBarScrim(Landroid/graphics/drawable/Drawable;)V
 
-    sget v0, Lcom/abdhoms/myprofile/k;->CollapsingToolbarLayout_toolbarId:I
+    sget v0, Lcom/khaibin/myprofile/k;->CollapsingToolbarLayout_toolbarId:I
 
     const/4 v1, -0x1
 
@@ -580,7 +580,7 @@
 .method private static getViewOffsetHelper(Landroid/view/View;)Landroid/support/design/widget/ViewOffsetHelper;
     .locals 2
 
-    sget v0, Lcom/abdhoms/myprofile/g;->view_offset_helper:I
+    sget v0, Lcom/khaibin/myprofile/g;->view_offset_helper:I
 
     invoke-virtual {p0, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 
@@ -594,7 +594,7 @@
 
     invoke-direct {v0, p0}, Landroid/support/design/widget/ViewOffsetHelper;-><init>(Landroid/view/View;)V
 
-    sget v1, Lcom/abdhoms/myprofile/g;->view_offset_helper:I
+    sget v1, Lcom/khaibin/myprofile/g;->view_offset_helper:I
 
     invoke-virtual {p0, v1, v0}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
@@ -1424,7 +1424,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/abdhoms/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/khaibin/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -1599,7 +1599,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/abdhoms/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/khaibin/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 

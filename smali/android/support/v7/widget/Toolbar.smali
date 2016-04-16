@@ -116,7 +116,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    sget v0, Lcom/abdhoms/myprofile/hp;->toolbarStyle:I
+    sget v0, Lcom/khaibin/myprofile/hp;->toolbarStyle:I
 
     invoke-direct {p0, p1, p2, v0}, Landroid/support/v7/widget/Toolbar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -178,13 +178,13 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/abdhoms/myprofile/hz;->Toolbar:[I
+    sget-object v1, Lcom/khaibin/myprofile/hz;->Toolbar:[I
 
     invoke-static {v0, p2, v1, p3, v7}, Landroid/support/v7/widget/gh;->a(Landroid/content/Context;Landroid/util/AttributeSet;[III)Landroid/support/v7/widget/gh;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_titleTextAppearance:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_titleTextAppearance:I
 
     invoke-virtual {v0, v1, v7}, Landroid/support/v7/widget/gh;->g(II)I
 
@@ -192,7 +192,7 @@
 
     iput v1, p0, Landroid/support/v7/widget/Toolbar;->l:I
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_subtitleTextAppearance:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_subtitleTextAppearance:I
 
     invoke-virtual {v0, v1, v7}, Landroid/support/v7/widget/gh;->g(II)I
 
@@ -200,7 +200,7 @@
 
     iput v1, p0, Landroid/support/v7/widget/Toolbar;->m:I
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_android_gravity:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_android_gravity:I
 
     iget v2, p0, Landroid/support/v7/widget/Toolbar;->u:I
 
@@ -214,7 +214,7 @@
 
     iput v1, p0, Landroid/support/v7/widget/Toolbar;->n:I
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_titleMargins:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_titleMargins:I
 
     invoke-virtual {v0, v1, v7}, Landroid/support/v7/widget/gh;->d(II)I
 
@@ -228,7 +228,7 @@
 
     iput v1, p0, Landroid/support/v7/widget/Toolbar;->p:I
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_titleMarginStart:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_titleMarginStart:I
 
     invoke-virtual {v0, v1, v6}, Landroid/support/v7/widget/gh;->d(II)I
 
@@ -239,7 +239,7 @@
     iput v1, p0, Landroid/support/v7/widget/Toolbar;->p:I
 
     :cond_0
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_titleMarginEnd:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_titleMarginEnd:I
 
     invoke-virtual {v0, v1, v6}, Landroid/support/v7/widget/gh;->d(II)I
 
@@ -250,7 +250,7 @@
     iput v1, p0, Landroid/support/v7/widget/Toolbar;->q:I
 
     :cond_1
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_titleMarginTop:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_titleMarginTop:I
 
     invoke-virtual {v0, v1, v6}, Landroid/support/v7/widget/gh;->d(II)I
 
@@ -261,7 +261,7 @@
     iput v1, p0, Landroid/support/v7/widget/Toolbar;->r:I
 
     :cond_2
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_titleMarginBottom:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_titleMarginBottom:I
 
     invoke-virtual {v0, v1, v6}, Landroid/support/v7/widget/gh;->d(II)I
 
@@ -272,7 +272,7 @@
     iput v1, p0, Landroid/support/v7/widget/Toolbar;->s:I
 
     :cond_3
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_maxButtonHeight:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_maxButtonHeight:I
 
     invoke-virtual {v0, v1, v6}, Landroid/support/v7/widget/gh;->e(II)I
 
@@ -280,25 +280,25 @@
 
     iput v1, p0, Landroid/support/v7/widget/Toolbar;->o:I
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_contentInsetStart:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_contentInsetStart:I
 
     invoke-virtual {v0, v1, v8}, Landroid/support/v7/widget/gh;->d(II)I
 
     move-result v1
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->Toolbar_contentInsetEnd:I
+    sget v2, Lcom/khaibin/myprofile/hz;->Toolbar_contentInsetEnd:I
 
     invoke-virtual {v0, v2, v8}, Landroid/support/v7/widget/gh;->d(II)I
 
     move-result v2
 
-    sget v3, Lcom/abdhoms/myprofile/hz;->Toolbar_contentInsetLeft:I
+    sget v3, Lcom/khaibin/myprofile/hz;->Toolbar_contentInsetLeft:I
 
     invoke-virtual {v0, v3, v7}, Landroid/support/v7/widget/gh;->e(II)I
 
     move-result v3
 
-    sget v4, Lcom/abdhoms/myprofile/hz;->Toolbar_contentInsetRight:I
+    sget v4, Lcom/khaibin/myprofile/hz;->Toolbar_contentInsetRight:I
 
     invoke-virtual {v0, v4, v7}, Landroid/support/v7/widget/gh;->e(II)I
 
@@ -318,7 +318,7 @@
     invoke-virtual {v3, v1, v2}, Landroid/support/v7/widget/fa;->a(II)V
 
     :cond_5
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_collapseIcon:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_collapseIcon:I
 
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/gh;->a(I)Landroid/graphics/drawable/Drawable;
 
@@ -326,7 +326,7 @@
 
     iput-object v1, p0, Landroid/support/v7/widget/Toolbar;->g:Landroid/graphics/drawable/Drawable;
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_collapseContentDescription:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_collapseContentDescription:I
 
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/gh;->c(I)Ljava/lang/CharSequence;
 
@@ -334,7 +334,7 @@
 
     iput-object v1, p0, Landroid/support/v7/widget/Toolbar;->h:Ljava/lang/CharSequence;
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_title:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_title:I
 
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/gh;->c(I)Ljava/lang/CharSequence;
 
@@ -349,7 +349,7 @@
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/Toolbar;->setTitle(Ljava/lang/CharSequence;)V
 
     :cond_6
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_subtitle:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_subtitle:I
 
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/gh;->c(I)Ljava/lang/CharSequence;
 
@@ -370,7 +370,7 @@
 
     iput-object v1, p0, Landroid/support/v7/widget/Toolbar;->j:Landroid/content/Context;
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_popupTheme:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_popupTheme:I
 
     invoke-virtual {v0, v1, v7}, Landroid/support/v7/widget/gh;->g(II)I
 
@@ -378,7 +378,7 @@
 
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/Toolbar;->setPopupTheme(I)V
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_navigationIcon:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_navigationIcon:I
 
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/gh;->a(I)Landroid/graphics/drawable/Drawable;
 
@@ -389,7 +389,7 @@
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/Toolbar;->setNavigationIcon(Landroid/graphics/drawable/Drawable;)V
 
     :cond_8
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_navigationContentDescription:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_navigationContentDescription:I
 
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/gh;->c(I)Ljava/lang/CharSequence;
 
@@ -404,7 +404,7 @@
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/Toolbar;->setNavigationContentDescription(Ljava/lang/CharSequence;)V
 
     :cond_9
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_logo:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_logo:I
 
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/gh;->a(I)Landroid/graphics/drawable/Drawable;
 
@@ -415,7 +415,7 @@
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/Toolbar;->setLogo(Landroid/graphics/drawable/Drawable;)V
 
     :cond_a
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_logoDescription:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_logoDescription:I
 
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/gh;->c(I)Ljava/lang/CharSequence;
 
@@ -430,7 +430,7 @@
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/Toolbar;->setLogoDescription(Ljava/lang/CharSequence;)V
 
     :cond_b
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_titleTextColor:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_titleTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/gh;->e(I)Z
 
@@ -438,7 +438,7 @@
 
     if-eqz v1, :cond_c
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_titleTextColor:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_titleTextColor:I
 
     invoke-virtual {v0, v1, v6}, Landroid/support/v7/widget/gh;->b(II)I
 
@@ -447,7 +447,7 @@
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/Toolbar;->setTitleTextColor(I)V
 
     :cond_c
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_subtitleTextColor:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_subtitleTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/gh;->e(I)Z
 
@@ -455,7 +455,7 @@
 
     if-eqz v1, :cond_d
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->Toolbar_subtitleTextColor:I
+    sget v1, Lcom/khaibin/myprofile/hz;->Toolbar_subtitleTextColor:I
 
     invoke-virtual {v0, v1, v6}, Landroid/support/v7/widget/gh;->b(II)I
 
@@ -1409,13 +1409,13 @@
 .method private getMenuInflater()Landroid/view/MenuInflater;
     .locals 2
 
-    new-instance v0, Lcom/abdhoms/myprofile/iu;
+    new-instance v0, Lcom/khaibin/myprofile/iu;
 
     invoke-virtual {p0}, Landroid/support/v7/widget/Toolbar;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/abdhoms/myprofile/iu;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/khaibin/myprofile/iu;-><init>(Landroid/content/Context;)V
 
     return-object v0
 .end method
@@ -1571,7 +1571,7 @@
 
     const/4 v2, 0x0
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->toolbarNavigationButtonStyle:I
+    sget v3, Lcom/khaibin/myprofile/hp;->toolbarNavigationButtonStyle:I
 
     invoke-direct {v0, v1, v2, v3}, Landroid/widget/ImageButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -1614,7 +1614,7 @@
 
     const/4 v2, 0x0
 
-    sget v3, Lcom/abdhoms/myprofile/hp;->toolbarNavigationButtonStyle:I
+    sget v3, Lcom/khaibin/myprofile/hp;->toolbarNavigationButtonStyle:I
 
     invoke-direct {v0, v1, v2, v3}, Landroid/widget/ImageButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -1769,15 +1769,15 @@
     return-object v0
 
     :cond_0
-    instance-of v0, p1, Lcom/abdhoms/myprofile/eu;
+    instance-of v0, p1, Lcom/khaibin/myprofile/eu;
 
     if-eqz v0, :cond_1
 
     new-instance v0, Landroid/support/v7/widget/gm;
 
-    check-cast p1, Lcom/abdhoms/myprofile/eu;
+    check-cast p1, Lcom/khaibin/myprofile/eu;
 
-    invoke-direct {v0, p1}, Landroid/support/v7/widget/gm;-><init>(Lcom/abdhoms/myprofile/eu;)V
+    invoke-direct {v0, p1}, Landroid/support/v7/widget/gm;-><init>(Lcom/khaibin/myprofile/eu;)V
 
     goto :goto_0
 

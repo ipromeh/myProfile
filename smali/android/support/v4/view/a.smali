@@ -96,14 +96,14 @@
     return v0
 .end method
 
-.method public getAccessibilityNodeProvider(Landroid/view/View;)Lcom/abdhoms/myprofile/dw;
+.method public getAccessibilityNodeProvider(Landroid/view/View;)Lcom/khaibin/myprofile/dw;
     .locals 2
 
     sget-object v0, Landroid/support/v4/view/a;->IMPL:Landroid/support/v4/view/d;
 
     sget-object v1, Landroid/support/v4/view/a;->DEFAULT_DELEGATE:Ljava/lang/Object;
 
-    invoke-interface {v0, v1, p1}, Landroid/support/v4/view/d;->a(Ljava/lang/Object;Landroid/view/View;)Lcom/abdhoms/myprofile/dw;
+    invoke-interface {v0, v1, p1}, Landroid/support/v4/view/d;->a(Ljava/lang/Object;Landroid/view/View;)Lcom/khaibin/myprofile/dw;
 
     move-result-object v0
 
@@ -130,14 +130,14 @@
     return-void
 .end method
 
-.method public onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+.method public onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
     .locals 2
 
     sget-object v0, Landroid/support/v4/view/a;->IMPL:Landroid/support/v4/view/d;
 
     sget-object v1, Landroid/support/v4/view/a;->DEFAULT_DELEGATE:Ljava/lang/Object;
 
-    invoke-interface {v0, v1, p1, p2}, Landroid/support/v4/view/d;->a(Ljava/lang/Object;Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+    invoke-interface {v0, v1, p1, p2}, Landroid/support/v4/view/d;->a(Ljava/lang/Object;Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
 
     return-void
 .end method

@@ -41,11 +41,11 @@
 
     iget-object v0, p0, Landroid/support/v4/view/c;->a:Landroid/support/v4/view/a;
 
-    new-instance v1, Lcom/abdhoms/myprofile/dd;
+    new-instance v1, Lcom/khaibin/myprofile/dd;
 
-    invoke-direct {v1, p2}, Lcom/abdhoms/myprofile/dd;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v1, p2}, Lcom/khaibin/myprofile/dd;-><init>(Ljava/lang/Object;)V
 
-    invoke-virtual {v0, p1, v1}, Landroid/support/v4/view/a;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+    invoke-virtual {v0, p1, v1}, Landroid/support/v4/view/a;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
 
     return-void
 .end method

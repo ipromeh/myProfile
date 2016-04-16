@@ -57,7 +57,7 @@
 
     move-result v2
 
-    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbF()Lcom/abdhoms/myprofile/aqt;
+    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbF()Lcom/khaibin/myprofile/aqt;
 
     move-result-object v3
 
@@ -66,7 +66,7 @@
     const/4 v0, 0x1
 
     :cond_0
-    invoke-virtual {v3, v0}, Lcom/abdhoms/myprofile/aqt;->b(Z)V
+    invoke-virtual {v3, v0}, Lcom/khaibin/myprofile/aqt;->b(Z)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/purchase/b;->a:Landroid/content/Context;
 

@@ -507,7 +507,7 @@
     throw v0
 .end method
 
-.method public zza(Lcom/abdhoms/myprofile/acu;)V
+.method public zza(Lcom/khaibin/myprofile/acu;)V
     .locals 5
 
     invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
@@ -525,7 +525,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/abdhoms/myprofile/acu;->asBinder()Landroid/os/IBinder;
+    invoke-interface {p1}, Lcom/khaibin/myprofile/acu;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
@@ -565,7 +565,7 @@
     throw v0
 .end method
 
-.method public zza(Lcom/abdhoms/myprofile/ams;)V
+.method public zza(Lcom/khaibin/myprofile/ams;)V
     .locals 5
 
     invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
@@ -583,7 +583,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/abdhoms/myprofile/ams;->asBinder()Landroid/os/IBinder;
+    invoke-interface {p1}, Lcom/khaibin/myprofile/ams;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
@@ -623,7 +623,7 @@
     throw v0
 .end method
 
-.method public zza(Lcom/abdhoms/myprofile/ane;Ljava/lang/String;)V
+.method public zza(Lcom/khaibin/myprofile/ane;Ljava/lang/String;)V
     .locals 5
 
     invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
@@ -641,7 +641,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/abdhoms/myprofile/ane;->asBinder()Landroid/os/IBinder;
+    invoke-interface {p1}, Lcom/khaibin/myprofile/ane;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
@@ -1038,7 +1038,7 @@
     throw v0
 .end method
 
-.method public zzaM()Lcom/abdhoms/myprofile/yh;
+.method public zzaM()Lcom/khaibin/myprofile/yh;
     .locals 5
 
     invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
@@ -1068,7 +1068,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/yi;->a(Landroid/os/IBinder;)Lcom/abdhoms/myprofile/yh;
+    invoke-static {v0}, Lcom/khaibin/myprofile/yi;->a(Landroid/os/IBinder;)Lcom/khaibin/myprofile/yh;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

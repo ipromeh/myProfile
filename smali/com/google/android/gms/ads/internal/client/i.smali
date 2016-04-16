@@ -30,7 +30,7 @@
     return-object v0
 .end method
 
-.method public zza(Lcom/abdhoms/myprofile/adu;)V
+.method public zza(Lcom/khaibin/myprofile/adu;)V
     .locals 5
 
     invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
@@ -48,7 +48,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/abdhoms/myprofile/adu;->asBinder()Landroid/os/IBinder;
+    invoke-interface {p1}, Lcom/khaibin/myprofile/adu;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
@@ -88,7 +88,7 @@
     throw v0
 .end method
 
-.method public zza(Lcom/abdhoms/myprofile/adx;)V
+.method public zza(Lcom/khaibin/myprofile/adx;)V
     .locals 5
 
     invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
@@ -106,7 +106,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/abdhoms/myprofile/adx;->asBinder()Landroid/os/IBinder;
+    invoke-interface {p1}, Lcom/khaibin/myprofile/adx;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
@@ -211,7 +211,7 @@
     throw v0
 .end method
 
-.method public zza(Ljava/lang/String;Lcom/abdhoms/myprofile/aed;Lcom/abdhoms/myprofile/aea;)V
+.method public zza(Ljava/lang/String;Lcom/khaibin/myprofile/aed;Lcom/khaibin/myprofile/aea;)V
     .locals 5
 
     const/4 v0, 0x0
@@ -233,7 +233,7 @@
 
     if-eqz p2, :cond_1
 
-    invoke-interface {p2}, Lcom/abdhoms/myprofile/aed;->asBinder()Landroid/os/IBinder;
+    invoke-interface {p2}, Lcom/khaibin/myprofile/aed;->asBinder()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -242,7 +242,7 @@
 
     if-eqz p3, :cond_0
 
-    invoke-interface {p3}, Lcom/abdhoms/myprofile/aea;->asBinder()Landroid/os/IBinder;
+    invoke-interface {p3}, Lcom/khaibin/myprofile/aea;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 

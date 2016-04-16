@@ -503,7 +503,7 @@
 
     const-string v4, "RV Scroll"
 
-    invoke-static {v4}, Lcom/abdhoms/myprofile/bi;->a(Ljava/lang/String;)V
+    invoke-static {v4}, Lcom/khaibin/myprofile/bi;->a(Ljava/lang/String;)V
 
     if-eqz v11, :cond_0
 
@@ -551,7 +551,7 @@
     sub-int v0, v12, v1
 
     :cond_1
-    invoke-static {}, Lcom/abdhoms/myprofile/bi;->a()V
+    invoke-static {}, Lcom/khaibin/myprofile/bi;->a()V
 
     iget-object v4, p0, Landroid/support/v7/widget/es;->a:Landroid/support/v7/widget/RecyclerView;
 

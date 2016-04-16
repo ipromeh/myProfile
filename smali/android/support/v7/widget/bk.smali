@@ -38,7 +38,7 @@
 
     const/4 v1, 0x0
 
-    sget v2, Lcom/abdhoms/myprofile/hp;->textAllCaps:I
+    sget v2, Lcom/khaibin/myprofile/hp;->textAllCaps:I
 
     aput v2, v0, v1
 
@@ -338,13 +338,13 @@
 
     if-eq v3, v7, :cond_5
 
-    sget-object v1, Lcom/abdhoms/myprofile/hz;->TextAppearance:[I
+    sget-object v1, Lcom/khaibin/myprofile/hz;->TextAppearance:[I
 
     invoke-virtual {v0, v3, v1}, Landroid/content/Context;->obtainStyledAttributes(I[I)Landroid/content/res/TypedArray;
 
     move-result-object v1
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->TextAppearance_textAllCaps:I
+    sget v2, Lcom/khaibin/myprofile/hz;->TextAppearance_textAllCaps:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -352,7 +352,7 @@
 
     if-eqz v2, :cond_4
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->TextAppearance_textAllCaps:I
+    sget v2, Lcom/khaibin/myprofile/hz;->TextAppearance_textAllCaps:I
 
     invoke-virtual {v1, v2, v5}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
@@ -391,7 +391,7 @@
 
     if-eqz p1, :cond_0
 
-    new-instance v0, Lcom/abdhoms/myprofile/ik;
+    new-instance v0, Lcom/khaibin/myprofile/ik;
 
     iget-object v2, p0, Landroid/support/v7/widget/bk;->a:Landroid/widget/TextView;
 
@@ -399,7 +399,7 @@
 
     move-result-object v2
 
-    invoke-direct {v0, v2}, Lcom/abdhoms/myprofile/ik;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v2}, Lcom/khaibin/myprofile/ik;-><init>(Landroid/content/Context;)V
 
     :goto_0
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setTransformationMethod(Landroid/text/method/TransformationMethod;)V

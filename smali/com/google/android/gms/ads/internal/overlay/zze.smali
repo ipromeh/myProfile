@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -86,7 +86,7 @@
 
     invoke-static {v0, p2}, Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;->zza(Landroid/content/Intent;Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;)V
 
-    invoke-static {}, Lcom/abdhoms/myprofile/aws;->g()Z
+    invoke-static {}, Lcom/khaibin/myprofile/aws;->g()Z
 
     move-result v1
 
@@ -106,11 +106,11 @@
     invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     :cond_3
-    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbC()Lcom/abdhoms/myprofile/art;
+    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbC()Lcom/khaibin/myprofile/art;
 
     move-result-object v1
 
-    invoke-virtual {v1, p1, v0}, Lcom/abdhoms/myprofile/art;->a(Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-virtual {v1, p1, v0}, Lcom/khaibin/myprofile/art;->a(Landroid/content/Context;Landroid/content/Intent;)V
 
     goto :goto_0
 .end method

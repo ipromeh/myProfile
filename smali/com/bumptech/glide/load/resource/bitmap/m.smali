@@ -1,5 +1,5 @@
 .class public Lcom/bumptech/glide/load/resource/bitmap/m;
-.super Lcom/abdhoms/myprofile/qv;
+.super Lcom/khaibin/myprofile/qv;
 
 
 # instance fields
@@ -32,7 +32,7 @@
 .method constructor <init>(Landroid/content/res/Resources;Lcom/bumptech/glide/load/resource/bitmap/n;)V
     .locals 2
 
-    invoke-direct {p0}, Lcom/abdhoms/myprofile/qv;-><init>()V
+    invoke-direct {p0}, Lcom/khaibin/myprofile/qv;-><init>()V
 
     new-instance v0, Landroid/graphics/Rect;
 
@@ -240,7 +240,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-super {p0}, Lcom/abdhoms/myprofile/qv;->mutate()Landroid/graphics/drawable/Drawable;
+    invoke-super {p0}, Lcom/khaibin/myprofile/qv;->mutate()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -265,7 +265,7 @@
 .method protected onBoundsChange(Landroid/graphics/Rect;)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/abdhoms/myprofile/qv;->onBoundsChange(Landroid/graphics/Rect;)V
+    invoke-super {p0, p1}, Lcom/khaibin/myprofile/qv;->onBoundsChange(Landroid/graphics/Rect;)V
 
     const/4 v0, 0x1
 

@@ -179,7 +179,7 @@
 
     move-result v1
 
-    invoke-static {v0, v1}, Lcom/abdhoms/myprofile/ac;->b(II)I
+    invoke-static {v0, v1}, Lcom/khaibin/myprofile/ac;->b(II)I
 
     move-result v0
 

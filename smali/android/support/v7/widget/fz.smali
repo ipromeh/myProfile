@@ -60,7 +60,7 @@
 
     iput-object v0, p0, Landroid/support/v7/widget/fz;->d:Landroid/widget/ImageView;
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->edit_query:I
+    sget v0, Lcom/khaibin/myprofile/hu;->edit_query:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

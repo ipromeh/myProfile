@@ -18,13 +18,13 @@
 
     iput v0, p0, Landroid/support/v7/widget/ButtonBarLayout;->b:I
 
-    sget-object v0, Lcom/abdhoms/myprofile/hz;->ButtonBarLayout:[I
+    sget-object v0, Lcom/khaibin/myprofile/hz;->ButtonBarLayout:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hz;->ButtonBarLayout_allowStacking:I
+    sget v1, Lcom/khaibin/myprofile/hz;->ButtonBarLayout_allowStacking:I
 
     const/4 v2, 0x0
 
@@ -76,7 +76,7 @@
     :goto_1
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/ButtonBarLayout;->setGravity(I)V
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->spacer:I
+    sget v0, Lcom/khaibin/myprofile/hu;->spacer:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/ButtonBarLayout;->findViewById(I)Landroid/view/View;
 

@@ -41,11 +41,11 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/google/android/gms/analytics/internal/af;->h()Lcom/abdhoms/myprofile/azp;
+    invoke-virtual {v0}, Lcom/google/android/gms/analytics/internal/af;->h()Lcom/khaibin/myprofile/azp;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/abdhoms/myprofile/azp;->a(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, p0}, Lcom/khaibin/myprofile/azp;->a(Ljava/lang/Runnable;)V
 
     :cond_0
     :goto_0

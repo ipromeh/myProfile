@@ -236,7 +236,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/b;->design_fab_out:I
+    sget v1, Lcom/khaibin/myprofile/b;->design_fab_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -296,7 +296,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ad;->c(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0}, Lcom/khaibin/myprofile/ad;->c(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -304,20 +304,20 @@
 
     iget-object v0, p0, Landroid/support/design/widget/FloatingActionButtonEclairMr1;->mShapeDrawable:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {v0, p1}, Lcom/abdhoms/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
+    invoke-static {v0, p1}, Lcom/khaibin/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
 
     if-eqz p2, :cond_0
 
     iget-object v0, p0, Landroid/support/design/widget/FloatingActionButtonEclairMr1;->mShapeDrawable:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {v0, p2}, Lcom/abdhoms/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
+    invoke-static {v0, p2}, Lcom/khaibin/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
 
     :cond_0
     invoke-virtual {p0}, Landroid/support/design/widget/FloatingActionButtonEclairMr1;->createShapeDrawable()Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ad;->c(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0}, Lcom/khaibin/myprofile/ad;->c(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -329,13 +329,13 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/abdhoms/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
+    invoke-static {v0, v1}, Lcom/khaibin/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
 
     iget-object v0, p0, Landroid/support/design/widget/FloatingActionButtonEclairMr1;->mRippleDrawable:Landroid/graphics/drawable/Drawable;
 
     sget-object v1, Landroid/graphics/PorterDuff$Mode;->MULTIPLY:Landroid/graphics/PorterDuff$Mode;
 
-    invoke-static {v0, v1}, Lcom/abdhoms/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
+    invoke-static {v0, v1}, Lcom/khaibin/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
 
     if-lez p4, :cond_1
 
@@ -433,7 +433,7 @@
 
     iget-object v0, p0, Landroid/support/design/widget/FloatingActionButtonEclairMr1;->mShapeDrawable:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {v0, p1}, Lcom/abdhoms/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
+    invoke-static {v0, p1}, Lcom/khaibin/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
 
     iget-object v0, p0, Landroid/support/design/widget/FloatingActionButtonEclairMr1;->mBorderDrawable:Landroid/support/design/widget/CircularBorderDrawable;
 
@@ -452,7 +452,7 @@
 
     iget-object v0, p0, Landroid/support/design/widget/FloatingActionButtonEclairMr1;->mShapeDrawable:Landroid/graphics/drawable/Drawable;
 
-    invoke-static {v0, p1}, Lcom/abdhoms/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
+    invoke-static {v0, p1}, Lcom/khaibin/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
 
     return-void
 .end method
@@ -524,7 +524,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/abdhoms/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
+    invoke-static {v0, v1}, Lcom/khaibin/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
 
     return-void
 .end method
@@ -561,7 +561,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/b;->design_fab_in:I
+    sget v1, Lcom/khaibin/myprofile/b;->design_fab_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

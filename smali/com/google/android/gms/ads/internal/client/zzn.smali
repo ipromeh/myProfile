@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -22,7 +22,7 @@
 
 .field private final f:Lcom/google/android/gms/ads/internal/client/zzaf;
 
-.field private final g:Lcom/abdhoms/myprofile/aeg;
+.field private final g:Lcom/khaibin/myprofile/aeg;
 
 .field private final h:Lcom/google/android/gms/ads/internal/reward/client/zzf;
 
@@ -75,11 +75,11 @@
 
     iput-object v0, p0, Lcom/google/android/gms/ads/internal/client/zzn;->f:Lcom/google/android/gms/ads/internal/client/zzaf;
 
-    new-instance v0, Lcom/abdhoms/myprofile/aeg;
+    new-instance v0, Lcom/khaibin/myprofile/aeg;
 
-    invoke-direct {v0}, Lcom/abdhoms/myprofile/aeg;-><init>()V
+    invoke-direct {v0}, Lcom/khaibin/myprofile/aeg;-><init>()V
 
-    iput-object v0, p0, Lcom/google/android/gms/ads/internal/client/zzn;->g:Lcom/abdhoms/myprofile/aeg;
+    iput-object v0, p0, Lcom/google/android/gms/ads/internal/client/zzn;->g:Lcom/khaibin/myprofile/aeg;
 
     new-instance v0, Lcom/google/android/gms/ads/internal/reward/client/zzf;
 
@@ -186,14 +186,14 @@
     return-object v0
 .end method
 
-.method public static zzcW()Lcom/abdhoms/myprofile/aeg;
+.method public static zzcW()Lcom/khaibin/myprofile/aeg;
     .locals 1
 
     invoke-static {}, Lcom/google/android/gms/ads/internal/client/zzn;->a()Lcom/google/android/gms/ads/internal/client/zzn;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/google/android/gms/ads/internal/client/zzn;->g:Lcom/abdhoms/myprofile/aeg;
+    iget-object v0, v0, Lcom/google/android/gms/ads/internal/client/zzn;->g:Lcom/khaibin/myprofile/aeg;
 
     return-object v0
 .end method

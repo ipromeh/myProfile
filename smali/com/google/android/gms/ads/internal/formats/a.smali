@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -103,13 +103,13 @@
 
     invoke-virtual {v2, v0}, Landroid/widget/RelativeLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbE()Lcom/abdhoms/myprofile/arw;
+    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbE()Lcom/khaibin/myprofile/arw;
 
     move-result-object v0
 
     iget-object v2, p0, Lcom/google/android/gms/ads/internal/formats/a;->b:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {v0, v2, v1}, Lcom/abdhoms/myprofile/arw;->a(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v2, v1}, Lcom/khaibin/myprofile/arw;->a(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
     new-instance v0, Landroid/widget/RelativeLayout$LayoutParams;
 
@@ -246,13 +246,13 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbE()Lcom/abdhoms/myprofile/arw;
+    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbE()Lcom/khaibin/myprofile/arw;
 
     move-result-object v0
 
     iget-object v2, p0, Lcom/google/android/gms/ads/internal/formats/a;->c:Landroid/graphics/drawable/AnimationDrawable;
 
-    invoke-virtual {v0, v1, v2}, Lcom/abdhoms/myprofile/arw;->a(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v1, v2}, Lcom/khaibin/myprofile/arw;->a(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
     :cond_2
     :goto_1

@@ -31,7 +31,7 @@
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/formats/h;->a:Lcom/google/android/gms/ads/internal/formats/zzi;
 
-    invoke-virtual {v0}, Lcom/google/android/gms/ads/internal/formats/zzi;->zzdR()Lcom/abdhoms/myprofile/atx;
+    invoke-virtual {v0}, Lcom/google/android/gms/ads/internal/formats/zzi;->zzdR()Lcom/khaibin/myprofile/atx;
 
     move-result-object v0
 
@@ -43,7 +43,7 @@
 
     move-result-object v1
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/atx;->b()Landroid/view/View;
+    invoke-interface {v0}, Lcom/khaibin/myprofile/atx;->b()Landroid/view/View;
 
     move-result-object v0
 

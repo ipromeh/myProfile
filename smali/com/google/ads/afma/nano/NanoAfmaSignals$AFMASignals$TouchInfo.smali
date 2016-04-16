@@ -1,5 +1,5 @@
 .class public final Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;
-.super Lcom/abdhoms/myprofile/aym;
+.super Lcom/khaibin/myprofile/aym;
 
 
 # static fields
@@ -16,7 +16,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/abdhoms/myprofile/aym;-><init>()V
+    invoke-direct {p0}, Lcom/khaibin/myprofile/aym;-><init>()V
 
     invoke-virtual {p0}, Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;->clear()Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;
 
@@ -30,7 +30,7 @@
 
     if-nez v0, :cond_1
 
-    sget-object v1, Lcom/abdhoms/myprofile/ayk;->a:Ljava/lang/Object;
+    sget-object v1, Lcom/khaibin/myprofile/ayk;->a:Ljava/lang/Object;
 
     monitor-enter v1
 
@@ -66,14 +66,14 @@
     throw v0
 .end method
 
-.method public static parseFrom(Lcom/abdhoms/myprofile/ayd;)Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;
+.method public static parseFrom(Lcom/khaibin/myprofile/ayd;)Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;
     .locals 1
 
     new-instance v0, Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;
 
     invoke-direct {v0}, Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;->mergeFrom(Lcom/abdhoms/myprofile/ayd;)Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;
+    invoke-virtual {v0, p0}, Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;->mergeFrom(Lcom/khaibin/myprofile/ayd;)Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;
 
     move-result-object v0
 
@@ -87,7 +87,7 @@
 
     invoke-direct {v0}, Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;-><init>()V
 
-    invoke-static {v0, p0}, Lcom/abdhoms/myprofile/aym;->mergeFrom(Lcom/abdhoms/myprofile/aym;[B)Lcom/abdhoms/myprofile/aym;
+    invoke-static {v0, p0}, Lcom/khaibin/myprofile/aym;->mergeFrom(Lcom/khaibin/myprofile/aym;[B)Lcom/khaibin/myprofile/aym;
 
     move-result-object v0
 
@@ -101,7 +101,7 @@
 .method protected a()I
     .locals 4
 
-    invoke-super {p0}, Lcom/abdhoms/myprofile/aym;->a()I
+    invoke-super {p0}, Lcom/khaibin/myprofile/aym;->a()I
 
     move-result v0
 
@@ -117,7 +117,7 @@
 
     move-result-wide v2
 
-    invoke-static {v1, v2, v3}, Lcom/abdhoms/myprofile/aye;->c(IJ)I
+    invoke-static {v1, v2, v3}, Lcom/khaibin/myprofile/aye;->c(IJ)I
 
     move-result v1
 
@@ -136,7 +136,7 @@
 
     move-result-wide v2
 
-    invoke-static {v1, v2, v3}, Lcom/abdhoms/myprofile/aye;->c(IJ)I
+    invoke-static {v1, v2, v3}, Lcom/khaibin/myprofile/aye;->c(IJ)I
 
     move-result v1
 
@@ -162,28 +162,28 @@
     return-object p0
 .end method
 
-.method public bridge synthetic mergeFrom(Lcom/abdhoms/myprofile/ayd;)Lcom/abdhoms/myprofile/aym;
+.method public bridge synthetic mergeFrom(Lcom/khaibin/myprofile/ayd;)Lcom/khaibin/myprofile/aym;
     .locals 1
 
-    invoke-virtual {p0, p1}, Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;->mergeFrom(Lcom/abdhoms/myprofile/ayd;)Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;
+    invoke-virtual {p0, p1}, Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;->mergeFrom(Lcom/khaibin/myprofile/ayd;)Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public mergeFrom(Lcom/abdhoms/myprofile/ayd;)Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;
+.method public mergeFrom(Lcom/khaibin/myprofile/ayd;)Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;
     .locals 2
 
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Lcom/abdhoms/myprofile/ayd;->a()I
+    invoke-virtual {p1}, Lcom/khaibin/myprofile/ayd;->a()I
 
     move-result v0
 
     sparse-switch v0, :sswitch_data_0
 
-    invoke-static {p1, v0}, Lcom/abdhoms/myprofile/ayp;->a(Lcom/abdhoms/myprofile/ayd;I)Z
+    invoke-static {p1, v0}, Lcom/khaibin/myprofile/ayp;->a(Lcom/khaibin/myprofile/ayd;I)Z
 
     move-result v0
 
@@ -193,7 +193,7 @@
     return-object p0
 
     :sswitch_1
-    invoke-virtual {p1}, Lcom/abdhoms/myprofile/ayd;->c()J
+    invoke-virtual {p1}, Lcom/khaibin/myprofile/ayd;->c()J
 
     move-result-wide v0
 
@@ -206,7 +206,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-virtual {p1}, Lcom/abdhoms/myprofile/ayd;->c()J
+    invoke-virtual {p1}, Lcom/khaibin/myprofile/ayd;->c()J
 
     move-result-wide v0
 
@@ -226,7 +226,7 @@
     .end sparse-switch
 .end method
 
-.method public writeTo(Lcom/abdhoms/myprofile/aye;)V
+.method public writeTo(Lcom/khaibin/myprofile/aye;)V
     .locals 4
 
     iget-object v0, p0, Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;->tcxSignal:Ljava/lang/Long;
@@ -241,7 +241,7 @@
 
     move-result-wide v2
 
-    invoke-virtual {p1, v0, v2, v3}, Lcom/abdhoms/myprofile/aye;->a(IJ)V
+    invoke-virtual {p1, v0, v2, v3}, Lcom/khaibin/myprofile/aye;->a(IJ)V
 
     :cond_0
     iget-object v0, p0, Lcom/google/ads/afma/nano/NanoAfmaSignals$AFMASignals$TouchInfo;->tcySignal:Ljava/lang/Long;
@@ -256,10 +256,10 @@
 
     move-result-wide v2
 
-    invoke-virtual {p1, v0, v2, v3}, Lcom/abdhoms/myprofile/aye;->a(IJ)V
+    invoke-virtual {p1, v0, v2, v3}, Lcom/khaibin/myprofile/aye;->a(IJ)V
 
     :cond_1
-    invoke-super {p0, p1}, Lcom/abdhoms/myprofile/aym;->writeTo(Lcom/abdhoms/myprofile/aye;)V
+    invoke-super {p0, p1}, Lcom/khaibin/myprofile/aym;->writeTo(Lcom/khaibin/myprofile/aye;)V
 
     return-void
 .end method

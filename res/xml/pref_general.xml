@@ -9,6 +9,6 @@
         <Preference android:title="Student ID" android:key="UserID" />
         <Preference android:title="IC/Passport" android:key="UserICPassport" />
         <CheckBoxPreference android:title="Auto Intake" android:key="AutoIntake" android:defaultValue="true" />
-        <com.abdhoms.myprofile.custom.AutoCompletePreference android:title="Current Intake" android:key="CurrentIntake" />
+        <com.khaibin.myprofile.custom.AutoCompletePreference android:title="Current Intake" android:key="CurrentIntake" />
     </PreferenceCategory>
 </PreferenceScreen>

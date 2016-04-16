@@ -3,10 +3,10 @@
 
 
 # instance fields
-.field public a:Lcom/abdhoms/myprofile/cf;
+.field public a:Lcom/khaibin/myprofile/cf;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/abdhoms/myprofile/cf",
+            "Lcom/khaibin/myprofile/cf",
             "<",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
@@ -41,11 +41,11 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lcom/abdhoms/myprofile/cf;
+    new-instance v0, Lcom/khaibin/myprofile/cf;
 
-    invoke-direct {v0}, Lcom/abdhoms/myprofile/cf;-><init>()V
+    invoke-direct {v0}, Lcom/khaibin/myprofile/cf;-><init>()V
 
-    iput-object v0, p0, Landroid/support/v4/app/j;->a:Lcom/abdhoms/myprofile/cf;
+    iput-object v0, p0, Landroid/support/v4/app/j;->a:Lcom/khaibin/myprofile/cf;
 
     new-instance v0, Ljava/util/ArrayList;
 

@@ -266,7 +266,7 @@
 
     iget-object v0, p0, Landroid/support/v7/widget/fy;->m:Landroid/content/Context;
 
-    invoke-static {v0, v2}, Lcom/abdhoms/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, v2}, Lcom/khaibin/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -826,7 +826,7 @@
 
     move-result-object v3
 
-    sget v4, Lcom/abdhoms/myprofile/hp;->textColorSearchUrl:I
+    sget v4, Lcom/khaibin/myprofile/hp;->textColorSearchUrl:I
 
     const/4 v5, 0x1
 
@@ -1436,7 +1436,7 @@
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->edit_query:I
+    sget v0, Lcom/khaibin/myprofile/hu;->edit_query:I
 
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

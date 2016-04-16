@@ -37,9 +37,9 @@
 
     if-eqz v0, :cond_1
 
-    sget-object v0, Lcom/abdhoms/myprofile/abz;->B:Lcom/abdhoms/myprofile/abq;
+    sget-object v0, Lcom/khaibin/myprofile/abz;->B:Lcom/khaibin/myprofile/abq;
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/abq;->c()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/abq;->c()Ljava/lang/Object;
 
     move-result-object v0
 

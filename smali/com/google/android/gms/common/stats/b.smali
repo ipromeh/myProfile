@@ -108,9 +108,9 @@
     return-void
 
     :cond_0
-    sget-object v0, Lcom/google/android/gms/common/stats/d;->b:Lcom/abdhoms/myprofile/avw;
+    sget-object v0, Lcom/google/android/gms/common/stats/d;->b:Lcom/khaibin/myprofile/avw;
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/avw;->c()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/avw;->c()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -123,9 +123,9 @@
     :goto_1
     iput-object v0, p0, Lcom/google/android/gms/common/stats/b;->c:Ljava/util/List;
 
-    sget-object v0, Lcom/google/android/gms/common/stats/d;->c:Lcom/abdhoms/myprofile/avw;
+    sget-object v0, Lcom/google/android/gms/common/stats/d;->c:Lcom/khaibin/myprofile/avw;
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/avw;->c()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/avw;->c()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -138,9 +138,9 @@
     :goto_2
     iput-object v0, p0, Lcom/google/android/gms/common/stats/b;->d:Ljava/util/List;
 
-    sget-object v0, Lcom/google/android/gms/common/stats/d;->d:Lcom/abdhoms/myprofile/avw;
+    sget-object v0, Lcom/google/android/gms/common/stats/d;->d:Lcom/khaibin/myprofile/avw;
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/avw;->c()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/avw;->c()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -153,9 +153,9 @@
     :goto_3
     iput-object v0, p0, Lcom/google/android/gms/common/stats/b;->e:Ljava/util/List;
 
-    sget-object v0, Lcom/google/android/gms/common/stats/d;->e:Lcom/abdhoms/myprofile/avw;
+    sget-object v0, Lcom/google/android/gms/common/stats/d;->e:Lcom/khaibin/myprofile/avw;
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/avw;->c()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/avw;->c()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -170,9 +170,9 @@
 
     new-instance v1, Lcom/google/android/gms/common/stats/g;
 
-    sget-object v0, Lcom/google/android/gms/common/stats/d;->f:Lcom/abdhoms/myprofile/avw;
+    sget-object v0, Lcom/google/android/gms/common/stats/d;->f:Lcom/khaibin/myprofile/avw;
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/avw;->c()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/avw;->c()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -188,9 +188,9 @@
 
     new-instance v1, Lcom/google/android/gms/common/stats/g;
 
-    sget-object v0, Lcom/google/android/gms/common/stats/d;->f:Lcom/abdhoms/myprofile/avw;
+    sget-object v0, Lcom/google/android/gms/common/stats/d;->f:Lcom/khaibin/myprofile/avw;
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/avw;->c()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/avw;->c()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -354,7 +354,7 @@
 
     const/4 v5, 0x5
 
-    invoke-static {v2, v5}, Lcom/abdhoms/myprofile/awt;->a(II)Ljava/lang/String;
+    invoke-static {v2, v5}, Lcom/khaibin/myprofile/awt;->a(II)Ljava/lang/String;
 
     move-result-object v10
 
@@ -556,7 +556,7 @@
 
     iget-object v7, v0, Landroid/content/pm/ServiceInfo;->name:Ljava/lang/String;
 
-    invoke-static {p1}, Lcom/abdhoms/myprofile/awt;->a(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/khaibin/myprofile/awt;->a(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -609,7 +609,7 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/abdhoms/myprofile/awh;->a(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-static {p1, v0}, Lcom/khaibin/myprofile/awh;->a(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -723,7 +723,7 @@
 
     aput-object v3, v2, v5
 
-    invoke-static {v7, v8}, Lcom/abdhoms/myprofile/awt;->a(II)Ljava/lang/String;
+    invoke-static {v7, v8}, Lcom/khaibin/myprofile/awt;->a(II)Ljava/lang/String;
 
     move-result-object v3
 
@@ -759,7 +759,7 @@
 
     aput-object v4, v3, v5
 
-    invoke-static {v7, v8}, Lcom/abdhoms/myprofile/awt;->a(II)Ljava/lang/String;
+    invoke-static {v7, v8}, Lcom/khaibin/myprofile/awt;->a(II)Ljava/lang/String;
 
     move-result-object v4
 
@@ -846,15 +846,15 @@
     if-nez v0, :cond_0
 
     :try_start_0
-    invoke-static {}, Lcom/abdhoms/myprofile/awh;->a()Z
+    invoke-static {}, Lcom/khaibin/myprofile/awh;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    sget-object v0, Lcom/google/android/gms/common/stats/d;->a:Lcom/abdhoms/myprofile/avw;
+    sget-object v0, Lcom/google/android/gms/common/stats/d;->a:Lcom/khaibin/myprofile/avw;
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/avw;->c()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/avw;->c()Ljava/lang/Object;
 
     move-result-object v0
 

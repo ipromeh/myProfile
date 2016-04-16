@@ -17,7 +17,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    sget v0, Lcom/abdhoms/myprofile/hp;->buttonStyle:I
+    sget v0, Lcom/khaibin/myprofile/hp;->buttonStyle:I
 
     invoke-direct {p0, p1, p2, v0}, Landroid/support/v7/widget/an;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 

@@ -3,5 +3,5 @@
 
 
 # virtual methods
-.method public abstract zza(Lcom/abdhoms/myprofile/aqq;)V
+.method public abstract zza(Lcom/khaibin/myprofile/aqq;)V
 .end method

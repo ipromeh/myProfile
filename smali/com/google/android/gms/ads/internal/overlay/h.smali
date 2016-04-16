@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/aua;
+.implements Lcom/khaibin/myprofile/aua;
 
 
 # instance fields
@@ -22,10 +22,10 @@
 
 
 # virtual methods
-.method public a(Lcom/abdhoms/myprofile/atx;Z)V
+.method public a(Lcom/khaibin/myprofile/atx;Z)V
     .locals 0
 
-    invoke-interface {p1}, Lcom/abdhoms/myprofile/atx;->d()V
+    invoke-interface {p1}, Lcom/khaibin/myprofile/atx;->d()V
 
     return-void
 .end method

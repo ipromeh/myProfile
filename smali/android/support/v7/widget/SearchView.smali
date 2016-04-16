@@ -2,7 +2,7 @@
 .super Landroid/support/v7/widget/co;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/ip;
+.implements Lcom/khaibin/myprofile/ip;
 
 
 # static fields
@@ -165,7 +165,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    sget v0, Lcom/abdhoms/myprofile/hp;->searchViewStyle:I
+    sget v0, Lcom/khaibin/myprofile/hp;->searchViewStyle:I
 
     invoke-direct {p0, p1, p2, v0}, Landroid/support/v7/widget/SearchView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -245,7 +245,7 @@
 
     iput-object v0, p0, Landroid/support/v7/widget/SearchView;->mTextWatcher:Landroid/text/TextWatcher;
 
-    sget-object v0, Lcom/abdhoms/myprofile/hz;->SearchView:[I
+    sget-object v0, Lcom/khaibin/myprofile/hz;->SearchView:[I
 
     invoke-static {p1, p2, v0, p3, v6}, Landroid/support/v7/widget/gh;->a(Landroid/content/Context;Landroid/util/AttributeSet;[III)Landroid/support/v7/widget/gh;
 
@@ -261,9 +261,9 @@
 
     move-result-object v0
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->SearchView_layout:I
+    sget v2, Lcom/khaibin/myprofile/hz;->SearchView_layout:I
 
-    sget v3, Lcom/abdhoms/myprofile/hw;->abc_search_view:I
+    sget v3, Lcom/khaibin/myprofile/hw;->abc_search_view:I
 
     invoke-virtual {v1, v2, v3}, Landroid/support/v7/widget/gh;->g(II)I
 
@@ -271,7 +271,7 @@
 
     invoke-virtual {v0, v2, p0, v5}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->search_src_text:I
+    sget v0, Lcom/khaibin/myprofile/hu;->search_src_text:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -285,7 +285,7 @@
 
     invoke-virtual {v0, p0}, Landroid/support/v7/widget/SearchView$SearchAutoComplete;->setSearchView(Landroid/support/v7/widget/SearchView;)V
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->search_edit_frame:I
+    sget v0, Lcom/khaibin/myprofile/hu;->search_edit_frame:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -293,7 +293,7 @@
 
     iput-object v0, p0, Landroid/support/v7/widget/SearchView;->mSearchEditFrame:Landroid/view/View;
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->search_plate:I
+    sget v0, Lcom/khaibin/myprofile/hu;->search_plate:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -301,7 +301,7 @@
 
     iput-object v0, p0, Landroid/support/v7/widget/SearchView;->mSearchPlate:Landroid/view/View;
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->submit_area:I
+    sget v0, Lcom/khaibin/myprofile/hu;->submit_area:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -309,7 +309,7 @@
 
     iput-object v0, p0, Landroid/support/v7/widget/SearchView;->mSubmitArea:Landroid/view/View;
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->search_button:I
+    sget v0, Lcom/khaibin/myprofile/hu;->search_button:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -319,7 +319,7 @@
 
     iput-object v0, p0, Landroid/support/v7/widget/SearchView;->mSearchButton:Landroid/widget/ImageView;
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->search_go_btn:I
+    sget v0, Lcom/khaibin/myprofile/hu;->search_go_btn:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -329,7 +329,7 @@
 
     iput-object v0, p0, Landroid/support/v7/widget/SearchView;->mGoButton:Landroid/widget/ImageView;
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->search_close_btn:I
+    sget v0, Lcom/khaibin/myprofile/hu;->search_close_btn:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -339,7 +339,7 @@
 
     iput-object v0, p0, Landroid/support/v7/widget/SearchView;->mCloseButton:Landroid/widget/ImageView;
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->search_voice_btn:I
+    sget v0, Lcom/khaibin/myprofile/hu;->search_voice_btn:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -349,7 +349,7 @@
 
     iput-object v0, p0, Landroid/support/v7/widget/SearchView;->mVoiceButton:Landroid/widget/ImageView;
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->search_mag_icon:I
+    sget v0, Lcom/khaibin/myprofile/hu;->search_mag_icon:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -361,7 +361,7 @@
 
     iget-object v0, p0, Landroid/support/v7/widget/SearchView;->mSearchPlate:Landroid/view/View;
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->SearchView_queryBackground:I
+    sget v2, Lcom/khaibin/myprofile/hz;->SearchView_queryBackground:I
 
     invoke-virtual {v1, v2}, Landroid/support/v7/widget/gh;->a(I)Landroid/graphics/drawable/Drawable;
 
@@ -371,7 +371,7 @@
 
     iget-object v0, p0, Landroid/support/v7/widget/SearchView;->mSubmitArea:Landroid/view/View;
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->SearchView_submitBackground:I
+    sget v2, Lcom/khaibin/myprofile/hz;->SearchView_submitBackground:I
 
     invoke-virtual {v1, v2}, Landroid/support/v7/widget/gh;->a(I)Landroid/graphics/drawable/Drawable;
 
@@ -381,7 +381,7 @@
 
     iget-object v0, p0, Landroid/support/v7/widget/SearchView;->mSearchButton:Landroid/widget/ImageView;
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->SearchView_searchIcon:I
+    sget v2, Lcom/khaibin/myprofile/hz;->SearchView_searchIcon:I
 
     invoke-virtual {v1, v2}, Landroid/support/v7/widget/gh;->a(I)Landroid/graphics/drawable/Drawable;
 
@@ -391,7 +391,7 @@
 
     iget-object v0, p0, Landroid/support/v7/widget/SearchView;->mGoButton:Landroid/widget/ImageView;
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->SearchView_goIcon:I
+    sget v2, Lcom/khaibin/myprofile/hz;->SearchView_goIcon:I
 
     invoke-virtual {v1, v2}, Landroid/support/v7/widget/gh;->a(I)Landroid/graphics/drawable/Drawable;
 
@@ -401,7 +401,7 @@
 
     iget-object v0, p0, Landroid/support/v7/widget/SearchView;->mCloseButton:Landroid/widget/ImageView;
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->SearchView_closeIcon:I
+    sget v2, Lcom/khaibin/myprofile/hz;->SearchView_closeIcon:I
 
     invoke-virtual {v1, v2}, Landroid/support/v7/widget/gh;->a(I)Landroid/graphics/drawable/Drawable;
 
@@ -411,7 +411,7 @@
 
     iget-object v0, p0, Landroid/support/v7/widget/SearchView;->mVoiceButton:Landroid/widget/ImageView;
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->SearchView_voiceIcon:I
+    sget v2, Lcom/khaibin/myprofile/hz;->SearchView_voiceIcon:I
 
     invoke-virtual {v1, v2}, Landroid/support/v7/widget/gh;->a(I)Landroid/graphics/drawable/Drawable;
 
@@ -421,7 +421,7 @@
 
     iget-object v0, p0, Landroid/support/v7/widget/SearchView;->mCollapsedIcon:Landroid/widget/ImageView;
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->SearchView_searchIcon:I
+    sget v2, Lcom/khaibin/myprofile/hz;->SearchView_searchIcon:I
 
     invoke-virtual {v1, v2}, Landroid/support/v7/widget/gh;->a(I)Landroid/graphics/drawable/Drawable;
 
@@ -429,7 +429,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    sget v0, Lcom/abdhoms/myprofile/hz;->SearchView_searchHintIcon:I
+    sget v0, Lcom/khaibin/myprofile/hz;->SearchView_searchHintIcon:I
 
     invoke-virtual {v1, v0}, Landroid/support/v7/widget/gh;->a(I)Landroid/graphics/drawable/Drawable;
 
@@ -437,9 +437,9 @@
 
     iput-object v0, p0, Landroid/support/v7/widget/SearchView;->mSearchHintIcon:Landroid/graphics/drawable/Drawable;
 
-    sget v0, Lcom/abdhoms/myprofile/hz;->SearchView_suggestionRowLayout:I
+    sget v0, Lcom/khaibin/myprofile/hz;->SearchView_suggestionRowLayout:I
 
-    sget v2, Lcom/abdhoms/myprofile/hw;->abc_search_dropdown_item_icons_2line:I
+    sget v2, Lcom/khaibin/myprofile/hw;->abc_search_dropdown_item_icons_2line:I
 
     invoke-virtual {v1, v0, v2}, Landroid/support/v7/widget/gh;->g(II)I
 
@@ -447,7 +447,7 @@
 
     iput v0, p0, Landroid/support/v7/widget/SearchView;->mSuggestionRowLayout:I
 
-    sget v0, Lcom/abdhoms/myprofile/hz;->SearchView_commitIcon:I
+    sget v0, Lcom/khaibin/myprofile/hz;->SearchView_commitIcon:I
 
     invoke-virtual {v1, v0, v6}, Landroid/support/v7/widget/gh;->g(II)I
 
@@ -523,7 +523,7 @@
 
     invoke-virtual {v0, v2}, Landroid/support/v7/widget/SearchView$SearchAutoComplete;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
-    sget v0, Lcom/abdhoms/myprofile/hz;->SearchView_iconifiedByDefault:I
+    sget v0, Lcom/khaibin/myprofile/hz;->SearchView_iconifiedByDefault:I
 
     invoke-virtual {v1, v0, v5}, Landroid/support/v7/widget/gh;->a(IZ)Z
 
@@ -531,7 +531,7 @@
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/SearchView;->setIconifiedByDefault(Z)V
 
-    sget v0, Lcom/abdhoms/myprofile/hz;->SearchView_android_maxWidth:I
+    sget v0, Lcom/khaibin/myprofile/hz;->SearchView_android_maxWidth:I
 
     invoke-virtual {v1, v0, v4}, Landroid/support/v7/widget/gh;->e(II)I
 
@@ -542,7 +542,7 @@
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/SearchView;->setMaxWidth(I)V
 
     :cond_0
-    sget v0, Lcom/abdhoms/myprofile/hz;->SearchView_defaultQueryHint:I
+    sget v0, Lcom/khaibin/myprofile/hz;->SearchView_defaultQueryHint:I
 
     invoke-virtual {v1, v0}, Landroid/support/v7/widget/gh;->c(I)Ljava/lang/CharSequence;
 
@@ -550,7 +550,7 @@
 
     iput-object v0, p0, Landroid/support/v7/widget/SearchView;->mDefaultQueryHint:Ljava/lang/CharSequence;
 
-    sget v0, Lcom/abdhoms/myprofile/hz;->SearchView_queryHint:I
+    sget v0, Lcom/khaibin/myprofile/hz;->SearchView_queryHint:I
 
     invoke-virtual {v1, v0}, Landroid/support/v7/widget/gh;->c(I)Ljava/lang/CharSequence;
 
@@ -558,7 +558,7 @@
 
     iput-object v0, p0, Landroid/support/v7/widget/SearchView;->mQueryHint:Ljava/lang/CharSequence;
 
-    sget v0, Lcom/abdhoms/myprofile/hz;->SearchView_android_imeOptions:I
+    sget v0, Lcom/khaibin/myprofile/hz;->SearchView_android_imeOptions:I
 
     invoke-virtual {v1, v0, v4}, Landroid/support/v7/widget/gh;->a(II)I
 
@@ -569,7 +569,7 @@
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/SearchView;->setImeOptions(I)V
 
     :cond_1
-    sget v0, Lcom/abdhoms/myprofile/hz;->SearchView_android_inputType:I
+    sget v0, Lcom/khaibin/myprofile/hz;->SearchView_android_inputType:I
 
     invoke-virtual {v1, v0, v4}, Landroid/support/v7/widget/gh;->a(II)I
 
@@ -580,7 +580,7 @@
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/SearchView;->setInputType(I)V
 
     :cond_2
-    sget v0, Lcom/abdhoms/myprofile/hz;->SearchView_android_focusable:I
+    sget v0, Lcom/khaibin/myprofile/hz;->SearchView_android_focusable:I
 
     invoke-virtual {v1, v0, v5}, Landroid/support/v7/widget/gh;->a(IZ)Z
 
@@ -910,13 +910,13 @@
 
     if-eqz v4, :cond_1
 
-    sget v4, Lcom/abdhoms/myprofile/hs;->abc_dropdownitem_icon_width:I
+    sget v4, Lcom/khaibin/myprofile/hs;->abc_dropdownitem_icon_width:I
 
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     move-result v4
 
-    sget v5, Lcom/abdhoms/myprofile/hs;->abc_dropdownitem_text_padding_left:I
+    sget v5, Lcom/khaibin/myprofile/hs;->abc_dropdownitem_text_padding_left:I
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1573,7 +1573,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/hs;->abc_search_view_preferred_width:I
+    sget v1, Lcom/khaibin/myprofile/hs;->abc_search_view_preferred_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

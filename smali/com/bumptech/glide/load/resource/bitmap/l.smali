@@ -3,20 +3,20 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/abdhoms/myprofile/nf;)V
+.method public constructor <init>(Lcom/khaibin/myprofile/nf;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/bumptech/glide/load/resource/bitmap/d;-><init>(Lcom/abdhoms/myprofile/nf;)V
+    invoke-direct {p0, p1}, Lcom/bumptech/glide/load/resource/bitmap/d;-><init>(Lcom/khaibin/myprofile/nf;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected a(Lcom/abdhoms/myprofile/nf;Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
+.method protected a(Lcom/khaibin/myprofile/nf;Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
     .locals 1
 
-    invoke-static {p2, p1, p3, p4}, Lcom/bumptech/glide/load/resource/bitmap/x;->a(Landroid/graphics/Bitmap;Lcom/abdhoms/myprofile/nf;II)Landroid/graphics/Bitmap;
+    invoke-static {p2, p1, p3, p4}, Lcom/bumptech/glide/load/resource/bitmap/x;->a(Landroid/graphics/Bitmap;Lcom/khaibin/myprofile/nf;II)Landroid/graphics/Bitmap;
 
     move-result-object v0
 

@@ -1,9 +1,9 @@
 .class Lcom/google/android/gms/ads/internal/j;
-.super Lcom/abdhoms/myprofile/aqy;
+.super Lcom/khaibin/myprofile/aqy;
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -19,7 +19,7 @@
 
     iput-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/zzk;
 
-    invoke-direct {p0}, Lcom/abdhoms/myprofile/aqy;-><init>()V
+    invoke-direct {p0}, Lcom/khaibin/myprofile/aqy;-><init>()V
 
     iput-object p2, p0, Lcom/google/android/gms/ads/internal/j;->b:Ljava/lang/String;
 
@@ -37,7 +37,7 @@
 .method public zzbr()V
     .locals 3
 
-    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbC()Lcom/abdhoms/myprofile/art;
+    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbC()Lcom/khaibin/myprofile/art;
 
     move-result-object v0
 
@@ -49,7 +49,7 @@
 
     iget-object v2, p0, Lcom/google/android/gms/ads/internal/j;->b:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2}, Lcom/abdhoms/myprofile/art;->c(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/khaibin/myprofile/art;->c(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
 .end method

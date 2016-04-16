@@ -6,18 +6,18 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/abdhoms/myprofile/in;
+.field final synthetic a:Lcom/khaibin/myprofile/in;
 
 .field final synthetic b:Landroid/support/v7/widget/ActionBarContextView;
 
 
 # direct methods
-.method constructor <init>(Landroid/support/v7/widget/ActionBarContextView;Lcom/abdhoms/myprofile/in;)V
+.method constructor <init>(Landroid/support/v7/widget/ActionBarContextView;Lcom/khaibin/myprofile/in;)V
     .locals 0
 
     iput-object p1, p0, Landroid/support/v7/widget/e;->b:Landroid/support/v7/widget/ActionBarContextView;
 
-    iput-object p2, p0, Landroid/support/v7/widget/e;->a:Lcom/abdhoms/myprofile/in;
+    iput-object p2, p0, Landroid/support/v7/widget/e;->a:Lcom/khaibin/myprofile/in;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -29,9 +29,9 @@
 .method public onClick(Landroid/view/View;)V
     .locals 1
 
-    iget-object v0, p0, Landroid/support/v7/widget/e;->a:Lcom/abdhoms/myprofile/in;
+    iget-object v0, p0, Landroid/support/v7/widget/e;->a:Lcom/khaibin/myprofile/in;
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/in;->c()V
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/in;->c()V
 
     return-void
 .end method

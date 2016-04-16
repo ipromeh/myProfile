@@ -114,15 +114,15 @@
 
     invoke-virtual {v0, v1}, Landroid/support/design/widget/CollapsingTextHelper;->setCollapsedTextGravity(I)V
 
-    sget-object v0, Lcom/abdhoms/myprofile/k;->TextInputLayout:[I
+    sget-object v0, Lcom/khaibin/myprofile/k;->TextInputLayout:[I
 
-    sget v1, Lcom/abdhoms/myprofile/j;->Widget_Design_TextInputLayout:I
+    sget v1, Lcom/khaibin/myprofile/j;->Widget_Design_TextInputLayout:I
 
     invoke-virtual {p1, p2, v0, p3, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextInputLayout_android_hint:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextInputLayout_android_hint:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->getText(I)Ljava/lang/CharSequence;
 
@@ -130,7 +130,7 @@
 
     invoke-virtual {p0, v1}, Landroid/support/design/widget/TextInputLayout;->setHint(Ljava/lang/CharSequence;)V
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextInputLayout_hintAnimationEnabled:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextInputLayout_hintAnimationEnabled:I
 
     invoke-virtual {v0, v1, v5}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
@@ -138,7 +138,7 @@
 
     iput-boolean v1, p0, Landroid/support/design/widget/TextInputLayout;->mHintAnimationEnabled:Z
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextInputLayout_android_textColorHint:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextInputLayout_android_textColorHint:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -146,7 +146,7 @@
 
     if-eqz v1, :cond_0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextInputLayout_android_textColorHint:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextInputLayout_android_textColorHint:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -157,7 +157,7 @@
     iput-object v1, p0, Landroid/support/design/widget/TextInputLayout;->mDefaultTextColor:Landroid/content/res/ColorStateList;
 
     :cond_0
-    sget v1, Lcom/abdhoms/myprofile/k;->TextInputLayout_hintTextAppearance:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextInputLayout_hintTextAppearance:I
 
     invoke-virtual {v0, v1, v6}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -165,7 +165,7 @@
 
     if-eq v1, v6, :cond_1
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextInputLayout_hintTextAppearance:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextInputLayout_hintTextAppearance:I
 
     invoke-virtual {v0, v1, v4}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -174,7 +174,7 @@
     invoke-virtual {p0, v1}, Landroid/support/design/widget/TextInputLayout;->setHintTextAppearance(I)V
 
     :cond_1
-    sget v1, Lcom/abdhoms/myprofile/k;->TextInputLayout_errorTextAppearance:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextInputLayout_errorTextAppearance:I
 
     invoke-virtual {v0, v1, v4}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -182,19 +182,19 @@
 
     iput v1, p0, Landroid/support/design/widget/TextInputLayout;->mErrorTextAppearance:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextInputLayout_errorEnabled:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextInputLayout_errorEnabled:I
 
     invoke-virtual {v0, v1, v4}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result v1
 
-    sget v2, Lcom/abdhoms/myprofile/k;->TextInputLayout_counterEnabled:I
+    sget v2, Lcom/khaibin/myprofile/k;->TextInputLayout_counterEnabled:I
 
     invoke-virtual {v0, v2, v4}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result v2
 
-    sget v3, Lcom/abdhoms/myprofile/k;->TextInputLayout_counterMaxLength:I
+    sget v3, Lcom/khaibin/myprofile/k;->TextInputLayout_counterMaxLength:I
 
     invoke-virtual {v0, v3, v6}, Landroid/content/res/TypedArray;->getInt(II)I
 
@@ -202,7 +202,7 @@
 
     invoke-virtual {p0, v3}, Landroid/support/design/widget/TextInputLayout;->setCounterMaxLength(I)V
 
-    sget v3, Lcom/abdhoms/myprofile/k;->TextInputLayout_counterTextAppearance:I
+    sget v3, Lcom/khaibin/myprofile/k;->TextInputLayout_counterTextAppearance:I
 
     invoke-virtual {v0, v3, v4}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -210,7 +210,7 @@
 
     iput v3, p0, Landroid/support/design/widget/TextInputLayout;->mCounterTextAppearance:I
 
-    sget v3, Lcom/abdhoms/myprofile/k;->TextInputLayout_counterOverflowTextAppearance:I
+    sget v3, Lcom/khaibin/myprofile/k;->TextInputLayout_counterOverflowTextAppearance:I
 
     invoke-virtual {v0, v3, v4}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -826,7 +826,7 @@
 
     move-result-object v4
 
-    sget v5, Lcom/abdhoms/myprofile/i;->character_counter_pattern:I
+    sget v5, Lcom/khaibin/myprofile/i;->character_counter_pattern:I
 
     const/4 v6, 0x2
 
@@ -929,7 +929,7 @@
 
     iget-object v1, p0, Landroid/support/design/widget/TextInputLayout;->mEditText:Landroid/widget/EditText;
 
-    sget v2, Lcom/abdhoms/myprofile/f;->abc_edit_text_material:I
+    sget v2, Lcom/khaibin/myprofile/f;->abc_edit_text_material:I
 
     invoke-virtual {v0, v2}, Landroid/support/v7/widget/gf;->c(I)Landroid/content/res/ColorStateList;
 

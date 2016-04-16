@@ -34,11 +34,11 @@
 
     iget-object v0, v0, Lcom/google/android/gms/ads/internal/zzp;->f:Lcom/google/android/gms/ads/internal/zzs;
 
-    iget-object v0, v0, Lcom/google/android/gms/ads/internal/zzs;->k:Lcom/abdhoms/myprofile/adx;
+    iget-object v0, v0, Lcom/google/android/gms/ads/internal/zzs;->k:Lcom/khaibin/myprofile/adx;
 
     iget-object v1, p0, Lcom/google/android/gms/ads/internal/t;->a:Lcom/google/android/gms/ads/internal/formats/zze;
 
-    invoke-interface {v0, v1}, Lcom/abdhoms/myprofile/adx;->a(Lcom/abdhoms/myprofile/adm;)V
+    invoke-interface {v0, v1}, Lcom/khaibin/myprofile/adx;->a(Lcom/khaibin/myprofile/adm;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -50,7 +50,7 @@
 
     const-string v1, "Could not call OnContentAdLoadedListener.onContentAdLoaded()."
 
-    invoke-static {v1, v0}, Lcom/abdhoms/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0}, Lcom/khaibin/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method

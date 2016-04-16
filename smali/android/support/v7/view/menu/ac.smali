@@ -10,7 +10,7 @@
     value = {
         "Landroid/support/v7/view/menu/e",
         "<",
-        "Lcom/abdhoms/myprofile/ay;",
+        "Lcom/khaibin/myprofile/ay;",
         ">;",
         "Landroid/view/Menu;"
     }
@@ -18,7 +18,7 @@
 
 
 # direct methods
-.method constructor <init>(Landroid/content/Context;Lcom/abdhoms/myprofile/ay;)V
+.method constructor <init>(Landroid/content/Context;Lcom/khaibin/myprofile/ay;)V
     .locals 0
 
     invoke-direct {p0, p1, p2}, Landroid/support/v7/view/menu/e;-><init>(Landroid/content/Context;Ljava/lang/Object;)V
@@ -33,9 +33,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1}, Lcom/abdhoms/myprofile/ay;->add(I)Landroid/view/MenuItem;
+    invoke-interface {v0, p1}, Lcom/khaibin/myprofile/ay;->add(I)Landroid/view/MenuItem;
 
     move-result-object v0
 
@@ -51,9 +51,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1, p2, p3, p4}, Lcom/abdhoms/myprofile/ay;->add(IIII)Landroid/view/MenuItem;
+    invoke-interface {v0, p1, p2, p3, p4}, Lcom/khaibin/myprofile/ay;->add(IIII)Landroid/view/MenuItem;
 
     move-result-object v0
 
@@ -69,9 +69,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1, p2, p3, p4}, Lcom/abdhoms/myprofile/ay;->add(IIILjava/lang/CharSequence;)Landroid/view/MenuItem;
+    invoke-interface {v0, p1, p2, p3, p4}, Lcom/khaibin/myprofile/ay;->add(IIILjava/lang/CharSequence;)Landroid/view/MenuItem;
 
     move-result-object v0
 
@@ -87,9 +87,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1}, Lcom/abdhoms/myprofile/ay;->add(Ljava/lang/CharSequence;)Landroid/view/MenuItem;
+    invoke-interface {v0, p1}, Lcom/khaibin/myprofile/ay;->add(Ljava/lang/CharSequence;)Landroid/view/MenuItem;
 
     move-result-object v0
 
@@ -116,7 +116,7 @@
     :cond_0
     iget-object v1, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v1, Lcom/abdhoms/myprofile/ay;
+    check-cast v1, Lcom/khaibin/myprofile/ay;
 
     move v2, p1
 
@@ -132,7 +132,7 @@
 
     move/from16 v8, p7
 
-    invoke-interface/range {v1 .. v9}, Lcom/abdhoms/myprofile/ay;->addIntentOptions(IIILandroid/content/ComponentName;[Landroid/content/Intent;Landroid/content/Intent;I[Landroid/view/MenuItem;)I
+    invoke-interface/range {v1 .. v9}, Lcom/khaibin/myprofile/ay;->addIntentOptions(IIILandroid/content/ComponentName;[Landroid/content/Intent;Landroid/content/Intent;I[Landroid/view/MenuItem;)I
 
     move-result v2
 
@@ -166,9 +166,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1}, Lcom/abdhoms/myprofile/ay;->addSubMenu(I)Landroid/view/SubMenu;
+    invoke-interface {v0, p1}, Lcom/khaibin/myprofile/ay;->addSubMenu(I)Landroid/view/SubMenu;
 
     move-result-object v0
 
@@ -184,9 +184,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1, p2, p3, p4}, Lcom/abdhoms/myprofile/ay;->addSubMenu(IIII)Landroid/view/SubMenu;
+    invoke-interface {v0, p1, p2, p3, p4}, Lcom/khaibin/myprofile/ay;->addSubMenu(IIII)Landroid/view/SubMenu;
 
     move-result-object v0
 
@@ -202,9 +202,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1, p2, p3, p4}, Lcom/abdhoms/myprofile/ay;->addSubMenu(IIILjava/lang/CharSequence;)Landroid/view/SubMenu;
+    invoke-interface {v0, p1, p2, p3, p4}, Lcom/khaibin/myprofile/ay;->addSubMenu(IIILjava/lang/CharSequence;)Landroid/view/SubMenu;
 
     move-result-object v0
 
@@ -220,9 +220,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1}, Lcom/abdhoms/myprofile/ay;->addSubMenu(Ljava/lang/CharSequence;)Landroid/view/SubMenu;
+    invoke-interface {v0, p1}, Lcom/khaibin/myprofile/ay;->addSubMenu(Ljava/lang/CharSequence;)Landroid/view/SubMenu;
 
     move-result-object v0
 
@@ -240,9 +240,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/ay;->clear()V
+    invoke-interface {v0}, Lcom/khaibin/myprofile/ay;->clear()V
 
     return-void
 .end method
@@ -252,9 +252,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/ay;->close()V
+    invoke-interface {v0}, Lcom/khaibin/myprofile/ay;->close()V
 
     return-void
 .end method
@@ -264,9 +264,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1}, Lcom/abdhoms/myprofile/ay;->findItem(I)Landroid/view/MenuItem;
+    invoke-interface {v0, p1}, Lcom/khaibin/myprofile/ay;->findItem(I)Landroid/view/MenuItem;
 
     move-result-object v0
 
@@ -282,9 +282,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1}, Lcom/abdhoms/myprofile/ay;->getItem(I)Landroid/view/MenuItem;
+    invoke-interface {v0, p1}, Lcom/khaibin/myprofile/ay;->getItem(I)Landroid/view/MenuItem;
 
     move-result-object v0
 
@@ -300,9 +300,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/ay;->hasVisibleItems()Z
+    invoke-interface {v0}, Lcom/khaibin/myprofile/ay;->hasVisibleItems()Z
 
     move-result v0
 
@@ -314,9 +314,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1, p2}, Lcom/abdhoms/myprofile/ay;->isShortcutKey(ILandroid/view/KeyEvent;)Z
+    invoke-interface {v0, p1, p2}, Lcom/khaibin/myprofile/ay;->isShortcutKey(ILandroid/view/KeyEvent;)Z
 
     move-result v0
 
@@ -328,9 +328,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1, p2}, Lcom/abdhoms/myprofile/ay;->performIdentifierAction(II)Z
+    invoke-interface {v0, p1, p2}, Lcom/khaibin/myprofile/ay;->performIdentifierAction(II)Z
 
     move-result v0
 
@@ -342,9 +342,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1, p2, p3}, Lcom/abdhoms/myprofile/ay;->performShortcut(ILandroid/view/KeyEvent;I)Z
+    invoke-interface {v0, p1, p2, p3}, Lcom/khaibin/myprofile/ay;->performShortcut(ILandroid/view/KeyEvent;I)Z
 
     move-result v0
 
@@ -358,9 +358,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1}, Lcom/abdhoms/myprofile/ay;->removeGroup(I)V
+    invoke-interface {v0, p1}, Lcom/khaibin/myprofile/ay;->removeGroup(I)V
 
     return-void
 .end method
@@ -372,9 +372,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1}, Lcom/abdhoms/myprofile/ay;->removeItem(I)V
+    invoke-interface {v0, p1}, Lcom/khaibin/myprofile/ay;->removeItem(I)V
 
     return-void
 .end method
@@ -384,9 +384,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1, p2, p3}, Lcom/abdhoms/myprofile/ay;->setGroupCheckable(IZZ)V
+    invoke-interface {v0, p1, p2, p3}, Lcom/khaibin/myprofile/ay;->setGroupCheckable(IZZ)V
 
     return-void
 .end method
@@ -396,9 +396,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1, p2}, Lcom/abdhoms/myprofile/ay;->setGroupEnabled(IZ)V
+    invoke-interface {v0, p1, p2}, Lcom/khaibin/myprofile/ay;->setGroupEnabled(IZ)V
 
     return-void
 .end method
@@ -408,9 +408,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1, p2}, Lcom/abdhoms/myprofile/ay;->setGroupVisible(IZ)V
+    invoke-interface {v0, p1, p2}, Lcom/khaibin/myprofile/ay;->setGroupVisible(IZ)V
 
     return-void
 .end method
@@ -420,9 +420,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0, p1}, Lcom/abdhoms/myprofile/ay;->setQwertyMode(Z)V
+    invoke-interface {v0, p1}, Lcom/khaibin/myprofile/ay;->setQwertyMode(Z)V
 
     return-void
 .end method
@@ -432,9 +432,9 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ac;->b:Ljava/lang/Object;
 
-    check-cast v0, Lcom/abdhoms/myprofile/ay;
+    check-cast v0, Lcom/khaibin/myprofile/ay;
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/ay;->size()I
+    invoke-interface {v0}, Lcom/khaibin/myprofile/ay;->size()I
 
     move-result v0
 

@@ -1,5 +1,5 @@
 .class Landroid/support/v7/widget/di;
-.super Lcom/abdhoms/myprofile/ig;
+.super Lcom/khaibin/myprofile/ig;
 
 
 # instance fields
@@ -10,7 +10,7 @@
 .method public constructor <init>(Landroid/graphics/drawable/Drawable;)V
     .locals 1
 
-    invoke-direct {p0, p1}, Lcom/abdhoms/myprofile/ig;-><init>(Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {p0, p1}, Lcom/khaibin/myprofile/ig;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     const/4 v0, 0x1
 
@@ -36,7 +36,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-super {p0, p1}, Lcom/abdhoms/myprofile/ig;->draw(Landroid/graphics/Canvas;)V
+    invoke-super {p0, p1}, Lcom/khaibin/myprofile/ig;->draw(Landroid/graphics/Canvas;)V
 
     :cond_0
     return-void
@@ -49,7 +49,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-super {p0, p1, p2}, Lcom/abdhoms/myprofile/ig;->setHotspot(FF)V
+    invoke-super {p0, p1, p2}, Lcom/khaibin/myprofile/ig;->setHotspot(FF)V
 
     :cond_0
     return-void
@@ -62,7 +62,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-super {p0, p1, p2, p3, p4}, Lcom/abdhoms/myprofile/ig;->setHotspotBounds(IIII)V
+    invoke-super {p0, p1, p2, p3, p4}, Lcom/khaibin/myprofile/ig;->setHotspotBounds(IIII)V
 
     :cond_0
     return-void
@@ -75,7 +75,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-super {p0, p1}, Lcom/abdhoms/myprofile/ig;->setState([I)Z
+    invoke-super {p0, p1}, Lcom/khaibin/myprofile/ig;->setState([I)Z
 
     move-result v0
 
@@ -95,7 +95,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-super {p0, p1, p2}, Lcom/abdhoms/myprofile/ig;->setVisible(ZZ)Z
+    invoke-super {p0, p1, p2}, Lcom/khaibin/myprofile/ig;->setVisible(ZZ)Z
 
     move-result v0
 

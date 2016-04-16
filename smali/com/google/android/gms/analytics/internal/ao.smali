@@ -99,21 +99,21 @@
 
     new-instance v0, Lcom/google/android/gms/analytics/internal/q;
 
-    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/ao;->n()Lcom/abdhoms/myprofile/awi;
+    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/ao;->n()Lcom/khaibin/myprofile/awi;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/google/android/gms/analytics/internal/q;-><init>(Lcom/abdhoms/myprofile/awi;)V
+    invoke-direct {v0, v1}, Lcom/google/android/gms/analytics/internal/q;-><init>(Lcom/khaibin/myprofile/awi;)V
 
     iput-object v0, p0, Lcom/google/android/gms/analytics/internal/ao;->d:Lcom/google/android/gms/analytics/internal/q;
 
     new-instance v0, Lcom/google/android/gms/analytics/internal/q;
 
-    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/ao;->n()Lcom/abdhoms/myprofile/awi;
+    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/ao;->n()Lcom/khaibin/myprofile/awi;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/google/android/gms/analytics/internal/q;-><init>(Lcom/abdhoms/myprofile/awi;)V
+    invoke-direct {v0, v1}, Lcom/google/android/gms/analytics/internal/q;-><init>(Lcom/khaibin/myprofile/awi;)V
 
     iput-object v0, p0, Lcom/google/android/gms/analytics/internal/ao;->e:Lcom/google/android/gms/analytics/internal/q;
 
@@ -869,7 +869,7 @@
 
     const-string v1, "UTF-8"
 
-    invoke-static {v0, v1}, Lcom/abdhoms/myprofile/awo;->a(Ljava/net/URI;Ljava/lang/String;)Ljava/util/Map;
+    invoke-static {v0, v1}, Lcom/khaibin/myprofile/awo;->a(Ljava/net/URI;Ljava/lang/String;)Ljava/util/Map;
 
     move-result-object v0
 
@@ -2056,11 +2056,11 @@
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/ao;->n()Lcom/abdhoms/myprofile/awi;
+    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/ao;->n()Lcom/khaibin/myprofile/awi;
 
     move-result-object v2
 
-    invoke-interface {v2}, Lcom/abdhoms/myprofile/awi;->a()J
+    invoke-interface {v2}, Lcom/khaibin/myprofile/awi;->a()J
 
     move-result-wide v2
 
@@ -2153,7 +2153,7 @@
 
     const-string v0, "UTF-8"
 
-    invoke-static {v1, v0}, Lcom/abdhoms/myprofile/awo;->a(Ljava/net/URI;Ljava/lang/String;)Ljava/util/Map;
+    invoke-static {v1, v0}, Lcom/khaibin/myprofile/awo;->a(Ljava/net/URI;Ljava/lang/String;)Ljava/util/Map;
     :try_end_0
     .catch Ljava/net/URISyntaxException; {:try_start_0 .. :try_end_0} :catch_0
 

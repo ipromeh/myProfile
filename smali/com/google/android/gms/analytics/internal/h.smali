@@ -15,11 +15,11 @@
 
 .field private final f:Ljava/lang/String;
 
-.field private final g:Lcom/abdhoms/myprofile/awi;
+.field private final g:Lcom/khaibin/myprofile/awi;
 
 
 # direct methods
-.method public constructor <init>(IJLjava/lang/String;Lcom/abdhoms/myprofile/awi;)V
+.method public constructor <init>(IJLjava/lang/String;Lcom/khaibin/myprofile/awi;)V
     .locals 2
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,12 +42,12 @@
 
     iput-object p4, p0, Lcom/google/android/gms/analytics/internal/h;->f:Ljava/lang/String;
 
-    iput-object p5, p0, Lcom/google/android/gms/analytics/internal/h;->g:Lcom/abdhoms/myprofile/awi;
+    iput-object p5, p0, Lcom/google/android/gms/analytics/internal/h;->g:Lcom/khaibin/myprofile/awi;
 
     return-void
 .end method
 
-.method public constructor <init>(Ljava/lang/String;Lcom/abdhoms/myprofile/awi;)V
+.method public constructor <init>(Ljava/lang/String;Lcom/khaibin/myprofile/awi;)V
     .locals 6
 
     const/16 v1, 0x3c
@@ -60,7 +60,7 @@
 
     move-object v5, p2
 
-    invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/analytics/internal/h;-><init>(IJLjava/lang/String;Lcom/abdhoms/myprofile/awi;)V
+    invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/analytics/internal/h;-><init>(IJLjava/lang/String;Lcom/khaibin/myprofile/awi;)V
 
     return-void
 .end method
@@ -77,9 +77,9 @@
     monitor-enter v1
 
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/analytics/internal/h;->g:Lcom/abdhoms/myprofile/awi;
+    iget-object v0, p0, Lcom/google/android/gms/analytics/internal/h;->g:Lcom/khaibin/myprofile/awi;
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/awi;->a()J
+    invoke-interface {v0}, Lcom/khaibin/myprofile/awi;->a()J
 
     move-result-wide v2
 

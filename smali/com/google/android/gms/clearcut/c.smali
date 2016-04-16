@@ -7,7 +7,7 @@
     value = {
         "Lcom/google/android/gms/common/api/g",
         "<",
-        "Lcom/abdhoms/myprofile/avp;",
+        "Lcom/khaibin/myprofile/avp;",
         "Lcom/google/android/gms/common/api/d;",
         ">;"
     }
@@ -25,10 +25,10 @@
 
 
 # virtual methods
-.method public a(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/t;Lcom/google/android/gms/common/api/d;Lcom/google/android/gms/common/api/q;Lcom/google/android/gms/common/api/r;)Lcom/abdhoms/myprofile/avp;
+.method public a(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/t;Lcom/google/android/gms/common/api/d;Lcom/google/android/gms/common/api/q;Lcom/google/android/gms/common/api/r;)Lcom/khaibin/myprofile/avp;
     .locals 6
 
-    new-instance v0, Lcom/abdhoms/myprofile/avp;
+    new-instance v0, Lcom/khaibin/myprofile/avp;
 
     move-object v1, p1
 
@@ -40,7 +40,7 @@
 
     move-object v5, p6
 
-    invoke-direct/range {v0 .. v5}, Lcom/abdhoms/myprofile/avp;-><init>(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/t;Lcom/google/android/gms/common/api/q;Lcom/google/android/gms/common/api/r;)V
+    invoke-direct/range {v0 .. v5}, Lcom/khaibin/myprofile/avp;-><init>(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/t;Lcom/google/android/gms/common/api/q;Lcom/google/android/gms/common/api/r;)V
 
     return-object v0
 .end method
@@ -64,7 +64,7 @@
 
     move-object v6, p6
 
-    invoke-virtual/range {v0 .. v6}, Lcom/google/android/gms/clearcut/c;->a(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/t;Lcom/google/android/gms/common/api/d;Lcom/google/android/gms/common/api/q;Lcom/google/android/gms/common/api/r;)Lcom/abdhoms/myprofile/avp;
+    invoke-virtual/range {v0 .. v6}, Lcom/google/android/gms/clearcut/c;->a(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/t;Lcom/google/android/gms/common/api/d;Lcom/google/android/gms/common/api/q;Lcom/google/android/gms/common/api/r;)Lcom/khaibin/myprofile/avp;
 
     move-result-object v0
 

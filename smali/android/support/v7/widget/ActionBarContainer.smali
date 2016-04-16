@@ -57,13 +57,13 @@
     :goto_0
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/ActionBarContainer;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    sget-object v0, Lcom/abdhoms/myprofile/hz;->ActionBar:[I
+    sget-object v0, Lcom/khaibin/myprofile/hz;->ActionBar:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v3, Lcom/abdhoms/myprofile/hz;->ActionBar_background:I
+    sget v3, Lcom/khaibin/myprofile/hz;->ActionBar_background:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -71,7 +71,7 @@
 
     iput-object v3, p0, Landroid/support/v7/widget/ActionBarContainer;->a:Landroid/graphics/drawable/Drawable;
 
-    sget v3, Lcom/abdhoms/myprofile/hz;->ActionBar_backgroundStacked:I
+    sget v3, Lcom/khaibin/myprofile/hz;->ActionBar_backgroundStacked:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -79,7 +79,7 @@
 
     iput-object v3, p0, Landroid/support/v7/widget/ActionBarContainer;->b:Landroid/graphics/drawable/Drawable;
 
-    sget v3, Lcom/abdhoms/myprofile/hz;->ActionBar_height:I
+    sget v3, Lcom/khaibin/myprofile/hz;->ActionBar_height:I
 
     const/4 v4, -0x1
 
@@ -93,13 +93,13 @@
 
     move-result v3
 
-    sget v4, Lcom/abdhoms/myprofile/hu;->split_action_bar:I
+    sget v4, Lcom/khaibin/myprofile/hu;->split_action_bar:I
 
     if-ne v3, v4, :cond_0
 
     iput-boolean v1, p0, Landroid/support/v7/widget/ActionBarContainer;->d:Z
 
-    sget v3, Lcom/abdhoms/myprofile/hz;->ActionBar_backgroundSplit:I
+    sget v3, Lcom/khaibin/myprofile/hz;->ActionBar_backgroundSplit:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -338,7 +338,7 @@
 
     invoke-super {p0}, Landroid/widget/FrameLayout;->onFinishInflate()V
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->action_bar:I
+    sget v0, Lcom/khaibin/myprofile/hu;->action_bar:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/ActionBarContainer;->findViewById(I)Landroid/view/View;
 
@@ -346,7 +346,7 @@
 
     iput-object v0, p0, Landroid/support/v7/widget/ActionBarContainer;->h:Landroid/view/View;
 
-    sget v0, Lcom/abdhoms/myprofile/hu;->action_context_bar:I
+    sget v0, Lcom/khaibin/myprofile/hu;->action_context_bar:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/ActionBarContainer;->findViewById(I)Landroid/view/View;
 

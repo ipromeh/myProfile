@@ -64,13 +64,13 @@
 
     iput v2, p0, Landroid/support/design/widget/CollapsingToolbarLayout$LayoutParams;->mParallaxMult:F
 
-    sget-object v0, Lcom/abdhoms/myprofile/k;->CollapsingAppBarLayout_LayoutParams:[I
+    sget-object v0, Lcom/khaibin/myprofile/k;->CollapsingAppBarLayout_LayoutParams:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->CollapsingAppBarLayout_LayoutParams_layout_collapseMode:I
+    sget v1, Lcom/khaibin/myprofile/k;->CollapsingAppBarLayout_LayoutParams_layout_collapseMode:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getInt(II)I
 
@@ -78,7 +78,7 @@
 
     iput v1, p0, Landroid/support/design/widget/CollapsingToolbarLayout$LayoutParams;->mCollapseMode:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier:I
+    sget v1, Lcom/khaibin/myprofile/k;->CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/TypedArray;->getFloat(IF)F
 

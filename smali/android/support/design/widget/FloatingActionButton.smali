@@ -72,15 +72,15 @@
 
     iput-object v0, p0, Landroid/support/design/widget/FloatingActionButton;->mShadowPadding:Landroid/graphics/Rect;
 
-    sget-object v0, Lcom/abdhoms/myprofile/k;->FloatingActionButton:[I
+    sget-object v0, Lcom/khaibin/myprofile/k;->FloatingActionButton:[I
 
-    sget v1, Lcom/abdhoms/myprofile/j;->Widget_Design_FloatingActionButton:I
+    sget v1, Lcom/khaibin/myprofile/j;->Widget_Design_FloatingActionButton:I
 
     invoke-virtual {p1, p2, v0, p3, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->FloatingActionButton_backgroundTint:I
+    sget v1, Lcom/khaibin/myprofile/k;->FloatingActionButton_backgroundTint:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -88,7 +88,7 @@
 
     iput-object v1, p0, Landroid/support/design/widget/FloatingActionButton;->mBackgroundTint:Landroid/content/res/ColorStateList;
 
-    sget v1, Lcom/abdhoms/myprofile/k;->FloatingActionButton_backgroundTintMode:I
+    sget v1, Lcom/khaibin/myprofile/k;->FloatingActionButton_backgroundTintMode:I
 
     const/4 v2, -0x1
 
@@ -104,7 +104,7 @@
 
     iput-object v1, p0, Landroid/support/design/widget/FloatingActionButton;->mBackgroundTintMode:Landroid/graphics/PorterDuff$Mode;
 
-    sget v1, Lcom/abdhoms/myprofile/k;->FloatingActionButton_rippleColor:I
+    sget v1, Lcom/khaibin/myprofile/k;->FloatingActionButton_rippleColor:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getColor(II)I
 
@@ -112,7 +112,7 @@
 
     iput v1, p0, Landroid/support/design/widget/FloatingActionButton;->mRippleColor:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->FloatingActionButton_fabSize:I
+    sget v1, Lcom/khaibin/myprofile/k;->FloatingActionButton_fabSize:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getInt(II)I
 
@@ -120,7 +120,7 @@
 
     iput v1, p0, Landroid/support/design/widget/FloatingActionButton;->mSize:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->FloatingActionButton_borderWidth:I
+    sget v1, Lcom/khaibin/myprofile/k;->FloatingActionButton_borderWidth:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -128,13 +128,13 @@
 
     iput v1, p0, Landroid/support/design/widget/FloatingActionButton;->mBorderWidth:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->FloatingActionButton_elevation:I
+    sget v1, Lcom/khaibin/myprofile/k;->FloatingActionButton_elevation:I
 
     invoke-virtual {v0, v1, v4}, Landroid/content/res/TypedArray;->getDimension(IF)F
 
     move-result v1
 
-    sget v2, Lcom/abdhoms/myprofile/k;->FloatingActionButton_pressedTranslationZ:I
+    sget v2, Lcom/khaibin/myprofile/k;->FloatingActionButton_pressedTranslationZ:I
 
     invoke-virtual {v0, v2, v4}, Landroid/content/res/TypedArray;->getDimension(IF)F
 
@@ -163,7 +163,7 @@
 
     move-result-object v0
 
-    sget v3, Lcom/abdhoms/myprofile/e;->design_fab_content_size:I
+    sget v3, Lcom/khaibin/myprofile/e;->design_fab_content_size:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -397,7 +397,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/e;->design_fab_size_normal:I
+    sget v1, Lcom/khaibin/myprofile/e;->design_fab_size_normal:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -411,7 +411,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/e;->design_fab_size_mini:I
+    sget v1, Lcom/khaibin/myprofile/e;->design_fab_size_mini:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

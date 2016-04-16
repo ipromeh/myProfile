@@ -22,7 +22,7 @@
         value = {
             "Ljava/util/Map",
             "<",
-            "Lcom/abdhoms/myprofile/az;",
+            "Lcom/khaibin/myprofile/az;",
             "Landroid/view/MenuItem;",
             ">;"
         }
@@ -34,7 +34,7 @@
         value = {
             "Ljava/util/Map",
             "<",
-            "Lcom/abdhoms/myprofile/ba;",
+            "Lcom/khaibin/myprofile/ba;",
             "Landroid/view/SubMenu;",
             ">;"
         }
@@ -65,21 +65,21 @@
 .method final a(Landroid/view/MenuItem;)Landroid/view/MenuItem;
     .locals 3
 
-    instance-of v0, p1, Lcom/abdhoms/myprofile/az;
+    instance-of v0, p1, Lcom/khaibin/myprofile/az;
 
     if-eqz v0, :cond_2
 
     move-object v0, p1
 
-    check-cast v0, Lcom/abdhoms/myprofile/az;
+    check-cast v0, Lcom/khaibin/myprofile/az;
 
     iget-object v1, p0, Landroid/support/v7/view/menu/e;->c:Ljava/util/Map;
 
     if-nez v1, :cond_0
 
-    new-instance v1, Lcom/abdhoms/myprofile/cf;
+    new-instance v1, Lcom/khaibin/myprofile/cf;
 
-    invoke-direct {v1}, Lcom/abdhoms/myprofile/cf;-><init>()V
+    invoke-direct {v1}, Lcom/khaibin/myprofile/cf;-><init>()V
 
     iput-object v1, p0, Landroid/support/v7/view/menu/e;->c:Ljava/util/Map;
 
@@ -96,7 +96,7 @@
 
     iget-object v1, p0, Landroid/support/v7/view/menu/e;->a:Landroid/content/Context;
 
-    invoke-static {v1, v0}, Landroid/support/v7/view/menu/ab;->a(Landroid/content/Context;Lcom/abdhoms/myprofile/az;)Landroid/view/MenuItem;
+    invoke-static {v1, v0}, Landroid/support/v7/view/menu/ab;->a(Landroid/content/Context;Lcom/khaibin/myprofile/az;)Landroid/view/MenuItem;
 
     move-result-object v1
 
@@ -117,19 +117,19 @@
 .method final a(Landroid/view/SubMenu;)Landroid/view/SubMenu;
     .locals 2
 
-    instance-of v0, p1, Lcom/abdhoms/myprofile/ba;
+    instance-of v0, p1, Lcom/khaibin/myprofile/ba;
 
     if-eqz v0, :cond_2
 
-    check-cast p1, Lcom/abdhoms/myprofile/ba;
+    check-cast p1, Lcom/khaibin/myprofile/ba;
 
     iget-object v0, p0, Landroid/support/v7/view/menu/e;->d:Ljava/util/Map;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/abdhoms/myprofile/cf;
+    new-instance v0, Lcom/khaibin/myprofile/cf;
 
-    invoke-direct {v0}, Lcom/abdhoms/myprofile/cf;-><init>()V
+    invoke-direct {v0}, Lcom/khaibin/myprofile/cf;-><init>()V
 
     iput-object v0, p0, Landroid/support/v7/view/menu/e;->d:Ljava/util/Map;
 
@@ -146,7 +146,7 @@
 
     iget-object v0, p0, Landroid/support/v7/view/menu/e;->a:Landroid/content/Context;
 
-    invoke-static {v0, p1}, Landroid/support/v7/view/menu/ab;->a(Landroid/content/Context;Lcom/abdhoms/myprofile/ba;)Landroid/view/SubMenu;
+    invoke-static {v0, p1}, Landroid/support/v7/view/menu/ab;->a(Landroid/content/Context;Lcom/khaibin/myprofile/ba;)Landroid/view/SubMenu;
 
     move-result-object v0
 

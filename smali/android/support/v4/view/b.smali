@@ -45,10 +45,10 @@
     return-void
 .end method
 
-.method public a(Ljava/lang/Object;Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+.method public a(Ljava/lang/Object;Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
     .locals 1
 
-    invoke-virtual {p3}, Lcom/abdhoms/myprofile/dd;->a()Ljava/lang/Object;
+    invoke-virtual {p3}, Lcom/khaibin/myprofile/dd;->a()Ljava/lang/Object;
 
     move-result-object v0
 

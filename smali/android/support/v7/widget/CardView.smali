@@ -146,39 +146,39 @@
 
     const/4 v2, 0x0
 
-    sget-object v0, Lcom/abdhoms/myprofile/ie;->CardView:[I
+    sget-object v0, Lcom/khaibin/myprofile/ie;->CardView:[I
 
-    sget v1, Lcom/abdhoms/myprofile/id;->CardView_Light:I
+    sget v1, Lcom/khaibin/myprofile/id;->CardView_Light:I
 
     invoke-virtual {p1, p2, v0, p3, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/ie;->CardView_cardBackgroundColor:I
+    sget v1, Lcom/khaibin/myprofile/ie;->CardView_cardBackgroundColor:I
 
     invoke-virtual {v0, v1, v7}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result v3
 
-    sget v1, Lcom/abdhoms/myprofile/ie;->CardView_cardCornerRadius:I
+    sget v1, Lcom/khaibin/myprofile/ie;->CardView_cardCornerRadius:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/TypedArray;->getDimension(IF)F
 
     move-result v4
 
-    sget v1, Lcom/abdhoms/myprofile/ie;->CardView_cardElevation:I
+    sget v1, Lcom/khaibin/myprofile/ie;->CardView_cardElevation:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/TypedArray;->getDimension(IF)F
 
     move-result v5
 
-    sget v1, Lcom/abdhoms/myprofile/ie;->CardView_cardMaxElevation:I
+    sget v1, Lcom/khaibin/myprofile/ie;->CardView_cardMaxElevation:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/TypedArray;->getDimension(IF)F
 
     move-result v6
 
-    sget v1, Lcom/abdhoms/myprofile/ie;->CardView_cardUseCompatPadding:I
+    sget v1, Lcom/khaibin/myprofile/ie;->CardView_cardUseCompatPadding:I
 
     invoke-virtual {v0, v1, v7}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
@@ -186,7 +186,7 @@
 
     iput-boolean v1, p0, Landroid/support/v7/widget/CardView;->b:Z
 
-    sget v1, Lcom/abdhoms/myprofile/ie;->CardView_cardPreventCornerOverlap:I
+    sget v1, Lcom/khaibin/myprofile/ie;->CardView_cardPreventCornerOverlap:I
 
     const/4 v2, 0x1
 
@@ -196,7 +196,7 @@
 
     iput-boolean v1, p0, Landroid/support/v7/widget/CardView;->c:Z
 
-    sget v1, Lcom/abdhoms/myprofile/ie;->CardView_contentPadding:I
+    sget v1, Lcom/khaibin/myprofile/ie;->CardView_contentPadding:I
 
     invoke-virtual {v0, v1, v7}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -204,7 +204,7 @@
 
     iget-object v2, p0, Landroid/support/v7/widget/CardView;->d:Landroid/graphics/Rect;
 
-    sget v7, Lcom/abdhoms/myprofile/ie;->CardView_contentPaddingLeft:I
+    sget v7, Lcom/khaibin/myprofile/ie;->CardView_contentPaddingLeft:I
 
     invoke-virtual {v0, v7, v1}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -214,7 +214,7 @@
 
     iget-object v2, p0, Landroid/support/v7/widget/CardView;->d:Landroid/graphics/Rect;
 
-    sget v7, Lcom/abdhoms/myprofile/ie;->CardView_contentPaddingTop:I
+    sget v7, Lcom/khaibin/myprofile/ie;->CardView_contentPaddingTop:I
 
     invoke-virtual {v0, v7, v1}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -224,7 +224,7 @@
 
     iget-object v2, p0, Landroid/support/v7/widget/CardView;->d:Landroid/graphics/Rect;
 
-    sget v7, Lcom/abdhoms/myprofile/ie;->CardView_contentPaddingRight:I
+    sget v7, Lcom/khaibin/myprofile/ie;->CardView_contentPaddingRight:I
 
     invoke-virtual {v0, v7, v1}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -234,7 +234,7 @@
 
     iget-object v2, p0, Landroid/support/v7/widget/CardView;->d:Landroid/graphics/Rect;
 
-    sget v7, Lcom/abdhoms/myprofile/ie;->CardView_contentPaddingBottom:I
+    sget v7, Lcom/khaibin/myprofile/ie;->CardView_contentPaddingBottom:I
 
     invoke-virtual {v0, v7, v1}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 

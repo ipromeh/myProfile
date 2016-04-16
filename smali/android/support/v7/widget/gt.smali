@@ -3,10 +3,10 @@
 
 
 # static fields
-.field static d:Lcom/abdhoms/myprofile/ct;
+.field static d:Lcom/khaibin/myprofile/ct;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/abdhoms/myprofile/ct",
+            "Lcom/khaibin/myprofile/ct",
             "<",
             "Landroid/support/v7/widget/gt;",
             ">;"
@@ -27,13 +27,13 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    new-instance v0, Lcom/abdhoms/myprofile/cu;
+    new-instance v0, Lcom/khaibin/myprofile/cu;
 
     const/16 v1, 0x14
 
-    invoke-direct {v0, v1}, Lcom/abdhoms/myprofile/cu;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/khaibin/myprofile/cu;-><init>(I)V
 
-    sput-object v0, Landroid/support/v7/widget/gt;->d:Lcom/abdhoms/myprofile/ct;
+    sput-object v0, Landroid/support/v7/widget/gt;->d:Lcom/khaibin/myprofile/ct;
 
     return-void
 .end method
@@ -49,9 +49,9 @@
 .method static a()Landroid/support/v7/widget/gt;
     .locals 1
 
-    sget-object v0, Landroid/support/v7/widget/gt;->d:Lcom/abdhoms/myprofile/ct;
+    sget-object v0, Landroid/support/v7/widget/gt;->d:Lcom/khaibin/myprofile/ct;
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/ct;->a()Ljava/lang/Object;
+    invoke-interface {v0}, Lcom/khaibin/myprofile/ct;->a()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -80,9 +80,9 @@
 
     iput-object v1, p0, Landroid/support/v7/widget/gt;->c:Landroid/support/v7/widget/eb;
 
-    sget-object v0, Landroid/support/v7/widget/gt;->d:Lcom/abdhoms/myprofile/ct;
+    sget-object v0, Landroid/support/v7/widget/gt;->d:Lcom/khaibin/myprofile/ct;
 
-    invoke-interface {v0, p0}, Lcom/abdhoms/myprofile/ct;->a(Ljava/lang/Object;)Z
+    invoke-interface {v0, p0}, Lcom/khaibin/myprofile/ct;->a(Ljava/lang/Object;)Z
 
     return-void
 .end method
@@ -91,9 +91,9 @@
     .locals 1
 
     :cond_0
-    sget-object v0, Landroid/support/v7/widget/gt;->d:Lcom/abdhoms/myprofile/ct;
+    sget-object v0, Landroid/support/v7/widget/gt;->d:Lcom/khaibin/myprofile/ct;
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/ct;->a()Ljava/lang/Object;
+    invoke-interface {v0}, Lcom/khaibin/myprofile/ct;->a()Ljava/lang/Object;
 
     move-result-object v0
 

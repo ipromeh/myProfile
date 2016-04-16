@@ -618,12 +618,12 @@
     return-void
 .end method
 
-.method protected n()Lcom/abdhoms/myprofile/awi;
+.method protected n()Lcom/khaibin/myprofile/awi;
     .locals 1
 
     iget-object v0, p0, Lcom/google/android/gms/analytics/internal/ac;->a:Lcom/google/android/gms/analytics/internal/af;
 
-    invoke-virtual {v0}, Lcom/google/android/gms/analytics/internal/af;->d()Lcom/abdhoms/myprofile/awi;
+    invoke-virtual {v0}, Lcom/google/android/gms/analytics/internal/af;->d()Lcom/khaibin/myprofile/awi;
 
     move-result-object v0
 
@@ -666,24 +666,24 @@
     return-object v0
 .end method
 
-.method protected r()Lcom/abdhoms/myprofile/azp;
+.method protected r()Lcom/khaibin/myprofile/azp;
     .locals 1
 
     iget-object v0, p0, Lcom/google/android/gms/analytics/internal/ac;->a:Lcom/google/android/gms/analytics/internal/af;
 
-    invoke-virtual {v0}, Lcom/google/android/gms/analytics/internal/af;->h()Lcom/abdhoms/myprofile/azp;
+    invoke-virtual {v0}, Lcom/google/android/gms/analytics/internal/af;->h()Lcom/khaibin/myprofile/azp;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public s()Lcom/abdhoms/myprofile/vr;
+.method public s()Lcom/khaibin/myprofile/vr;
     .locals 1
 
     iget-object v0, p0, Lcom/google/android/gms/analytics/internal/ac;->a:Lcom/google/android/gms/analytics/internal/af;
 
-    invoke-virtual {v0}, Lcom/google/android/gms/analytics/internal/af;->k()Lcom/abdhoms/myprofile/vr;
+    invoke-virtual {v0}, Lcom/google/android/gms/analytics/internal/af;->k()Lcom/khaibin/myprofile/vr;
 
     move-result-object v0
 

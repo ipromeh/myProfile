@@ -17,7 +17,7 @@
     .end annotation
 .end field
 
-.field public static a:Lcom/abdhoms/myprofile/awi;
+.field public static a:Lcom/khaibin/myprofile/awi;
 
 .field private static l:Ljava/util/Comparator;
     .annotation system Ldalvik/annotation/Signature;
@@ -72,11 +72,11 @@
 
     sput-object v0, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;->CREATOR:Landroid/os/Parcelable$Creator;
 
-    invoke-static {}, Lcom/abdhoms/myprofile/awk;->d()Lcom/abdhoms/myprofile/awi;
+    invoke-static {}, Lcom/khaibin/myprofile/awk;->d()Lcom/khaibin/myprofile/awi;
 
     move-result-object v0
 
-    sput-object v0, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;->a:Lcom/abdhoms/myprofile/awi;
+    sput-object v0, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;->a:Lcom/khaibin/myprofile/awi;
 
     new-instance v0, Lcom/google/android/gms/auth/api/signin/a;
 
@@ -290,9 +290,9 @@
 
     if-nez p5, :cond_0
 
-    sget-object v0, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;->a:Lcom/abdhoms/myprofile/awi;
+    sget-object v0, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;->a:Lcom/khaibin/myprofile/awi;
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/awi;->a()J
+    invoke-interface {v0}, Lcom/khaibin/myprofile/awi;->a()J
 
     move-result-wide v0
 

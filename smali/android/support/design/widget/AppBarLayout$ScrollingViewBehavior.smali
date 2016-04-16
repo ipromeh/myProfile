@@ -20,13 +20,13 @@
 
     invoke-direct {p0, p1, p2}, Landroid/support/design/widget/HeaderScrollingViewBehavior;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    sget-object v0, Lcom/abdhoms/myprofile/k;->ScrollingViewBehavior_Params:[I
+    sget-object v0, Lcom/khaibin/myprofile/k;->ScrollingViewBehavior_Params:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->ScrollingViewBehavior_Params_behavior_overlapTop:I
+    sget v1, Lcom/khaibin/myprofile/k;->ScrollingViewBehavior_Params_behavior_overlapTop:I
 
     const/4 v2, 0x0
 

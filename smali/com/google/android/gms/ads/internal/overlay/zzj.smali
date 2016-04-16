@@ -20,7 +20,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/abdhoms/myprofile/aws;->b()Z
+    invoke-static {}, Lcom/khaibin/myprofile/aws;->b()Z
 
     move-result v1
 
@@ -46,5 +46,5 @@
     goto :goto_0
 .end method
 
-.method public abstract zza(Landroid/content/Context;Lcom/abdhoms/myprofile/atx;ILcom/abdhoms/myprofile/aco;Lcom/abdhoms/myprofile/ack;)Lcom/google/android/gms/ads/internal/overlay/zzi;
+.method public abstract zza(Landroid/content/Context;Lcom/khaibin/myprofile/atx;ILcom/khaibin/myprofile/aco;Lcom/khaibin/myprofile/ack;)Lcom/google/android/gms/ads/internal/overlay/zzi;
 .end method

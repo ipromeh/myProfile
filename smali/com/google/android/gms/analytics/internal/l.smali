@@ -58,11 +58,11 @@
 
     new-instance v0, Lcom/google/android/gms/analytics/internal/q;
 
-    invoke-virtual {p1}, Lcom/google/android/gms/analytics/internal/af;->d()Lcom/abdhoms/myprofile/awi;
+    invoke-virtual {p1}, Lcom/google/android/gms/analytics/internal/af;->d()Lcom/khaibin/myprofile/awi;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/google/android/gms/analytics/internal/q;-><init>(Lcom/abdhoms/myprofile/awi;)V
+    invoke-direct {v0, v1}, Lcom/google/android/gms/analytics/internal/q;-><init>(Lcom/khaibin/myprofile/awi;)V
 
     iput-object v0, p0, Lcom/google/android/gms/analytics/internal/l;->b:Lcom/google/android/gms/analytics/internal/q;
 
@@ -1395,11 +1395,11 @@
 
     invoke-direct {p0, v2, v0, v1}, Lcom/google/android/gms/analytics/internal/l;->a(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/l;->n()Lcom/abdhoms/myprofile/awi;
+    invoke-virtual {p0}, Lcom/google/android/gms/analytics/internal/l;->n()Lcom/khaibin/myprofile/awi;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/awi;->a()J
+    invoke-interface {v0}, Lcom/khaibin/myprofile/awi;->a()J
 
     move-result-wide v0
 

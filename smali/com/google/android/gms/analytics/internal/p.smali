@@ -56,11 +56,11 @@
 
     iget-object v0, p0, Lcom/google/android/gms/analytics/internal/p;->a:Lcom/google/android/gms/analytics/internal/n;
 
-    invoke-virtual {v0}, Lcom/google/android/gms/analytics/internal/n;->n()Lcom/abdhoms/myprofile/awi;
+    invoke-virtual {v0}, Lcom/google/android/gms/analytics/internal/n;->n()Lcom/khaibin/myprofile/awi;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/awi;->a()J
+    invoke-interface {v0}, Lcom/khaibin/myprofile/awi;->a()J
 
     move-result-wide v0
 
@@ -116,11 +116,11 @@
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/analytics/internal/p;->a:Lcom/google/android/gms/analytics/internal/n;
 
-    invoke-virtual {v0}, Lcom/google/android/gms/analytics/internal/n;->n()Lcom/abdhoms/myprofile/awi;
+    invoke-virtual {v0}, Lcom/google/android/gms/analytics/internal/n;->n()Lcom/khaibin/myprofile/awi;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/abdhoms/myprofile/awi;->a()J
+    invoke-interface {v0}, Lcom/khaibin/myprofile/awi;->a()J
 
     move-result-wide v0
 

@@ -16,7 +16,7 @@
 
 
 # virtual methods
-.method public a(Ljava/lang/Object;Landroid/view/View;)Lcom/abdhoms/myprofile/dw;
+.method public a(Ljava/lang/Object;Landroid/view/View;)Lcom/khaibin/myprofile/dw;
     .locals 1
 
     const/4 v0, 0x0
@@ -46,7 +46,7 @@
     return-void
 .end method
 
-.method public a(Ljava/lang/Object;Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+.method public a(Ljava/lang/Object;Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
     .locals 0
 
     return-void

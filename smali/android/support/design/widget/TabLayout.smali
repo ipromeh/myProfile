@@ -141,9 +141,9 @@
 
     invoke-virtual {p0, v0, v1, v5}, Landroid/support/design/widget/TabLayout;->addView(Landroid/view/View;II)V
 
-    sget-object v0, Lcom/abdhoms/myprofile/k;->TabLayout:[I
+    sget-object v0, Lcom/khaibin/myprofile/k;->TabLayout:[I
 
-    sget v1, Lcom/abdhoms/myprofile/j;->Widget_Design_TabLayout:I
+    sget v1, Lcom/khaibin/myprofile/j;->Widget_Design_TabLayout:I
 
     invoke-virtual {p1, p2, v0, p3, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -151,7 +151,7 @@
 
     iget-object v1, p0, Landroid/support/design/widget/TabLayout;->mTabStrip:Landroid/support/design/widget/TabLayout$SlidingTabStrip;
 
-    sget v2, Lcom/abdhoms/myprofile/k;->TabLayout_tabIndicatorHeight:I
+    sget v2, Lcom/khaibin/myprofile/k;->TabLayout_tabIndicatorHeight:I
 
     invoke-virtual {v0, v2, v4}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -161,7 +161,7 @@
 
     iget-object v1, p0, Landroid/support/design/widget/TabLayout;->mTabStrip:Landroid/support/design/widget/TabLayout$SlidingTabStrip;
 
-    sget v2, Lcom/abdhoms/myprofile/k;->TabLayout_tabIndicatorColor:I
+    sget v2, Lcom/khaibin/myprofile/k;->TabLayout_tabIndicatorColor:I
 
     invoke-virtual {v0, v2, v4}, Landroid/content/res/TypedArray;->getColor(II)I
 
@@ -169,7 +169,7 @@
 
     invoke-virtual {v1, v2}, Landroid/support/design/widget/TabLayout$SlidingTabStrip;->setSelectedIndicatorColor(I)V
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TabLayout_tabPadding:I
+    sget v1, Lcom/khaibin/myprofile/k;->TabLayout_tabPadding:I
 
     invoke-virtual {v0, v1, v4}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -183,7 +183,7 @@
 
     iput v1, p0, Landroid/support/design/widget/TabLayout;->mTabPaddingStart:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TabLayout_tabPaddingStart:I
+    sget v1, Lcom/khaibin/myprofile/k;->TabLayout_tabPaddingStart:I
 
     iget v2, p0, Landroid/support/design/widget/TabLayout;->mTabPaddingStart:I
 
@@ -193,7 +193,7 @@
 
     iput v1, p0, Landroid/support/design/widget/TabLayout;->mTabPaddingStart:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TabLayout_tabPaddingTop:I
+    sget v1, Lcom/khaibin/myprofile/k;->TabLayout_tabPaddingTop:I
 
     iget v2, p0, Landroid/support/design/widget/TabLayout;->mTabPaddingTop:I
 
@@ -203,7 +203,7 @@
 
     iput v1, p0, Landroid/support/design/widget/TabLayout;->mTabPaddingTop:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TabLayout_tabPaddingEnd:I
+    sget v1, Lcom/khaibin/myprofile/k;->TabLayout_tabPaddingEnd:I
 
     iget v2, p0, Landroid/support/design/widget/TabLayout;->mTabPaddingEnd:I
 
@@ -213,7 +213,7 @@
 
     iput v1, p0, Landroid/support/design/widget/TabLayout;->mTabPaddingEnd:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TabLayout_tabPaddingBottom:I
+    sget v1, Lcom/khaibin/myprofile/k;->TabLayout_tabPaddingBottom:I
 
     iget v2, p0, Landroid/support/design/widget/TabLayout;->mTabPaddingBottom:I
 
@@ -223,9 +223,9 @@
 
     iput v1, p0, Landroid/support/design/widget/TabLayout;->mTabPaddingBottom:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TabLayout_tabTextAppearance:I
+    sget v1, Lcom/khaibin/myprofile/k;->TabLayout_tabTextAppearance:I
 
-    sget v2, Lcom/abdhoms/myprofile/j;->TextAppearance_Design_Tab:I
+    sget v2, Lcom/khaibin/myprofile/j;->TextAppearance_Design_Tab:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -235,14 +235,14 @@
 
     iget v1, p0, Landroid/support/design/widget/TabLayout;->mTabTextAppearance:I
 
-    sget-object v2, Lcom/abdhoms/myprofile/k;->TextAppearance:[I
+    sget-object v2, Lcom/khaibin/myprofile/k;->TextAppearance:[I
 
     invoke-virtual {p1, v1, v2}, Landroid/content/Context;->obtainStyledAttributes(I[I)Landroid/content/res/TypedArray;
 
     move-result-object v1
 
     :try_start_0
-    sget v2, Lcom/abdhoms/myprofile/k;->TextAppearance_android_textSize:I
+    sget v2, Lcom/khaibin/myprofile/k;->TextAppearance_android_textSize:I
 
     const/4 v3, 0x0
 
@@ -254,7 +254,7 @@
 
     iput v2, p0, Landroid/support/design/widget/TabLayout;->mTabTextSize:F
 
-    sget v2, Lcom/abdhoms/myprofile/k;->TextAppearance_android_textColor:I
+    sget v2, Lcom/khaibin/myprofile/k;->TextAppearance_android_textColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/TypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -266,7 +266,7 @@
 
     invoke-virtual {v1}, Landroid/content/res/TypedArray;->recycle()V
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TabLayout_tabTextColor:I
+    sget v1, Lcom/khaibin/myprofile/k;->TabLayout_tabTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -274,7 +274,7 @@
 
     if-eqz v1, :cond_0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TabLayout_tabTextColor:I
+    sget v1, Lcom/khaibin/myprofile/k;->TabLayout_tabTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -283,7 +283,7 @@
     iput-object v1, p0, Landroid/support/design/widget/TabLayout;->mTabTextColors:Landroid/content/res/ColorStateList;
 
     :cond_0
-    sget v1, Lcom/abdhoms/myprofile/k;->TabLayout_tabSelectedTextColor:I
+    sget v1, Lcom/khaibin/myprofile/k;->TabLayout_tabSelectedTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -291,7 +291,7 @@
 
     if-eqz v1, :cond_1
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TabLayout_tabSelectedTextColor:I
+    sget v1, Lcom/khaibin/myprofile/k;->TabLayout_tabSelectedTextColor:I
 
     invoke-virtual {v0, v1, v4}, Landroid/content/res/TypedArray;->getColor(II)I
 
@@ -310,7 +310,7 @@
     iput-object v1, p0, Landroid/support/design/widget/TabLayout;->mTabTextColors:Landroid/content/res/ColorStateList;
 
     :cond_1
-    sget v1, Lcom/abdhoms/myprofile/k;->TabLayout_tabMinWidth:I
+    sget v1, Lcom/khaibin/myprofile/k;->TabLayout_tabMinWidth:I
 
     invoke-virtual {v0, v1, v5}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -318,7 +318,7 @@
 
     iput v1, p0, Landroid/support/design/widget/TabLayout;->mRequestedTabMinWidth:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TabLayout_tabMaxWidth:I
+    sget v1, Lcom/khaibin/myprofile/k;->TabLayout_tabMaxWidth:I
 
     invoke-virtual {v0, v1, v5}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -326,7 +326,7 @@
 
     iput v1, p0, Landroid/support/design/widget/TabLayout;->mRequestedTabMaxWidth:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TabLayout_tabBackground:I
+    sget v1, Lcom/khaibin/myprofile/k;->TabLayout_tabBackground:I
 
     invoke-virtual {v0, v1, v4}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -334,7 +334,7 @@
 
     iput v1, p0, Landroid/support/design/widget/TabLayout;->mTabBackgroundResId:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TabLayout_tabContentStart:I
+    sget v1, Lcom/khaibin/myprofile/k;->TabLayout_tabContentStart:I
 
     invoke-virtual {v0, v1, v4}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
@@ -342,7 +342,7 @@
 
     iput v1, p0, Landroid/support/design/widget/TabLayout;->mContentInsetStart:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TabLayout_tabMode:I
+    sget v1, Lcom/khaibin/myprofile/k;->TabLayout_tabMode:I
 
     const/4 v2, 0x1
 
@@ -352,7 +352,7 @@
 
     iput v1, p0, Landroid/support/design/widget/TabLayout;->mMode:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TabLayout_tabGravity:I
+    sget v1, Lcom/khaibin/myprofile/k;->TabLayout_tabGravity:I
 
     invoke-virtual {v0, v1, v4}, Landroid/content/res/TypedArray;->getInt(II)I
 
@@ -366,7 +366,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/e;->design_tab_text_size_2line:I
+    sget v1, Lcom/khaibin/myprofile/e;->design_tab_text_size_2line:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -376,7 +376,7 @@
 
     iput v1, p0, Landroid/support/design/widget/TabLayout;->mTabTextMultiLineSize:F
 
-    sget v1, Lcom/abdhoms/myprofile/e;->design_tab_scrollable_min_width:I
+    sget v1, Lcom/khaibin/myprofile/e;->design_tab_scrollable_min_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

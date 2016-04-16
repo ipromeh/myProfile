@@ -6,7 +6,7 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -40,7 +40,7 @@
 
     iput-boolean v0, p0, Lcom/google/android/gms/ads/internal/overlay/m;->b:Z
 
-    sget-object v0, Lcom/abdhoms/myprofile/art;->a:Landroid/os/Handler;
+    sget-object v0, Lcom/khaibin/myprofile/art;->a:Landroid/os/Handler;
 
     invoke-virtual {v0, p0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
@@ -50,7 +50,7 @@
 .method public b()V
     .locals 4
 
-    sget-object v0, Lcom/abdhoms/myprofile/art;->a:Landroid/os/Handler;
+    sget-object v0, Lcom/khaibin/myprofile/art;->a:Landroid/os/Handler;
 
     const-wide/16 v2, 0xfa
 

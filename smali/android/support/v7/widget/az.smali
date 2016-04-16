@@ -15,7 +15,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    sget v0, Lcom/abdhoms/myprofile/hp;->radioButtonStyle:I
+    sget v0, Lcom/khaibin/myprofile/hp;->radioButtonStyle:I
 
     invoke-direct {p0, p1, p2, v0}, Landroid/support/v7/widget/az;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -138,7 +138,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/abdhoms/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/khaibin/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 

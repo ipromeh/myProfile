@@ -277,7 +277,7 @@
 
     invoke-super {p0, p1}, Landroid/widget/LinearLayout;->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
 
-    const-class v0, Lcom/abdhoms/myprofile/ew;
+    const-class v0, Lcom/khaibin/myprofile/ew;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
@@ -296,7 +296,7 @@
 
     invoke-super {p0, p1}, Landroid/widget/LinearLayout;->onInitializeAccessibilityNodeInfo(Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
-    const-class v0, Lcom/abdhoms/myprofile/ew;
+    const-class v0, Lcom/khaibin/myprofile/ew;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
@@ -706,7 +706,7 @@
 
     move-result-object v0
 
-    sget v2, Lcom/abdhoms/myprofile/h;->design_layout_tab_icon:I
+    sget v2, Lcom/khaibin/myprofile/h;->design_layout_tab_icon:I
 
     invoke-virtual {v0, v2, p0, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -731,7 +731,7 @@
 
     move-result-object v0
 
-    sget v2, Lcom/abdhoms/myprofile/h;->design_layout_tab_text:I
+    sget v2, Lcom/khaibin/myprofile/h;->design_layout_tab_text:I
 
     invoke-virtual {v0, v2, p0, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

@@ -16,7 +16,7 @@
 
 
 # virtual methods
-.method public zza(Landroid/app/Activity;Lcom/abdhoms/myprofile/atx;Landroid/widget/RelativeLayout;)Lcom/google/android/gms/ads/internal/overlay/zzl;
+.method public zza(Landroid/app/Activity;Lcom/khaibin/myprofile/atx;Landroid/widget/RelativeLayout;)Lcom/google/android/gms/ads/internal/overlay/zzl;
     .locals 1
 
     new-instance v0, Lcom/google/android/gms/ads/internal/overlay/zzq;

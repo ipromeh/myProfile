@@ -18,7 +18,7 @@
 
     const/4 v3, 0x0
 
-    sget v5, Lcom/abdhoms/myprofile/hp;->actionOverflowMenuStyle:I
+    sget v5, Lcom/khaibin/myprofile/hp;->actionOverflowMenuStyle:I
 
     move-object v0, p0
 

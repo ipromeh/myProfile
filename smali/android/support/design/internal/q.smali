@@ -42,15 +42,15 @@
 
     iput-object v0, p0, Landroid/support/design/internal/q;->mTempRect:Landroid/graphics/Rect;
 
-    sget-object v0, Lcom/abdhoms/myprofile/k;->ScrimInsetsFrameLayout:[I
+    sget-object v0, Lcom/khaibin/myprofile/k;->ScrimInsetsFrameLayout:[I
 
-    sget v1, Lcom/abdhoms/myprofile/j;->Widget_Design_ScrimInsetsFrameLayout:I
+    sget v1, Lcom/khaibin/myprofile/j;->Widget_Design_ScrimInsetsFrameLayout:I
 
     invoke-virtual {p1, p2, v0, p3, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->ScrimInsetsFrameLayout_insetForeground:I
+    sget v1, Lcom/khaibin/myprofile/k;->ScrimInsetsFrameLayout_insetForeground:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

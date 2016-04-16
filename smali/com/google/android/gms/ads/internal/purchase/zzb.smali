@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -113,7 +113,7 @@
 
     const-string v0, "IInAppBillingService is not available, please add com.android.vending.billing.IInAppBillingService to project."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -212,7 +212,7 @@
 
     const-string v1, "IInAppBillingService is not available, please add com.android.vending.billing.IInAppBillingService to project."
 
-    invoke-static {v1, v0}, Lcom/abdhoms/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0}, Lcom/khaibin/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
     const/4 v0, 0x5
@@ -334,7 +334,7 @@
 
     const-string v1, "IInAppBillingService is not available, please add com.android.vending.billing.IInAppBillingService to project."
 
-    invoke-static {v1, v0}, Lcom/abdhoms/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0}, Lcom/khaibin/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
     const/4 v0, 0x0
@@ -438,7 +438,7 @@
 
     const-string v1, "IInAppBillingService is not available, please add com.android.vending.billing.IInAppBillingService to project."
 
-    invoke-static {v1, v0}, Lcom/abdhoms/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0}, Lcom/khaibin/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
     const/4 v0, 0x5
@@ -550,7 +550,7 @@
 
     const-string v1, "IInAppBillingService is not available, please add com.android.vending.billing.IInAppBillingService to project."
 
-    invoke-static {v1, v0}, Lcom/abdhoms/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0}, Lcom/khaibin/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
     const/4 v0, 0x0

@@ -91,7 +91,7 @@
     goto :goto_0
 .end method
 
-.method public static a(Lcom/google/android/gms/analytics/internal/j;Ljava/lang/String;)Lcom/abdhoms/myprofile/axf;
+.method public static a(Lcom/google/android/gms/analytics/internal/j;Ljava/lang/String;)Lcom/khaibin/myprofile/axf;
     .locals 4
 
     const/4 v0, 0x0
@@ -137,15 +137,15 @@
 
     const-string v2, "UTF-8"
 
-    invoke-static {v1, v2}, Lcom/abdhoms/myprofile/awo;->a(Ljava/net/URI;Ljava/lang/String;)Ljava/util/Map;
+    invoke-static {v1, v2}, Lcom/khaibin/myprofile/awo;->a(Ljava/net/URI;Ljava/lang/String;)Ljava/util/Map;
     :try_end_0
     .catch Ljava/net/URISyntaxException; {:try_start_0 .. :try_end_0} :catch_0
 
     move-result-object v2
 
-    new-instance v1, Lcom/abdhoms/myprofile/axf;
+    new-instance v1, Lcom/khaibin/myprofile/axf;
 
-    invoke-direct {v1}, Lcom/abdhoms/myprofile/axf;-><init>()V
+    invoke-direct {v1}, Lcom/khaibin/myprofile/axf;-><init>()V
 
     const-string v0, "utm_content"
 
@@ -155,7 +155,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {v1, v0}, Lcom/abdhoms/myprofile/axf;->e(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/khaibin/myprofile/axf;->e(Ljava/lang/String;)V
 
     const-string v0, "utm_medium"
 
@@ -165,7 +165,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {v1, v0}, Lcom/abdhoms/myprofile/axf;->c(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/khaibin/myprofile/axf;->c(Ljava/lang/String;)V
 
     const-string v0, "utm_campaign"
 
@@ -175,7 +175,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {v1, v0}, Lcom/abdhoms/myprofile/axf;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/khaibin/myprofile/axf;->a(Ljava/lang/String;)V
 
     const-string v0, "utm_source"
 
@@ -185,7 +185,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {v1, v0}, Lcom/abdhoms/myprofile/axf;->b(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/khaibin/myprofile/axf;->b(Ljava/lang/String;)V
 
     const-string v0, "utm_term"
 
@@ -195,7 +195,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {v1, v0}, Lcom/abdhoms/myprofile/axf;->d(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/khaibin/myprofile/axf;->d(Ljava/lang/String;)V
 
     const-string v0, "utm_id"
 
@@ -205,7 +205,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {v1, v0}, Lcom/abdhoms/myprofile/axf;->f(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/khaibin/myprofile/axf;->f(Ljava/lang/String;)V
 
     const-string v0, "anid"
 
@@ -215,7 +215,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {v1, v0}, Lcom/abdhoms/myprofile/axf;->g(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/khaibin/myprofile/axf;->g(Ljava/lang/String;)V
 
     const-string v0, "gclid"
 
@@ -225,7 +225,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {v1, v0}, Lcom/abdhoms/myprofile/axf;->h(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/khaibin/myprofile/axf;->h(Ljava/lang/String;)V
 
     const-string v0, "dclid"
 
@@ -235,7 +235,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {v1, v0}, Lcom/abdhoms/myprofile/axf;->i(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/khaibin/myprofile/axf;->i(Ljava/lang/String;)V
 
     const-string v0, "aclid"
 
@@ -245,7 +245,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {v1, v0}, Lcom/abdhoms/myprofile/axf;->j(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/khaibin/myprofile/axf;->j(Ljava/lang/String;)V
 
     move-object v0, v1
 

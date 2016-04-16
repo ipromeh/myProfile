@@ -1,5 +1,5 @@
 .class Landroid/support/design/widget/ShadowDrawableWrapper;
-.super Lcom/abdhoms/myprofile/ig;
+.super Lcom/khaibin/myprofile/ig;
 
 
 # static fields
@@ -74,7 +74,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, p2}, Lcom/abdhoms/myprofile/ig;-><init>(Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {p0, p2}, Lcom/khaibin/myprofile/ig;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     iput-boolean v0, p0, Landroid/support/design/widget/ShadowDrawableWrapper;->mDirty:Z
 
@@ -82,7 +82,7 @@
 
     iput-boolean v2, p0, Landroid/support/design/widget/ShadowDrawableWrapper;->mPrintedShadowClipWarning:Z
 
-    sget v0, Lcom/abdhoms/myprofile/d;->design_fab_shadow_start_color:I
+    sget v0, Lcom/khaibin/myprofile/d;->design_fab_shadow_start_color:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -90,7 +90,7 @@
 
     iput v0, p0, Landroid/support/design/widget/ShadowDrawableWrapper;->mShadowStartColor:I
 
-    sget v0, Lcom/abdhoms/myprofile/d;->design_fab_shadow_mid_color:I
+    sget v0, Lcom/khaibin/myprofile/d;->design_fab_shadow_mid_color:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -98,7 +98,7 @@
 
     iput v0, p0, Landroid/support/design/widget/ShadowDrawableWrapper;->mShadowMiddleColor:I
 
-    sget v0, Lcom/abdhoms/myprofile/d;->design_fab_shadow_end_color:I
+    sget v0, Lcom/khaibin/myprofile/d;->design_fab_shadow_end_color:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -953,7 +953,7 @@
     :cond_0
     invoke-direct {p0, p1}, Landroid/support/design/widget/ShadowDrawableWrapper;->drawShadow(Landroid/graphics/Canvas;)V
 
-    invoke-super {p0, p1}, Lcom/abdhoms/myprofile/ig;->draw(Landroid/graphics/Canvas;)V
+    invoke-super {p0, p1}, Lcom/khaibin/myprofile/ig;->draw(Landroid/graphics/Canvas;)V
 
     return-void
 .end method
@@ -1125,7 +1125,7 @@
 .method public setAlpha(I)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/abdhoms/myprofile/ig;->setAlpha(I)V
+    invoke-super {p0, p1}, Lcom/khaibin/myprofile/ig;->setAlpha(I)V
 
     iget-object v0, p0, Landroid/support/design/widget/ShadowDrawableWrapper;->mCornerShadowPaint:Landroid/graphics/Paint;
 

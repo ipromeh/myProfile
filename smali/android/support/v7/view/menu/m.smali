@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/az;
+.implements Lcom/khaibin/myprofile/az;
 
 
 # static fields
@@ -114,7 +114,7 @@
     return-object v0
 .end method
 
-.method public a(I)Lcom/abdhoms/myprofile/az;
+.method public a(I)Lcom/khaibin/myprofile/az;
     .locals 3
 
     iget-object v0, p0, Landroid/support/v7/view/menu/m;->l:Landroid/support/v7/view/menu/i;
@@ -137,12 +137,12 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Landroid/support/v7/view/menu/m;->a(Landroid/view/View;)Lcom/abdhoms/myprofile/az;
+    invoke-virtual {p0, v0}, Landroid/support/v7/view/menu/m;->a(Landroid/view/View;)Lcom/khaibin/myprofile/az;
 
     return-object p0
 .end method
 
-.method public a(Landroid/support/v4/view/ax;)Lcom/abdhoms/myprofile/az;
+.method public a(Landroid/support/v4/view/ax;)Lcom/khaibin/myprofile/az;
     .locals 0
 
     iput-object p1, p0, Landroid/support/v7/view/menu/m;->t:Landroid/support/v4/view/ax;
@@ -150,7 +150,7 @@
     return-object p0
 .end method
 
-.method public a(Landroid/support/v4/view/n;)Lcom/abdhoms/myprofile/az;
+.method public a(Landroid/support/v4/view/n;)Lcom/khaibin/myprofile/az;
     .locals 2
 
     iget-object v0, p0, Landroid/support/v7/view/menu/m;->s:Landroid/support/v4/view/n;
@@ -190,7 +190,7 @@
     return-object p0
 .end method
 
-.method public a(Landroid/view/View;)Lcom/abdhoms/myprofile/az;
+.method public a(Landroid/view/View;)Lcom/khaibin/myprofile/az;
     .locals 2
 
     iput-object p1, p0, Landroid/support/v7/view/menu/m;->r:Landroid/view/View;
@@ -297,7 +297,7 @@
     goto :goto_0
 .end method
 
-.method public b(I)Lcom/abdhoms/myprofile/az;
+.method public b(I)Lcom/khaibin/myprofile/az;
     .locals 0
 
     invoke-virtual {p0, p1}, Landroid/support/v7/view/menu/m;->setShowAsAction(I)V
@@ -1239,7 +1239,7 @@
 .method public synthetic setActionView(I)Landroid/view/MenuItem;
     .locals 1
 
-    invoke-virtual {p0, p1}, Landroid/support/v7/view/menu/m;->a(I)Lcom/abdhoms/myprofile/az;
+    invoke-virtual {p0, p1}, Landroid/support/v7/view/menu/m;->a(I)Lcom/khaibin/myprofile/az;
 
     move-result-object v0
 
@@ -1249,7 +1249,7 @@
 .method public synthetic setActionView(Landroid/view/View;)Landroid/view/MenuItem;
     .locals 1
 
-    invoke-virtual {p0, p1}, Landroid/support/v7/view/menu/m;->a(Landroid/view/View;)Lcom/abdhoms/myprofile/az;
+    invoke-virtual {p0, p1}, Landroid/support/v7/view/menu/m;->a(Landroid/view/View;)Lcom/khaibin/myprofile/az;
 
     move-result-object v0
 
@@ -1512,7 +1512,7 @@
 .method public synthetic setShowAsActionFlags(I)Landroid/view/MenuItem;
     .locals 1
 
-    invoke-virtual {p0, p1}, Landroid/support/v7/view/menu/m;->b(I)Lcom/abdhoms/myprofile/az;
+    invoke-virtual {p0, p1}, Landroid/support/v7/view/menu/m;->b(I)Lcom/khaibin/myprofile/az;
 
     move-result-object v0
 

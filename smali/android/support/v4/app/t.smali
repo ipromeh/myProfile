@@ -16,10 +16,10 @@
     .end annotation
 .end field
 
-.field c:Lcom/abdhoms/myprofile/cv;
+.field c:Lcom/khaibin/myprofile/cv;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/abdhoms/myprofile/cv",
+            "Lcom/khaibin/myprofile/cv",
             "<",
             "Ljava/lang/String;",
             "Landroid/support/v4/app/ar;",

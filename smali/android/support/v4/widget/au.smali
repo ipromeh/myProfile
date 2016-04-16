@@ -28,7 +28,7 @@
 
     invoke-virtual {p2, v0}, Landroid/view/accessibility/AccessibilityEvent;->setClassName(Ljava/lang/CharSequence;)V
 
-    invoke-static {p2}, Lcom/abdhoms/myprofile/cx;->a(Landroid/view/accessibility/AccessibilityEvent;)Lcom/abdhoms/myprofile/ej;
+    invoke-static {p2}, Lcom/khaibin/myprofile/cx;->a(Landroid/view/accessibility/AccessibilityEvent;)Lcom/khaibin/myprofile/ej;
 
     move-result-object v1
 
@@ -41,31 +41,31 @@
     const/4 v0, 0x1
 
     :goto_0
-    invoke-virtual {v1, v0}, Lcom/abdhoms/myprofile/ej;->a(Z)V
+    invoke-virtual {v1, v0}, Lcom/khaibin/myprofile/ej;->a(Z)V
 
     invoke-virtual {p1}, Landroid/support/v4/widget/NestedScrollView;->getScrollX()I
 
     move-result v0
 
-    invoke-virtual {v1, v0}, Lcom/abdhoms/myprofile/ej;->d(I)V
+    invoke-virtual {v1, v0}, Lcom/khaibin/myprofile/ej;->d(I)V
 
     invoke-virtual {p1}, Landroid/support/v4/widget/NestedScrollView;->getScrollY()I
 
     move-result v0
 
-    invoke-virtual {v1, v0}, Lcom/abdhoms/myprofile/ej;->e(I)V
+    invoke-virtual {v1, v0}, Lcom/khaibin/myprofile/ej;->e(I)V
 
     invoke-virtual {p1}, Landroid/support/v4/widget/NestedScrollView;->getScrollX()I
 
     move-result v0
 
-    invoke-virtual {v1, v0}, Lcom/abdhoms/myprofile/ej;->f(I)V
+    invoke-virtual {v1, v0}, Lcom/khaibin/myprofile/ej;->f(I)V
 
     invoke-static {p1}, Landroid/support/v4/widget/NestedScrollView;->a(Landroid/support/v4/widget/NestedScrollView;)I
 
     move-result v0
 
-    invoke-virtual {v1, v0}, Lcom/abdhoms/myprofile/ej;->g(I)V
+    invoke-virtual {v1, v0}, Lcom/khaibin/myprofile/ej;->g(I)V
 
     return-void
 
@@ -75,10 +75,10 @@
     goto :goto_0
 .end method
 
-.method public onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+.method public onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
     .locals 2
 
-    invoke-super {p0, p1, p2}, Landroid/support/v4/view/a;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+    invoke-super {p0, p1, p2}, Landroid/support/v4/view/a;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
 
     check-cast p1, Landroid/support/v4/widget/NestedScrollView;
 
@@ -88,7 +88,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lcom/abdhoms/myprofile/dd;->b(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v0}, Lcom/khaibin/myprofile/dd;->b(Ljava/lang/CharSequence;)V
 
     invoke-virtual {p1}, Landroid/support/v4/widget/NestedScrollView;->isEnabled()Z
 
@@ -104,7 +104,7 @@
 
     const/4 v1, 0x1
 
-    invoke-virtual {p2, v1}, Lcom/abdhoms/myprofile/dd;->i(Z)V
+    invoke-virtual {p2, v1}, Lcom/khaibin/myprofile/dd;->i(Z)V
 
     invoke-virtual {p1}, Landroid/support/v4/widget/NestedScrollView;->getScrollY()I
 
@@ -114,7 +114,7 @@
 
     const/16 v1, 0x2000
 
-    invoke-virtual {p2, v1}, Lcom/abdhoms/myprofile/dd;->a(I)V
+    invoke-virtual {p2, v1}, Lcom/khaibin/myprofile/dd;->a(I)V
 
     :cond_0
     invoke-virtual {p1}, Landroid/support/v4/widget/NestedScrollView;->getScrollY()I
@@ -125,7 +125,7 @@
 
     const/16 v0, 0x1000
 
-    invoke-virtual {p2, v0}, Lcom/abdhoms/myprofile/dd;->a(I)V
+    invoke-virtual {p2, v0}, Lcom/khaibin/myprofile/dd;->a(I)V
 
     :cond_1
     return-void

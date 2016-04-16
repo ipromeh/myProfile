@@ -98,10 +98,10 @@
     return-void
 .end method
 
-.method public onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+.method public onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
     .locals 1
 
-    invoke-super {p0, p1, p2}, Landroid/support/v4/view/a;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+    invoke-super {p0, p1, p2}, Landroid/support/v4/view/a;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
 
     const-class v0, Landroid/support/v7/widget/RecyclerView;
 
@@ -109,7 +109,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lcom/abdhoms/myprofile/dd;->b(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v0}, Lcom/khaibin/myprofile/dd;->b(Ljava/lang/CharSequence;)V
 
     invoke-direct {p0}, Landroid/support/v7/widget/eu;->b()Z
 
@@ -131,7 +131,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p2}, Landroid/support/v7/widget/ee;->a(Lcom/abdhoms/myprofile/dd;)V
+    invoke-virtual {v0, p2}, Landroid/support/v7/widget/ee;->a(Lcom/khaibin/myprofile/dd;)V
 
     :cond_0
     return-void

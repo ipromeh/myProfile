@@ -119,14 +119,14 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/abdhoms/myprofile/hz;->CompoundButton:[I
+    sget-object v1, Lcom/khaibin/myprofile/hz;->CompoundButton:[I
 
     invoke-virtual {v0, p1, v1, p2, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     move-result-object v1
 
     :try_start_0
-    sget v0, Lcom/abdhoms/myprofile/hz;->CompoundButton_android_button:I
+    sget v0, Lcom/khaibin/myprofile/hz;->CompoundButton_android_button:I
 
     invoke-virtual {v1, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -134,7 +134,7 @@
 
     if-eqz v0, :cond_0
 
-    sget v0, Lcom/abdhoms/myprofile/hz;->CompoundButton_android_button:I
+    sget v0, Lcom/khaibin/myprofile/hz;->CompoundButton_android_button:I
 
     const/4 v2, 0x0
 
@@ -155,7 +155,7 @@
     invoke-virtual {v2, v0}, Landroid/widget/CompoundButton;->setButtonDrawable(Landroid/graphics/drawable/Drawable;)V
 
     :cond_0
-    sget v0, Lcom/abdhoms/myprofile/hz;->CompoundButton_buttonTint:I
+    sget v0, Lcom/khaibin/myprofile/hz;->CompoundButton_buttonTint:I
 
     invoke-virtual {v1, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -165,7 +165,7 @@
 
     iget-object v0, p0, Landroid/support/v7/widget/aq;->a:Landroid/widget/CompoundButton;
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->CompoundButton_buttonTint:I
+    sget v2, Lcom/khaibin/myprofile/hz;->CompoundButton_buttonTint:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/TypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -174,7 +174,7 @@
     invoke-static {v0, v2}, Landroid/support/v4/widget/g;->a(Landroid/widget/CompoundButton;Landroid/content/res/ColorStateList;)V
 
     :cond_1
-    sget v0, Lcom/abdhoms/myprofile/hz;->CompoundButton_buttonTintMode:I
+    sget v0, Lcom/khaibin/myprofile/hz;->CompoundButton_buttonTintMode:I
 
     invoke-virtual {v1, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -184,7 +184,7 @@
 
     iget-object v0, p0, Landroid/support/v7/widget/aq;->a:Landroid/widget/CompoundButton;
 
-    sget v2, Lcom/abdhoms/myprofile/hz;->CompoundButton_buttonTintMode:I
+    sget v2, Lcom/khaibin/myprofile/hz;->CompoundButton_buttonTintMode:I
 
     const/4 v3, -0x1
 
@@ -194,7 +194,7 @@
 
     const/4 v3, 0x0
 
-    invoke-static {v2, v3}, Lcom/abdhoms/myprofile/if;->a(ILandroid/graphics/PorterDuff$Mode;)Landroid/graphics/PorterDuff$Mode;
+    invoke-static {v2, v3}, Lcom/khaibin/myprofile/if;->a(ILandroid/graphics/PorterDuff$Mode;)Landroid/graphics/PorterDuff$Mode;
 
     move-result-object v2
 
@@ -267,7 +267,7 @@
     if-eqz v1, :cond_4
 
     :cond_0
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ad;->c(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0}, Lcom/khaibin/myprofile/ad;->c(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -281,7 +281,7 @@
 
     iget-object v1, p0, Landroid/support/v7/widget/aq;->c:Landroid/content/res/ColorStateList;
 
-    invoke-static {v0, v1}, Lcom/abdhoms/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
+    invoke-static {v0, v1}, Lcom/khaibin/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
 
     :cond_1
     iget-boolean v1, p0, Landroid/support/v7/widget/aq;->f:Z
@@ -290,7 +290,7 @@
 
     iget-object v1, p0, Landroid/support/v7/widget/aq;->d:Landroid/graphics/PorterDuff$Mode;
 
-    invoke-static {v0, v1}, Lcom/abdhoms/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
+    invoke-static {v0, v1}, Lcom/khaibin/myprofile/ad;->a(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
 
     :cond_2
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->isStateful()Z

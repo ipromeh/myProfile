@@ -296,15 +296,15 @@
 
     invoke-static {p1}, Landroid/support/design/widget/ThemeUtils;->checkAppCompatTheme(Landroid/content/Context;)V
 
-    sget-object v1, Lcom/abdhoms/myprofile/k;->CoordinatorLayout:[I
+    sget-object v1, Lcom/khaibin/myprofile/k;->CoordinatorLayout:[I
 
-    sget v2, Lcom/abdhoms/myprofile/j;->Widget_Design_CoordinatorLayout:I
+    sget v2, Lcom/khaibin/myprofile/j;->Widget_Design_CoordinatorLayout:I
 
     invoke-virtual {p1, p2, v1, p3, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     move-result-object v1
 
-    sget v2, Lcom/abdhoms/myprofile/k;->CoordinatorLayout_keylines:I
+    sget v2, Lcom/khaibin/myprofile/k;->CoordinatorLayout_keylines:I
 
     invoke-virtual {v1, v2, v0}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -352,7 +352,7 @@
     goto :goto_0
 
     :cond_0
-    sget v0, Lcom/abdhoms/myprofile/k;->CoordinatorLayout_statusBarBackground:I
+    sget v0, Lcom/khaibin/myprofile/k;->CoordinatorLayout_statusBarBackground:I
 
     invoke-virtual {v1, v0}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -4790,7 +4790,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/abdhoms/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, p1}, Lcom/khaibin/myprofile/p;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 

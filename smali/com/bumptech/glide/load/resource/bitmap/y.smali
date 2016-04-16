@@ -66,7 +66,7 @@
 
 
 # virtual methods
-.method public a(Landroid/os/ParcelFileDescriptor;Lcom/abdhoms/myprofile/nf;IILcom/abdhoms/myprofile/lg;)Landroid/graphics/Bitmap;
+.method public a(Landroid/os/ParcelFileDescriptor;Lcom/khaibin/myprofile/nf;IILcom/khaibin/myprofile/lg;)Landroid/graphics/Bitmap;
     .locals 4
 
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/y;->b:Lcom/bumptech/glide/load/resource/bitmap/z;

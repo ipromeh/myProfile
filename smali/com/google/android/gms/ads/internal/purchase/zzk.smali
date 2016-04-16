@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -74,7 +74,7 @@
 
     const-string v1, "Developer payload not match."
 
-    invoke-static {v1}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -93,7 +93,7 @@
 
     const-string v1, "Fail to verify signature."
 
-    invoke-static {v1}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -106,11 +106,11 @@
 .method public zzfZ()Ljava/lang/String;
     .locals 1
 
-    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbC()Lcom/abdhoms/myprofile/art;
+    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbC()Lcom/khaibin/myprofile/art;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/abdhoms/myprofile/art;->c()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/khaibin/myprofile/art;->c()Ljava/lang/String;
 
     move-result-object v0
 

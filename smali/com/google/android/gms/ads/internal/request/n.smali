@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/abdhoms/myprofile/atn;
+.implements Lcom/khaibin/myprofile/atn;
 
 
 # instance fields
@@ -25,7 +25,7 @@
 .method public a()V
     .locals 2
 
-    invoke-static {}, Lcom/google/android/gms/ads/internal/request/zzm;->a()Lcom/abdhoms/myprofile/afn;
+    invoke-static {}, Lcom/google/android/gms/ads/internal/request/zzm;->a()Lcom/khaibin/myprofile/afn;
 
     move-result-object v0
 
@@ -33,7 +33,7 @@
 
     iget-object v1, v1, Lcom/google/android/gms/ads/internal/request/l;->b:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/abdhoms/myprofile/afn;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/khaibin/myprofile/afn;->b(Ljava/lang/String;)V
 
     return-void
 .end method

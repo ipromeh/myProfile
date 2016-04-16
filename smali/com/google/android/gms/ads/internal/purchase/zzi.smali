@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -35,11 +35,11 @@
 
     invoke-static {v0, p3}, Lcom/google/android/gms/ads/internal/purchase/GInAppPurchaseManagerInfoParcel;->zza(Landroid/content/Intent;Lcom/google/android/gms/ads/internal/purchase/GInAppPurchaseManagerInfoParcel;)V
 
-    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbC()Lcom/abdhoms/myprofile/art;
+    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbC()Lcom/khaibin/myprofile/art;
 
     move-result-object v1
 
-    invoke-virtual {v1, p1, v0}, Lcom/abdhoms/myprofile/art;->a(Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-virtual {v1, p1, v0}, Lcom/khaibin/myprofile/art;->a(Landroid/content/Context;Landroid/content/Intent;)V
 
     return-void
 .end method
@@ -75,7 +75,7 @@
 
     const-string v1, "Fail to parse purchase data"
 
-    invoke-static {v1}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -111,7 +111,7 @@
 
     const-string v1, "Fail to parse purchase data"
 
-    invoke-static {v1}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -143,7 +143,7 @@
 
     const-string v0, "Intent with no response code, assuming OK (known issue)"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -204,7 +204,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     move v0, v1
 
@@ -224,7 +224,7 @@
 
     const-string v0, "Bundle with null response code, assuming OK (known issue)"
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -286,7 +286,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     const/4 v0, 0x5
 

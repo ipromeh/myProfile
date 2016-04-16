@@ -675,14 +675,14 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    sget-object v0, Lcom/abdhoms/myprofile/bs;->d:Lcom/abdhoms/myprofile/br;
+    sget-object v0, Lcom/khaibin/myprofile/bs;->d:Lcom/khaibin/myprofile/br;
 
     :goto_1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v2
 
-    invoke-interface {v0, p1, v1, v2}, Lcom/abdhoms/myprofile/br;->a(Ljava/lang/CharSequence;II)Z
+    invoke-interface {v0, p1, v1, v2}, Lcom/khaibin/myprofile/br;->a(Ljava/lang/CharSequence;II)Z
 
     move-result v0
 
@@ -694,7 +694,7 @@
     goto :goto_0
 
     :cond_1
-    sget-object v0, Lcom/abdhoms/myprofile/bs;->c:Lcom/abdhoms/myprofile/br;
+    sget-object v0, Lcom/khaibin/myprofile/bs;->c:Lcom/khaibin/myprofile/br;
 
     goto :goto_1
 .end method
@@ -1770,13 +1770,13 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/abdhoms/myprofile/k;->TextAppearance:[I
+    sget-object v1, Lcom/khaibin/myprofile/k;->TextAppearance:[I
 
     invoke-virtual {v0, p1, v1}, Landroid/content/Context;->obtainStyledAttributes(I[I)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextAppearance_android_textColor:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextAppearance_android_textColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -1784,7 +1784,7 @@
 
     if-eqz v1, :cond_0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextAppearance_android_textColor:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextAppearance_android_textColor:I
 
     iget v2, p0, Landroid/support/design/widget/CollapsingTextHelper;->mCollapsedTextColor:I
 
@@ -1795,7 +1795,7 @@
     iput v1, p0, Landroid/support/design/widget/CollapsingTextHelper;->mCollapsedTextColor:I
 
     :cond_0
-    sget v1, Lcom/abdhoms/myprofile/k;->TextAppearance_android_textSize:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextAppearance_android_textSize:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -1803,7 +1803,7 @@
 
     if-eqz v1, :cond_1
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextAppearance_android_textSize:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextAppearance_android_textSize:I
 
     iget v2, p0, Landroid/support/design/widget/CollapsingTextHelper;->mCollapsedTextSize:F
 
@@ -1818,7 +1818,7 @@
     iput v1, p0, Landroid/support/design/widget/CollapsingTextHelper;->mCollapsedTextSize:F
 
     :cond_1
-    sget v1, Lcom/abdhoms/myprofile/k;->TextAppearance_android_shadowColor:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextAppearance_android_shadowColor:I
 
     const/4 v2, 0x0
 
@@ -1828,7 +1828,7 @@
 
     iput v1, p0, Landroid/support/design/widget/CollapsingTextHelper;->mCollapsedShadowColor:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextAppearance_android_shadowDx:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextAppearance_android_shadowDx:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getFloat(IF)F
 
@@ -1836,7 +1836,7 @@
 
     iput v1, p0, Landroid/support/design/widget/CollapsingTextHelper;->mCollapsedShadowDx:F
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextAppearance_android_shadowDy:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextAppearance_android_shadowDy:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getFloat(IF)F
 
@@ -1844,7 +1844,7 @@
 
     iput v1, p0, Landroid/support/design/widget/CollapsingTextHelper;->mCollapsedShadowDy:F
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextAppearance_android_shadowRadius:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextAppearance_android_shadowRadius:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getFloat(IF)F
 
@@ -1970,13 +1970,13 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/abdhoms/myprofile/k;->TextAppearance:[I
+    sget-object v1, Lcom/khaibin/myprofile/k;->TextAppearance:[I
 
     invoke-virtual {v0, p1, v1}, Landroid/content/Context;->obtainStyledAttributes(I[I)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextAppearance_android_textColor:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextAppearance_android_textColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -1984,7 +1984,7 @@
 
     if-eqz v1, :cond_0
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextAppearance_android_textColor:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextAppearance_android_textColor:I
 
     iget v2, p0, Landroid/support/design/widget/CollapsingTextHelper;->mExpandedTextColor:I
 
@@ -1995,7 +1995,7 @@
     iput v1, p0, Landroid/support/design/widget/CollapsingTextHelper;->mExpandedTextColor:I
 
     :cond_0
-    sget v1, Lcom/abdhoms/myprofile/k;->TextAppearance_android_textSize:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextAppearance_android_textSize:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
@@ -2003,7 +2003,7 @@
 
     if-eqz v1, :cond_1
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextAppearance_android_textSize:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextAppearance_android_textSize:I
 
     iget v2, p0, Landroid/support/design/widget/CollapsingTextHelper;->mExpandedTextSize:F
 
@@ -2018,7 +2018,7 @@
     iput v1, p0, Landroid/support/design/widget/CollapsingTextHelper;->mExpandedTextSize:F
 
     :cond_1
-    sget v1, Lcom/abdhoms/myprofile/k;->TextAppearance_android_shadowColor:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextAppearance_android_shadowColor:I
 
     const/4 v2, 0x0
 
@@ -2028,7 +2028,7 @@
 
     iput v1, p0, Landroid/support/design/widget/CollapsingTextHelper;->mExpandedShadowColor:I
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextAppearance_android_shadowDx:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextAppearance_android_shadowDx:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getFloat(IF)F
 
@@ -2036,7 +2036,7 @@
 
     iput v1, p0, Landroid/support/design/widget/CollapsingTextHelper;->mExpandedShadowDx:F
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextAppearance_android_shadowDy:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextAppearance_android_shadowDy:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getFloat(IF)F
 
@@ -2044,7 +2044,7 @@
 
     iput v1, p0, Landroid/support/design/widget/CollapsingTextHelper;->mExpandedShadowDy:F
 
-    sget v1, Lcom/abdhoms/myprofile/k;->TextAppearance_android_shadowRadius:I
+    sget v1, Lcom/khaibin/myprofile/k;->TextAppearance_android_shadowRadius:I
 
     invoke-virtual {v0, v1, v3}, Landroid/content/res/TypedArray;->getFloat(IF)F
 

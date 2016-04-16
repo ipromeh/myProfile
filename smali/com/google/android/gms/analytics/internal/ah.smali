@@ -41,10 +41,10 @@
     return-object v0
 .end method
 
-.method protected a(Landroid/content/Context;)Lcom/abdhoms/myprofile/azp;
+.method protected a(Landroid/content/Context;)Lcom/khaibin/myprofile/azp;
     .locals 1
 
-    invoke-static {p1}, Lcom/abdhoms/myprofile/azp;->a(Landroid/content/Context;)Lcom/abdhoms/myprofile/azp;
+    invoke-static {p1}, Lcom/khaibin/myprofile/azp;->a(Landroid/content/Context;)Lcom/khaibin/myprofile/azp;
 
     move-result-object v0
 
@@ -129,22 +129,22 @@
     return-object v0
 .end method
 
-.method protected h(Lcom/google/android/gms/analytics/internal/af;)Lcom/abdhoms/myprofile/awi;
+.method protected h(Lcom/google/android/gms/analytics/internal/af;)Lcom/khaibin/myprofile/awi;
     .locals 1
 
-    invoke-static {}, Lcom/abdhoms/myprofile/awk;->d()Lcom/abdhoms/myprofile/awi;
+    invoke-static {}, Lcom/khaibin/myprofile/awk;->d()Lcom/khaibin/myprofile/awi;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method protected i(Lcom/google/android/gms/analytics/internal/af;)Lcom/abdhoms/myprofile/vr;
+.method protected i(Lcom/google/android/gms/analytics/internal/af;)Lcom/khaibin/myprofile/vr;
     .locals 1
 
-    new-instance v0, Lcom/abdhoms/myprofile/vr;
+    new-instance v0, Lcom/khaibin/myprofile/vr;
 
-    invoke-direct {v0, p1}, Lcom/abdhoms/myprofile/vr;-><init>(Lcom/google/android/gms/analytics/internal/af;)V
+    invoke-direct {v0, p1}, Lcom/khaibin/myprofile/vr;-><init>(Lcom/google/android/gms/analytics/internal/af;)V
 
     return-object v0
 .end method

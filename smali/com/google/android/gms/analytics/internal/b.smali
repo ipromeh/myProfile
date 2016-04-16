@@ -36,11 +36,11 @@
 
     new-instance v0, Lcom/google/android/gms/analytics/internal/q;
 
-    invoke-virtual {p1}, Lcom/google/android/gms/analytics/internal/af;->d()Lcom/abdhoms/myprofile/awi;
+    invoke-virtual {p1}, Lcom/google/android/gms/analytics/internal/af;->d()Lcom/khaibin/myprofile/awi;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/google/android/gms/analytics/internal/q;-><init>(Lcom/abdhoms/myprofile/awi;)V
+    invoke-direct {v0, v1}, Lcom/google/android/gms/analytics/internal/q;-><init>(Lcom/khaibin/myprofile/awi;)V
 
     iput-object v0, p0, Lcom/google/android/gms/analytics/internal/b;->c:Lcom/google/android/gms/analytics/internal/q;
 

@@ -14,7 +14,7 @@
             <TextView android:textColor="?textColor" android:gravity="fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_title_summary" />
             <TextView android:textColor="?textColorInactive" android:paddingTop="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_title_devHeader" />
             <TextView android:textColor="@color/ColorPrimaryDark" android:id="@id/devCodeslayer" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_title_dev2" />
-            <TextView android:textColor="@color/ColorPrimaryDark" android:id="@id/devAbdhoms" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_title_dev1" />
+            <TextView android:textColor="@color/ColorPrimaryDark" android:id="@id/devkhaibin" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_title_dev1" />
             <Button android:id="@id/rate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" android:text="@string/about_title_rate" />
             <Button android:id="@id/feedback" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/about_title_feedback" />
             <TextView android:textColor="?textColorInactive" android:layout_gravity="bottom" android:id="@id/copyright" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" />

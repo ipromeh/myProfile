@@ -18,7 +18,7 @@
 
 .field public d:[I
 
-.field public final e:Lcom/abdhoms/myprofile/ayu;
+.field public final e:Lcom/khaibin/myprofile/ayu;
 
 .field public final f:Lcom/google/android/gms/clearcut/e;
 
@@ -53,7 +53,7 @@
 
     iput-object p4, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->d:[I
 
-    iput-object v0, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->e:Lcom/abdhoms/myprofile/ayu;
+    iput-object v0, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->e:Lcom/khaibin/myprofile/ayu;
 
     iput-object v0, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->f:Lcom/google/android/gms/clearcut/e;
 
@@ -62,7 +62,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/google/android/gms/playlog/internal/PlayLoggerContext;Lcom/abdhoms/myprofile/ayu;Lcom/google/android/gms/clearcut/e;Lcom/google/android/gms/clearcut/e;[I)V
+.method public constructor <init>(Lcom/google/android/gms/playlog/internal/PlayLoggerContext;Lcom/khaibin/myprofile/ayu;Lcom/google/android/gms/clearcut/e;Lcom/google/android/gms/clearcut/e;[I)V
     .locals 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -73,7 +73,7 @@
 
     iput-object p1, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->b:Lcom/google/android/gms/playlog/internal/PlayLoggerContext;
 
-    iput-object p2, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->e:Lcom/abdhoms/myprofile/ayu;
+    iput-object p2, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->e:Lcom/khaibin/myprofile/ayu;
 
     iput-object p3, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->f:Lcom/google/android/gms/clearcut/e;
 
@@ -150,9 +150,9 @@
 
     if-eqz v2, :cond_2
 
-    iget-object v2, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->e:Lcom/abdhoms/myprofile/ayu;
+    iget-object v2, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->e:Lcom/khaibin/myprofile/ayu;
 
-    iget-object v3, p1, Lcom/google/android/gms/clearcut/LogEventParcelable;->e:Lcom/abdhoms/myprofile/ayu;
+    iget-object v3, p1, Lcom/google/android/gms/clearcut/LogEventParcelable;->e:Lcom/khaibin/myprofile/ayu;
 
     invoke-static {v2, v3}, Lcom/google/android/gms/common/internal/bb;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -228,7 +228,7 @@
 
     const/4 v1, 0x4
 
-    iget-object v2, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->e:Lcom/abdhoms/myprofile/ayu;
+    iget-object v2, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->e:Lcom/khaibin/myprofile/ayu;
 
     aput-object v2, v0, v1
 
@@ -304,7 +304,7 @@
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v0, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->e:Lcom/abdhoms/myprofile/ayu;
+    iget-object v0, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->e:Lcom/khaibin/myprofile/ayu;
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 

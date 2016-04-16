@@ -66,7 +66,7 @@
 
     invoke-virtual {p2, v0}, Landroid/view/accessibility/AccessibilityEvent;->setClassName(Ljava/lang/CharSequence;)V
 
-    invoke-static {}, Lcom/abdhoms/myprofile/ej;->a()Lcom/abdhoms/myprofile/ej;
+    invoke-static {}, Lcom/khaibin/myprofile/ej;->a()Lcom/khaibin/myprofile/ej;
 
     move-result-object v0
 
@@ -74,7 +74,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/abdhoms/myprofile/ej;->a(Z)V
+    invoke-virtual {v0, v1}, Lcom/khaibin/myprofile/ej;->a(Z)V
 
     invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityEvent;->getEventType()I
 
@@ -102,7 +102,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/abdhoms/myprofile/ej;->a(I)V
+    invoke-virtual {v0, v1}, Lcom/khaibin/myprofile/ej;->a(I)V
 
     iget-object v1, p0, Landroid/support/v4/view/ds;->a:Landroid/support/v4/view/ViewPager;
 
@@ -110,7 +110,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/abdhoms/myprofile/ej;->b(I)V
+    invoke-virtual {v0, v1}, Lcom/khaibin/myprofile/ej;->b(I)V
 
     iget-object v1, p0, Landroid/support/v4/view/ds;->a:Landroid/support/v4/view/ViewPager;
 
@@ -118,16 +118,16 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/abdhoms/myprofile/ej;->c(I)V
+    invoke-virtual {v0, v1}, Lcom/khaibin/myprofile/ej;->c(I)V
 
     :cond_0
     return-void
 .end method
 
-.method public onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+.method public onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
     .locals 2
 
-    invoke-super {p0, p1, p2}, Landroid/support/v4/view/a;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+    invoke-super {p0, p1, p2}, Landroid/support/v4/view/a;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
 
     const-class v0, Landroid/support/v4/view/ViewPager;
 
@@ -135,13 +135,13 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lcom/abdhoms/myprofile/dd;->b(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v0}, Lcom/khaibin/myprofile/dd;->b(Ljava/lang/CharSequence;)V
 
     invoke-direct {p0}, Landroid/support/v4/view/ds;->a()Z
 
     move-result v0
 
-    invoke-virtual {p2, v0}, Lcom/abdhoms/myprofile/dd;->i(Z)V
+    invoke-virtual {p2, v0}, Lcom/khaibin/myprofile/dd;->i(Z)V
 
     iget-object v0, p0, Landroid/support/v4/view/ds;->a:Landroid/support/v4/view/ViewPager;
 
@@ -155,7 +155,7 @@
 
     const/16 v0, 0x1000
 
-    invoke-virtual {p2, v0}, Lcom/abdhoms/myprofile/dd;->a(I)V
+    invoke-virtual {p2, v0}, Lcom/khaibin/myprofile/dd;->a(I)V
 
     :cond_0
     iget-object v0, p0, Landroid/support/v4/view/ds;->a:Landroid/support/v4/view/ViewPager;
@@ -170,7 +170,7 @@
 
     const/16 v0, 0x2000
 
-    invoke-virtual {p2, v0}, Lcom/abdhoms/myprofile/dd;->a(I)V
+    invoke-virtual {p2, v0}, Lcom/khaibin/myprofile/dd;->a(I)V
 
     :cond_1
     return-void

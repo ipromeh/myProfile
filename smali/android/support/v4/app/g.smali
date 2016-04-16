@@ -83,7 +83,7 @@
 
     iget-object v3, p0, Landroid/support/v4/app/g;->f:Landroid/support/v4/app/Fragment;
 
-    invoke-static {v0, v1, v2, v3}, Landroid/support/v4/app/e;->a(Landroid/support/v4/app/e;Landroid/support/v4/app/j;ZLandroid/support/v4/app/Fragment;)Lcom/abdhoms/myprofile/cf;
+    invoke-static {v0, v1, v2, v3}, Landroid/support/v4/app/e;->a(Landroid/support/v4/app/e;Landroid/support/v4/app/j;ZLandroid/support/v4/app/Fragment;)Lcom/khaibin/myprofile/cf;
 
     move-result-object v5
 
@@ -101,7 +101,7 @@
 
     iget-object v1, p0, Landroid/support/v4/app/g;->d:Landroid/support/v4/app/j;
 
-    invoke-static {v0, v5, v1}, Landroid/support/v4/app/e;->a(Landroid/support/v4/app/e;Lcom/abdhoms/myprofile/cf;Landroid/support/v4/app/j;)V
+    invoke-static {v0, v5, v1}, Landroid/support/v4/app/e;->a(Landroid/support/v4/app/e;Lcom/khaibin/myprofile/cf;Landroid/support/v4/app/j;)V
 
     iget-object v0, p0, Landroid/support/v4/app/g;->h:Landroid/support/v4/app/e;
 
@@ -113,7 +113,7 @@
 
     iget-boolean v4, p0, Landroid/support/v4/app/g;->e:Z
 
-    invoke-static/range {v0 .. v5}, Landroid/support/v4/app/e;->a(Landroid/support/v4/app/e;Landroid/support/v4/app/j;Landroid/support/v4/app/Fragment;Landroid/support/v4/app/Fragment;ZLcom/abdhoms/myprofile/cf;)V
+    invoke-static/range {v0 .. v5}, Landroid/support/v4/app/e;->a(Landroid/support/v4/app/e;Landroid/support/v4/app/j;Landroid/support/v4/app/Fragment;Landroid/support/v4/app/Fragment;ZLcom/khaibin/myprofile/cf;)V
 
     :cond_0
     const/4 v0, 0x1

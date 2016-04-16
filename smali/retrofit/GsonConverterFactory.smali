@@ -3,11 +3,11 @@
 
 
 # instance fields
-.field private final gson:Lcom/abdhoms/myprofile/bah;
+.field private final gson:Lcom/khaibin/myprofile/bah;
 
 
 # direct methods
-.method private constructor <init>(Lcom/abdhoms/myprofile/bah;)V
+.method private constructor <init>(Lcom/khaibin/myprofile/bah;)V
     .locals 2
 
     invoke-direct {p0}, Lretrofit/Converter$Factory;-><init>()V
@@ -23,7 +23,7 @@
     throw v0
 
     :cond_0
-    iput-object p1, p0, Lretrofit/GsonConverterFactory;->gson:Lcom/abdhoms/myprofile/bah;
+    iput-object p1, p0, Lretrofit/GsonConverterFactory;->gson:Lcom/khaibin/myprofile/bah;
 
     return-void
 .end method
@@ -31,23 +31,23 @@
 .method public static create()Lretrofit/GsonConverterFactory;
     .locals 1
 
-    new-instance v0, Lcom/abdhoms/myprofile/bah;
+    new-instance v0, Lcom/khaibin/myprofile/bah;
 
-    invoke-direct {v0}, Lcom/abdhoms/myprofile/bah;-><init>()V
+    invoke-direct {v0}, Lcom/khaibin/myprofile/bah;-><init>()V
 
-    invoke-static {v0}, Lretrofit/GsonConverterFactory;->create(Lcom/abdhoms/myprofile/bah;)Lretrofit/GsonConverterFactory;
+    invoke-static {v0}, Lretrofit/GsonConverterFactory;->create(Lcom/khaibin/myprofile/bah;)Lretrofit/GsonConverterFactory;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public static create(Lcom/abdhoms/myprofile/bah;)Lretrofit/GsonConverterFactory;
+.method public static create(Lcom/khaibin/myprofile/bah;)Lretrofit/GsonConverterFactory;
     .locals 1
 
     new-instance v0, Lretrofit/GsonConverterFactory;
 
-    invoke-direct {v0, p0}, Lretrofit/GsonConverterFactory;-><init>(Lcom/abdhoms/myprofile/bah;)V
+    invoke-direct {v0, p0}, Lretrofit/GsonConverterFactory;-><init>(Lcom/khaibin/myprofile/bah;)V
 
     return-object v0
 .end method
@@ -72,9 +72,9 @@
 
     new-instance v0, Lretrofit/GsonResponseBodyConverter;
 
-    iget-object v1, p0, Lretrofit/GsonConverterFactory;->gson:Lcom/abdhoms/myprofile/bah;
+    iget-object v1, p0, Lretrofit/GsonConverterFactory;->gson:Lcom/khaibin/myprofile/bah;
 
-    invoke-direct {v0, v1, p1}, Lretrofit/GsonResponseBodyConverter;-><init>(Lcom/abdhoms/myprofile/bah;Ljava/lang/reflect/Type;)V
+    invoke-direct {v0, v1, p1}, Lretrofit/GsonResponseBodyConverter;-><init>(Lcom/khaibin/myprofile/bah;Ljava/lang/reflect/Type;)V
 
     return-object v0
 .end method
@@ -97,9 +97,9 @@
 
     new-instance v0, Lretrofit/GsonRequestBodyConverter;
 
-    iget-object v1, p0, Lretrofit/GsonConverterFactory;->gson:Lcom/abdhoms/myprofile/bah;
+    iget-object v1, p0, Lretrofit/GsonConverterFactory;->gson:Lcom/khaibin/myprofile/bah;
 
-    invoke-direct {v0, v1, p1}, Lretrofit/GsonRequestBodyConverter;-><init>(Lcom/abdhoms/myprofile/bah;Ljava/lang/reflect/Type;)V
+    invoke-direct {v0, v1, p1}, Lretrofit/GsonRequestBodyConverter;-><init>(Lcom/khaibin/myprofile/bah;Ljava/lang/reflect/Type;)V
 
     return-object v0
 .end method

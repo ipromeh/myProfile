@@ -30,7 +30,7 @@
     return-object v0
 .end method
 
-.method public zza(Lcom/abdhoms/myprofile/yh;Lcom/abdhoms/myprofile/ajw;I)Landroid/os/IBinder;
+.method public zza(Lcom/khaibin/myprofile/yh;Lcom/khaibin/myprofile/ajw;I)Landroid/os/IBinder;
     .locals 5
 
     const/4 v0, 0x0
@@ -50,7 +50,7 @@
 
     if-eqz p1, :cond_1
 
-    invoke-interface {p1}, Lcom/abdhoms/myprofile/yh;->asBinder()Landroid/os/IBinder;
+    invoke-interface {p1}, Lcom/khaibin/myprofile/yh;->asBinder()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -59,7 +59,7 @@
 
     if-eqz p2, :cond_0
 
-    invoke-interface {p2}, Lcom/abdhoms/myprofile/ajw;->asBinder()Landroid/os/IBinder;
+    invoke-interface {p2}, Lcom/khaibin/myprofile/ajw;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 

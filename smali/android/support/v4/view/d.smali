@@ -3,7 +3,7 @@
 
 
 # virtual methods
-.method public abstract a(Ljava/lang/Object;Landroid/view/View;)Lcom/abdhoms/myprofile/dw;
+.method public abstract a(Ljava/lang/Object;Landroid/view/View;)Lcom/khaibin/myprofile/dw;
 .end method
 
 .method public abstract a()Ljava/lang/Object;
@@ -15,7 +15,7 @@
 .method public abstract a(Ljava/lang/Object;Landroid/view/View;I)V
 .end method
 
-.method public abstract a(Ljava/lang/Object;Landroid/view/View;Lcom/abdhoms/myprofile/dd;)V
+.method public abstract a(Ljava/lang/Object;Landroid/view/View;Lcom/khaibin/myprofile/dd;)V
 .end method
 
 .method public abstract a(Ljava/lang/Object;Landroid/view/View;ILandroid/os/Bundle;)Z

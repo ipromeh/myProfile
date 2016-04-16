@@ -104,7 +104,7 @@
 
     iget v4, p0, Landroid/support/design/widget/CircularBorderDrawable;->mCurrentBorderTintColor:I
 
-    invoke-static {v2, v4}, Lcom/abdhoms/myprofile/ac;->a(II)I
+    invoke-static {v2, v4}, Lcom/khaibin/myprofile/ac;->a(II)I
 
     move-result v2
 
@@ -114,7 +114,7 @@
 
     iget v4, p0, Landroid/support/design/widget/CircularBorderDrawable;->mCurrentBorderTintColor:I
 
-    invoke-static {v2, v4}, Lcom/abdhoms/myprofile/ac;->a(II)I
+    invoke-static {v2, v4}, Lcom/khaibin/myprofile/ac;->a(II)I
 
     move-result v2
 
@@ -124,13 +124,13 @@
 
     iget v4, p0, Landroid/support/design/widget/CircularBorderDrawable;->mTopInnerStrokeColor:I
 
-    invoke-static {v4, v7}, Lcom/abdhoms/myprofile/ac;->b(II)I
+    invoke-static {v4, v7}, Lcom/khaibin/myprofile/ac;->b(II)I
 
     move-result v4
 
     iget v6, p0, Landroid/support/design/widget/CircularBorderDrawable;->mCurrentBorderTintColor:I
 
-    invoke-static {v4, v6}, Lcom/abdhoms/myprofile/ac;->a(II)I
+    invoke-static {v4, v6}, Lcom/khaibin/myprofile/ac;->a(II)I
 
     move-result v4
 
@@ -140,13 +140,13 @@
 
     iget v4, p0, Landroid/support/design/widget/CircularBorderDrawable;->mBottomInnerStrokeColor:I
 
-    invoke-static {v4, v7}, Lcom/abdhoms/myprofile/ac;->b(II)I
+    invoke-static {v4, v7}, Lcom/khaibin/myprofile/ac;->b(II)I
 
     move-result v4
 
     iget v6, p0, Landroid/support/design/widget/CircularBorderDrawable;->mCurrentBorderTintColor:I
 
-    invoke-static {v4, v6}, Lcom/abdhoms/myprofile/ac;->a(II)I
+    invoke-static {v4, v6}, Lcom/khaibin/myprofile/ac;->a(II)I
 
     move-result v4
 
@@ -158,7 +158,7 @@
 
     iget v6, p0, Landroid/support/design/widget/CircularBorderDrawable;->mCurrentBorderTintColor:I
 
-    invoke-static {v4, v6}, Lcom/abdhoms/myprofile/ac;->a(II)I
+    invoke-static {v4, v6}, Lcom/khaibin/myprofile/ac;->a(II)I
 
     move-result v4
 
@@ -170,7 +170,7 @@
 
     iget v6, p0, Landroid/support/design/widget/CircularBorderDrawable;->mCurrentBorderTintColor:I
 
-    invoke-static {v4, v6}, Lcom/abdhoms/myprofile/ac;->a(II)I
+    invoke-static {v4, v6}, Lcom/khaibin/myprofile/ac;->a(II)I
 
     move-result v4
 

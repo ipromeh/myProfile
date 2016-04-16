@@ -153,7 +153,7 @@
 
     iget-object v0, p0, Landroid/support/design/internal/c;->g:Landroid/view/LayoutInflater;
 
-    sget v1, Lcom/abdhoms/myprofile/h;->design_navigation_menu:I
+    sget v1, Lcom/khaibin/myprofile/h;->design_navigation_menu:I
 
     invoke-virtual {v0, v1, p1, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -176,7 +176,7 @@
     :cond_0
     iget-object v0, p0, Landroid/support/design/internal/c;->g:Landroid/view/LayoutInflater;
 
-    sget v1, Lcom/abdhoms/myprofile/h;->design_navigation_item_header:I
+    sget v1, Lcom/khaibin/myprofile/h;->design_navigation_item_header:I
 
     iget-object v2, p0, Landroid/support/design/internal/c;->a:Landroid/support/design/internal/NavigationMenuView;
 
@@ -223,7 +223,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/abdhoms/myprofile/e;->design_navigation_padding_top_default:I
+    sget v1, Lcom/khaibin/myprofile/e;->design_navigation_padding_top_default:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -231,7 +231,7 @@
 
     iput v1, p0, Landroid/support/design/internal/c;->m:I
 
-    sget v1, Lcom/abdhoms/myprofile/e;->design_navigation_separator_vertical_padding:I
+    sget v1, Lcom/khaibin/myprofile/e;->design_navigation_separator_vertical_padding:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 

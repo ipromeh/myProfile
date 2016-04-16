@@ -1,12 +1,12 @@
 .class public Lcom/google/android/gms/ads/internal/purchase/zze;
-.super Lcom/abdhoms/myprofile/amw;
+.super Lcom/khaibin/myprofile/amw;
 
 # interfaces
 .implements Landroid/content/ServiceConnection;
 
 
 # annotations
-.annotation runtime Lcom/abdhoms/myprofile/aor;
+.annotation runtime Lcom/khaibin/myprofile/aor;
 .end annotation
 
 
@@ -17,7 +17,7 @@
 
 .field private c:Landroid/content/Context;
 
-.field private d:Lcom/abdhoms/myprofile/amp;
+.field private d:Lcom/khaibin/myprofile/amp;
 
 .field private e:Lcom/google/android/gms/ads/internal/purchase/zzb;
 
@@ -34,7 +34,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 1
 
-    invoke-direct {p0}, Lcom/abdhoms/myprofile/amw;-><init>()V
+    invoke-direct {p0}, Lcom/khaibin/myprofile/amw;-><init>()V
 
     const/4 v0, 0x0
 
@@ -126,17 +126,17 @@
 
     :cond_0
     :goto_0
-    iget-object v2, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->d:Lcom/abdhoms/myprofile/amp;
+    iget-object v2, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->d:Lcom/khaibin/myprofile/amp;
 
-    invoke-interface {v2, v1}, Lcom/abdhoms/myprofile/amp;->recordPlayBillingResolution(I)V
+    invoke-interface {v2, v1}, Lcom/khaibin/myprofile/amp;->recordPlayBillingResolution(I)V
 
     iget-object v1, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->b:Landroid/app/Activity;
 
     invoke-virtual {v1}, Landroid/app/Activity;->finish()V
 
-    iget-object v1, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->d:Lcom/abdhoms/myprofile/amp;
+    iget-object v1, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->d:Lcom/khaibin/myprofile/amp;
 
-    invoke-interface {v1}, Lcom/abdhoms/myprofile/amp;->getProductId()Ljava/lang/String;
+    invoke-interface {v1}, Lcom/khaibin/myprofile/amp;->getProductId()Ljava/lang/String;
 
     move-result-object v1
 
@@ -170,7 +170,7 @@
     :try_start_2
     const-string v0, "Fail to process purchase result."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaK(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaK(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->b:Landroid/app/Activity;
 
@@ -211,9 +211,9 @@
 
     iput-object v1, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->h:Lcom/google/android/gms/ads/internal/purchase/zzk;
 
-    iget-object v1, v0, Lcom/google/android/gms/ads/internal/purchase/GInAppPurchaseManagerInfoParcel;->zzFw:Lcom/abdhoms/myprofile/amp;
+    iget-object v1, v0, Lcom/google/android/gms/ads/internal/purchase/GInAppPurchaseManagerInfoParcel;->zzFw:Lcom/khaibin/myprofile/amp;
 
-    iput-object v1, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->d:Lcom/abdhoms/myprofile/amp;
+    iput-object v1, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->d:Lcom/khaibin/myprofile/amp;
 
     new-instance v1, Lcom/google/android/gms/ads/internal/purchase/zzb;
 
@@ -249,11 +249,11 @@
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->b:Landroid/app/Activity;
 
-    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbE()Lcom/abdhoms/myprofile/arw;
+    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbE()Lcom/khaibin/myprofile/arw;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/abdhoms/myprofile/arw;->a()I
+    invoke-virtual {v1}, Lcom/khaibin/myprofile/arw;->a()I
 
     move-result v1
 
@@ -281,11 +281,11 @@
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->b:Landroid/app/Activity;
 
-    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbE()Lcom/abdhoms/myprofile/arw;
+    invoke-static {}, Lcom/google/android/gms/ads/internal/zzr;->zzbE()Lcom/khaibin/myprofile/arw;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/abdhoms/myprofile/arw;->b()I
+    invoke-virtual {v1}, Lcom/khaibin/myprofile/arw;->b()I
 
     move-result v1
 
@@ -332,9 +332,9 @@
 
     move-result-object v2
 
-    iget-object v3, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->d:Lcom/abdhoms/myprofile/amp;
+    iget-object v3, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->d:Lcom/khaibin/myprofile/amp;
 
-    invoke-interface {v3}, Lcom/abdhoms/myprofile/amp;->getProductId()Ljava/lang/String;
+    invoke-interface {v3}, Lcom/khaibin/myprofile/amp;->getProductId()Ljava/lang/String;
 
     move-result-object v3
 
@@ -366,13 +366,13 @@
 
     move-result v1
 
-    iget-object v2, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->d:Lcom/abdhoms/myprofile/amp;
+    iget-object v2, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->d:Lcom/khaibin/myprofile/amp;
 
-    invoke-interface {v2, v1}, Lcom/abdhoms/myprofile/amp;->recordPlayBillingResolution(I)V
+    invoke-interface {v2, v1}, Lcom/khaibin/myprofile/amp;->recordPlayBillingResolution(I)V
 
-    iget-object v2, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->d:Lcom/abdhoms/myprofile/amp;
+    iget-object v2, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->d:Lcom/khaibin/myprofile/amp;
 
-    invoke-interface {v2}, Lcom/abdhoms/myprofile/amp;->getProductId()Ljava/lang/String;
+    invoke-interface {v2}, Lcom/khaibin/myprofile/amp;->getProductId()Ljava/lang/String;
 
     move-result-object v2
 
@@ -392,9 +392,9 @@
     :cond_0
     new-instance v1, Lcom/google/android/gms/ads/internal/purchase/zzf;
 
-    iget-object v3, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->d:Lcom/abdhoms/myprofile/amp;
+    iget-object v3, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->d:Lcom/khaibin/myprofile/amp;
 
-    invoke-interface {v3}, Lcom/abdhoms/myprofile/amp;->getProductId()Ljava/lang/String;
+    invoke-interface {v3}, Lcom/khaibin/myprofile/amp;->getProductId()Ljava/lang/String;
 
     move-result-object v3
 
@@ -465,7 +465,7 @@
     :goto_1
     const-string v2, "Error when connecting in-app billing service"
 
-    invoke-static {v2, v1}, Lcom/abdhoms/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-static {v2, v1}, Lcom/khaibin/myprofile/ara;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     iget-object v1, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->b:Landroid/app/Activity;
 
@@ -484,7 +484,7 @@
 
     const-string v0, "In-app billing service disconnected."
 
-    invoke-static {v0}, Lcom/abdhoms/myprofile/ara;->zzaJ(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/khaibin/myprofile/ara;->zzaJ(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/purchase/zze;->e:Lcom/google/android/gms/ads/internal/purchase/zzb;
 
