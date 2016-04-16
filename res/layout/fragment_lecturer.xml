@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/lecturerSpecial" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/lecturer_image" android:layout_width="45.0dip" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/profile_dark" android:tint="#ffffffff" android:layout_centerVertical="true" />
+    <TextView android:gravity="center_vertical" android:id="@id/lecturer_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/lecturer_image" />
+    <TextView android:gravity="center_vertical" android:id="@id/lecturer_telphone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/lecturer_image" android:layout_below="@id/lecturer_email" />
+</RelativeLayout>

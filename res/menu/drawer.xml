@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/home_dark" android:id="@id/navigation_item_home" android:checked="true" android:title="@string/nav_home" />
+        <item android:icon="@drawable/timetable_dark" android:id="@id/navigation_item_timetable" android:title="@string/nav_timetable" />
+        <item android:icon="@drawable/profile_dark" android:id="@id/navigation_item_profile" android:title="@string/nav_profile" />
+        <item android:icon="@drawable/fees_dark" android:id="@id/navigation_item_fees" android:title="@string/nav_fees" />
+        <item android:icon="@drawable/exam_dark" android:id="@id/navigation_item_exam" android:title="@string/nav_exam" />
+        <item android:id="@id/navigation_subheader" android:title="@null">
+            <menu>
+                <item android:icon="@drawable/ic_info_outline_white_24dp" android:id="@id/navigation_sub_about" android:title="@string/nav_about" />
+                <item android:icon="@drawable/ic_settings_white_24dp" android:id="@id/navigation_sub_settings" android:title="@string/nav_settings" />
+                <item android:icon="@drawable/ic_power_settings_new_white_24dp" android:id="@id/navigation_sub_logout" android:title="@string/nav_logout" />
+            </menu>
+        </item>
+    </group>
+</menu>

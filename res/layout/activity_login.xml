@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/primary" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/login_form" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/StudentID_login_form" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="30.0dip" android:layout_marginBottom="30.0dip" android:src="@drawable/ic_launcher" />
+            <EditText android:id="@id/studentID" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/prompt_studentid" android:maxLines="1" android:singleLine="true" style="@style/App_EditTextStyle" />
+            <EditText android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/prompt_password" android:maxLines="1" android:singleLine="true" android:inputType="textPassword" android:imeOptions="normal|actionUnspecified" android:imeActionLabel="@string/action_sign_in_short" android:imeActionId="@id/login" style="@style/App_EditTextStyle" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/textColorLight" android:layout_gravity="center_horizontal" android:id="@id/privacy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Privacy Statement" android:alpha="0.9" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/textColorLight" android:layout_gravity="center_horizontal" android:id="@id/support" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Support" android:alpha="0.9" />
+            <Button android:textStyle="bold" android:id="@id/studentID_sign_in_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/action_sign_in" style="?android:textAppearanceSmall" />
+            <ProgressBar android:theme="@style/AppThemeLight" android:id="@id/login_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:indeterminate="true" android:indeterminateOnly="false" style="?android:attr/progressBarStyleHorizontal" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

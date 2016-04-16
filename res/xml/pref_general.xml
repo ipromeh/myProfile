@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="pref_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General" android:key="general_settings">
+        <ListPreference android:entries="@array/theme_array_titles" android:title="Theme" android:key="UserTheme" android:summary="Change visual appearance of the app." android:defaultValue="Light" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/theme_array_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Account" android:key="account_settings">
+        <Preference android:title="Student Name" android:key="Username" />
+        <Preference android:title="Student ID" android:key="UserID" />
+        <Preference android:title="IC/Passport" android:key="UserICPassport" />
+        <CheckBoxPreference android:title="Auto Intake" android:key="AutoIntake" android:defaultValue="true" />
+        <com.abdhoms.myprofile.custom.AutoCompletePreference android:title="Current Intake" android:key="CurrentIntake" />
+    </PreferenceCategory>
+</PreferenceScreen>

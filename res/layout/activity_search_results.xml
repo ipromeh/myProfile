@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar" layout="@layout/include_toolbar" />
+    <LinearLayout android:id="@id/lecturerDetails" android:background="@color/primary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" layout="@layout/fragment_lecturer" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/lecturerDetails">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progress_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/loadProgress" layout="@layout/include_progressview" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/tabanim_tabs" android:visibility="gone" layout="@layout/include_tablayout" />
+            <android.support.v4.view.ViewPager android:id="@id/tabanim_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/error_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/errorLoading" layout="@layout/include_network_error_message" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

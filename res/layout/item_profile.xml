@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" card_view:cardBackgroundColor="?cardviewBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="?textColor" android:gravity="center_vertical" android:id="@id/module_name" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <LinearLayout android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="?textColorInactive" android:gravity="center_vertical" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/profile_title_attendance" />
+            <TextView android:textColor="?textColorInactive" android:gravity="end" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/profile_title_result" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="?textColor" android:gravity="center_vertical" android:id="@id/attendance_percent" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <TextView android:textColor="?textColor" android:gravity="end" android:id="@id/grade" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="?textColor" android:gravity="center_vertical" android:id="@id/attended_classes" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="?textColorInactive" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_title_attendance_sep" />
+            <TextView android:textColor="?textColor" android:gravity="center_vertical" android:id="@id/total_classes" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="?textColorInactive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_title_classes_attended" />
+            <TextView android:textColor="?textColor" android:gravity="end" android:id="@id/grade_point" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textColor="?textColorInactive" android:gravity="center_vertical" android:id="@id/reccomendation" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
