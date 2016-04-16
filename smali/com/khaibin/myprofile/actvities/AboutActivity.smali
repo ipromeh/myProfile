@@ -316,7 +316,7 @@
 
     move-result-object v0
 
-    const-string v1, "About"
+    const-string v1, "Shuttle Bus Schedule"
 
     invoke-virtual {v0, v1}, Lcom/khaibin/myprofile/et;->a(Ljava/lang/CharSequence;)V
 
