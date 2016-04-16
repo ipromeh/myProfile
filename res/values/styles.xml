@@ -478,6 +478,7 @@
     </style>
     <style name="App_EditTextStyle" parent="@android:style/Widget.EditText">
         <item name="android:textColor">#ff000000</item>
+        <item name="android:textColorHint">#808080</item>
         <item name="android:background">@android:color/white</item>
         <item name="android:padding">10.0dip</item>
         <item name="android:layout_height">85.0dip</item>
