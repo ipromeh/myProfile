@@ -22,10 +22,10 @@
     <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. If the problem persists, please contact the developer for assistance.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="rate_dialog_cancel">Later</string>
-    <string name="rate_dialog_message">"If you enjoy using this app, would you mind taking a moment to rate it? It won't take more than a minute. Thank you for your support!"</string>
-    <string name="rate_dialog_no">No</string>
+    <string name="rate_dialog_message">"You can turn off auto intake and change your current intake code manually if the timetable is not working for your intake.\n\n\nExample:\nFor Diploma in ICTSE students, the correct intake code should be "UCDFXXXXICT(SE)" instead of "UCDFXXXXICTSE""</string>
+    <string name="rate_dialog_no">OK, don\'t show again</string>
     <string name="rate_dialog_ok">Rate</string>
-    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rate_dialog_title">Do you know?</string>
     <string name="about_title_dev1">khaibin</string>
     <string name="about_title_dev2">c0deslayer</string>
     <string name="about_title_devHeader">Developers</string>
