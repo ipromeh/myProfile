@@ -86,7 +86,7 @@ Download the apk and install it
 -Revamped app icon to match the google material icon design guidelines<br>
 -Rounded edge of the app icon
 
-![screen_login](http://s20.postimg.org/52bukf18b/php_V1a_UIh.png)
+![app_icon](http://s20.postimg.org/52bukf18b/php_V1a_UIh.png)
 
 
 
