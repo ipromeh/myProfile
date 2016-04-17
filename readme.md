@@ -1,7 +1,7 @@
 Android reverse enginnering of myProfile app for APU<br>
 original work by c0deslayer & adbhoms
 
-[Download apk here](https://docs.google.com/a/yes.my/uc?authuser=0&id=0B_uYldsE-h2sV2ZrLUhEWjdoNjQ&export=download)
+[Download apk here (v1.1)](https://github.com/ipromeh/myProfile/raw/master/apk/myProfile%2B.apk)
 
 # Installation guide
 Uninstall myProfile app if you've installed (optional)<br>
@@ -84,9 +84,7 @@ Download the apk and install it
 
 # App icon
 -Revamped app icon to match the google material icon design guidelines<br>
--Rounded edge of the app icon
-
-![screen_icon_app](http://s20.postimg.org/52bukf18b/php_V1a_UIh.png)
+-Rounded edge of the app icon. Screenshots [here](http://s20.postimg.org/52bukf18b/php_V1a_UIh.png)
 
 
 
