@@ -12,7 +12,7 @@
 
     const-string v1, "UserTheme"
 
-    const-string v2, "Dark"
+    const-string v2, "Light"
 
     invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
