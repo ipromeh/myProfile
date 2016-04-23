@@ -74,10 +74,6 @@
 
     invoke-static {p0}, Lcom/khaibin/myprofile/ja;->a(Landroid/content/Context;)V
 
-    const v0, 0x7f04001a
-
-    invoke-virtual {p0, v0}, Lcom/khaibin/myprofile/actvities/FirstActivity;->setContentView(I)V
-
     invoke-direct {p0}, Lcom/khaibin/myprofile/actvities/FirstActivity;->k()V
 
     return-void

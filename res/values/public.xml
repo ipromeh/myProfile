@@ -409,7 +409,6 @@
     <public type="layout" name="abc_search_view" id="0x7f040017" />
     <public type="layout" name="abc_select_dialog_material" id="0x7f040018" />
     <public type="layout" name="activity_about" id="0x7f040019" />
-    <public type="layout" name="activity_first" id="0x7f04001a" />
     <public type="layout" name="activity_login" id="0x7f04001b" />
     <public type="layout" name="activity_main" id="0x7f04001c" />
     <public type="layout" name="activity_search_results" id="0x7f04001d" />
