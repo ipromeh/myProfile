@@ -476,6 +476,9 @@
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorAccent">@color/accent</item>
     </style>
+    <style name="SplashScreen" parent="@style/AppThemeLight">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
     <style name="App_EditTextStyle" parent="@android:style/Widget.EditText">
         <item name="android:textColor">#ff000000</item>
         <item name="android:textColorHint">#808080</item>
