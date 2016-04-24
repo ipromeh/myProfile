@@ -1,7 +1,7 @@
 Android reverse enginnering of myProfile app for APU<br>
 original work by c0deslayer & adbhoms
 
-[Download apk here (v1.2)](https://github.com/ipromeh/myProfile/raw/master/apk/myProfile%2B.apk)
+[Download apk here (v2.0)](https://github.com/ipromeh/myProfile/raw/master/apk/myProfile%2B.apk)
 
 # Installation guide
 Uninstall myProfile app if you've installed (optional)<br>
@@ -91,6 +91,7 @@ Download the apk and install it
 # Fixes / Tweaks
 -Show splash screen on app start while loading<br>
 -Default theme settings fix, apply light theme by default. Read more [here](https://github.com/ipromeh/myProfile/commit/8229bb818ca0cc43eb7e569bb0246d92461a38db)<br>
+-Some optimizations<br>
 -Custom app package name<br>
  *Ability to install myProfile+ without uninstalling the original myProfile app<br>
  *Completely migrate out of playstore (disable app auto-update on playstore)<br>
