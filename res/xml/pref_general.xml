@@ -12,17 +12,17 @@
         <com.khaibin.myprofile.custom.AutoCompletePreference android:title="Current Intake" android:key="CurrentIntake" />
     </PreferenceCategory>
     <PreferenceCategory android:title="myProfile+" android:key="myprofile_plus">
-        <PreferenceScreen android:title="myProfile+ version" android:summary="v2.0">
-        </PreferenceScreen>
-        <PreferenceScreen android:title="Modded by" android:summary="khaibin">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://twitter.com/khaibin" />
+        <PreferenceScreen android:title="myProfile+ version" android:summary="v2.1">
         </PreferenceScreen>
         <PreferenceScreen android:title="myProfile+ Github" android:summary="Checkout myProfile+ new updates, changes and codes">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://github.com/ipromeh/myProfile/blob/master/readme.md" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Modded by" android:summary="khaibin">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://twitter.com/khaibin" />
         </PreferenceScreen>
         <PreferenceScreen android:title="Special thanks" android:summary="c0deslayer \u0026 abdhoms">
             <intent

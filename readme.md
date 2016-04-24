@@ -1,7 +1,7 @@
 Android reverse enginnering of myProfile app for APU<br>
 original work by c0deslayer & adbhoms
 
-[Download apk here (v2.0)](https://github.com/ipromeh/myProfile/raw/master/apk/myProfile%2B.apk)
+[Download apk here (v2.1)](https://github.com/ipromeh/myProfile/raw/master/apk/myProfile%2B.apk)
 
 # Installation guide
 Uninstall myProfile app if you've installed (optional)<br>
@@ -36,9 +36,8 @@ Download the apk and install it
 
 # Timetable screen
 -Dark theme improvements<br>
- *Color accent improvements<br>
  *Timetable card background improvements<br>
- *Show current tab with a light accent color<br>
+-Show current/selected tab<br>
 -Light theme improvements<br>
  *Remove actionbar 3-dot menu<br>
 -Match navigationbar color with current theme for devices with navigationbar (Android 5.0+)
@@ -49,9 +48,8 @@ Download the apk and install it
 
 # Profile screen
 -Dark theme improvements<br>
- *Color accent improvements<br>
  *Attendance card background improvements<br>
- *Show current tab with a light accent color<br>
+-Show current/selected tab
 -Light theme improvements<br>
  *Remove actionbar 3-dot menu<br>
 -Match navigationbar color with current theme for devices with navigationbar (Android 5.0+)
@@ -62,9 +60,8 @@ Download the apk and install it
 
 # Home screen
 -Dark theme improvements<br>
- *Color accent improvements<br>
  *Grey themed background<br>
- *Show current tab with a light accent color<br>
+-Show current/selected tab
 -Light theme improvements<br>
  *Remove actionbar 3-dot menu (see screenshots below to know the reason of removing it)<br>
 -Match navigationbar color with current theme for devices with navigationbar (Android 5.0+)
