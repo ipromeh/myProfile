@@ -12,7 +12,7 @@
         <com.khaibin.myprofile.custom.AutoCompletePreference android:title="Current Intake" android:key="CurrentIntake" />
     </PreferenceCategory>
     <PreferenceCategory android:title="myProfile+" android:key="myprofile_plus">
-        <PreferenceScreen android:title="myProfile+ version" android:summary="v2.1">
+        <PreferenceScreen android:title="myProfile+ version" android:summary="v2.2">
         </PreferenceScreen>
         <PreferenceScreen android:title="myProfile+ Github" android:summary="Checkout myProfile+ new updates, changes and codes">
             <intent
