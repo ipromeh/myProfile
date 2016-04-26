@@ -148,4 +148,5 @@
     <string name="shuttle_bus_time_fourteen">7:50am, 8:20am</string>
     <string name="shuttle_bus_time_fifthteen">8:20am, 8:50am</string>
     <string name="shuttle_bus_time_sixteen">10:45am, 1:00pm</string>
+    <string name="modded_by">- modded by khaibin -</string>
 </resources>
