@@ -88,4 +88,5 @@
     <color name="textColorInactiveDark">#ff535353</color>
     <color name="textColorInactiveLight">#ff969696</color>
     <color name="textColorLight">#ffffffff</color>
+    <color name="colorSplashScreen">#ffff6a00</color>
 </resources>
