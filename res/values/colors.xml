@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="ColorPrimary">#ffff6a00</color>
-    <color name="ColorPrimaryDark">#ffdf5d00</color>
+    <color name="ColorPrimary">#ef6c00</color>
+    <color name="ColorPrimaryDark">#d76100</color>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#ff7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
@@ -64,8 +64,8 @@
     <color name="material_grey_900">#ff212121</color>
     <color name="nav_item_icon_tint_color">#ff333333</color>
     <color name="nav_item_text_color">#ff333333</color>
-    <color name="primary">#ffff6a00</color>
-    <color name="primary_dark">#ffdf5d00</color>
+    <color name="primary">#ef6c00</color>
+    <color name="primary_dark">#d76100</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
