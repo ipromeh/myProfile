@@ -1,5 +1,5 @@
+# myProfile+
 Android reverse enginnering of myProfile app for APU<br>
-original work by c0deslayer & adbhoms
 
 [Download apk here (v2.3)](https://github.com/ipromeh/myProfile/raw/master/apk/myProfile%2B.apk)
 
@@ -95,3 +95,7 @@ Download the apk and install it
  *Ability to install myProfile+ without uninstalling the original myProfile app<br>
  *Completely migrate out of playstore (disable app auto-update on playstore)<br>
 -Replaced "Rate app" dialog with tips
+
+
+# Credits
+c0deslayer & adbhoms
