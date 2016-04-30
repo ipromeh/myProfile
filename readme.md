@@ -86,6 +86,7 @@ Download the apk and install it
 
 
 # Fixes / Tweaks
+-Optimized the bytecode of prebuilt apk using "redex" developed by Facebook. Read more [here](https://github.com/facebook/redex)<br>
 -Show splash screen on app start while loading<br>
 -Fix recents screen text color. Read more [here](https://github.com/ipromeh/myProfile/commit/9435727b69df7bbf5b928766a938ef12eece00d9)
 -Default theme settings fix, apply light theme by default. Read more [here](https://github.com/ipromeh/myProfile/commit/8229bb818ca0cc43eb7e569bb0246d92461a38db)<br>
