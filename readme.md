@@ -1,7 +1,7 @@
 Android reverse enginnering of myProfile app for APU<br>
 original work by c0deslayer & adbhoms
 
-[Download apk here (v2.2)](https://github.com/ipromeh/myProfile/raw/master/apk/myProfile%2B.apk)
+[Download apk here (v2.3)](https://github.com/ipromeh/myProfile/raw/master/apk/myProfile%2B.apk)
 
 # Installation guide
 Uninstall myProfile app if you've installed (optional)<br>
