@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.khaibin.myprofile" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <application android:allowBackup="true" android:fullBackupContent="true" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.khaibin.myprofile.Global" android:theme="@style/SplashScreen">
+    <application android:allowBackup="true" android:fullBackupContent="true" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.khaibin.myprofile.Global" android:theme="@style/SplashScreenTheme">
         <meta-data android:name="com.khaibin.myprofile.GlideConfiguration" android:value="GlideModule"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="com.khaibin.myprofile.actvities.FirstActivity">
             <intent-filter>
