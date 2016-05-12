@@ -116,37 +116,48 @@
     <string name="widget_title_next_class">Next Class</string>
 
     <!-- Shuttle Bus Schedule -->
-    <string name="shuttle_bus_title_one">LRT to APU (Mon-Fri)</string>
-    <string name="shuttle_bus_title_two">APU to LRT (Mon-Fri)</string>
-    <string name="shuttle_bus_title_three">ACADEMIA to APU (Mon-Fri)</string>
-    <string name="shuttle_bus_title_four">APU to ACADEMIA (Mon-Fri)</string>
-    <string name="shuttle_bus_title_five">FORTUNE PARK to APU (Mon-Fri)</string>
-    <string name="shuttle_bus_title_six">APU to FORTUNE PARK (Mon-Fri)</string>
-    <string name="shuttle_bus_title_seven">ENDAH PROMENADE to APU (Mon-Fri)</string>
-    <string name="shuttle_bus_title_eight">APU to ENDAH PROMENADE (Mon-Fri)</string>
-    <string name="shuttle_bus_title_nine">COVILLEA / VISTA to APU (Mon-Fri)</string>
-    <string name="shuttle_bus_title_ten">APU to COVILLEA / VISTA (Mon-Fri)</string>
-    <string name="shuttle_bus_title_eleven">LRT to APU (Sat)</string>
-    <string name="shuttle_bus_title_twelve">ENDAH PROMENADE to APU (Sat)</string>
-    <string name="shuttle_bus_title_thirteen">FORTUNE PARK to APU (Sat)</string>
-    <string name="shuttle_bus_title_fourteen">ACADEMIA to APU (Sat)</string>
-    <string name="shuttle_bus_title_fifthteen">COVILLEA / VISTA to APU (Sat)</string>
-    <string name="shuttle_bus_title_sixteen">APU to FORTUNE PARK / ACADEMIA / LRT / COVILLEA / VISTA / ENDAH PROMENADE (Sat)</string>
-    <string name="shuttle_bus_time_one">8:00am, 8:25am, 8:45am, 9:15am, 10:30am, 11:30am, 12:10pm, 1:05pm, 2:30pm, 3:30pm, 4:15pm, 5:15pm, 5:45pm, 6:15pm</string>
-    <string name="shuttle_bus_time_two">10:00am, 11:00am, 12:00pm, 12:30pm, 1:30pm, 2:00pm, 3:00pm, 4:00pm, 5:10pm, 5:30pm, 6:10pm, 6:30pm, 7:15pm, 8:35pm**, 9:45pm**</string>
-    <string name="shuttle_bus_time_three">7:50am, 8:10am, 9:20am, 10:50am, 11:50am, 12:50pm, 2:20pm, 3:20pm, 4:20pm, 5:50pm</string>
-    <string name="shuttle_bus_time_four">10:30am, 11:30am, 12:30pm, 1:30pm, 2:00pm, 3:30pm, 5:10pm, 6:10pm, 7:15pm</string>
-    <string name="shuttle_bus_time_five">8:00am, 8:20am, 8:30am, 9:00am, 9:30am, 10:00am, 10:30am, 11:00am, 11:30am, 12:00pm, 1:00pm, 2:30pm, 3:30pm, 4:30pm, 5:30pm, 6:00pm</string>
-    <string name="shuttle_bus_time_six">10:30am, 11:30am, 12:30pm, 1:30pm, 2:00pm, 3:00pm, 3:30pm, 4:00pm, 5:10pm, 5:30pm, 6:10pm, 6:30pm, 7:15pm, 8:35pm**, 9:45pm**</string>
-    <string name="shuttle_bus_time_seven">8:00am, 8:35am, 9:25am, 10:00am, 11:00am, 12:00pm, 1:00pm, 2:30pm, 3:30pm, 4:30pm, 5:30pm, 6:30pm</string>
-    <string name="shuttle_bus_time_eight">10:30am, 11:30am, 12:30pm, 1:30pm, 2:00pm, 3:00pm, 4:00pm, 5:10pm, 6:10pm, 7:15pm, 8:35pm**, 9:45pm**</string>
-    <string name="shuttle_bus_time_nine">8:00am, 8:20am, 8:30am, 9:00am, 9:30am, 10:00am, 10.30am, 11:00am, 11:30am, 12:00pm, 12:30pm, 12:45pm, 1:30pm, 2:30pm, 3:30pm, 4:00pm, 4:30pm, 5:00pm, 5:15pm, 5:30pm, 6:00pm, 6:30pm, 6:45pm</string>
-    <string name="shuttle_bus_time_ten">10:00am, 10:30am, 11:00am, 11:30am, 12:00pm, 12:30pm, 1:00pm, 2:00pm, 3:00pm, 3:30pm, 4:00pm, 4:30pm, 5:10pm, 5:30pm, 6:10pm, 6:30pm, 7:15pm, 8:35pm**, 9:45pm**</string>
-    <string name="shuttle_bus_time_eleven">8:10am, 8:40am</string>
-    <string name="shuttle_bus_time_twelve">8:05am, 8:35am</string>
-    <string name="shuttle_bus_time_thirteen">7:55am, 8:25am</string>
-    <string name="shuttle_bus_time_fourteen">7:50am, 8:20am</string>
-    <string name="shuttle_bus_time_fifthteen">8:20am, 8:50am</string>
-    <string name="shuttle_bus_time_sixteen">10:45am, 1:00pm</string>
-    <string name="modded_by">- modded by khaibin -</string>
+    <string name="weekday">Monday - Friday</string>
+    <string name="weeksat">Saturday</string>
+
+    <string name="shuttle_bus_title_one">LRT \u2194 APU</string>
+    <string name="shuttle_bus_subtitle_one_one"><u>LRT \u2192 APU</u></string>
+    <string name="shuttle_bus_body_one_one_weekday">8:00am, 8:25am, 9:15am, 10:30am, 11:30am, 12:10pm, 1:05pm, 2:30pm, 3:30pm, 4:15pm, 5:15pm, 5:45pm, 6:15pm</string>
+    <string name="shuttle_bus_body_one_one_weeksat">8:10am, 8:40am</string>
+    <string name="shuttle_bus_subtitle_one_two"><u>APU \u2192 LRT</u></string>
+    <string name="shuttle_bus_body_one_two_weekday">10:00am, 11:00am, 12:00pm, 12:30pm, 1:30pm, 2:00pm, 3:00pm, 4:00pm, 5:10pm, 5:30pm, 6:10pm, 6:30pm, 7:15pm, 8:35pm**, 9:45pm**</string>
+    <string name="shuttle_bus_body_one_two_weeksat">10:45am, 1:10pm</string>
+
+    <string name="shuttle_bus_title_two">ACADEMIA \u2194 APU</string>
+    <string name="shuttle_bus_subtitle_two_one"><u>ACADEMIA \u2192 APU</u></string>
+    <string name="shuttle_bus_body_two_one_weekday">7:50am, 8:10am, 9:20am, 10:50am, 11:50am, 12:50pm, 2:20pm, 3:20pm, 4:20pm, 5:50pm</string>
+    <string name="shuttle_bus_body_two_one_weeksat">7:50am, 8:20am</string>
+    <string name="shuttle_bus_subtitle_two_two"><u>APU \u2192 ACADEMIA</u></string>
+    <string name="shuttle_bus_body_two_two_weekday">10:30am, 11:30am, 12:30pm, 1:30pm, 2:00pm, 3:30pm, 5:10pm, 6:10pm, 7:15pm</string>
+    <string name="shuttle_bus_body_two_two_weeksat">10:45am, 1:10pm</string>
+
+    <string name="shuttle_bus_title_three">FORTUNE PARK \u2194 APU</string>
+    <string name="shuttle_bus_subtitle_three_one"><u>FORTUNE PARK \u2192 APU</u></string>
+    <string name="shuttle_bus_body_three_one_weekday">8:00am, 8:20am, 8:30am, 9:00am, 9:30am, 10:00am, 10:30am, 11:00am, 11:30am, 12:00pm, 1:00pm, 2:30pm, 3:30pm, 4:30pm, 5:30pm, 6:00pm</string>
+    <string name="shuttle_bus_body_three_one_weeksat">7:55am, 8:25am</string>
+    <string name="shuttle_bus_subtitle_three_two"><u>APU \u2192 FORTUNE PARK</u></string>
+    <string name="shuttle_bus_body_three_two_weekday">10:30am, 11:30am, 12:30pm, 1:30pm, 2:00pm, 3:00pm, 3:30pm, 4:00pm, 5:10pm, 5:30pm, 6:10pm, 6:30pm, 7:15pm, 8:35pm**, 9:45pm**</string>
+    <string name="shuttle_bus_body_three_two_weeksat">10:45am, 1:10pm</string>
+
+    <string name="shuttle_bus_title_four">ENDAH PROMENADE \u2194 APU</string>
+    <string name="shuttle_bus_subtitle_four_one"><u>ENDAH PROMENADE \u2192 APU</u></string>
+    <string name="shuttle_bus_body_four_one_weekday">8:00am, 8:35am, 9:25am, 10:00am, 11:00am, 12:00pm, 1:00pm, 2:30pm, 3:30pm, 4:30pm, 5:30pm, 6:30pm</string>
+    <string name="shuttle_bus_body_four_one_weeksat">8:05am, 8:35am</string>
+    <string name="shuttle_bus_subtitle_four_two"><u>APU \u2192 ENDAH PROMENADE</u></string>
+    <string name="shuttle_bus_body_four_two_weekday">10:30am, 11:30am, 12:30pm, 1:30pm, 2:00pm, 3:00pm, 4:00pm, 5:10pm, 6:10pm, 7:15pm, 8:35pm**, 9:45pm**</string>
+    <string name="shuttle_bus_body_four_two_weeksat">10:45am, 1:10pm</string>
+
+    <string name="shuttle_bus_title_five">COVILLEA / VISTA \u2194 APU</string>
+    <string name="shuttle_bus_subtitle_five_one"><u>COVILLEA / VISTA \u2192 APU</u></string>
+    <string name="shuttle_bus_body_five_one_weekday">8:00am, 8:20am, 8:30am, 9:00am, 9:30am, 10:00am, 10.30am, 11:00am, 11:30am, 12:00pm, 12:30pm, 12:45pm, 1:30pm, 2:30pm, 3:30pm, 4:00pm, 4:30pm, 5:00pm, 5:15pm, 5:30pm, 6:00pm, 6:30pm, 6:45pm</string>
+    <string name="shuttle_bus_body_five_one_weeksat">8:20am, 8:50am</string>
+    <string name="shuttle_bus_subtitle_five_two"><u>APU \u2192 COVILLEA / VISTA</u></string>
+    <string name="shuttle_bus_body_five_two_weekday">10:00am, 10:30am, 11:00am, 11:30am, 12:00pm, 12:30pm, 1:00pm, 2:00pm, 3:00pm, 3:30pm, 4:00pm, 4:30pm, 5:10pm, 5:30pm, 6:10pm, 6:30pm, 7:15pm, 8:35pm**, 9:45pm**</string>
+    <string name="shuttle_bus_body_five_two_weeksat">10:45am, 1:10pm</string>
+
+    <string name="modded_by"> myProfile+</string>
 </resources>
