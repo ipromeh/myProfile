@@ -1,5 +1,5 @@
 # myProfile+
-Android reverse enginnering of myProfile app for APU<br>
+Android reverse enginnering of myProfile app for APU / APIIT<br>
 
 [Download apk here (v2.3)](https://github.com/ipromeh/myProfile/raw/master/apk/myProfile%2B.apk)
 
